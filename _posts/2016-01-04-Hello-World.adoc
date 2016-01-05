@@ -11,3 +11,14 @@ frl;'lf;'rl
 kfljlkjklsdf
 quite
 ____
+
+
+[source,javascript]
+----
+function stupid( x ){
+	return x => {
+    	return x + 1;
+    }
+}
+
+----
