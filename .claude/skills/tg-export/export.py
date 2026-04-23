@@ -52,9 +52,10 @@ def _message_text(message) -> str:
     entities = message.entities or []
     if not entities:
         return text
-    # Entity offsets are into the clean text (Telegram strips __ before counting).
-    # Strip __ and ** from raw text before applying entity-based conversion.
+    # Entity offsets are into the clean text (Telegram strips inline markdown before counting).
+    # Strip __ ** and [text](url) notation so entity offsets align with the clean text.
     clean = text.replace('__', '').replace('**', '')
+    clean = re.sub(r'\[([^\]\n]*)\]\([^)\n]*\)', r'\1', clean)
     # Trim entity lengths to exclude trailing newlines: Telegram includes \n\n in
     # entity boundaries, which causes closing markers to land at the next paragraph start.
     trimmed = []
@@ -81,6 +82,16 @@ def render_md(message, author: Optional[str] = None) -> str:
     if text:
         lines.append(text)
     return "\n".join(lines)
+
+
+def _append_media_link(md_file: Path, subdir: str, filename: str) -> None:
+    ext = Path(filename).suffix.lower()
+    if ext in (".jpg", ".jpeg", ".png", ".gif", ".webp"):
+        link = f"\n![{filename}](./{subdir}/{filename})\n"
+    else:
+        link = f"\n[{filename}](./{subdir}/{filename})\n"
+    with open(md_file, "a", encoding="utf-8") as f:
+        f.write(link)
 
 
 async def get_sender_name(client: TelegramClient, message) -> str:
@@ -122,7 +133,7 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
     for msg in posts:
         ts = msg.date.astimezone(timezone.utc)
         month_dir = out / channel / ts.strftime("%Y-%m")
-        stem = ts.strftime("%d-%H%M%S")  # e.g. 15-143022
+        stem = ts.strftime("%Y-%m-%d_%H-%M-%S")
 
         post_file = month_dir / f"{stem}.md"
         post_dir = month_dir / stem  # comments and media go here
@@ -134,7 +145,9 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
         if msg.media:
             post_dir.mkdir(exist_ok=True)
             try:
-                await client.download_media(msg, file=str(post_dir) + "/")
+                dl = await client.download_media(msg, file=str(post_dir) + "/")
+                if dl:
+                    _append_media_link(post_file, stem, Path(dl).name)
             except Exception as e:
                 print(f"    media error: {e}")
 
@@ -144,12 +157,14 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
                 post_dir.mkdir(exist_ok=True)
                 cts = comment.date.astimezone(timezone.utc)
                 author = await get_sender_name(client, comment)
-                cfile = post_dir / f"{cts.strftime('%Y-%m-%dT%H%M%S')}-{safe_name(author)}.md"
+                cfile = post_dir / f"{cts.strftime('%Y-%m-%d_%H-%M-%S')}_{safe_name(author)}.md"
                 cfile.write_text(render_md(comment, author), encoding="utf-8")
 
                 if comment.media:
                     try:
-                        await client.download_media(comment, file=str(post_dir) + "/")
+                        dl = await client.download_media(comment, file=str(post_dir) + "/")
+                        if dl:
+                            _append_media_link(cfile, post_dir.name, Path(dl).name)
                     except Exception as e:
                         print(f"    comment media error: {e}")
         except Exception:
