@@ -56,17 +56,40 @@ def _message_text(message) -> str:
     # Strip __ ** and [text](url) notation so entity offsets align with the clean text.
     clean = text.replace('__', '').replace('**', '')
     clean = re.sub(r'\[([^\]\n]*)\]\([^)\n]*\)', r'\1', clean)
-    # Trim entity lengths to exclude trailing newlines: Telegram includes \n\n in
-    # entity boundaries, which causes closing markers to land at the next paragraph start.
+    # Trim trailing whitespace from entity boundaries: Telegram often includes \n\n,
+    # which places closing markers at the start of the next paragraph.
+    # Skip entities whose content is entirely whitespace (would produce empty __ or **).
     trimmed = []
     for e in entities:
         chunk = clean[e.offset:e.offset + e.length]
-        stripped_len = len(chunk.rstrip('\n'))
-        if stripped_len and stripped_len < len(chunk):
+        stripped = chunk.rstrip()
+        if not stripped:
+            continue
+        if len(stripped) < len(chunk):
             e = copy.copy(e)
-            e.length = stripped_len
+            e.length = len(stripped)
         trimmed.append(e)
-    return del_surrogate(tg_markdown.unparse(add_surrogate(clean), trimmed))
+    result = del_surrogate(tg_markdown.unparse(add_surrogate(clean), trimmed))
+    # Remove lines that consist only of __ or ** (empty formatting artifacts).
+    result = re.sub(r'(?m)^[_*]{2,4}\s*$', '', result)
+    # Collapse multiple consecutive blank lines left after removal.
+    result = re.sub(r'\n{3,}', '\n\n', result)
+    # Fix: whitespace immediately inside opening marker — move space before the marker.
+    result = re.sub(r'\*\* (\S)', r' **\1', result)
+    result = re.sub(r'__ (\S)', r' __\1', result)
+    # Fix: whitespace immediately inside closing marker — move space after the marker.
+    result = re.sub(r' (\*\*)(?=\W|$)', r'\1 ', result)
+    result = re.sub(r' (__)(?=\W|$)', r'\1 ', result)
+    # Close any unclosed __ or ** at line start whose closing was removed by cleanup above.
+    lines = result.split('\n')
+    fixed = []
+    for line in lines:
+        if line.startswith('__') and line.count('__') % 2 == 1:
+            line = line + '__'
+        elif line.startswith('**') and line.count('**') % 2 == 1:
+            line = line + '**'
+        fixed.append(line)
+    return '\n'.join(fixed).strip()
 
 
 def render_md(message, author: Optional[str] = None) -> str:
