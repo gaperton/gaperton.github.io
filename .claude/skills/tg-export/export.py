@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # /// script
-# requires-python = ">=3.10"
+# requires-python = ">=3.10,<3.14"
 # dependencies = ["telethon"]
 # ///
 import argparse
@@ -32,6 +32,23 @@ def load_state(path: Path) -> dict:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
     return {}
+
+
+def recover_state(out: Path) -> dict:
+    """Scan exported files to reconstruct last synced IDs when state file is missing."""
+    state = {}
+    for md in out.rglob("*.md"):
+        try:
+            for line in md.read_text(encoding="utf-8").splitlines():
+                if line.startswith("id: "):
+                    msg_id = int(line[4:])
+                    channel = md.relative_to(out).parts[0]
+                    ch = state.setdefault(channel, {"last_post_id": 0})
+                    ch["last_post_id"] = max(ch["last_post_id"], msg_id)
+                    break
+        except Exception:
+            pass
+    return state
 
 
 def save_state(state: dict, path: Path) -> None:
@@ -69,7 +86,7 @@ def _message_text(message) -> str:
             e = copy.copy(e)
             e.length = len(stripped)
         trimmed.append(e)
-    result = del_surrogate(tg_markdown.unparse(add_surrogate(clean), trimmed))
+    result = tg_markdown.unparse(add_surrogate(clean), trimmed)  # unparse calls del_surrogate internally
     # Remove lines that consist only of __ or ** (empty formatting artifacts).
     result = re.sub(r'(?m)^[_*]{2,4}\s*$', '', result)
     # Collapse multiple consecutive blank lines left after removal.
@@ -133,7 +150,8 @@ async def get_sender_name(client: TelegramClient, message) -> str:
 
 
 async def sync_channel(client, channel: str, state: dict, out: Path,
-                       limit: int, wait_time: float, fetch_client=None) -> None:
+                       limit: int, wait_time: float, fetch_client=None,
+                       state_path: Path = None) -> None:
     # fetch_client is the takeout client when in takeout mode; falls back to client.
     fetch = fetch_client or client
 
@@ -200,6 +218,8 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
             pass  # channel has no comments enabled
 
         ch_state["last_post_id"] = max(ch_state["last_post_id"], msg.id)
+        if state_path:
+            save_state(state, state_path)
 
     print(f"  Synced up to id={ch_state['last_post_id']}")
 
@@ -222,6 +242,10 @@ async def main() -> None:
     state_path = out / ".state.json"
     out.mkdir(parents=True, exist_ok=True)
     state = load_state(state_path)
+    if not state:
+        state = recover_state(out)
+        if state:
+            print(f"Recovered state from existing files: { {ch: s['last_post_id'] for ch, s in state.items()} }")
 
     async with TelegramClient(
         config.get("session_file", "session"),
@@ -235,17 +259,21 @@ async def main() -> None:
                     try:
                         await sync_channel(client, channel, state, out,
                                            limit=args.limit, wait_time=args.wait_time,
-                                           fetch_client=fetch_client)
-                        save_state(state, state_path)
+                                           fetch_client=fetch_client,
+                                           state_path=state_path)
                         break
                     except FloodWaitError as e:
                         print(f"  FloodWait: sleeping {e.seconds + 5}s...")
                         await asyncio.sleep(e.seconds + 5)
 
         if args.takeout:
-            print("Using takeout session...")
-            async with client.takeout() as takeout:
-                await run_sync(fetch_client=takeout)
+            try:
+                print("Using takeout session...")
+                async with client.takeout() as takeout:
+                    await run_sync(fetch_client=takeout)
+            except Exception as e:
+                print(f"  Takeout failed ({e}), falling back to regular mode.")
+                await run_sync()
         else:
             await run_sync()
 
