@@ -48,8 +48,10 @@ Add multiple channels to sync them all in one run.
 
 Requires [uv](https://docs.astral.sh/uv/). No separate Python or pip install needed — uv handles everything.
 
+Use the `/tg-export` skill in Claude Code, or run manually:
+
 ```bash
-cd tg-export
+cd .claude/skills/tg-export
 uv run export.py
 ```
 
