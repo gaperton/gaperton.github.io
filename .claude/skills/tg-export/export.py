@@ -162,8 +162,9 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
 
 async def main() -> None:
     parser = argparse.ArgumentParser(description="Sync Telegram channels to markdown files.")
-    parser.add_argument("--limit", type=int, default=10, metavar="N", help="Max posts to fetch per channel per run (default: 10)")
+    parser.add_argument("--limit", type=int, default=10, metavar="N", help="Max posts to fetch per channel per run (default: 10, 0 = all)")
     args = parser.parse_args()
+    args.limit = args.limit or None  # 0 → None means no limit in Telethon
 
     config = load_config()
     out = Path(config.get("output_dir", "export"))
