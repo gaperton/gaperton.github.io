@@ -135,6 +135,13 @@ def render_md(message, author: Optional[str] = None) -> str:
     return "\n".join(lines)
 
 
+def _has_media(directory: Path, exclude: Path = None) -> bool:
+    """Return True if directory contains any non-.md files (i.e. media already downloaded)."""
+    if not directory.exists():
+        return False
+    return any(f for f in directory.iterdir() if f.suffix != '.md' and f != exclude)
+
+
 def _append_media_link(md_file: Path, subdir: str, filename: str) -> None:
     ext = Path(filename).suffix.lower()
     if ext in (".jpg", ".jpeg", ".png", ".gif", ".webp"):
@@ -198,7 +205,7 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
         post_file.write_text(render_md(msg), encoding="utf-8")
         print(f"  + {post_file.relative_to(out)}")
 
-        if msg.media:
+        if msg.media and not _has_media(post_dir):
             post_dir.mkdir(exist_ok=True)
             try:
                 dl = await fetch.download_media(msg, file=str(post_dir) + "/")
@@ -216,7 +223,7 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
                 cfile = post_dir / f"{cts.strftime('%Y-%m-%d_%H-%M-%S')}_{safe_name(author)}.md"
                 cfile.write_text(render_md(comment, author), encoding="utf-8")
 
-                if comment.media:
+                if comment.media and not _has_media(post_dir, exclude=cfile):
                     try:
                         dl = await client.download_media(comment, file=str(post_dir) + "/")
                         if dl:
@@ -243,6 +250,8 @@ async def main() -> None:
                         help="Seconds between request batches (default: 0 with --takeout, 1 otherwise)")
     parser.add_argument("--takeout", action="store_true",
                         help="Use a takeout session for lower flood limits — recommended for full imports")
+    parser.add_argument("--redownload", type=int, metavar="ID",
+                        help="Re-fetch a specific post by Telegram message ID and overwrite its files")
     args = parser.parse_args()
     args.limit = args.limit or None  # 0 → None means no limit in Telethon
     if args.wait_time is None:
@@ -264,6 +273,32 @@ async def main() -> None:
         config["api_hash"],
         flood_sleep_threshold=300,  # auto-sleep on flood waits up to 5 min
     ) as client:
+        if args.redownload:
+            for channel in config["channels"]:
+                entity = await client.get_entity(channel)
+                msg = await client.get_messages(entity, ids=args.redownload)
+                if not msg:
+                    print(f"Message {args.redownload} not found in {channel}")
+                    continue
+                ts = msg.date.astimezone(timezone.utc)
+                month_dir = out / channel / ts.strftime("%Y-%m")
+                stem = ts.strftime("%Y-%m-%d_%H-%M-%S")
+                post_file = month_dir / f"{stem}.md"
+                post_dir = month_dir / stem
+                month_dir.mkdir(parents=True, exist_ok=True)
+                post_file.write_text(render_md(msg), encoding="utf-8")
+                print(f"  ~ {post_file.relative_to(out)}")
+                if msg.media:
+                    post_dir.mkdir(exist_ok=True)
+                    try:
+                        dl = await client.download_media(msg, file=str(post_dir) + "/")
+                        if dl:
+                            _append_media_link(post_file, stem, Path(dl).name)
+                    except Exception as e:
+                        print(f"    media error: {e}")
+            print("\nRedownload complete.")
+            return
+
         async def run_sync(fetch_client=None):
             for channel in config["channels"]:
                 while True:
