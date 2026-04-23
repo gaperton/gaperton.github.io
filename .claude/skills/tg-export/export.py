@@ -35,19 +35,27 @@ def load_state(path: Path) -> dict:
 
 
 def recover_state(out: Path) -> dict:
-    """Scan exported files to reconstruct last synced IDs when state file is missing."""
+    """Scan post files (not comment subdirs) to reconstruct last synced IDs."""
     state = {}
-    for md in out.rglob("*.md"):
-        try:
-            for line in md.read_text(encoding="utf-8").splitlines():
-                if line.startswith("id: "):
-                    msg_id = int(line[4:])
-                    channel = md.relative_to(out).parts[0]
-                    ch = state.setdefault(channel, {"last_post_id": 0})
-                    ch["last_post_id"] = max(ch["last_post_id"], msg_id)
-                    break
-        except Exception:
-            pass
+    # Structure: out/channel/YYYY-MM/post.md  — only scan at this exact depth.
+    # Comment files live in out/channel/YYYY-MM/post-dir/comment.md and use
+    # discussion-group IDs (different namespace), so they must be excluded.
+    for channel_dir in out.iterdir():
+        if not channel_dir.is_dir() or channel_dir.name.startswith("."):
+            continue
+        for month_dir in channel_dir.iterdir():
+            if not month_dir.is_dir():
+                continue
+            for md in month_dir.glob("*.md"):
+                try:
+                    for line in md.read_text(encoding="utf-8").splitlines():
+                        if line.startswith("id: "):
+                            msg_id = int(line[4:])
+                            ch = state.setdefault(channel_dir.name, {"last_post_id": 0})
+                            ch["last_post_id"] = max(ch["last_post_id"], msg_id)
+                            break
+                except Exception:
+                    pass
     return state
 
 
@@ -86,7 +94,10 @@ def _message_text(message) -> str:
             e = copy.copy(e)
             e.length = len(stripped)
         trimmed.append(e)
-    result = tg_markdown.unparse(add_surrogate(clean), trimmed)  # unparse calls del_surrogate internally
+    try:
+        result = tg_markdown.unparse(add_surrogate(clean), trimmed)
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        result = clean  # exotic character caused illegal surrogate; keep plain text
     # Remove lines that consist only of __ or ** (empty formatting artifacts).
     result = re.sub(r'(?m)^[_*]{2,4}\s*$', '', result)
     # Collapse multiple consecutive blank lines left after removal.
