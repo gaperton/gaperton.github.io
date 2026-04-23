@@ -1,0 +1,9 @@
+{
+  "api_id": "YOUR_API_ID",
+  "api_hash": "YOUR_API_HASH",
+  "session_file": "session",
+  "output_dir": "export",
+  "channels": [
+    "channel_username_or_id"
+  ]
+}
