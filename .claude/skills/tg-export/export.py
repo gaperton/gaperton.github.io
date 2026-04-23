@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Optional
 
 from telethon import TelegramClient
-from telethon.errors import ChannelPrivateError
+from telethon.errors import ChannelPrivateError, FloodWaitError
 from telethon.extensions import markdown as tg_markdown
 from telethon.helpers import add_surrogate, del_surrogate
 
@@ -132,7 +132,11 @@ async def get_sender_name(client: TelegramClient, message) -> str:
     return str(message.sender_id) if message.sender_id else "unknown"
 
 
-async def sync_channel(client: TelegramClient, channel: str, state: dict, out: Path, limit: int) -> None:
+async def sync_channel(client, channel: str, state: dict, out: Path,
+                       limit: int, wait_time: float, fetch_client=None) -> None:
+    # fetch_client is the takeout client when in takeout mode; falls back to client.
+    fetch = fetch_client or client
+
     ch_state = state.setdefault(channel, {"last_post_id": 0})
     last_id = ch_state["last_post_id"]
     print(f"\n[{channel}] last synced id={last_id}")
@@ -144,7 +148,7 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
         return
 
     posts = []
-    async for msg in client.iter_messages(entity, reverse=True, min_id=last_id, limit=limit):
+    async for msg in fetch.iter_messages(entity, reverse=True, min_id=last_id, limit=limit, wait_time=wait_time):
         posts.append(msg)
 
     if not posts:
@@ -168,15 +172,15 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
         if msg.media:
             post_dir.mkdir(exist_ok=True)
             try:
-                dl = await client.download_media(msg, file=str(post_dir) + "/")
+                dl = await fetch.download_media(msg, file=str(post_dir) + "/")
                 if dl:
                     _append_media_link(post_file, stem, Path(dl).name)
             except Exception as e:
                 print(f"    media error: {e}")
 
-        # Fetch comments (only works if channel has a linked discussion group)
+        # Comments: use regular client — takeout doesn't support reply_to fetching.
         try:
-            async for comment in client.iter_messages(entity, reply_to=msg.id):
+            async for comment in client.iter_messages(entity, reply_to=msg.id, wait_time=wait_time):
                 post_dir.mkdir(exist_ok=True)
                 cts = comment.date.astimezone(timezone.utc)
                 author = await get_sender_name(client, comment)
@@ -190,6 +194,8 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
                             _append_media_link(cfile, post_dir.name, Path(dl).name)
                     except Exception as e:
                         print(f"    comment media error: {e}")
+        except FloodWaitError:
+            raise
         except Exception:
             pass  # channel has no comments enabled
 
@@ -200,9 +206,16 @@ async def sync_channel(client: TelegramClient, channel: str, state: dict, out: P
 
 async def main() -> None:
     parser = argparse.ArgumentParser(description="Sync Telegram channels to markdown files.")
-    parser.add_argument("--limit", type=int, default=10, metavar="N", help="Max posts to fetch per channel per run (default: 10, 0 = all)")
+    parser.add_argument("--limit", type=int, default=10, metavar="N",
+                        help="Max posts to fetch per channel per run (default: 10, 0 = all)")
+    parser.add_argument("--wait-time", type=float, default=None, metavar="S",
+                        help="Seconds between request batches (default: 0 with --takeout, 1 otherwise)")
+    parser.add_argument("--takeout", action="store_true",
+                        help="Use a takeout session for lower flood limits — recommended for full imports")
     args = parser.parse_args()
     args.limit = args.limit or None  # 0 → None means no limit in Telethon
+    if args.wait_time is None:
+        args.wait_time = 0.0 if args.takeout else 1.0
 
     config = load_config()
     out = Path(config.get("output_dir", "export"))
@@ -214,10 +227,27 @@ async def main() -> None:
         config.get("session_file", "session"),
         config["api_id"],
         config["api_hash"],
+        flood_sleep_threshold=300,  # auto-sleep on flood waits up to 5 min
     ) as client:
-        for channel in config["channels"]:
-            await sync_channel(client, channel, state, out, limit=args.limit)
-            save_state(state, state_path)
+        async def run_sync(fetch_client=None):
+            for channel in config["channels"]:
+                while True:
+                    try:
+                        await sync_channel(client, channel, state, out,
+                                           limit=args.limit, wait_time=args.wait_time,
+                                           fetch_client=fetch_client)
+                        save_state(state, state_path)
+                        break
+                    except FloodWaitError as e:
+                        print(f"  FloodWait: sleeping {e.seconds + 5}s...")
+                        await asyncio.sleep(e.seconds + 5)
+
+        if args.takeout:
+            print("Using takeout session...")
+            async with client.takeout() as takeout:
+                await run_sync(fetch_client=takeout)
+        else:
+            await run_sync()
 
     print("\nSync complete.")
 

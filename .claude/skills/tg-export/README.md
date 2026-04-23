@@ -63,13 +63,19 @@ Each run only fetches posts newer than the last sync. State is stored in `export
 ### Options
 
 ```
---limit N    Max posts to fetch per channel per run (default: 10)
+--limit N        Max posts to fetch per channel per run (default: 10, 0 = all)
+--takeout        Use a Telegram takeout session — lower flood limits, recommended for full imports
+--wait-time S    Seconds between request batches (default: 0 with --takeout, 1 otherwise)
 ```
 
-Example — fetch up to 100 posts in one go:
-
+Incremental sync (default):
 ```bash
 uv run export.py --limit 100
+```
+
+Full channel import (recommended):
+```bash
+uv run export.py --takeout --limit 0
 ```
 
 ## Notes
