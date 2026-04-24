@@ -31,8 +31,6 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
   </nav>
 
   <article class="post">
-    <div class="post-body" set:html={post.bodyHtml} />
-
     {post.images.length > 0 && (
       <div class="image-gallery">
         {post.images.map(src => (
@@ -42,6 +40,8 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
         ))}
       </div>
     )}
+
+    <div class="post-body" set:html={post.bodyHtml} />
   </article>
 
   {post.comments.length > 0 && (
@@ -72,15 +72,17 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
 
 <style>
   .breadcrumb {
-    font-size: 0.82rem;
-    color: #888;
-    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 0.75rem;
     font-family: ui-sans-serif, sans-serif;
   }
-  .breadcrumb a { color: #555; text-decoration: none; }
-  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb a { color: #888; text-decoration: none; }
+  .breadcrumb a:hover { color: #333; text-decoration: underline; }
 
-  .post { max-width: 720px; margin-bottom: 2rem; }
+  .post { margin-bottom: 2rem; }
+
+  .post-body { max-width: 720px; }
 
   .post-body {
     font-size: 1.05rem;
@@ -95,20 +97,21 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   .image-gallery img {
-    max-width: 320px;
-    max-height: 320px;
-    object-fit: cover;
-    border-radius: 4px;
+    max-width: min(560px, 100%);
+    max-height: 560px;
+    object-fit: contain;
+    border-radius: 6px;
     border: 1px solid #e0e0d8;
+    background: #f5f5f0;
   }
 
   .image-gallery.small img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: min(320px, 100%);
+    max-height: 320px;
   }
 
   .comments { max-width: 720px; }

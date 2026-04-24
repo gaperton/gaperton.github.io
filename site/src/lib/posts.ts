@@ -156,7 +156,9 @@ function getImageFiles(month: string, slug: string): string[] {
 function getCommentImages(month: string, slug: string, commentFileBase: string): string[] {
   const dir = join(BASE, month, `${slug}.comments`);
   if (!existsSync(dir)) return [];
-  const prefix = commentFileBase + '-';
+  // image files are named "{commentId}-{filename}.ext", not "{commentId}-{author}-..."
+  const commentId = commentFileBase.split('-')[0];
+  const prefix = commentId + '-';
   return readdirSync(dir)
     .filter(f => f.startsWith(prefix) && /\.(jpg|jpeg|png|gif|webp)$/i.test(f))
     .map(f => `${REPO_BASE}/${month}/${slug}.comments/${f}`);
