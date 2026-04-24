@@ -1,0 +1,80 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostTile from '../../components/PostTile.astro';
+import { getMonths, getPostsForMonth } from '../../lib/posts';
+import { buildSidebarProps } from '../../lib/sidebarProps';
+
+export async function getStaticPaths() {
+  return getMonths().map(month => ({ params: { month } }));
+}
+
+const { month } = Astro.params;
+const posts = getPostsForMonth(month);
+const sidebar = buildSidebarProps();
+
+const [y, mo] = month.split('-').map(Number);
+const label = new Date(y, mo - 1, 1).toLocaleString('en-GB', { month: 'long', year: 'numeric' });
+
+// Group by day
+const byDay: Record<string, typeof posts> = {};
+for (const p of posts) {
+  if (!byDay[p.date]) byDay[p.date] = [];
+  byDay[p.date].push(p);
+}
+const days = Object.keys(byDay).sort().reverse();
+---
+<Layout title={`${label} — @gaperton_tech`} {...sidebar}>
+  <h1 class="heading">{label}</h1>
+
+  {days.map(day => {
+    const dayLabel = new Date(day + 'T00:00:00').toLocaleDateString('en-GB', {
+      weekday: 'long', day: 'numeric', month: 'long',
+    });
+    return (
+      <section class="day-section">
+        <h2 class="day-heading">
+          <a href={`/${day}/`}>{dayLabel}</a>
+        </h2>
+        <div class="tile-grid">
+          {byDay[day].map(post => <PostTile post={post} />)}
+        </div>
+      </section>
+    );
+  })}
+</Layout>
+
+<style>
+  .heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-family: ui-sans-serif, sans-serif;
+  }
+
+  .day-section { margin-bottom: 2rem; }
+
+  .day-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-family: ui-sans-serif, sans-serif;
+    color: #555;
+  }
+
+  .day-heading a { color: inherit; text-decoration: none; }
+  .day-heading a:hover { color: #1a1a1a; text-decoration: underline; }
+
+  .tile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 1100px) {
+    .tile-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    .tile-grid { grid-template-columns: 1fr; }
+  }
+</style>

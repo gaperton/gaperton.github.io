@@ -1,0 +1,86 @@
+---
+import type { Post } from '../lib/posts';
+
+interface Props {
+  month: string;        // "YYYY-MM"
+  posts: Post[];
+}
+
+const { month, posts } = Astro.props;
+
+const [year, mon] = month.split('-').map(Number);
+const daysInMonth = new Date(year, mon, 0).getDate();
+const firstDow = new Date(year, mon - 1, 1).getDay(); // 0=Sun
+// shift so Mon=0
+const offset = (firstDow + 6) % 7;
+
+const activeDays = new Set(posts.map(p => p.date));
+
+const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long', year: 'numeric' });
+---
+<div class="cal">
+  <div class="cal-title">{label}</div>
+  <div class="cal-grid">
+    {['Mo','Tu','We','Th','Fr','Sa','Su'].map(d => (
+      <span class="dow">{d}</span>
+    ))}
+    {Array.from({ length: offset }, (_, i) => (
+      <span key={`empty-${i}`} />
+    ))}
+    {Array.from({ length: daysInMonth }, (_, i) => {
+      const day = i + 1;
+      const dateStr = `${month}-${String(day).padStart(2, '0')}`;
+      return activeDays.has(dateStr)
+        ? <a href={`/${dateStr}/`} class="day active">{day}</a>
+        : <span class="day">{day}</span>;
+    })}
+  </div>
+</div>
+
+<style>
+  .cal { margin-bottom: 1.25rem; }
+
+  .cal-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 0.4rem;
+    font-family: ui-sans-serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    font-size: 0.75rem;
+    font-family: ui-monospace, monospace;
+  }
+
+  .dow {
+    text-align: center;
+    color: #999;
+    padding: 2px 0;
+    font-size: 0.68rem;
+  }
+
+  .day {
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 3px;
+    color: #bbb;
+  }
+
+  a.day.active {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 600;
+    background: #e8e8e0;
+  }
+
+  a.day.active:hover {
+    background: #1a1a1a;
+    color: #fff;
+  }
+</style>

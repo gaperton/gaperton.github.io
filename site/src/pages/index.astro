@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PostTile from '../components/PostTile.astro';
+import { getAllDays, getPostsForDay } from '../lib/posts';
+import { buildSidebarProps } from '../lib/sidebarProps';
+
+const days = getAllDays();
+const currentDay = days[0];
+const prevDay = days[1] ?? null;
+const posts = currentDay ? getPostsForDay(currentDay) : [];
+const sidebar = buildSidebarProps();
+
+const dayLabel = currentDay
+  ? new Date(currentDay + 'T00:00:00').toLocaleDateString('en-GB', {
+      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+    })
+  : 'No posts yet';
+---
+<Layout title="@gaperton_tech" {...sidebar}>
+  <h1 class="day-heading">{dayLabel}</h1>
+
+  <div class="tile-grid">
+    {posts.map(post => (
+      <PostTile post={post} />
+    ))}
+  </div>
+
+  {prevDay && (
+    <div class="prev-nav">
+      <a href={`/${prevDay}/`}>
+        ← {new Date(prevDay + 'T00:00:00').toLocaleDateString('en-GB', {
+          weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+        })}
+      </a>
+    </div>
+  )}
+</Layout>
+
+<style>
+  .day-heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    font-family: ui-sans-serif, sans-serif;
+  }
+
+  .tile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  @media (max-width: 1100px) {
+    .tile-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    .tile-grid { grid-template-columns: 1fr; }
+  }
+
+  .prev-nav {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0d8;
+  }
+
+  .prev-nav a {
+    font-size: 0.95rem;
+    color: #555;
+    text-decoration: none;
+    font-family: ui-sans-serif, sans-serif;
+  }
+
+  .prev-nav a:hover { color: #1a1a1a; text-decoration: underline; }
+</style>
