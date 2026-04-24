@@ -152,4 +152,14 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
   }
 
   .comment-body :global(p) { margin-bottom: 0.5em; }
+  .comment-body :global(blockquote) {
+    border-left: 3px solid #93c5fd;
+    padding: 0.2em 0.75rem;
+    margin: 0.4em 0 0.6em;
+    color: #666;
+    font-size: 0.9em;
+    background: #f0f7ff;
+    border-radius: 0 4px 4px 0;
+  }
+  .comment-body :global(blockquote p) { margin-bottom: 0; }
 </style>
