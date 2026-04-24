@@ -1,77 +1,29 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import PostTile from '../components/PostTile.astro';
-import { getAllDays, getPostsForDay } from '../lib/posts';
+import DayFeed from '../components/DayFeed.astro';
+import { getAllDays, getPostsForDay, getPost } from '../lib/posts';
 import { buildSidebarProps } from '../lib/sidebarProps';
 
 const days = getAllDays();
 const currentDay = days[0];
 const prevDay = days[1] ?? null;
-const posts = currentDay ? getPostsForDay(currentDay) : [];
 const currentMonth = currentDay ? currentDay.slice(0, 7) : '';
 const sidebar = buildSidebarProps(currentMonth);
 
-const dayLabel = currentDay
-  ? new Date(currentDay + 'T00:00:00').toLocaleDateString('en-GB', {
-      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
-    })
-  : 'No posts yet';
+const lightPosts = currentDay ? getPostsForDay(currentDay) : [];
+const posts = lightPosts.map(p => getPost(p.month, p.slug));
+
+function fmtDay(d: string) {
+  return new Date(d + 'T00:00:00').toLocaleDateString('en-GB', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+  });
+}
 ---
 <Layout title="@gaperton_tech" {...sidebar}>
-  <h1 class="day-heading">{dayLabel}</h1>
-
-  <div class="tile-grid">
-    {posts.map(post => (
-      <PostTile post={post} />
-    ))}
-  </div>
-
-  {prevDay && (
-    <div class="prev-nav">
-      <a href={`/${prevDay}/`}>
-        ← {new Date(prevDay + 'T00:00:00').toLocaleDateString('en-GB', {
-          weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
-        })}
-      </a>
-    </div>
-  )}
+  <DayFeed
+    posts={posts}
+    dayLabel={currentDay ? fmtDay(currentDay) : 'No posts yet'}
+    prevDay={prevDay}
+    prevDayLabel={prevDay ? fmtDay(prevDay) : null}
+  />
 </Layout>
-
-<style>
-  .day-heading {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 1.25rem;
-    color: #111;
-    font-family: ui-sans-serif, sans-serif;
-    padding-bottom: 0.6rem;
-    border-bottom: 2px solid #3b5bdb;
-    display: inline-block;
-  }
-
-  .tile-grid {
-    columns: 3 260px;
-    column-gap: 0.85rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .tile-grid > :global(*) {
-    margin-bottom: 0.85rem;
-  }
-
-  .prev-nav {
-    margin-top: 0.5rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid #e5e5dc;
-  }
-
-  .prev-nav a {
-    font-size: 0.88rem;
-    color: #3b5bdb;
-    text-decoration: none;
-    font-family: ui-sans-serif, sans-serif;
-    font-weight: 500;
-  }
-
-  .prev-nav a:hover { text-decoration: underline; }
-</style>

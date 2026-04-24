@@ -22,9 +22,10 @@ export interface PostDetail {
   slug: string;
   month: string;
   date: string;
+  datetime: string;
   id: number;
   bodyHtml: string;
-  images: string[];  // absolute URL paths
+  images: string[];
   comments: Comment[];
 }
 
@@ -199,6 +200,7 @@ export function getPost(month: string, slug: string): PostDetail {
     slug,
     month,
     date: slugToDate(slug),
+    datetime: String(data.date),
     id: Number(data.id),
     bodyHtml: renderMarkdown(content),
     images: getImageFiles(month, slug),

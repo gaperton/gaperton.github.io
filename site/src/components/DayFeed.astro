@@ -1,0 +1,235 @@
+---
+import type { PostDetail } from '../lib/posts';
+
+interface Props {
+  posts: PostDetail[];
+  dayLabel: string;
+  prevDay: string | null;
+  prevDayLabel: string | null;
+}
+
+const { posts, dayLabel, prevDay, prevDayLabel } = Astro.props;
+
+function fmtTime(datetime: string) {
+  return new Date(datetime).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+}
+---
+
+<div class="day-layout">
+  <div class="posts-col">
+    <div class="day-heading">{dayLabel}</div>
+
+    <div class="posts-feed">
+      {posts.map(post => (
+        <article class="post-card" id={`post-${post.id}`}>
+          <div class="post-meta">
+            <span class="post-time">{fmtTime(post.datetime)}</span>
+          </div>
+
+          {post.images.length > 0 && (
+            <div class="post-images">
+              {post.images.map(src => (
+                <a href={src} target="_blank" rel="noopener">
+                  <img src={src} loading="lazy" alt="" />
+                </a>
+              ))}
+            </div>
+          )}
+
+          <div class="post-body" set:html={post.bodyHtml} />
+
+          {post.comments.length > 0 && (
+            <button
+              class="comments-btn"
+              data-href={`/${post.month}/${post.slug}/`}
+            >
+              {post.comments.length} comment{post.comments.length !== 1 ? 's' : ''} →
+            </button>
+          )}
+        </article>
+      ))}
+    </div>
+
+    {prevDay && (
+      <a class="prev-nav" href={`/${prevDay}/`}>← {prevDayLabel}</a>
+    )}
+  </div>
+
+  <div class="comments-col" id="comments-col">
+    <p class="empty-hint">← open comments</p>
+  </div>
+</div>
+
+<script>
+  const btns = document.querySelectorAll<HTMLButtonElement>('.comments-btn');
+  const col = document.getElementById('comments-col')!;
+  const injectedStyles = new Set<string>();
+
+  async function loadComments(btn: HTMLButtonElement) {
+    btns.forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    col.innerHTML = '<p style="padding:1rem;color:#aaa;font-family:sans-serif">Loading…</p>';
+
+    const res = await fetch(btn.dataset.href!);
+    const html = await res.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+
+    doc.querySelectorAll('head style').forEach(s => {
+      if (!injectedStyles.has(s.textContent!)) {
+        injectedStyles.add(s.textContent!);
+        const el = document.createElement('style');
+        el.textContent = s.textContent;
+        document.head.appendChild(el);
+      }
+    });
+
+    const comments = doc.querySelector('section.comments');
+    col.innerHTML = comments?.outerHTML ?? '<p style="padding:1rem;color:#aaa;font-family:sans-serif">No comments</p>';
+    col.scrollTop = 0;
+  }
+
+  btns.forEach(b => b.addEventListener('click', () => loadComments(b)));
+  if (btns[0]) loadComments(btns[0]);
+</script>
+
+<style>
+  .day-layout {
+    display: grid;
+    grid-template-columns: 62% 38%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .posts-col {
+    overflow-y: auto;
+    padding: 1rem 1.75rem 2rem;
+    border-right: 1px solid #e5e5dc;
+  }
+
+  .day-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+    font-family: ui-sans-serif, sans-serif;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3b5bdb;
+    display: inline-block;
+  }
+
+  .posts-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .post-card {
+    border-bottom: 1px solid #ebebE4;
+    padding-bottom: 2rem;
+  }
+
+  .post-card:last-child { border-bottom: none; }
+
+  .post-meta {
+    margin-bottom: 0.75rem;
+  }
+
+  .post-time {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #999;
+    font-family: ui-monospace, monospace;
+    letter-spacing: 0.04em;
+  }
+
+  .post-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .post-images img {
+    max-width: min(480px, 100%);
+    max-height: 480px;
+    object-fit: contain;
+    border-radius: 6px;
+    border: 1px solid #e0e0d8;
+    background: #f5f5f0;
+  }
+
+  .post-body {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #1a1a1a;
+  }
+
+  .post-body :global(p) { margin-bottom: 0.85em; }
+  .post-body :global(p:last-child) { margin-bottom: 0; }
+  .post-body :global(a) { color: #3b5bdb; }
+  .post-body :global(strong) { font-weight: 700; }
+  .post-body :global(em) { font-style: italic; }
+  .post-body :global(code) {
+    font-family: ui-monospace, monospace;
+    font-size: 0.88em;
+    background: #f0f0ea;
+    padding: 1px 4px;
+    border-radius: 3px;
+  }
+  .post-body :global(pre) {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.85em;
+    margin: 0.75em 0;
+  }
+  .post-body :global(blockquote) {
+    border-left: 3px solid #dbeafe;
+    padding-left: 1rem;
+    color: #555;
+    margin: 0.75em 0;
+  }
+
+  .comments-btn {
+    display: inline-block;
+    margin-top: 0.85rem;
+    font-size: 0.8rem;
+    font-family: ui-sans-serif, sans-serif;
+    font-weight: 500;
+    color: #3b5bdb;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .comments-btn:hover { text-decoration: underline; }
+  .comments-btn.is-active { font-weight: 700; }
+
+  .prev-nav {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #3b5bdb;
+    text-decoration: none;
+    font-family: ui-sans-serif, sans-serif;
+    font-weight: 500;
+  }
+  .prev-nav:hover { text-decoration: underline; }
+
+  .comments-col {
+    overflow-y: auto;
+    padding: 1rem 1.5rem 2rem;
+    background: #fafaf8;
+  }
+
+  .empty-hint {
+    color: #ccc;
+    font-size: 0.85rem;
+    font-family: ui-sans-serif, sans-serif;
+    margin-top: 2rem;
+    text-align: center;
+  }
+</style>
