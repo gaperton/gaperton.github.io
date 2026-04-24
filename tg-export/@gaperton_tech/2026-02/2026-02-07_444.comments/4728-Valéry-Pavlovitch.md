@@ -3,6 +3,8 @@ id: 4728
 date: 2026-02-07T08:44:43+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4726
+reply_quote: Это, ну, кадавры.
 ---
 
 сервиторы из warhammer 40000

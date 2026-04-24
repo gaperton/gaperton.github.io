@@ -3,6 +3,7 @@ id: 6745
 date: 2026-03-29T00:21:05+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6739
 ---
 
 Ага. Но меньше 20 это грустно. 

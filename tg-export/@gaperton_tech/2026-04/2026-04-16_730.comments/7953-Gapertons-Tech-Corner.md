@@ -3,6 +3,7 @@ id: 7953
 date: 2026-04-16T19:29:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7952
 ---
 
 Цепляются. Qwen Code ставь и плагин к VS Code, его можно направить на локальный openai endpoint.

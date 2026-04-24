@@ -3,6 +3,7 @@ id: 3382
 date: 2025-11-10T03:09:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3371
 ---
 
 Пускаем в ход тяжелую кавалерию. Час настал.

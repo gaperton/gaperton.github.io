@@ -3,6 +3,8 @@ id: 1987
 date: 2025-05-13T20:20:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1985
+reply_quote: Intellectual yet idiot (c) талебушка давно сформулировал
 ---
 
 Талеб — самоуверен, тщеславен и интеллектуально ленив. Он сделал карьеру на хамстве и нарциссизме, продавая банальности под видом прозрений.

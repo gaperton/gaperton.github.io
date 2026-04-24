@@ -3,6 +3,7 @@ id: 3582
 date: 2025-11-19T04:06:43+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3579
 ---
 
 У вас цепочка начинается с предложения, а потом рисуется сцена в голове ресипиента.

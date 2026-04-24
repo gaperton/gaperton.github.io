@@ -3,6 +3,7 @@ id: 6062
 date: 2026-03-17T02:53:29+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6061
 ---
 
 Кэширование работает в GGUF, это легко проверить переключившись.

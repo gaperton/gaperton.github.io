@@ -3,6 +3,7 @@ id: 4046
 date: 2025-12-31T19:54:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4037
 ---
 
 __Кароч вот черновик вступления. Он увязывает воедино вообще все чем я занимался в этом году.__

@@ -3,6 +3,7 @@ id: 3079
 date: 2025-10-25T04:15:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3078
 ---
 
 Сейчас на golang. Обычно у меня это или C#, или golang. Лучше всего конечно вообще nodejs. Те же яйца что C# и golang но в профиль, зато везде тайпскрипт. Ну и с выбором пакетов там прям сильно лучше.

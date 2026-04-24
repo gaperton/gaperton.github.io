@@ -3,6 +3,7 @@ id: 3093
 date: 2025-10-25T16:17:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3092
 ---
 
 Я думаю из этого понятно, что противопоставлять Скрам и XP неправильно. Они о разных аспектах разработки.

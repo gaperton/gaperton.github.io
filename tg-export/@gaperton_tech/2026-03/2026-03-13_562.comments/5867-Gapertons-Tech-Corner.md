@@ -3,6 +3,7 @@ id: 5867
 date: 2026-03-14T03:40:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5866
 ---
 
 Вы не представляете насколько. У меня даже мышь работает в текстовом терминале. И ниибет.

@@ -3,6 +3,7 @@ id: 8365
 date: 2026-04-20T15:55:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8363
 ---
 
 Если включить performance mode на PCIe, это даст +10% t/s под Ubuntu. Хозяйке на заметку.

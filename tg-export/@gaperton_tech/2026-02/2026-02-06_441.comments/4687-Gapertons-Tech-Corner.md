@@ -3,6 +3,7 @@ id: 4687
 date: 2026-02-06T19:59:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4684
 ---
 
 Сейчас главная проблема — архитектура памяти. Надо переписать то говно что налепили дилетанты а  AGENTS.md

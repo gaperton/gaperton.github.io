@@ -3,6 +3,7 @@ id: 6270
 date: 2026-03-20T04:15:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6269
 ---
 
 Двухмоторную машину я чувствую будет собирать @drcha0s. Это легко в любой матери с бифуркацией.

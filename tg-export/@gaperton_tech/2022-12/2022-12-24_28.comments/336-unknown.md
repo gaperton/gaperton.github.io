@@ -2,6 +2,7 @@
 id: 336
 date: 2022-12-25T00:12:11+00:00
 author: unknown
+reply_to: 318
 ---
 
 А, pure render optimization. То что она невозможна на мутабельных данных — тоже голимый пиздеж.

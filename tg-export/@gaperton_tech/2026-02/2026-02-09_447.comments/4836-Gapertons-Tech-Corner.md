@@ -3,6 +3,7 @@ id: 4836
 date: 2026-02-10T17:45:06+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4787
 ---
 
 Бля, ору. Весь тред сначала до конца.

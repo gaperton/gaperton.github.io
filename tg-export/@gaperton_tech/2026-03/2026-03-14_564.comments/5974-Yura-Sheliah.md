@@ -3,6 +3,7 @@ id: 5974
 date: 2026-03-15T15:05:25+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5913
 ---
 
 Для нескольких gpu  llama.cpp лучше не использовать

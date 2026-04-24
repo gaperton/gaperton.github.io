@@ -3,6 +3,7 @@ id: 5947
 date: 2026-03-15T00:31:17+00:00
 author: Astral-Zander
 author_handle: @deadphilosopher
+reply_to: 5943
 ---
 
 Радий, героин, ртуть, талиомид, кокаин, мышьяк, етк.

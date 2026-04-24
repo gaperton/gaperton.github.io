@@ -3,6 +3,7 @@ id: 8184
 date: 2026-04-18T03:02:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8116
 ---
 
 У тебя в этом режиме в 1.5 раза больше т.сек чем у меня. И проц и GPU быстрее. У меня просто памяти больше.

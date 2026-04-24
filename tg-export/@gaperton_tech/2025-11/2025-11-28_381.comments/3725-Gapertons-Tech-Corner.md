@@ -3,6 +3,7 @@ id: 3725
 date: 2025-11-28T04:41:05+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3722
 ---
 
 Верно. Важность начальника определяется количеством подчиненных. Они не мотивированы сокращать.

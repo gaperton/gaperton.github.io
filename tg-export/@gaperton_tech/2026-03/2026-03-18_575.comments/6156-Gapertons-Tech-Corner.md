@@ -3,6 +3,7 @@ id: 6156
 date: 2026-03-18T13:15:57+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6155
 ---
 
 Надо. Или что-то годное, или бюджет урезать, или сажать за госизмену. Что-то из трех. Лучше все сразу.

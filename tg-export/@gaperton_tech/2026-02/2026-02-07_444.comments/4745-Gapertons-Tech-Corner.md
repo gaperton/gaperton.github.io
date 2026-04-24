@@ -3,6 +3,7 @@ id: 4745
 date: 2026-02-07T20:39:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4742
 ---
 
 Да, все верно. Нужно одновременно три типа памяти.

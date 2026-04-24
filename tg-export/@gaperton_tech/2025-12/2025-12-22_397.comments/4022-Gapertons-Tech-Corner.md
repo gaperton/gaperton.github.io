@@ -3,6 +3,7 @@ id: 4022
 date: 2025-12-22T21:03:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4021
 ---
 
 Да. А еще еду готовил, и сервировал. Или хотя бы картошку чистил.

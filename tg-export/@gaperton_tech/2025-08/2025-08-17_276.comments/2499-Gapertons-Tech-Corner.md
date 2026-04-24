@@ -3,6 +3,7 @@ id: 2499
 date: 2025-08-18T16:07:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2493
 ---
 
 Моя коллекция гирь. 14 кг должна заполнить пустое место.

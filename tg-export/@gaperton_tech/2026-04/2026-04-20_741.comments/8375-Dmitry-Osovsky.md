@@ -2,6 +2,7 @@
 id: 8375
 date: 2026-04-20T16:33:10+00:00
 author: Dmitry-Osovsky
+reply_to: 8374
 ---
 
 А в 24 dense модели влезут?

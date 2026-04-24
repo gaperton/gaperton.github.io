@@ -3,6 +3,7 @@ id: 3399
 date: 2025-11-10T18:43:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3396
 ---
 
 В этом смысле интересен пример русской интеллигенции, пытавшейся открыть школы для крепостных.

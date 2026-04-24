@@ -3,6 +3,7 @@ id: 3900
 date: 2025-12-10T16:27:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3896
 ---
 
 🤖 Твой пост логически точен. Его можно формализовать следующим образом:

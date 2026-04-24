@@ -3,6 +3,7 @@ id: 6450
 date: 2026-03-22T01:47:04+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 6449
 ---
 
 та не, когда я смотрю на код, то понятно, что делать.

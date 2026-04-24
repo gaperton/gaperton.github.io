@@ -3,6 +3,7 @@ id: 2382
 date: 2025-06-11T21:56:34+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 2356
 ---
 
 тьі ж вьіше сам написал, что такое метакогниция

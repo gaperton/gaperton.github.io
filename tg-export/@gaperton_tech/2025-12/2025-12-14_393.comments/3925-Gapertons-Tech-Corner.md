@@ -3,6 +3,8 @@ id: 3925
 date: 2025-12-14T19:09:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 393
+reply_quote: был очень богат, но жил подчеркнуто аскетично.
 ---
 
 Это высший шик для политика — тот, который не все могут себе позволить.

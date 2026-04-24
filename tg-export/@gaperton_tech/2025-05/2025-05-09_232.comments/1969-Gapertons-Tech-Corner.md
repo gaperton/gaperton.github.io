@@ -3,6 +3,7 @@ id: 1969
 date: 2025-05-09T05:03:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1967
 ---
 
 **✝️ Иисус и налоговая инспекция**

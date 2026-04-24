@@ -3,6 +3,7 @@ id: 7954
 date: 2026-04-16T19:36:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7934
 ---
 
 Важность этого эксперимента трудно переоценить.

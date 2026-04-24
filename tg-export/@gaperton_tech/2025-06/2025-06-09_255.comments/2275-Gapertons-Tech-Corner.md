@@ -3,6 +3,8 @@ id: 2275
 date: 2025-06-09T00:57:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 255
+reply_quote: логика и метафизика
 ---
 
 Модальная логика, и аналитическая метафизика.

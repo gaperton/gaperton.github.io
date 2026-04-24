@@ -3,6 +3,7 @@ id: 4117
 date: 2026-01-21T09:40:55+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 4109
 ---
 
 тут еще беда с определением LLM.

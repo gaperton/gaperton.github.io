@@ -3,6 +3,7 @@ id: 6517
 date: 2026-03-23T07:33:54+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 6492
 ---
 
 https://github.com/ballred/obsidian-claude-pkm/

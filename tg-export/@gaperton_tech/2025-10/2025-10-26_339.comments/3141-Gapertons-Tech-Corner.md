@@ -3,6 +3,7 @@ id: 3141
 date: 2025-10-26T16:31:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3136
 ---
 
 Но общий анти-паттерн мы уже видим.

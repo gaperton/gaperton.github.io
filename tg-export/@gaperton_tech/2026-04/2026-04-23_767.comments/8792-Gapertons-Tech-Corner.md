@@ -3,6 +3,7 @@ id: 8792
 date: 2026-04-23T05:04:07+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8790
 ---
 
 Так, короче, я реально рисковал на бан налететь в Телеграме.

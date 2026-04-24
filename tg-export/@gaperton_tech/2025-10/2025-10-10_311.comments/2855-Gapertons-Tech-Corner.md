@@ -3,6 +3,7 @@ id: 2855
 date: 2025-10-10T20:16:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2850
 ---
 
 Почему я думаю что это читабельно?

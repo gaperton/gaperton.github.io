@@ -3,6 +3,7 @@ id: 2824
 date: 2025-10-09T02:49:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2823
 ---
 
 🤖 Когнитивное искажение, когда мы видим **поведение разумного агент**а там, где его может не быть — чаще всего называется **Hyperactive Agency Detection Device (HADD**) или вообще **agent-****/agenc**y **detection bias.

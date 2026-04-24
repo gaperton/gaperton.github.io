@@ -3,6 +3,7 @@ id: 7765
 date: 2026-04-15T17:18:42+00:00
 author: Andrey-Yamanov
 author_handle: @tenphi
+reply_to: 7736
 ---
 
 У меня кстати 27b gemma 4 просто восхитительно работает на макбуке m1 max - 50 t/s

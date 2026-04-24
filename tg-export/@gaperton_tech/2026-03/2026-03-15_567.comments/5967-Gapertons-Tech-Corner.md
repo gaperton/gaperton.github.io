@@ -3,6 +3,7 @@ id: 5967
 date: 2026-03-15T05:17:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5964
 ---
 
 А это Win11 где я все прибил, только терминал остался. Все равно отжирает гиг. Линукс Минт — полгига.

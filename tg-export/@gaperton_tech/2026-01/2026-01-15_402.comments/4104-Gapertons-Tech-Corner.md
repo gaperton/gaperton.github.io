@@ -3,6 +3,7 @@ id: 4104
 date: 2026-01-15T19:49:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4103
 ---
 
 Я в душе не ебу и мне пох.

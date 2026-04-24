@@ -2,6 +2,7 @@
 id: 1350
 date: 2023-12-14T18:39:11+00:00
 author: Dmitry-Osovsky
+reply_to: 1349
 ---
 
 они не взрываются?

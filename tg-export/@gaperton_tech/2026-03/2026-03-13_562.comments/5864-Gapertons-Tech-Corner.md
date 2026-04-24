@@ -3,6 +3,7 @@ id: 5864
 date: 2026-03-14T02:07:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5834
 ---
 
 Ну вот, удалось поставить linux mint.

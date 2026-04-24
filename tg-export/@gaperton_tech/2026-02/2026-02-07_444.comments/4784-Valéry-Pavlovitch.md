@@ -3,6 +3,7 @@ id: 4784
 date: 2026-02-08T23:34:19+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4779
 ---
 
 Я обычно AGENTS.md для проектов через codex cli пишу, точнее он пишет и это именно описание структуры и правил принятых repo, а не сам агент. 

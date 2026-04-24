@@ -3,6 +3,8 @@ id: 5399
 date: 2026-02-27T00:02:38+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5395
+reply_quote: Кстати, пара 5060ti кушает как одна 3090
 ---
 
 Ну вот примерно поэтому мы остановились на mac studio. А еще потому, что там есть опция 128GB.

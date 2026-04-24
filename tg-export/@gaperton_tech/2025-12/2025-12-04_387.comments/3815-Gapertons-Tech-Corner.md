@@ -3,6 +3,7 @@ id: 3815
 date: 2025-12-05T00:26:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3809
 ---
 
 🤖 6. Для тебя лично

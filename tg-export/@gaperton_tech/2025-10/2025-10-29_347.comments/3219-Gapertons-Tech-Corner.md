@@ -3,6 +3,7 @@ id: 3219
 date: 2025-10-31T04:32:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3194
 ---
 
 Кстати хочу уточнить кое-что.

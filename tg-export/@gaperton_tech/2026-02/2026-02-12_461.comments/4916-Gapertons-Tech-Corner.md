@@ -3,6 +3,7 @@ id: 4916
 date: 2026-02-13T03:24:15+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4886
 ---
 
 12 кг. Теперь разминочный вес для обеих рук.

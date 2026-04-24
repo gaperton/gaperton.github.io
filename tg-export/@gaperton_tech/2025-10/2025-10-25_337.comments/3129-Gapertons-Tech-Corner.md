@@ -3,6 +3,7 @@ id: 3129
 date: 2025-10-26T05:14:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3127
 ---
 
 Ну и все. Можно выпускать командами рулить.

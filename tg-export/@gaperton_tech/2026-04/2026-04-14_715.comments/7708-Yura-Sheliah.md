@@ -3,6 +3,7 @@ id: 7708
 date: 2026-04-15T07:51:11+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 7706
 ---
 
 Кластера это вотчина уже vllm. Возможно nvidia через nvlink умеет от одного слоя в другой между картами передавать а не через pcie 

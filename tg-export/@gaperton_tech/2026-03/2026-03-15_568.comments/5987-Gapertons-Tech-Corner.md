@@ -3,6 +3,7 @@ id: 5987
 date: 2026-03-15T17:40:57+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5986
 ---
 
 Простой эксперимент который вы можете провести сами.

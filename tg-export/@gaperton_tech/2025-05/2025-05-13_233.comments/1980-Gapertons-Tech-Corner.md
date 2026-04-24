@@ -3,6 +3,7 @@ id: 1980
 date: 2025-05-13T17:48:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1979
 ---
 
 __ChatGPT отредактировал мой пост. Пост остался моим, как и мысль в нем.__ 

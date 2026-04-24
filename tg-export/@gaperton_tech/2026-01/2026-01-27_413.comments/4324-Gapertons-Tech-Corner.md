@@ -3,6 +3,7 @@ id: 4324
 date: 2026-01-27T16:00:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4323
 ---
 
 Что до "[деградации мышления](https://t.me/bbbreaking/223745)" — большинство даже не понимает, что это вообще такое — мышление. И не интересуются. 

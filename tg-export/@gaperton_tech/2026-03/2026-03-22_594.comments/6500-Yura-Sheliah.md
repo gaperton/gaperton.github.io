@@ -3,6 +3,7 @@ id: 6500
 date: 2026-03-22T18:33:45+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6498
 ---
 
 Verbose какой то не очень информативный про железку. 

@@ -3,6 +3,7 @@ id: 6427
 date: 2026-03-21T22:04:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6417
 ---
 
 @drcha0s Мысль о тяжелом двухмоторном R9700 не оставляет меня. Но новых матерей для AM4 в продаже нет. Только б/у.

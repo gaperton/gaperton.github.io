@@ -3,6 +3,7 @@ id: 3811
 date: 2025-12-05T00:09:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3809
 ---
 
 __Выводы в целом (как он их отымел по детялям я опускаю, там медленно, с чувством, и с ____оттяжкой):__

@@ -3,6 +3,7 @@ id: 7312
 date: 2026-04-08T20:18:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7310
 ---
 
 ddr4 точно хватает. А если суешь две так и обычной матери с бифуркацией должно хватить в теории.

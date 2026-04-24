@@ -3,6 +3,7 @@ id: 6474
 date: 2026-03-22T11:40:36+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6457
 ---
 
 что-то у меня токенов 2 раза меньше 27B - 14 t/3 , 35B - 60-70 t/s

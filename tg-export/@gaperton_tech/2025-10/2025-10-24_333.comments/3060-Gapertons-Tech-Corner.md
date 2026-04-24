@@ -3,6 +3,7 @@ id: 3060
 date: 2025-10-25T00:27:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3057
 ---
 
 Там дело не в самом скрам, а в том как он лег на корпоративную культуру. 

@@ -3,6 +3,7 @@ id: 7310
 date: 2026-04-08T20:17:25+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 7308
 ---
 
 Там ddr4 но серверная лучше рассчитана на throughput, а вот нума ещё может задержек вносить.

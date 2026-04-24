@@ -3,6 +3,7 @@ id: 3099
 date: 2025-10-25T16:23:22+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3098
 ---
 
 Уважаемый автор, а почему бы не рассказывать на более широкую аудиторию.

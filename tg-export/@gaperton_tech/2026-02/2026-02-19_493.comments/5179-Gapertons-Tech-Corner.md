@@ -3,6 +3,7 @@ id: 5179
 date: 2026-02-20T20:34:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5178
 ---
 
 Ну, это ж клоуны-любители, кто от души. А я говорю о профессионалах.

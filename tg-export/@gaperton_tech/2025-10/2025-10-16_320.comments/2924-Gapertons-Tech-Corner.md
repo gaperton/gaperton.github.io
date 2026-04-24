@@ -3,6 +3,7 @@ id: 2924
 date: 2025-10-16T23:16:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2923
 ---
 
 Да, так лучше. Запомню его.

@@ -3,6 +3,7 @@ id: 3278
 date: 2025-11-04T06:12:13+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3276
 ---
 
 > Понятность для образованного читателя 6.5/10

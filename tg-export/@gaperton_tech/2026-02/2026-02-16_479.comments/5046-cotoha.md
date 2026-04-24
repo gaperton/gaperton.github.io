@@ -3,6 +3,7 @@ id: 5046
 date: 2026-02-16T11:23:09+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 5012
 ---
 
 с властью проблемьі, єто да.

@@ -3,6 +3,7 @@ id: 4905
 date: 2026-02-12T23:55:29+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4904
 ---
 
 На чатгпт кстати не жалуюсь. Он вполне рационален и объективен.

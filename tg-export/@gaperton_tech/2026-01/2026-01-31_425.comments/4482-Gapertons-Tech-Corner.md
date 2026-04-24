@@ -3,6 +3,7 @@ id: 4482
 date: 2026-01-31T20:31:04+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4481
 ---
 
 Ну я не среднестатистический хьюман.

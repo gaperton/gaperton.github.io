@@ -3,6 +3,7 @@ id: 2485
 date: 2025-08-10T18:58:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2484
 ---
 
 В новости речь не о дронах с дистанционным управлением.

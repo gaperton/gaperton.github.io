@@ -3,6 +3,7 @@ id: 4504
 date: 2026-02-01T01:54:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4503
 ---
 
 Зрители (audience) — все, кто читает ветку и формирует “социальный вердикт”, даже если не пишет.

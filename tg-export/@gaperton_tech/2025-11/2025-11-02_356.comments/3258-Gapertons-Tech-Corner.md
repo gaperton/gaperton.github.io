@@ -3,6 +3,8 @@ id: 3258
 date: 2025-11-02T20:08:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3255
+reply_quote: нужно давать 150 минут в районе 130-140.
 ---
 
 Не нужно. Еще раз, внимательно читай III. И поспрашивай чат. 

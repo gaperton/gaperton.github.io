@@ -3,6 +3,7 @@ id: 4001
 date: 2025-12-22T16:19:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3998
 ---
 
 🤖 Что из этого есть у LLM

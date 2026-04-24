@@ -3,6 +3,7 @@ id: 3821
 date: 2025-12-05T00:57:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3809
 ---
 
 🤖 Уровень 2 (серьёзные, но чуть слабее / более зависят от дозировки)

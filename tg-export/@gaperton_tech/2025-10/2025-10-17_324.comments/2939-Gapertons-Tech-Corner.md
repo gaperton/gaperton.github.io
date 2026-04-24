@@ -3,6 +3,7 @@ id: 2939
 date: 2025-10-17T23:42:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2935
 ---
 
 Я честно говоря думал по другому это объяснять. Нудно. Хронологически, ссылаясь на Аристотеля.

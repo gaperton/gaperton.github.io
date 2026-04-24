@@ -3,6 +3,7 @@ id: 2033
 date: 2025-05-21T17:44:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2016
 ---
 
 А почему «сообщаю ему, что не знаю» ?

@@ -3,6 +3,8 @@ id: 7060
 date: 2026-04-04T15:42:58+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 7059
+reply_quote: рефакторинге
 ---
 
 любопытный проект для рефакторинга

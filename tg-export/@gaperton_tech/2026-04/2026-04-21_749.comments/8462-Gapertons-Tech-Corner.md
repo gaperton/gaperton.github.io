@@ -3,6 +3,7 @@ id: 8462
 date: 2026-04-21T04:33:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8445
 ---
 
 Еще запусти с fit-moe, но разверни в коде --n-cpu-moe 0,4,8,16,32,64 в обратном порядке, чтоб он начал с полной отгрузки и упал когда не смог.

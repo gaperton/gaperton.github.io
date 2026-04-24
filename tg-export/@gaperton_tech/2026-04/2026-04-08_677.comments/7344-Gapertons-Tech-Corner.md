@@ -3,6 +3,7 @@ id: 7344
 date: 2026-04-08T22:36:20+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7321
 ---
 
 Я если че делаю это не с нуля, а просто свой металлолом пересобираю по другому докупив деталек.

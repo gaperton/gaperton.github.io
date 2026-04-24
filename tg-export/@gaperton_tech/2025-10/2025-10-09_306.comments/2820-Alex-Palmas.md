@@ -2,6 +2,7 @@
 id: 2820
 date: 2025-10-09T02:30:55+00:00
 author: Alex-Palmas
+reply_to: 2817
 ---
 
 Видел сегодня такую заметку: На английском читать тут: https://phrack.org/issues/72/7_md

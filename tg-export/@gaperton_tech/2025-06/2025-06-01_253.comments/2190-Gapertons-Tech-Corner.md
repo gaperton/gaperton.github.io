@@ -3,6 +3,8 @@ id: 2190
 date: 2025-06-01T15:52:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 253
+reply_quote: Веселое упражнение: придумать три софизма.
 ---
 
 Если б нам так преподавали философию в универе, это было бы агнище. 

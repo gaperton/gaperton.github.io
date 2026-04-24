@@ -3,6 +3,7 @@ id: 7761
 date: 2026-04-15T17:16:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7760
 ---
 
 Да, он по скорости примерно как 3090 должен быть.

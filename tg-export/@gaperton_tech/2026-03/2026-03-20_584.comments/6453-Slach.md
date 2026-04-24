@@ -3,6 +3,7 @@ id: 6453
 date: 2026-03-22T04:57:49+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 6348
 ---
 
 о, напоролся на баг с llama.cpp router

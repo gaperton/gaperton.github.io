@@ -3,6 +3,7 @@ id: 7621
 date: 2026-04-13T21:38:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7620
 ---
 
 Короче реальная тема, надо пробовать. Главное чтоб памяти было много. У меня будет 64GB + 128GB.

@@ -3,6 +3,7 @@ id: 7644
 date: 2026-04-14T12:58:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7643
 ---
 
 Потому что главное на самом деле это how you hire and how you fire. В университеты где учились вы набирали по экзаменам а отчисляли за неуспеваемость. Это меритократический фильтр.

@@ -3,6 +3,7 @@ id: 7894
 date: 2026-04-16T15:44:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7893
 ---
 
 Вот и отлично. Модель взяла и просто стала умнее.

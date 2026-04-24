@@ -3,6 +3,7 @@ id: 7618
 date: 2026-04-13T21:09:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7612
 ---
 
 И теперь этим людям говорят, что они не нужны. И никого не волнует, что они должны сотни тысяч долларов.

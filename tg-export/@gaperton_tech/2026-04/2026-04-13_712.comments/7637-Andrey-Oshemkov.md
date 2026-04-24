@@ -3,6 +3,7 @@ id: 7637
 date: 2026-04-14T09:02:26+00:00
 author: Andrey-Oshemkov
 author_handle: @oshemkov
+reply_to: 7636
 ---
 
 Как бы странно это ни звучало, преподаваемые знания вторичны.

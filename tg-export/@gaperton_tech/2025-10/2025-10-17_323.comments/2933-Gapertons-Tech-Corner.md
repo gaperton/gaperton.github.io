@@ -3,6 +3,7 @@ id: 2933
 date: 2025-10-17T19:54:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2929
 ---
 
 Лирическое отступление. Которое познавательно.

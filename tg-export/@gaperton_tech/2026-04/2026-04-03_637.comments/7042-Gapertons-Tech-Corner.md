@@ -3,6 +3,7 @@ id: 7042
 date: 2026-04-04T06:03:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7025
 ---
 
 Что сорян-то. У меня 25 т.с и 750. Мне норм. 

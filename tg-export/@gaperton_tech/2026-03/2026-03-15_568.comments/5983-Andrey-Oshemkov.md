@@ -3,6 +3,8 @@ id: 5983
 date: 2026-03-15T17:00:58+00:00
 author: Andrey-Oshemkov
 author_handle: @oshemkov
+reply_to: 5981
+reply_quote: Вопрос зрелости и нужности локальных моделей в 2026 году
 ---
 
 Модели нужны же не только болтать и код писать

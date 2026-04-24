@@ -3,6 +3,7 @@ id: 2945
 date: 2025-10-18T17:20:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2940
 ---
 
 **"Дипломированный Чародей" и миры Крипке**

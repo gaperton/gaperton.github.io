@@ -3,6 +3,8 @@ id: 2401
 date: 2025-06-11T23:45:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2399
+reply_quote: ага. а кто тогда “мьі” в предложении вьіше?
 ---
 
 Кто угодно. И что угодно. Это может быть много разных авторов например.

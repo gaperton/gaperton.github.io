@@ -3,6 +3,8 @@ id: 4270
 date: 2026-01-24T21:06:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4269
+reply_quote: Я пока не отличаю одно от другого
 ---
 
 Но ты уверена что "мы говорим об одном и том же"? Почему? Я-то отличаю 🙂

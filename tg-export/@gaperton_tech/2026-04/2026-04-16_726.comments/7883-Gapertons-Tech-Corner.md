@@ -3,6 +3,7 @@ id: 7883
 date: 2026-04-16T15:14:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7882
 ---
 
 Opus это "труд, работа", Dei это "(кого/чего) бога". А еще это организация такая в католической церкви.

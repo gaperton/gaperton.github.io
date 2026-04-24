@@ -3,6 +3,7 @@ id: 2060
 date: 2025-05-22T20:12:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2051
 ---
 
 Например, **Курт Гёдель**, работая в модальной логике **S5**, доказал существование Бога.

@@ -3,6 +3,8 @@ id: 4064
 date: 2026-01-10T15:58:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4063
+reply_quote: если еще не рассказывал
 ---
 
 Рассказывал. https://t.me/gaperton_tech/230

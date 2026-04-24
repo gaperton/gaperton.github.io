@@ -3,6 +3,7 @@ id: 5204
 date: 2026-02-23T15:29:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5203
 ---
 
 Они, в общем, делают что? 

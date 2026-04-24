@@ -3,6 +3,7 @@ id: 1907
 date: 2025-04-23T13:35:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1886
 ---
 
 **V. Возможный синтез**

@@ -3,6 +3,7 @@ id: 3252
 date: 2025-11-02T19:55:20+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3244
 ---
 
 Но я в общем не утверждаю ненужности или бесполезности.

@@ -3,6 +3,7 @@ id: 3806
 date: 2025-12-04T17:14:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3804
 ---
 
 А вы же в курсе, что когда он это сказал, он работал и преподавал в Техасе, и сказал это по английски?

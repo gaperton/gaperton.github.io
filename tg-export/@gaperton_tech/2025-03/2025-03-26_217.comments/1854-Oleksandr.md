@@ -3,6 +3,7 @@ id: 1854
 date: 2025-03-26T20:53:32+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 1849
 ---
 
 да вот я поэтому и говорю, что дело именно в legal

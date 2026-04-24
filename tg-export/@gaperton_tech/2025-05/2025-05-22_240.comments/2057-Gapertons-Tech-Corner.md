@@ -3,6 +3,7 @@ id: 2057
 date: 2025-05-22T19:35:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2056
 ---
 
 [S] это STIT оператор :).

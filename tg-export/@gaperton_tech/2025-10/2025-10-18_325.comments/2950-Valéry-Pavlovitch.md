@@ -3,6 +3,7 @@ id: 2950
 date: 2025-10-18T18:27:59+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 2946
 ---
 
 Для меня все что выходило за рамки бинарной логики True/False, описывалось теорией вероятности.

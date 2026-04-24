@@ -3,6 +3,7 @@ id: 3918
 date: 2025-12-14T17:35:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3917
 ---
 
 Странно что на разговоры о ББД никто не смотрит под этим углом. 

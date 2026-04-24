@@ -3,6 +3,7 @@ id: 5267
 date: 2026-02-25T05:45:18+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 5266
 ---
 
 разве что это будет железо от китайцев...

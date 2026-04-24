@@ -3,6 +3,7 @@ id: 2819
 date: 2025-10-09T02:28:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2817
 ---
 
 Human-ish rate (~3.3 keys/s) ⇒** ≈ 10,414 TB** ≈ **10.4 PB

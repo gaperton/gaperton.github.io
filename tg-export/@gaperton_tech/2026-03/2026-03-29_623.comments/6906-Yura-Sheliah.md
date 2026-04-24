@@ -3,6 +3,7 @@ id: 6906
 date: 2026-03-31T17:45:59+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6903
 ---
 
 Я принимаю твой аргумент. Я согласен что это честно.

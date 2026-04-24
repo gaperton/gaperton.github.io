@@ -3,6 +3,8 @@ id: 4769
 date: 2026-02-08T04:10:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4764
+reply_quote: я должен пропатчить его
 ---
 
 И вопрос такой. А что мы должны вспомнить утром, если мы — админ?

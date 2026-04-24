@@ -3,6 +3,7 @@ id: 5538
 date: 2026-03-03T15:14:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5537
 ---
 
 Это считается мало, обычно "достаточно" говорят про "Qwen3.5-35B-A3B", а для нее надо 24GB VRAM минимум.

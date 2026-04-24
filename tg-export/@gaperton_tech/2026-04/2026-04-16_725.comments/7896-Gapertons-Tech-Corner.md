@@ -3,6 +3,7 @@ id: 7896
 date: 2026-04-16T15:49:38+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7895
 ---
 
 Конечно. У тебя эксперты на CPU вычисляются, и мощь не лишняя.

@@ -3,6 +3,7 @@ id: 6419
 date: 2026-03-21T21:58:08+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6416
 ---
 
 Для AM5 ищите сами [здесь](https://www.asus.com/support/faq/1037507/). Там такое дело — надо чтобы был режим чтобы в первых двух слотах PCIe было по 8 линий. То есть например x4 + x4.

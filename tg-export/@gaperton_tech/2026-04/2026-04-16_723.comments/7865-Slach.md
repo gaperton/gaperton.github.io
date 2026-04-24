@@ -3,6 +3,7 @@ id: 7865
 date: 2026-04-16T05:34:09+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 7864
 ---
 
 =) кек ... ну я заводил последовательно REAP-GGUF MiniMax начиная с 2.0, чето не заходит... 

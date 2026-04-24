@@ -3,6 +3,7 @@ id: 6600
 date: 2026-03-23T22:50:06+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6598
 ---
 
 У нас очень близкий prompt processing и в почтив 2 раза отличается token generation.

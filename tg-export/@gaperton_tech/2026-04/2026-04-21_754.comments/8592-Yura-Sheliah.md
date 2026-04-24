@@ -3,6 +3,7 @@ id: 8592
 date: 2026-04-21T17:21:42+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 8591
 ---
 
 Формальный недоязык мы учим используя естесивенный

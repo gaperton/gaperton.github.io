@@ -3,6 +3,7 @@ id: 3829
 date: 2025-12-05T18:37:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3825
 ---
 
 У меня есть целая коллекция на всю голову ебанутого аниме.

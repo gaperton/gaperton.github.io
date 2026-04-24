@@ -3,6 +3,7 @@ id: 100
 date: 2022-10-13T19:55:50+00:00
 author: Vladimir-Rushay
 author_handle: @vladimir_rushay
+reply_to: 97
 ---
 
 > В целом, чем профессиональнее сотрудники, тем меньше случается трэшака с 1 | 2 -> 3

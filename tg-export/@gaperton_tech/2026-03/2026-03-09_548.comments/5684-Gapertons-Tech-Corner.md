@@ -3,6 +3,7 @@ id: 5684
 date: 2026-03-09T19:17:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5681
 ---
 
 Real-World Examples from 2025–2026 Benchmarks/Community:Single 3090 + 64GB setups run 32B–70B quantized models smoothly at 20–35+ t/s (tokens per second) with no offload penalties.

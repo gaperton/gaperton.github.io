@@ -3,6 +3,7 @@ id: 4237
 date: 2026-01-24T18:43:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4236
 ---
 
 > Может ли быть, что вирусам для проявления агентности нужны другие организмы?

@@ -3,6 +3,7 @@ id: 6834
 date: 2026-03-30T03:59:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6797
 ---
 
 Так, ну там надо короче руками главы просмотреть и вставить пропущенные картинки.

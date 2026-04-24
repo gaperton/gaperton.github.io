@@ -3,6 +3,7 @@ id: 2250
 date: 2025-06-06T16:33:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2249
 ---
 
 Из-за физики приемник большего размера в тряпки порвет любые часы. При прочих равных.

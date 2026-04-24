@@ -3,6 +3,7 @@ id: 3823
 date: 2025-12-05T01:04:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3809
 ---
 
 __Теперь мы готовы уточнить причинную гипотезу.__

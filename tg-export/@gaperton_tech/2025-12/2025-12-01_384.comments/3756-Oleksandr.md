@@ -3,6 +3,7 @@ id: 3756
 date: 2025-12-01T16:30:57+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 3748
 ---
 
 Рост интереса, собственно, зафиксирован.

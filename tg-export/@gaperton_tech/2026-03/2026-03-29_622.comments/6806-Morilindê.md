@@ -3,6 +3,8 @@ id: 6806
 date: 2026-03-30T01:25:21+00:00
 author: Morilindê
 author_handle: @Morilind
+reply_to: 6786
+reply_quote: силлогизмы заменены логикой предикатов
 ---
 
 Как целое может заменить часть?

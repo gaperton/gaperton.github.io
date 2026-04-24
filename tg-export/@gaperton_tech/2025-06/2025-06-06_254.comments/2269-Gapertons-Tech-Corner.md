@@ -3,6 +3,8 @@ id: 2269
 date: 2025-06-06T17:49:25+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2268
+reply_quote: вы скорее всего не знаете ни свой AeT ни LT1, а нужен именно он
 ---
 
 MAF Formula: AeT = 180 - Age 

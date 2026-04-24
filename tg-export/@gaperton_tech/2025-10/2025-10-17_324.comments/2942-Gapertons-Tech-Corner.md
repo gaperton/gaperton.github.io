@@ -3,6 +3,7 @@ id: 2942
 date: 2025-10-18T14:08:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2935
 ---
 
 Я там упростил кстати немного, не пояснив за разные типы необходимости. Это практически важно.

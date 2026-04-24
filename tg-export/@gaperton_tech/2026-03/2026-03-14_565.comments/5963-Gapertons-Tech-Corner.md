@@ -3,6 +3,8 @@ id: 5963
 date: 2026-03-15T01:19:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5955
+reply_quote: 1) Нет не умирают.
 ---
 
 Я ему говорю о чем пост, намекая что все вот это про важность одобрения аспиринов очень далеко от темы поста.

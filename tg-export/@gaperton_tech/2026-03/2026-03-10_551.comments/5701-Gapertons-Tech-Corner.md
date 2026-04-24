@@ -3,6 +3,7 @@ id: 5701
 date: 2026-03-10T05:02:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5700
 ---
 
 На время. Мой ADHD-мозг легко входит в гиперфокус. Переварит это и отпустит.

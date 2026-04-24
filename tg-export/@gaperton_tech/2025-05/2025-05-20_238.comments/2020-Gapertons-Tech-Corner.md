@@ -3,6 +3,7 @@ id: 2020
 date: 2025-05-21T02:33:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2016
 ---
 
 Власть например определяется как способность навязывать правила. 

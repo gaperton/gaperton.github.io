@@ -3,6 +3,7 @@ id: 6821
 date: 2026-03-30T01:46:54+00:00
 author: Morilindê
 author_handle: @Morilind
+reply_to: 6818
 ---
 
 Мы задали аксиомы и из них все вывели по неким правилам вывода.

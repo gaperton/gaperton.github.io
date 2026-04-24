@@ -3,6 +3,8 @@ id: 6511
 date: 2026-03-23T03:17:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6500
+reply_quote: Запусти 'llama-server ... 2>&1 | tee 1.log'
 ---
 
 WARNING: radv is not a conformant Vulkan implementation, testing use only.

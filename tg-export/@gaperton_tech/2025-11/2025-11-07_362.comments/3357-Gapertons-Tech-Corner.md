@@ -3,6 +3,7 @@ id: 3357
 date: 2025-11-09T01:05:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3356
 ---
 
 Кстати, заслушаем на эту тему Эпиктета.

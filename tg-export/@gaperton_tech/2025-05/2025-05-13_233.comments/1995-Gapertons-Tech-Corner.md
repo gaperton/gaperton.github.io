@@ -3,6 +3,7 @@ id: 1995
 date: 2025-05-13T23:59:37+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1979
 ---
 
 Меж тем, вчитаемся.

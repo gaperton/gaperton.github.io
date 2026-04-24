@@ -3,6 +3,7 @@ id: 7326
 date: 2026-04-08T21:38:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7325
 ---
 
 __0–5 сек. Чёрный экран. Низкий гул вентиляторов и далёкий звук электричества.__

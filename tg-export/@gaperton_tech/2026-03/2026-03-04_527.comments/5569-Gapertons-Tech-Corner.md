@@ -3,6 +3,7 @@ id: 5569
 date: 2026-03-04T20:19:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5568
 ---
 
 В целом, оба рефакторинга работают. Qwen годен для кодирования. Отстает от Sonnet но скорее в той же лиге.

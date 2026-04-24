@@ -3,6 +3,7 @@ id: 3912
 date: 2025-12-11T16:23:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3896
 ---
 
 TL/DR. Мне это надоело.

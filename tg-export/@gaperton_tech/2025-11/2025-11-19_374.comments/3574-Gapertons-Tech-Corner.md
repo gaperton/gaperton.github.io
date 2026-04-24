@@ -3,6 +3,8 @@ id: 3574
 date: 2025-11-19T03:43:20+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3571
+reply_quote: что таки центр ситуации
 ---
 
 А вообще, я не очень понимаю что такое "центр ситуации".

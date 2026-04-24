@@ -3,6 +3,7 @@ id: 2544
 date: 2025-08-30T20:11:04+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2543
 ---
 
 Естественно, мне стало интересно, есть ли онлайн-курсы.

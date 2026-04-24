@@ -3,6 +3,7 @@ id: 3128
 date: 2025-10-26T05:11:53+00:00
 author: Maxim-Gavrilov
 author_handle: @maximgavrilov
+reply_to: 3116
 ---
 
 PM — бюрократическая прокладка между теми, кто понимает что нужно сделать, и теми, кто знает как.

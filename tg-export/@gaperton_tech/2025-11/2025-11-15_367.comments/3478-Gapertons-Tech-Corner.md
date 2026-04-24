@@ -3,6 +3,8 @@ id: 3478
 date: 2025-11-15T20:09:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3477
+reply_quote: Я к тому, что некоторые вещи делаются не обязательно из явной выгоды, а по каким-то... не всегда очевидно каким причинам.
 ---
 
 Данная вещь делается по вполне очевидным и понятым причинам. Их [говорят словами через рот](https://www.perplexity.ai/page/amazon-aims-to-eliminate-menia-rDuM9bjxQYuMXV8ZMbCNmw), специально для тех кто умеет понимать речь.

@@ -3,6 +3,7 @@ id: 4433
 date: 2026-01-31T13:57:04+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4424
 ---
 
 The Silicon Zoo: Breaking The Glass Of Moltbook

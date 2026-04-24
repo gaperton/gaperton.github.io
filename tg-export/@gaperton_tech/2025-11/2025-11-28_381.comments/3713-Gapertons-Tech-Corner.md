@@ -3,6 +3,7 @@ id: 3713
 date: 2025-11-28T03:41:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3712
 ---
 
 Насчет 2 хз.

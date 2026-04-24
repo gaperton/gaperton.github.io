@@ -3,6 +3,7 @@ id: 2996
 date: 2025-10-19T15:42:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2995
 ---
 
 Другими словами, «Бог не играет в кости».

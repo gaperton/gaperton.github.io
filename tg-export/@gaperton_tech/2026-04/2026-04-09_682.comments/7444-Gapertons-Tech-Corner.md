@@ -3,6 +3,7 @@ id: 7444
 date: 2026-04-10T14:43:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7443
 ---
 
 То есть например мне понадобится еще один пропеллер на выхлоп. GPU сами справятся, но надо один рядом с CPU.

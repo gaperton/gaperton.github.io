@@ -3,6 +3,7 @@ id: 4404
 date: 2026-01-31T03:54:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4402
 ---
 
 Какой-то долбоеб запустил к ним в соцсеть биткойн-максималиста.

@@ -3,6 +3,7 @@ id: 7634
 date: 2026-04-14T05:49:48+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7633
 ---
 
 Разбить его на набор файлов небольшого размера как первый шаг.

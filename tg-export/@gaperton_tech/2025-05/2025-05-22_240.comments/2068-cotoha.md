@@ -3,6 +3,7 @@ id: 2068
 date: 2025-05-23T10:15:36+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 2051
 ---
 
 < єто у тебя “должно случиться раньше” вроде. 

@@ -3,6 +3,8 @@ id: 3050
 date: 2025-10-24T17:14:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3049
+reply_quote: язык для обсуждения дизайна
 ---
 
 Могу сказать что использую я. 

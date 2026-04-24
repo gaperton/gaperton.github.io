@@ -3,6 +3,7 @@ id: 5415
 date: 2026-02-27T21:57:38+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5407
 ---
 
 Контекст 256К токенов. Скорость 30-40 токенов в секунду.

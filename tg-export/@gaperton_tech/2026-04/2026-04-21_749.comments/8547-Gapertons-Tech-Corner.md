@@ -3,6 +3,7 @@ id: 8547
 date: 2026-04-21T15:21:07+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8525
 ---
 
 То есть у тебя 33 и 45 т/с про полной отгрузке экспертов. Там где у меня 23 и 30.

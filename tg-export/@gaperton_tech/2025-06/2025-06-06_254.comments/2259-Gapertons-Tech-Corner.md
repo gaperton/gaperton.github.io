@@ -3,6 +3,7 @@ id: 2259
 date: 2025-06-06T16:46:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2257
 ---
 
 Я не о том что "лучше" или "удобно".

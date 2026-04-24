@@ -3,6 +3,7 @@ id: 2953
 date: 2025-10-18T18:45:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2952
 ---
 
 В том что думая на естественном языке человек думает именно ей.

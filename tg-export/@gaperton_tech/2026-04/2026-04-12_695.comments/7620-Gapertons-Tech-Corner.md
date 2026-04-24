@@ -3,6 +3,8 @@ id: 7620
 date: 2026-04-13T21:37:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 695
+reply_quote: И пишут что у крестьян с 16GB VRAM тоже заработает, если есть много обычной RAM. Проверим. Не верится что-то.
 ---
 
 Best practice (2025–2026):Set --n-gpu-layers 999 (offload all layers/blocks to GPU as the base). 

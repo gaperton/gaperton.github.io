@@ -3,6 +3,7 @@ id: 3880
 date: 2025-12-09T21:45:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3879
 ---
 
 Я бы вообще советовал почитать о NIT для начала.

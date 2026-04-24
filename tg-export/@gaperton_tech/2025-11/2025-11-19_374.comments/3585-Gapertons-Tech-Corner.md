@@ -3,6 +3,8 @@ id: 3585
 date: 2025-11-19T04:18:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3582
+reply_quote: Но предложение лишь отражает что то что произошло, могло произойти или может произойти.
 ---
 
 Смысла этого не понимаю вообще.

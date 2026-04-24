@@ -3,6 +3,7 @@ id: 5836
 date: 2026-03-13T07:30:37+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5639
 ---
 
 Я тут к рейтингу б/у хочу добавить. ASUS TUF.

@@ -3,6 +3,7 @@ id: 5857
 date: 2026-03-13T22:21:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5855
 ---
 
 Ага, это известная проблема XFCE. Хорошо. Значит Ubuntu Server. Уроды вы рукожопые. Видит бог, не хотел я этого!

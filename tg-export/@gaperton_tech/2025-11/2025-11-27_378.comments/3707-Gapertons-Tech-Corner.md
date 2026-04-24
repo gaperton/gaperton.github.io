@@ -3,6 +3,7 @@ id: 3707
 date: 2025-11-27T19:42:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3701
 ---
 
 В чем дело зависит от того, о чем мы говорим. Если мы говорим о ББД то дело в ББД. Менять тему я не готов.

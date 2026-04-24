@@ -3,6 +3,7 @@ id: 3857
 date: 2025-12-09T16:16:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3856
 ---
 
 Правильно. И это сделано специально. Чтобы протестировать вот это:

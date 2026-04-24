@@ -3,6 +3,7 @@ id: 4042
 date: 2025-12-31T17:24:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4039
 ---
 
 Есть два старых, но очень точных интуитивных ориентира.

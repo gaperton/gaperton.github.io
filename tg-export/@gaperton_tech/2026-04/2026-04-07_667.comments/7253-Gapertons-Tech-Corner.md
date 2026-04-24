@@ -3,6 +3,8 @@ id: 7253
 date: 2026-04-07T17:32:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7239
+reply_quote: через частоту использования после занесения
 ---
 
 С этим есть две проблемы.

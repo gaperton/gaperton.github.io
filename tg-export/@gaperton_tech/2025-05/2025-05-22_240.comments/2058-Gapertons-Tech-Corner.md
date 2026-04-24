@@ -3,6 +3,7 @@ id: 2058
 date: 2025-05-22T19:51:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2051
 ---
 
 В общем, семантика примерно есть, но я не очень понимаю как об этом писать человеческим языком. Пока.

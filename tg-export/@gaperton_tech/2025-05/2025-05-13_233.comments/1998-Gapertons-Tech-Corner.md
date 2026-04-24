@@ -3,6 +3,7 @@ id: 1998
 date: 2025-05-14T00:30:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1997
 ---
 
 __А почему ты форматируешь это как стихи?__

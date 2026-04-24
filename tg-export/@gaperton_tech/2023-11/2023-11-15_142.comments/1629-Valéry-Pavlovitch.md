@@ -3,6 +3,7 @@ id: 1629
 date: 2024-07-31T10:27:40+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 1254
 ---
 
 https://chat.openai.com/g/g-o8dtzPQFX-zashchita-ot-temnykh-iskusstv

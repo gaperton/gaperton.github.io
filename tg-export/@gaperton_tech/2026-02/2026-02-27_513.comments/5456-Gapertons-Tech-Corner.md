@@ -3,6 +3,8 @@ id: 5456
 date: 2026-02-28T19:18:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5431
+reply_quote: Затык у него не в генерации, а в скорости чтения.
 ---
 
 И кажется я знаю как это порешать.

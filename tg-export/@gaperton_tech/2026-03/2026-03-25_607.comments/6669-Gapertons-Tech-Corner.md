@@ -3,6 +3,7 @@ id: 6669
 date: 2026-03-25T18:07:20+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6663
 ---
 
 Yes, there is a growing movement and active experimentation to adapt **Extreme Programming (XP) **specifically for workflows involving AI coding agents like **Claude Code**.

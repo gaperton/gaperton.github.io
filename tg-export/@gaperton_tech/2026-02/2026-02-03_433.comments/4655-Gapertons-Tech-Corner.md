@@ -3,6 +3,7 @@ id: 4655
 date: 2026-02-05T19:15:26+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4654
 ---
 
 Сделаем скрипт кароч.

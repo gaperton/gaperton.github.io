@@ -3,6 +3,7 @@ id: 4309
 date: 2026-01-27T01:39:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4307
 ---
 
 The importance of nomenclature, notation, and language as tools of thought has long been recognized. In chemistry and in botany, for example, the establishment of systems of nomenclature by Lavoisier and Linnaeus did much to stimulate and to channel later investigation. Concerning language, George Boole in his Laws of Thought asserted "That language is an instrument of human reason, and not merely a medium for the expression of thought, is a truth generally admitted."

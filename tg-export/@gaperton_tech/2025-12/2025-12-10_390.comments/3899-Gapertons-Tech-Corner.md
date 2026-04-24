@@ -3,6 +3,7 @@ id: 3899
 date: 2025-12-10T16:26:06+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3898
 ---
 
 🤖 AI, встроенный в финансовую структуру, усиливает не знания, а прибыль владельцев капитала

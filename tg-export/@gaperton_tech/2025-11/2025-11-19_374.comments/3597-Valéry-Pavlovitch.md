@@ -3,6 +3,8 @@ id: 3597
 date: 2025-11-19T14:14:20+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3595
+reply_quote: путает предикат с глаголом
 ---
 
 нам нужно больше лингвистического просвещения!

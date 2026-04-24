@@ -3,6 +3,7 @@ id: 3720
 date: 2025-11-28T04:31:37+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3693
 ---
 
 **Самая важная мысль**

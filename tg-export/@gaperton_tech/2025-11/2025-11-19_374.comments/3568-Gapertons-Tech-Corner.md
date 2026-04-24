@@ -3,6 +3,7 @@ id: 3568
 date: 2025-11-19T02:51:15+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3557
 ---
 
 Говорит, новую теорию среднего уровня родил.

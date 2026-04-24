@@ -3,6 +3,7 @@ id: 2796
 date: 2025-10-03T14:21:54+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 2794
 ---
 
 удивительно что в золоте линейно растет с расширяющейся амплитудой. 

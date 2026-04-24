@@ -3,6 +3,7 @@ id: 6496
 date: 2026-03-22T17:52:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6491
 ---
 
 Best: Restrict Vulkan to only the AMD ICD (this hides the Intel one entirely, so no warning and no chance of fallback):Find the AMD ICD file (usually one of these; check your system): 

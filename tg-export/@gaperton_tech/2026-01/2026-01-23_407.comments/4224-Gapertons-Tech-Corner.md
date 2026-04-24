@@ -3,6 +3,8 @@ id: 4224
 date: 2026-01-24T17:38:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4215
+reply_quote: насколько понимаю, Вы в своем цикле статей будете доказывать, что не возможна.
 ---
 
 Нет, это не моя цель. Цикл статей вообще не об LLM.

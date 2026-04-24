@@ -3,6 +3,7 @@ id: 5910
 date: 2026-03-14T21:00:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5908
 ---
 
 Да, и в линукс с драйверами у AMD все прям сильно лучше.

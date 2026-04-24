@@ -3,6 +3,7 @@ id: 1970
 date: 2025-05-09T05:04:05+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1967
 ---
 
 **✝️ Притча о важности формы**

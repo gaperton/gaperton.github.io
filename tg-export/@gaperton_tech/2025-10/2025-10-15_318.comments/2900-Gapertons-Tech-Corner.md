@@ -3,6 +3,7 @@ id: 2900
 date: 2025-10-15T18:15:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2899
 ---
 
 **📚 3. Принцип “контраста языков**”

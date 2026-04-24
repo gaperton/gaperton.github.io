@@ -3,6 +3,7 @@ id: 5265
 date: 2026-02-25T05:25:57+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 5264
 ---
 
 а вы гоняете локальные LLM?

@@ -3,6 +3,7 @@ id: 5647
 date: 2026-03-08T23:47:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5644
 ---
 
 Ты как анархист-либертарианец конечно на моральный аргумент клюнул, да? 🙂

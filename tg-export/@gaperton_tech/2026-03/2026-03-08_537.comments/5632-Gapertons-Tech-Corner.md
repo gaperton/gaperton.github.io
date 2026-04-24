@@ -3,6 +3,7 @@ id: 5632
 date: 2026-03-08T17:02:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5626
 ---
 
 Лучшей опцией будут 2х5060Ti

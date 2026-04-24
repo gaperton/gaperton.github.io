@@ -3,6 +3,7 @@ id: 4465
 date: 2026-01-31T18:43:05+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4461
 ---
 
 а потом нам долго врали сми, что не было никакой лаборатории.

@@ -3,6 +3,7 @@ id: 7046
 date: 2026-04-04T12:01:46+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 7027
 ---
 
 вроде так мы и работаем с кодом

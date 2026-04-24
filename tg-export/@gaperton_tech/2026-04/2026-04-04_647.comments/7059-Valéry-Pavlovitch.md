@@ -3,6 +3,8 @@ id: 7059
 date: 2026-04-04T15:31:08+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 7053
+reply_quote: С тех пор не было заметного улучшения моделей.
 ---
 
 субъективно ``gpt-5.3-code`x` в декабре это был прорыв в т.ч. в рефакторинге.

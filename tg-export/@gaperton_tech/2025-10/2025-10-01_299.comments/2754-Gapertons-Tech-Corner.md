@@ -3,6 +3,7 @@ id: 2754
 date: 2025-10-01T20:45:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2753
 ---
 
 Из бессмысленных фраз ничего следовать не может, даже если их взять в кавычки.

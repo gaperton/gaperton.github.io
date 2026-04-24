@@ -3,6 +3,7 @@ id: 5215
 date: 2026-02-23T16:04:07+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 5214
 ---
 
 у меня сейчас MBP с 96G и там в целом not terribly трепыхается 80B модель, угу. Хоббипроекты вполне пилит.

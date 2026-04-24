@@ -3,6 +3,7 @@ id: 3871
 date: 2025-12-09T18:33:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3866
 ---
 
 В чем разница с ББД для работающих с з/п больше 24 тысяч?

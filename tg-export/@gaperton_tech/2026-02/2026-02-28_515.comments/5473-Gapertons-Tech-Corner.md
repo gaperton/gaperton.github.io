@@ -3,6 +3,7 @@ id: 5473
 date: 2026-03-01T05:45:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5435
 ---
 
 Вот совсем интересный ответ на вопрос что такое квантизация

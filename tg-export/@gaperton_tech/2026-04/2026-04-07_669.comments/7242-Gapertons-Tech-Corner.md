@@ -3,6 +3,7 @@ id: 7242
 date: 2026-04-07T16:02:27+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7238
 ---
 
 Я столкнулся с трудностями и отложил её.

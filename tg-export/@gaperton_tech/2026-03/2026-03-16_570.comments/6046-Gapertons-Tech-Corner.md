@@ -3,6 +3,7 @@ id: 6046
 date: 2026-03-16T22:41:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6044
 ---
 
 Ну так, чтобы Mac Studio не казался дорогим. Там неплохо ещё бы и обычной памяти 128 гиг, А это на минуточку два косаря сейчас за DDR5.

@@ -3,6 +3,7 @@ id: 5908
 date: 2026-03-14T20:55:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5906
 ---
 
 А может не ебать мозга, и чуть доплатить? Три таких карты это 96GB VRAM на минуточку. 120B модели должны завестись.

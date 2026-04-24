@@ -3,6 +3,7 @@ id: 4942
 date: 2026-02-13T16:53:03+00:00
 author: Maxim-Gavrilov
 author_handle: @maximgavrilov
+reply_to: 4934
 ---
 
 У меня опыта немного, я только год как похудевший. Но мне сильно помогло от срывов:

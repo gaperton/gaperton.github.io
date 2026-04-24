@@ -3,6 +3,7 @@ id: 5493
 date: 2026-03-02T14:32:51+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5485
 ---
 
 Только сократить промпт, для чего прикрутить RAG по коду.

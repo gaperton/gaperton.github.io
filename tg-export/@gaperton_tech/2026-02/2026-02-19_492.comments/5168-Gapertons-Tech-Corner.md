@@ -3,6 +3,7 @@ id: 5168
 date: 2026-02-19T16:23:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5167
 ---
 
 В Discussion вообще-то должна causal model быть. Без нее это все народные приметы, пусть и пропущенные сквозь статистику.

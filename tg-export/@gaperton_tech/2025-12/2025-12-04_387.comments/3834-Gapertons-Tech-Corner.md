@@ -3,6 +3,8 @@ id: 3834
 date: 2025-12-06T15:41:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3833
+reply_quote: С Аквинским трудно не согласится.
 ---
 
 Тут правда есть тонкость.

@@ -3,6 +3,7 @@ id: 6727
 date: 2026-03-27T07:10:51+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6726
 ---
 
 Ну кстати, да. Энциклопедию да языковую модель в ром. И вполне нормальный продукт.

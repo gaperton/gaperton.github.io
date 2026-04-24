@@ -3,6 +3,7 @@ id: 4310
 date: 2026-01-27T01:46:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4307
 ---
 
 __🥁 А теперь, поимеем немного фана, и скормим это все Reasoning Assistant.__

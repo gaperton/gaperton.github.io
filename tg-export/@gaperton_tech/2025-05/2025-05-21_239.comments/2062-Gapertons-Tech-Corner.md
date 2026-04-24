@@ -3,6 +3,7 @@ id: 2062
 date: 2025-05-22T21:05:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2061
 ---
 
 Учился или нет -- не важно, если он хочет не тебя понять, а чего-то другого.

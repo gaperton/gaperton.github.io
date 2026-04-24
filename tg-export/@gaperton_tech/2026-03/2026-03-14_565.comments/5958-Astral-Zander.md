@@ -3,6 +3,8 @@ id: 5958
 date: 2026-03-15T00:44:41+00:00
 author: Astral-Zander
 author_handle: @deadphilosopher
+reply_to: 5956
+reply_quote: the science changed
 ---
 
 Шок контент, наука действительно меняется и исследования проводятся.

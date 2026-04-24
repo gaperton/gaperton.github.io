@@ -3,6 +3,7 @@ id: 4477
 date: 2026-01-31T20:08:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4471
 ---
 
 А это идея. Уболтать его и он по дружбе все отдаст.

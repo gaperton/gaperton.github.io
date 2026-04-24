@@ -3,6 +3,7 @@ id: 4678
 date: 2026-02-06T17:15:24+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4675
 ---
 
 Для LLM надо писать как для человека. И все.

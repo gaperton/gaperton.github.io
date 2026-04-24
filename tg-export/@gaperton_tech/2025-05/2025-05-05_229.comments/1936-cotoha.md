@@ -3,6 +3,7 @@ id: 1936
 date: 2025-05-05T19:14:11+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 1925
 ---
 
 Та тут недавно еще чтото красивое бьіло...

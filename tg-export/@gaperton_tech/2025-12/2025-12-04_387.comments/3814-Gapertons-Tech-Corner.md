@@ -3,6 +3,7 @@ id: 3814
 date: 2025-12-05T00:20:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3809
 ---
 
 🤖 В сумме твоя тройка (аэробика + мощность + координация) хорошо ложится на то, что сегодня знают про:

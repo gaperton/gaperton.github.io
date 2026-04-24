@@ -3,6 +3,7 @@ id: 4476
 date: 2026-01-31T19:17:09+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4475
 ---
 
 да, фон нейман с тем что программы это тоже данные заложил вот это всё.

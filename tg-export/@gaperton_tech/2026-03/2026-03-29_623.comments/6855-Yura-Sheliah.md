@@ -3,6 +3,7 @@ id: 6855
 date: 2026-03-30T07:07:29+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6853
 ---
 
 У меня тоже появилась эта идея. :) так копирайт на всякий gpl обходят.

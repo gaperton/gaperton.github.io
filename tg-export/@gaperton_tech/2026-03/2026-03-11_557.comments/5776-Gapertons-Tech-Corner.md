@@ -3,6 +3,7 @@ id: 5776
 date: 2026-03-11T21:34:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5775
 ---
 
 Я думаю тесты просто не видят разницы между 27B и 122B, но это совсем не значит что ее нет.

@@ -3,6 +3,7 @@ id: 3554
 date: 2025-11-18T20:44:07+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3526
 ---
 
 Оно обстоятельство, но это -- синтаксис, а не семантика.

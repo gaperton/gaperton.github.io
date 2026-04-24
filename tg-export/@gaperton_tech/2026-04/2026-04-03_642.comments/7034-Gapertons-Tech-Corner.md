@@ -3,6 +3,7 @@ id: 7034
 date: 2026-04-04T00:01:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7033
 ---
 
 О, придумал. Надо забанить в X слово karpathy. Я уже устал слышать имя этого долбоеба повторяемое хором долбоебов.

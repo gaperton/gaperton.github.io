@@ -3,6 +3,7 @@ id: 2994
 date: 2025-10-19T15:29:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2990
 ---
 
 Чтоб пояснить мысль Макса тем кто пропустил тонкости современной космологии.

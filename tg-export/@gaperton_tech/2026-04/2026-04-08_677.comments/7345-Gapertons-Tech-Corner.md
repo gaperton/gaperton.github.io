@@ -3,6 +3,7 @@ id: 7345
 date: 2026-04-08T23:18:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7344
 ---
 
 А вот  прелюбопытный отчёт чувака https://forum.level1techs.com/t/dual-r9700-weirdness/247159/3

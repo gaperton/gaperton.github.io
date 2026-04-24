@@ -3,6 +3,7 @@ id: 5270
 date: 2026-02-25T05:49:51+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 5268
 ---
 
 почему чудо? 128Gb RAM же,  IMHO ничего кроме memory wall очередного нет... 

@@ -3,6 +3,7 @@ id: 2008
 date: 2025-05-14T03:56:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2002
 ---
 
 Вызванное существо рассказывает нам о том, какие классы существ можно вызвать в модели.

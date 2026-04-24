@@ -3,6 +3,7 @@ id: 3555
 date: 2025-11-18T21:10:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3523
 ---
 
 И еще, я думаю, а не написать ли софтину для анализа и разметки текста? 🤔

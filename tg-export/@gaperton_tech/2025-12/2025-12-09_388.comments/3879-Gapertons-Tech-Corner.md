@@ -3,6 +3,7 @@ id: 3879
 date: 2025-12-09T21:33:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3876
 ---
 
 А ББД такой где существует?

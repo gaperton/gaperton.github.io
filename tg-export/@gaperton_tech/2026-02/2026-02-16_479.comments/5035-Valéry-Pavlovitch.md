@@ -3,6 +3,8 @@ id: 5035
 date: 2026-02-16T04:16:39+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 5034
+reply_quote: что-то такое там у мужчин прописано где-то внутри
 ---
 
 чувствуется какое-то тонкое пренебрежение.

@@ -3,6 +3,8 @@ id: 3251
 date: 2025-11-02T19:52:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3249
+reply_quote: по идее
 ---
 
 По какой именно идее?

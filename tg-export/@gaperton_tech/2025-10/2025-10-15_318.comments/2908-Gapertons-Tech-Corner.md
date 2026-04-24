@@ -3,6 +3,7 @@ id: 2908
 date: 2025-10-16T00:33:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2883
 ---
 
 Му-ха-ха. Ошибку в учебнике нашел чтением со своей таблицей. Проверил через чат. Ага, я прав.

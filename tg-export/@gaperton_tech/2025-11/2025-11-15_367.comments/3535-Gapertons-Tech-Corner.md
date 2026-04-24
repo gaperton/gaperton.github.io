@@ -3,6 +3,7 @@ id: 3535
 date: 2025-11-18T14:55:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3534
 ---
 
 Добавить надо объяснение, почему промышленная революция вытащила людей из нищеты.

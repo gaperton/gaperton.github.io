@@ -3,6 +3,8 @@ id: 3751
 date: 2025-12-01T15:56:51+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3749
+reply_quote: вообще из нвидии много кто вышел
 ---
 
 Фонд Баффета сейчас держит 56 % портфеля в кэше. Так, между прочим.

@@ -3,6 +3,7 @@ id: 5821
 date: 2026-03-12T19:53:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5820
 ---
 
 __This document describes the core protocol for our team’s standup meetings. Different teams use different approaches; this is ours. These rules are enforced in every meeting, but we list them explicitly here as a shared reference.__

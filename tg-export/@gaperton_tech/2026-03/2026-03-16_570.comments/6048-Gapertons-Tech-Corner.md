@@ -3,6 +3,7 @@ id: 6048
 date: 2026-03-16T22:47:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6047
 ---
 
 Это ещё и электричество жрёт так что ну его на хер. Mac Studio начинает рвать все вот это в тряпки.

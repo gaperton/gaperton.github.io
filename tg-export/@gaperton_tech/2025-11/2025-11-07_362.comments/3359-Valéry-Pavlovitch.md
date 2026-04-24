@@ -3,6 +3,7 @@ id: 3359
 date: 2025-11-09T15:58:54+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3356
 ---
 
 Один небезызвестный автор раскатал эту мысль на целую книгу "Бегство от свободы".

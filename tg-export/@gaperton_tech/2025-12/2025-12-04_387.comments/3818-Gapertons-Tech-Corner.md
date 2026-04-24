@@ -3,6 +3,7 @@ id: 3818
 date: 2025-12-05T00:40:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3817
 ---
 
 Сабля заменена на мейс пока. Все было очень плохо год назад, рука почти не двигалась.

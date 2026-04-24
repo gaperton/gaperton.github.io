@@ -3,6 +3,7 @@ id: 1626
 date: 2024-03-22T21:20:00+00:00
 author: Aleks-Sсhubert
 author_handle: @HowlingFjords
+reply_to: 1618
 ---
 
 Уже лет 15 не пользовался почтовыми клиентами на десктопе…

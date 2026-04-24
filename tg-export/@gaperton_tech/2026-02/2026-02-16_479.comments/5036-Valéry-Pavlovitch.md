@@ -3,6 +3,8 @@ id: 5036
 date: 2026-02-16T04:18:40+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 5034
+reply_quote: Зачем?
 ---
 
 очевидно потому что с современными женщинами проблемы. 

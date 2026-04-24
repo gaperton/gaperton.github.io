@@ -3,6 +3,7 @@ id: 3404
 date: 2025-11-10T19:02:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3402
 ---
 
 6) Логическая свёртка (премиссы → вывод)

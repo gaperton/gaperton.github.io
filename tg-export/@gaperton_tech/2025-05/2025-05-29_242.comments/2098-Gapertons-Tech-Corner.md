@@ -3,6 +3,7 @@ id: 2098
 date: 2025-05-29T13:44:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2094
 ---
 
 ❓ **Что такое LTL плюс алетическая модальность, понимаемая эпистемически?**

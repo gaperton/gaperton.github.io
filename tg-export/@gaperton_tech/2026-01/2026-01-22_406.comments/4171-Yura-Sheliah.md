@@ -3,6 +3,7 @@ id: 4171
 date: 2026-01-22T11:51:19+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 4169
 ---
 
 Ну они как бачок получаются. Медленный контур в руках людей.

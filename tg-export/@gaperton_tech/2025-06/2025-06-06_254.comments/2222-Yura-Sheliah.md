@@ -3,6 +3,7 @@ id: 2222
 date: 2025-06-06T15:46:21+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 2221
 ---
 
 Чтоб он VO2max показал, ему надо обычно high intensity run  с пульсом в районе 150 bpm иначе они ошибаются больше, как минимум Гармин.

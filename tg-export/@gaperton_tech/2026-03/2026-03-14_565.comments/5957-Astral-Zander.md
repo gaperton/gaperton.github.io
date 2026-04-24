@@ -3,6 +3,7 @@ id: 5957
 date: 2026-03-15T00:43:52+00:00
 author: Astral-Zander
 author_handle: @deadphilosopher
+reply_to: 5954
 ---
 
 А не было бы ФДА - может и не пришлось бы =)

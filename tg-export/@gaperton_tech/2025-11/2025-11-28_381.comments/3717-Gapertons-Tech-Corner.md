@@ -3,6 +3,7 @@ id: 3717
 date: 2025-11-28T04:10:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3716
 ---
 
 Очень хорош для писем на английском. Особенно когда надо нахуй послать культурно. Если ты понимаешь о чем я. “Let me no-brainer disagree with you”

@@ -3,6 +3,7 @@ id: 7302
 date: 2026-04-08T20:02:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7300
 ---
 
 Это должно быть как моя x570 если там 2 слота v3 x16. Потому что v4 вдвое быстрее v3.

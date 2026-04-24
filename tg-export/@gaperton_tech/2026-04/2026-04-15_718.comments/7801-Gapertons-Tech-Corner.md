@@ -3,6 +3,7 @@ id: 7801
 date: 2026-04-15T18:21:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7799
 ---
 
 Qwen3.5-9B считается уже не полным дегенератом и полезной. Это наверное лучшее что влезает к тебе целиком.

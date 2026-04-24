@@ -3,6 +3,7 @@ id: 3715
 date: 2025-11-28T03:49:13+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3712
 ---
 
 Это в части софта.

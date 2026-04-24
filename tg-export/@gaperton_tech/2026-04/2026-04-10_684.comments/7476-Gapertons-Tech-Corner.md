@@ -3,6 +3,7 @@ id: 7476
 date: 2026-04-10T21:01:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7475
 ---
 
 Английский потом. Сильно потом.

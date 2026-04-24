@@ -3,6 +3,7 @@ id: 6924
 date: 2026-03-31T21:44:05+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6923
 ---
 
 Силлогизмы надо отредактировать 

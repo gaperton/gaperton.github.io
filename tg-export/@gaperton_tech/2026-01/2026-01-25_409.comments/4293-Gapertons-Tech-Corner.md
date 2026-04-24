@@ -3,6 +3,7 @@ id: 4293
 date: 2026-01-25T17:57:25+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4278
 ---
 
 Для тех кому нравился XCom — [Tactical Breach Wizards](https://store.steampowered.com/app/1043810/Tactical_Breach_Wizards/)!

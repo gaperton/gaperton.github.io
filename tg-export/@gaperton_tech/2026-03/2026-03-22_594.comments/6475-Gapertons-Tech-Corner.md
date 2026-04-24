@@ -3,6 +3,7 @@ id: 6475
 date: 2026-03-22T15:47:13+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6474
 ---
 
 Обычно это когда в VRAM что-то не лезет. Проверь хватает ли памяти при загрузке, и загрузился ли ты без гуя.

@@ -3,6 +3,7 @@ id: 5979
 date: 2026-03-15T15:46:44+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5978
 ---
 
 Ну у меня план взять его новый и посмотреть. Если говно - вернуть.

@@ -3,6 +3,8 @@ id: 3468
 date: 2025-11-13T15:33:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3465
+reply_quote: "верой" в бытовом понимании?
 ---
 
 Что вообще такое "вера в бытовом понимании"? Я не понимаю. Определим?

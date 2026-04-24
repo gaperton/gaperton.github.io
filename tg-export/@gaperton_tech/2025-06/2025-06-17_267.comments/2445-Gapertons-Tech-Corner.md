@@ -3,6 +3,7 @@ id: 2445
 date: 2025-06-17T11:59:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2444
 ---
 
 Нет. Если речь о животных, это о равенстве вознаграждения за равную работу.

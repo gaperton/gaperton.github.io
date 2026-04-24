@@ -3,6 +3,7 @@ id: 6017
 date: 2026-03-16T16:57:35+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6011
 ---
 
 Да там все :) Дело даже столько в новом ядре, а в том что под старый lts по дефолту в последних ROCm и HIP нету.

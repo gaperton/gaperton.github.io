@@ -3,6 +3,7 @@ id: 3706
 date: 2025-11-27T19:36:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3700
 ---
 
 Нет. Но в нем мой старый метакогнитивный промпт как инструкция для всего.

@@ -3,6 +3,7 @@ id: 3364
 date: 2025-11-09T16:36:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3362
 ---
 
 Кстати таки да. Все начинается с этой метафоры.

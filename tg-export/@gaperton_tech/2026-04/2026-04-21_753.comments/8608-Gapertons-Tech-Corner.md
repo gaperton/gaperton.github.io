@@ -3,6 +3,8 @@ id: 8608
 date: 2026-04-21T20:57:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8607
+reply_quote: Если бы было так
 ---
 
 Было так. Точно. Иначе бы рабство просто отменили и все. И никто б войны не воевал с югом.

@@ -3,6 +3,7 @@ id: 3943
 date: 2025-12-17T17:39:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3940
 ---
 
 Ты не интерпретировал, ты выдумал что-то абсурдное, предположив, что я это "хотел сказать".

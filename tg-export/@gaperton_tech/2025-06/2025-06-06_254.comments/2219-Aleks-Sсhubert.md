@@ -3,6 +3,7 @@ id: 2219
 date: 2025-06-06T15:25:03+00:00
 author: Aleks-Sсhubert
 author_handle: @HowlingFjords
+reply_to: 2218
 ---
 
 ~~~~пульс необходим. Шаги нет, нужна дистанция-время.

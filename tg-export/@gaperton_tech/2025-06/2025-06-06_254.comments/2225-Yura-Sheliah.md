@@ -3,6 +3,7 @@ id: 2225
 date: 2025-06-06T15:53:30+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 2224
 ---
 
 Ну моим два года ещё нет. Я бы сейчас может от Suunto взял для бега.

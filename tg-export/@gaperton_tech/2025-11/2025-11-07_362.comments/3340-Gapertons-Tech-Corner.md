@@ -3,6 +3,7 @@ id: 3340
 date: 2025-11-07T18:48:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3335
 ---
 
 О! Буду говорить с ним по-римски. 

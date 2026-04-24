@@ -3,6 +3,7 @@ id: 5961
 date: 2026-03-15T01:00:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5959
 ---
 
 Он подумал, я ему угрожаю :).

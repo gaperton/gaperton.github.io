@@ -3,6 +3,7 @@ id: 8374
 date: 2026-04-20T16:28:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8373
 ---
 
 Хз, может и правда вернуть одну R9700, и заменить на 5090. Уже в общем ясно что толку с двух R9700 все равно хуй.

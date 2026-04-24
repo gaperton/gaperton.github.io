@@ -3,6 +3,7 @@ id: 3053
 date: 2025-10-24T18:07:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3052
 ---
 
 🤖 В 2001-м выходит Agile Manifesto — документ на полстраницы, в котором всё разумно: здравый инженерный компромисс между планом и практикой. 

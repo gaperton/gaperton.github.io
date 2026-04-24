@@ -3,6 +3,7 @@ id: 6840
 date: 2026-03-30T06:02:43+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6838
 ---
 
 Кстати я не думаю что права его, наверное у издателя.

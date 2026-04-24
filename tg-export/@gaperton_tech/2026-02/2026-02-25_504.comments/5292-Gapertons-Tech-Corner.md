@@ -3,6 +3,7 @@ id: 5292
 date: 2026-02-25T17:31:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5290
 ---
 
 Представляем серию средних моделей Qwen 3.5

@@ -3,6 +3,8 @@ id: 2188
 date: 2025-06-01T14:34:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2178
+reply_quote: самореферентных терминов. Справедливость, по всей видимости, к таковым и относиться.
 ---
 
 Это удивительно. Но нет.

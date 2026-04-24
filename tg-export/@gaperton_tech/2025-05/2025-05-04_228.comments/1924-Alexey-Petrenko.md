@@ -3,6 +3,7 @@ id: 1924
 date: 2025-05-04T03:49:13+00:00
 author: Alexey-Petrenko
 author_handle: @curiosityrvr
+reply_to: 1923
 ---
 
 The future’s so bright I gotta wear shades!

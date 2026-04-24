@@ -3,6 +3,7 @@ id: 4127
 date: 2026-01-21T22:17:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4126
 ---
 
 Это отличие, но дело не только и не столько в размножении.

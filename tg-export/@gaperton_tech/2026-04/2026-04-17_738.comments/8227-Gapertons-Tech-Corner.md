@@ -3,6 +3,7 @@ id: 8227
 date: 2026-04-18T15:54:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8226
 ---
 
 А я тем временем causal model нашего чуда вскрою. Для чего надо вайбкодить шелл-скрипты. У меня уже тест харнесс на bash объемом што песдец.

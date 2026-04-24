@@ -3,6 +3,7 @@ id: 2696
 date: 2025-09-29T18:13:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2694
 ---
 
 У нас уже год как массовые сокращения в IT и люди не могут найти работу. NYT и прочие списывают это на AI.

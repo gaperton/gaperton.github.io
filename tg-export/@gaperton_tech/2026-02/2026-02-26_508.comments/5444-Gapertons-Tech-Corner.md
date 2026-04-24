@@ -3,6 +3,7 @@ id: 5444
 date: 2026-02-28T05:35:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5437
 ---
 
 122B-A10B, да. На нее вся надежда.

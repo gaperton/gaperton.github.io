@@ -3,6 +3,7 @@ id: 341
 date: 2022-12-25T02:37:33+00:00
 author: Aleks-Sсhubert
 author_handle: @HowlingFjords
+reply_to: 318
 ---
 
 >  и многие отказываются от ORM

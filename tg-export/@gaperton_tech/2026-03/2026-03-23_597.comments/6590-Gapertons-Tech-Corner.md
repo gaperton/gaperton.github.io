@@ -3,6 +3,7 @@ id: 6590
 date: 2026-03-23T17:53:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6586
 ---
 
 Я учился в одной группе с Огуряевым, он был советником Шадаева. Но не долго. Что-то пошло не так.

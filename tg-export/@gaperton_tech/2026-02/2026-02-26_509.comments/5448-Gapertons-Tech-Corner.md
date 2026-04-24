@@ -3,6 +3,7 @@ id: 5448
 date: 2026-02-28T06:08:56+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5380
 ---
 
 Примерно половина готова отдать 1-3 тысячи. остальные кто во что горазд.

@@ -3,6 +3,7 @@ id: 6026
 date: 2026-03-16T17:22:59+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 6025
 ---
 
 у меня этого железа нет, увы... 

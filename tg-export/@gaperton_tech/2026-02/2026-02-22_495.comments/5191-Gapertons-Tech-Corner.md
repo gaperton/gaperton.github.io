@@ -3,6 +3,7 @@ id: 5191
 date: 2026-02-22T21:43:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5189
 ---
 
 👆 А я скажу вот что.

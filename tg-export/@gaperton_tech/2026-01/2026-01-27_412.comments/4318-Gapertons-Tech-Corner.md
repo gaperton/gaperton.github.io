@@ -3,6 +3,7 @@ id: 4318
 date: 2026-01-27T03:16:15+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4316
 ---
 
 👨 velisne loquor lingua latina?

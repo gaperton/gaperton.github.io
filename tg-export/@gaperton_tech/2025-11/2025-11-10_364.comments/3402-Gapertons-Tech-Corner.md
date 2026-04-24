@@ -3,6 +3,7 @@ id: 3402
 date: 2025-11-10T18:50:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3384
 ---
 
 Резюме моего тезиса.

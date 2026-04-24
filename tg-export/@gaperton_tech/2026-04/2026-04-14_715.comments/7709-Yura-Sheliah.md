@@ -3,6 +3,7 @@ id: 7709
 date: 2026-04-15T08:03:17+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 7708
 ---
 
 Вот тут https://youtu.be/efQPFhZmhAo?is=SWJIIYSXxf4H3Rif

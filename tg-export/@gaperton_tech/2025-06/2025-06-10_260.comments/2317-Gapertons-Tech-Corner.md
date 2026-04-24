@@ -3,6 +3,7 @@ id: 2317
 date: 2025-06-10T02:47:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2312
 ---
 
 Бля, еще индукция-абдукция-дедукция. Это у нас, по ходу, и есть "думать".

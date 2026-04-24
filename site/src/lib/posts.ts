@@ -36,6 +36,7 @@ export interface Comment {
   authorHandle?: string;
   bodyHtml: string;
   images: string[];
+  replyTo?: { author: string; preview: string };
 }
 
 function isMonthDir(name: string): boolean {
@@ -51,9 +52,15 @@ function slugToDate(slug: string): string {
 }
 
 // gray-matter uses js-yaml which rejects bare @ values (YAML reserved).
-// Quote any frontmatter value that starts with @ before parsing.
+// Also single-quote reply_quote values which may contain colons, double-quotes, etc.
 function fixFrontmatter(raw: string): string {
-  return raw.replace(/^([ \t]*[\w_]+:\s*)(@\S+)/gm, '$1"$2"');
+  return raw
+    .replace(/^([ \t]*[\w_]+:\s*)(@\S+)/gm, '$1"$2"')
+    .replace(/^(reply_quote:\s*)(.+)$/gm, (_match, key, val) => {
+      if (val.startsWith("'")) return _match; // already single-quoted
+      const escaped = val.replace(/'/g, "''");
+      return `${key}'${escaped}'`;
+    });
 }
 
 function renderMarkdown(src: string): string {
@@ -192,8 +199,27 @@ export function getPost(month: string, slug: string): PostDetail {
         authorHandle: cd.author_handle ? String(cd.author_handle) : undefined,
         bodyHtml: renderMarkdown(cc),
         images: getCommentImages(month, slug, fileBase),
-      });
+        _replyToId: cd.reply_to ? Number(cd.reply_to) : undefined,
+        _replyQuote: cd.reply_quote ? String(cd.reply_quote) : undefined,
+      } as Comment & { _replyToId?: number; _replyQuote?: string });
     }
+  }
+
+  // Resolve reply_to references
+  type Tmp = Comment & { _replyToId?: number; _replyQuote?: string };
+  const byId = new Map(comments.map(c => [c.id, c]));
+  for (const c of comments as Tmp[]) {
+    if (c._replyToId) {
+      const explicitQuote = c._replyQuote;
+      const ref = byId.get(c._replyToId);
+      // prefer the exact selected quote; fall back to first 160 chars of the referenced message
+      const preview = explicitQuote ?? ref?.bodyHtml.replace(/<[^>]+>/g, '').trim().slice(0, 160);
+      if (preview) {
+        c.replyTo = { author: ref?.author ?? '…', preview };
+      }
+    }
+    delete c._replyToId;
+    delete c._replyQuote;
   }
 
   return {

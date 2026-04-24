@@ -3,6 +3,7 @@ id: 2299
 date: 2025-06-09T20:43:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2298
 ---
 
 Нет, он не выводим из закона непротиворечия. И логика не сводится к математическим формулам.

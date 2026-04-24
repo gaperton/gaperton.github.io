@@ -3,6 +3,7 @@ id: 7734
 date: 2026-04-15T14:39:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7733
 ---
 
 Пиздец с ценами на железо временный и пройдет с отменой планов на датацентры, что неизбежно.

@@ -3,6 +3,7 @@ id: 6058
 date: 2026-03-17T02:47:04+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 6031
 ---
 
 M4 Max вполне себе на MXFP4 с MLX живет =)

@@ -3,6 +3,7 @@ id: 3245
 date: 2025-11-02T18:34:10+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 3243
 ---
 
 Ну ты прям перечислил восстановительный комплекс от моего кардиолога, Влад 👍

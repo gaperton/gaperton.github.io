@@ -3,6 +3,7 @@ id: 2584
 date: 2025-09-07T19:21:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2578
 ---
 
 **Нужна ли взрослому грамматика при изучении второго языка?**

@@ -3,6 +3,7 @@ id: 7232
 date: 2026-04-07T14:42:56+00:00
 author: Sergey-Korobitsin
 author_handle: @randalfcarter
+reply_to: 7229
 ---
 
 наши в хаскелле были раньше!

@@ -3,6 +3,8 @@ id: 4149
 date: 2026-01-22T04:33:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4148
+reply_quote: Гомеостаз — он, ну, мешает.
 ---
 
 Вы ведь знаете, что у вас тоже есть гомеостаз, да? 🙂 И у меня есть. Есть у кошки, и собачки. У e.coli, и слизевика.

@@ -3,6 +3,7 @@ id: 3190
 date: 2025-10-27T17:56:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3161
 ---
 
 Я оценил многослойность ответа, улыбнулся в ответ, и сказал.

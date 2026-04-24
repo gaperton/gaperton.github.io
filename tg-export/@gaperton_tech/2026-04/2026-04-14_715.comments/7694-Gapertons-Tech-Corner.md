@@ -3,6 +3,7 @@ id: 7694
 date: 2026-04-15T01:36:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7671
 ---
 
 @drcha0s Если вот такую переменную среды дать то оно на 30% быстрее работает. И догоняет 3090. Хоть бы один пидор сказал.

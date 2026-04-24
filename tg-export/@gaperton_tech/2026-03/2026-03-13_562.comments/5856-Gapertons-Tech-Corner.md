@@ -3,6 +3,7 @@ id: 5856
 date: 2026-03-13T22:05:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5844
 ---
 
 Ой, это я про линукс, а ты о венде.

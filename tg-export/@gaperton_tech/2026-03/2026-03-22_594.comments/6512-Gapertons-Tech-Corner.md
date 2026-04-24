@@ -3,6 +3,8 @@ id: 6512
 date: 2026-03-23T03:17:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6500
+reply_quote: Запусти 'llama-server ... 2>&1 | tee 1.log'
 ---
 
 llama_model_loader: - kv  21:                qwen35.attention.head_count u32              = 24

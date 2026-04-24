@@ -3,6 +3,7 @@ id: 4414
 date: 2026-01-31T04:18:51+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4413
 ---
 
 сама архитектура molt бот с 100500 компонентов в монорепо непонятно кем и как обновляемых это один большой бекдор. 

@@ -3,6 +3,7 @@ id: 7121
 date: 2026-04-04T19:11:20+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 7053
 ---
 
 • Провёл deep research + live-прогоны, итог: блокер подтверждён и сейчас это не “неправильные флаги”, а лимит/совместимость для Qwen3.5-27B на текущем single-GPU

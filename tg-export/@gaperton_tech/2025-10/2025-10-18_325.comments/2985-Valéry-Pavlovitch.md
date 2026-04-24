@@ -3,6 +3,7 @@ id: 2985
 date: 2025-10-19T06:38:53+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 2981
 ---
 
 Собрание в колхозе:

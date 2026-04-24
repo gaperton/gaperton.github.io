@@ -3,6 +3,7 @@ id: 3492
 date: 2025-11-16T16:25:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3487
 ---
 
 Окончания глагола. Сверху общее правило, снизу -- его уточнение через указание исключений из него для разных declinations.

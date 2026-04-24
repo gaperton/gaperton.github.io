@@ -3,6 +3,8 @@ id: 4265
 date: 2026-01-24T20:58:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4264
+reply_quote: Зачем это вирусу?
 ---
 
 Зачем камню падать на землю, а гелию гореть в термоядерной реакции внутри солнца?

@@ -3,6 +3,7 @@ id: 4902
 date: 2026-02-12T23:51:56+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4900
 ---
 
 хорошо что он в принципе привлекает внимание к проблеме.

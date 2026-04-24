@@ -3,6 +3,7 @@ id: 2899
 date: 2025-10-15T18:14:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2898
 ---
 
 Чтение “с комментарием”

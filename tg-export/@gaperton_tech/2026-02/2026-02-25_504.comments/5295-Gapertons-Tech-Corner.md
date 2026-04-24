@@ -3,6 +3,7 @@ id: 5295
 date: 2026-02-25T17:35:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5294
 ---
 
 Я понимаю. Прям пока мы говорим, они надистиллировали 30B которая умна как 200B.

@@ -3,6 +3,7 @@ id: 3928
 date: 2025-12-14T19:45:37+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3927
 ---
 
 Это и есть третий путь, которым идёт США.

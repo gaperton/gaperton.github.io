@@ -3,6 +3,7 @@ id: 3903
 date: 2025-12-10T19:01:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3896
 ---
 
 Я думаю это рассуждение должно поразить своей необычной обычностью.

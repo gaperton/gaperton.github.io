@@ -3,6 +3,7 @@ id: 4737
 date: 2026-02-07T16:23:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4726
 ---
 
 ❗️ Дадим логически точное каноническое определение.

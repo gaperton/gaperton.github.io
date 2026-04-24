@@ -3,6 +3,7 @@ id: 3988
 date: 2025-12-18T23:19:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3987
 ---
 
 Ага. Там, как ни крути, получается что мажоритарии богатеют за счет всех остальных.

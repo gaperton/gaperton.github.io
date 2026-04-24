@@ -3,6 +3,7 @@ id: 2898
 date: 2025-10-15T18:12:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2897
 ---
 
 **Какой самый простой и дешевый способ получить эту осознанность?**

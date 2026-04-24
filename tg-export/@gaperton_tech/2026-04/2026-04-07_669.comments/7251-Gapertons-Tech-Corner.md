@@ -3,6 +3,7 @@ id: 7251
 date: 2026-04-07T17:15:26+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7248
 ---
 
 Ага. Я посмотрел на результат и категорически не хочу про это рассказывать. По крайней мере пока.

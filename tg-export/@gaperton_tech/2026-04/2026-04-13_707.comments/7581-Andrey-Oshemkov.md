@@ -3,6 +3,7 @@ id: 7581
 date: 2026-04-13T05:48:02+00:00
 author: Andrey-Oshemkov
 author_handle: @oshemkov
+reply_to: 7580
 ---
 
 Нефть тоже не могут (и не смогут) качать из любой лужи

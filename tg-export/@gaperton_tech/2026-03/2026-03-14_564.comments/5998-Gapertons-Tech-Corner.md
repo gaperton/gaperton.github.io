@@ -3,6 +3,7 @@ id: 5998
 date: 2026-03-16T14:07:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5997
 ---
 
 Я читал что пишут по тестам, там вроде наоборот Vulkan впереди уже.

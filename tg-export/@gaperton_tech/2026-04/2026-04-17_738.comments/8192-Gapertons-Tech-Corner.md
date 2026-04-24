@@ -3,6 +3,7 @@ id: 8192
 date: 2026-04-18T05:04:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8190
 ---
 
 Если собирать под мое то все вообще не так.

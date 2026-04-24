@@ -3,6 +3,8 @@ id: 3588
 date: 2025-11-19T04:34:27+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3571
+reply_quote: что таки центр ситуации, действие или субъект?
 ---
 
 Исходный вопрос был 

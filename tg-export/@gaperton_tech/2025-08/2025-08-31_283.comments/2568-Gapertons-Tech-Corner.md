@@ -3,6 +3,7 @@ id: 2568
 date: 2025-08-31T13:59:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2564
 ---
 
 Поэтому, идея преподавания логики с риторикой на латыни мне кажется интересной.

@@ -3,6 +3,7 @@ id: 7528
 date: 2026-04-12T13:18:37+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7524
 ---
 
 Тем временем, выпустили новое поколение SSD, которое по скорости чтения превосходит DDR4.

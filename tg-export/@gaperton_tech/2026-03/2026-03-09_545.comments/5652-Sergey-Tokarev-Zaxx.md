@@ -3,6 +3,7 @@ id: 5652
 date: 2026-03-09T04:24:48+00:00
 author: Sergey-Tokarev-Zaxx
 author_handle: @zaxx_ru
+reply_to: 5650
 ---
 
 На Реддит разбирают

@@ -3,6 +3,7 @@ id: 7703
 date: 2026-04-15T05:15:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7702
 ---
 
 Короче вот где ROCm и сплит имеет смысл. Q6 смысла не имеет вообще. В целом для 27B нет никакого смысла в двух R9700.

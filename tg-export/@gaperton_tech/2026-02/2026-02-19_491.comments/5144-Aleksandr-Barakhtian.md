@@ -3,6 +3,7 @@ id: 5144
 date: 2026-02-19T01:09:12+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 5142
 ---
 
 То бишь корень в том, что и "владельцы" не владельцы.

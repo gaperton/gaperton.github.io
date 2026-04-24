@@ -3,6 +3,8 @@ id: 6514
 date: 2026-03-23T03:17:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6500
+reply_quote: Запусти 'llama-server ... 2>&1 | tee 1.log'
 ---
 
 llama_memory_recurrent:    Vulkan0 RS buffer size =   149.62 MiB

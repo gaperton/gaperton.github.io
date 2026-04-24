@@ -3,6 +3,7 @@ id: 6839
 date: 2026-03-30T06:00:09+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6838
 ---
 
 Мне кароче поебать на законы о защите его авторских прав

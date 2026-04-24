@@ -3,6 +3,7 @@ id: 3653
 date: 2025-11-21T09:48:27+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 3652
 ---
 
 Добавь еще риторическую анафору:

@@ -3,6 +3,7 @@ id: 6673
 date: 2026-03-25T18:08:06+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6659
 ---
 
 Yes. There are already clear attempts, but they are mostly emergent practice and essays from practitioners, not a settled “XP-for-agents” canon yet.

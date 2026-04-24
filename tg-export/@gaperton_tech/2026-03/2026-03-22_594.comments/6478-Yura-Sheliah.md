@@ -3,6 +3,7 @@ id: 6478
 date: 2026-03-22T16:28:46+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6475
 ---
 
 Это первое что я сделал. Там свободный vram есть ещё.

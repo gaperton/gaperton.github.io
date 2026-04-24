@@ -3,6 +3,7 @@ id: 501
 date: 2023-01-18T23:35:27+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 492
 ---
 
 Да надо, да. И про стандартьі качества.

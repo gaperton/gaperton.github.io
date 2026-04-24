@@ -3,6 +3,7 @@ id: 3545
 date: 2025-11-18T16:27:02+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3543
 ---
 
 опыт целых гетто сидящих на велфере ничему не учит прекраснодушных либералов. 

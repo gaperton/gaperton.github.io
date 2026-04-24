@@ -3,6 +3,8 @@ id: 7243
 date: 2026-04-07T16:11:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7240
+reply_quote: но вот этот инвертированный ad hominem когда изделие априорно объявляется негодным на основании PR ходов,
 ---
 
 Ну тут все очень просто.

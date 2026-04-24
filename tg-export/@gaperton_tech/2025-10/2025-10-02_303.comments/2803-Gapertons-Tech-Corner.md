@@ -3,6 +3,7 @@ id: 2803
 date: 2025-10-03T15:07:48+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2802
 ---
 
 Что же изменилось в 2008 году? Федрезерв начал [Quantitative Easening](https://en.wikipedia.org/wiki/Quantitative_easing).

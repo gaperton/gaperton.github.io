@@ -3,6 +3,7 @@ id: 4749
 date: 2026-02-07T20:47:07+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4747
 ---
 
 строго говоря памятью является весь код проекта + спеки/доки + тесты. а не только README как я написал.

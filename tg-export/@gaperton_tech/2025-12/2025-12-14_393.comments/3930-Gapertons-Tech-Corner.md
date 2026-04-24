@@ -3,6 +3,8 @@ id: 3930
 date: 2025-12-14T22:43:29+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3929
+reply_quote: 1) Умение добывать знание, о существовании которого не знаешь.
 ---
 
 Это переход от "я не знаю" к "я знаю".

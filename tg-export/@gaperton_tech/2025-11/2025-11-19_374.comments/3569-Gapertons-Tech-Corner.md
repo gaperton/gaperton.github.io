@@ -3,6 +3,8 @@ id: 3569
 date: 2025-11-19T02:51:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3566
+reply_quote: • time  • cause  • goal
 ---
 
 Добавляем, тестируем. 

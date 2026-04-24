@@ -3,6 +3,7 @@ id: 3999
 date: 2025-12-22T16:17:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3998
 ---
 
 🤖 Что такое «работа в команде» (операционально)

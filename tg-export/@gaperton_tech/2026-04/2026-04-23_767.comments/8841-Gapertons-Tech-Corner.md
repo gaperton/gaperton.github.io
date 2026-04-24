@@ -3,6 +3,7 @@ id: 8841
 date: 2026-04-23T22:13:26+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8835
 ---
 
 Ну да. Аналог этого, с исходниками в маркдаун по которым я могу пустить RAG.

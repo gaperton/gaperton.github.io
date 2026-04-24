@@ -3,6 +3,7 @@ id: 4748
 date: 2026-02-07T20:46:04+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4726
 ---
 
 Я сейчас проверил Цезаря, м выяснил что у него амнезия. Он не знает что надо запоминать. Будем лечить.

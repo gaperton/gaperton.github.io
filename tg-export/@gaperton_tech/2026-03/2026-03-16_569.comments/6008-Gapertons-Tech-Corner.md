@@ -3,6 +3,7 @@ id: 6008
 date: 2026-03-16T14:56:37+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6007
 ---
 
 А то же самое должно быть кроме шага 2. У AMD правильные драйвера сразу в ядре. Все что надо сверх должна поставить LM Studio.

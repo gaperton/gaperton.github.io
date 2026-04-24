@@ -3,6 +3,7 @@ id: 7213
 date: 2026-04-07T08:26:25+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 7212
 ---
 
 с такой метрикой вы легко схватите перегрузку контекста.

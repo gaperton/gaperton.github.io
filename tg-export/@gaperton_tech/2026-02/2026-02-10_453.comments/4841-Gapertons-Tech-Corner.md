@@ -3,6 +3,7 @@ id: 4841
 date: 2026-02-10T18:13:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4840
 ---
 
 А дальше делаем так. Раз в час (или чаще) бот-планировщик проводит скрам митинг.

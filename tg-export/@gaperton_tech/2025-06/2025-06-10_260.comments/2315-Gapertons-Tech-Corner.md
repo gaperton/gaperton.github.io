@@ -3,6 +3,7 @@ id: 2315
 date: 2025-06-10T02:38:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2312
 ---
 
 **Бонус: Аристотель в золотой век ислама**

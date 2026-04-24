@@ -131,6 +131,15 @@ def render_md(message, author: Optional[str] = None, author_handle: str = "") ->
         lines.append(f"author: {author}")
     if author_handle:
         lines.append(f"author_handle: {author_handle}")
+    reply_to = getattr(message, 'reply_to', None)
+    reply_id = getattr(reply_to, 'reply_to_msg_id', None)
+    if reply_id:
+        lines.append(f"reply_to: {reply_id}")
+        quote_text = getattr(reply_to, 'quote_text', None)
+        if quote_text:
+            # Single-quote the value (YAML-safe); escape any existing single quotes
+            safe = quote_text.replace(chr(10), ' ').strip().replace("'", "''")
+            lines.append(f"reply_quote: '{safe}'")
     lines += ["---", ""]
     text = _message_text(message)
     if text:
@@ -220,7 +229,8 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
 
 
 async def sync_comments(client, channel: str, state: dict, out: Path,
-                        wait_time: float, limit: int = None, state_path: Path = None) -> None:
+                        wait_time: float, limit: int = None, state_path: Path = None,
+                        skip_media: bool = False) -> None:
     ch_state = state.setdefault(channel, {"last_post_id": 0})
     last_comment_id = ch_state.get("last_comment_id", 0)
 
@@ -298,21 +308,35 @@ async def sync_comments(client, channel: str, state: dict, out: Path,
                 name, handle = await author_info(msg)
                 cfile = comments_dir / f"{msg.id}-{name}.md"
 
-                if not cfile.exists():
+                reply_id = getattr(getattr(msg, 'reply_to', None), 'reply_to_msg_id', None)
+                needs_write = not cfile.exists()
+                if not needs_write and reply_id:
+                    # Backfill reply_to / reply_quote into existing files that don't have it yet
+                    existing = cfile.read_text(encoding="utf-8", errors="replace")
+                    if "reply_to:" not in existing:
+                        needs_write = True
+                    elif "reply_quote:" not in existing and getattr(getattr(msg, 'reply_to', None), 'quote_text', None):
+                        needs_write = True
+                if needs_write:
                     cfile.write_text(render_md(msg, author=name, author_handle=handle),
                                      encoding="utf-8", errors="replace")
                     synced += 1
 
-                if msg.media:
-                    try:
-                        dl = await client.download_media(msg, file=str(comments_dir) + "/")
-                        if dl:
-                            orig = Path(dl).name
-                            new_path = comments_dir / f"{msg.id}-{orig}"
-                            if not new_path.exists():
-                                Path(dl).rename(new_path)
-                    except Exception as e:
-                        print(f"    comment media error: {e}")
+                if msg.media and not skip_media:
+                    already_have = any(
+                        f.name.startswith(f"{msg.id}-") and f.suffix != '.md'
+                        for f in comments_dir.iterdir()
+                    )
+                    if not already_have:
+                        try:
+                            dl = await client.download_media(msg, file=str(comments_dir) + "/")
+                            if dl:
+                                orig = Path(dl).name
+                                new_path = comments_dir / f"{msg.id}-{orig}"
+                                if not new_path.exists():
+                                    Path(dl).rename(new_path)
+                        except Exception as e:
+                            print(f"    comment media error: {e}")
 
         ch_state["last_comment_id"] = max(last_comment_id, msg.id)
         last_comment_id = ch_state["last_comment_id"]
@@ -334,6 +358,8 @@ async def main() -> None:
                         help="Re-fetch a specific post by Telegram message ID and overwrite its files")
     parser.add_argument("--comments", action="store_true",
                         help="Sync comments from linked discussion group instead of posts")
+    parser.add_argument("--sync-replies", action="store_true",
+                        help="Re-scan all comments from the beginning to backfill reply_to fields in existing files")
     args = parser.parse_args()
     args.limit = args.limit or None  # 0 → None means no limit in Telethon
     if args.wait_time is None:
@@ -355,6 +381,20 @@ async def main() -> None:
         config["api_hash"],
         flood_sleep_threshold=300,  # auto-sleep on flood waits up to 5 min
     ) as client:
+        if args.sync_replies:
+            # Re-scan all comments from the beginning to backfill reply_to fields
+            for channel in config["channels"]:
+                # Temporarily zero out last_comment_id so we scan from the start
+                saved_id = state.get(channel, {}).get("last_comment_id", 0)
+                state.setdefault(channel, {})["last_comment_id"] = 0
+                try:
+                    await sync_comments(client, channel, state, out,
+                                        wait_time=args.wait_time, limit=None,
+                                        state_path=None, skip_media=True)
+                finally:
+                    state[channel]["last_comment_id"] = saved_id  # restore
+            return
+
         if args.comments:
             for channel in config["channels"]:
                 while True:

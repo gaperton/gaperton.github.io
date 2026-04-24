@@ -3,6 +3,7 @@ id: 6525
 date: 2026-03-23T16:29:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6492
 ---
 
 У любого человека есть:

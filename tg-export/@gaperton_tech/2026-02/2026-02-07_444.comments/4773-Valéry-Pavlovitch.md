@@ -3,6 +3,7 @@ id: 4773
 date: 2026-02-08T04:20:59+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4771
 ---
 
 Review notes for ``https://github.com/gaperton/openclaw/blob/system-prompts/docs/reference/templates/AGENTS.m`d` (preparing an issue):

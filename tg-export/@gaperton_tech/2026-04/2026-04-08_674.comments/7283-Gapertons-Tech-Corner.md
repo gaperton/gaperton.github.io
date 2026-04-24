@@ -3,6 +3,7 @@ id: 7283
 date: 2026-04-08T15:12:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7281
 ---
 
 В этом случае, как и во всех остальных, налицо [проплаченный пост.](https://x.com/socialwithaayan/status/2041192946369007924?s=20)

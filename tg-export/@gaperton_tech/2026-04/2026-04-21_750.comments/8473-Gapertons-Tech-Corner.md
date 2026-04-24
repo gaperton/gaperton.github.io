@@ -3,6 +3,8 @@ id: 8473
 date: 2026-04-21T05:18:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8471
+reply_quote: а какие "серьезные" дистиляции ты сам видел в дикой природе?
 ---
 
 Qwen3.5-27B например.

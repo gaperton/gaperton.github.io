@@ -2,6 +2,7 @@
 id: 6308
 date: 2026-03-20T16:56:35+00:00
 author: Dmitry-Osovsky
+reply_to: 6307
 ---
 
 Но это и не __корпус__. Даже у них на сайте оно называется open frame, а не case.

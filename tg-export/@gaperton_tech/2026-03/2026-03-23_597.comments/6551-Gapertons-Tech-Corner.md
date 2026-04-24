@@ -3,6 +3,7 @@ id: 6551
 date: 2026-03-23T17:09:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6550
 ---
 
 В целом, если я расходую по миллиону в день, мне это будет стоить как раз 20 долларов в месяц.

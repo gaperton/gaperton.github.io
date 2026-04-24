@@ -3,6 +3,7 @@ id: 4300
 date: 2026-01-26T15:24:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4299
 ---
 
 Попробую еще раз объяснить идею. Я на самом деле удивлен что она непонятна.

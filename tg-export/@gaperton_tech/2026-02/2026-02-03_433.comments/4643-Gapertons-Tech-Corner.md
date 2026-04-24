@@ -3,6 +3,7 @@ id: 4643
 date: 2026-02-05T06:02:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4642
 ---
 
 А финансового? У него гомеостаз это ваше бабло и счета. Все просто.

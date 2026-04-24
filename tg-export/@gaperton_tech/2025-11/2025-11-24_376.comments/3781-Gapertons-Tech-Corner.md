@@ -3,6 +3,7 @@ id: 3781
 date: 2025-12-03T13:51:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3780
 ---
 
 Да. Более того, растения тоже обходятся без них.

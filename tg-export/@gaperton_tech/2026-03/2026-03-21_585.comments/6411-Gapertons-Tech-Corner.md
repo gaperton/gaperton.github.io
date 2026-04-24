@@ -3,6 +3,8 @@ id: 6411
 date: 2026-03-21T19:25:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6409
+reply_quote: Везде, где графоний, нужно обратную связь задействовать.
 ---
 
 Для чего нужно?

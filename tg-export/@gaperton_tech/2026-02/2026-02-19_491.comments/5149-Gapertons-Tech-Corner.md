@@ -3,6 +3,7 @@ id: 5149
 date: 2026-02-19T01:14:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5128
 ---
 
 4) Аргумент Gaperton’а: “менеджеры не заинтересованы сокращать людей”

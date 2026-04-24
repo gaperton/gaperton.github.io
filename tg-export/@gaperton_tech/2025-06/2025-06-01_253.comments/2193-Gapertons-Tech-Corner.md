@@ -3,6 +3,7 @@ id: 2193
 date: 2025-06-01T16:22:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2192
 ---
 
 Банки помогают от кашля.

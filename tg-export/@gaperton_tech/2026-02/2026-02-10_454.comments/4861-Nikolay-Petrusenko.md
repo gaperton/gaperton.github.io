@@ -3,6 +3,7 @@ id: 4861
 date: 2026-02-11T04:42:21+00:00
 author: Nikolay-Petrusenko
 author_handle: @nikolay_petrusenko
+reply_to: 4850
 ---
 
 А стихи он тоже пишет по миллиону строк? 

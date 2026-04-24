@@ -3,6 +3,7 @@ id: 7328
 date: 2026-04-08T21:39:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7326
 ---
 
 Вася из Подмосковья (бородатый IT-шник): «У меня в подвале теперь 12 киловатт. Жена ушла, зато у меня свой Grok локально».

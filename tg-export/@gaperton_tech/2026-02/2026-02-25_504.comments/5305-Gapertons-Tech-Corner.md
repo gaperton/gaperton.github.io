@@ -3,6 +3,7 @@ id: 5305
 date: 2026-02-25T18:10:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5302
 ---
 
 Single RTX 4090 (24 GB) 

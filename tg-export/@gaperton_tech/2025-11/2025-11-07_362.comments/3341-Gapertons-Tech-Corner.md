@@ -3,6 +3,7 @@ id: 3341
 date: 2025-11-07T18:55:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3340
 ---
 
 Чатгпт не одобряет.

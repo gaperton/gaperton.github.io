@@ -3,6 +3,7 @@ id: 3265
 date: 2025-11-02T20:54:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3244
 ---
 
 Бонус. Моя любимая модальность после гири. [Мэйс](https://www.youtube.com/shorts/FDvZA0xA7O8)!

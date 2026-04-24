@@ -3,6 +3,7 @@ id: 2762
 date: 2025-10-01T22:45:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2760
 ---
 
 Все в общем умные, и каждый поступает рационально, а на уровне организации получается как-то вот так.

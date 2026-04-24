@@ -3,6 +3,7 @@ id: 2260
 date: 2025-06-06T16:49:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2256
 ---
 
 Что ты измерял каким образом? Оптическим датчиком?

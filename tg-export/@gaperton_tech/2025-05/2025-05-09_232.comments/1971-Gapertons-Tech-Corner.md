@@ -3,6 +3,7 @@ id: 1971
 date: 2025-05-09T05:04:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1967
 ---
 
 **⚖️ Донесение прокуратура Иудеи Понтия Пилата Цезарю Тиберию**

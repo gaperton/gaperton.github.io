@@ -3,6 +3,7 @@ id: 2262
 date: 2025-06-06T16:55:05+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2261
 ---
 
 У меня случается периодически, когда Polar разряжается. Разницы не замечаю.

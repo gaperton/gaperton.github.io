@@ -3,6 +3,7 @@ id: 3797
 date: 2025-12-04T15:47:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3796
 ---
 
 🤖 Логический анализ тезисов

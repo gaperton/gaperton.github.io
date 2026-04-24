@@ -3,6 +3,7 @@ id: 4313
 date: 2026-01-27T01:59:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4307
 ---
 
 __Затем он переходит к сути. Соглашается, констатируя что я прав.__**

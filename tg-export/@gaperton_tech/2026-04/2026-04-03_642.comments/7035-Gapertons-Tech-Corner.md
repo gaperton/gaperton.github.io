@@ -3,6 +3,7 @@ id: 7035
 date: 2026-04-04T00:25:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7034
 ---
 
 Значит так.

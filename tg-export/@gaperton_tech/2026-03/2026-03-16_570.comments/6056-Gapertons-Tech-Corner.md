@@ -3,6 +3,7 @@ id: 6056
 date: 2026-03-16T23:53:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6044
 ---
 
 А что, если я тебе скажу что в любую мать AM4 c поддержкой бифуркации можно всунуть пять GPU?

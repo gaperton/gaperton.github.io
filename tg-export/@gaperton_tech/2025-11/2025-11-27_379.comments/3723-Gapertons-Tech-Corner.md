@@ -3,6 +3,7 @@ id: 3723
 date: 2025-11-28T04:38:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3693
 ---
 
 Я бы советовал поменьше фиксироваться на том что «это сказал AI», и побольше на самой мысли.

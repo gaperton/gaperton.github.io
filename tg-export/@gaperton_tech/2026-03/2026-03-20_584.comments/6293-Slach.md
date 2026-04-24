@@ -3,6 +3,7 @@ id: 6293
 date: 2026-03-20T15:57:17+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 6289
 ---
 
 вообще llama.cpp есть режим router

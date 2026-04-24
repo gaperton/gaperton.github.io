@@ -3,6 +3,7 @@ id: 7991
 date: 2026-04-17T03:04:13+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7989
 ---
 
 -cmoe, --cpu-moe keep all Mixture of Experts (MoE) weights in the CPU

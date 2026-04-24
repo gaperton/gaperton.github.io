@@ -3,6 +3,7 @@ id: 4201
 date: 2026-01-23T22:29:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4197
 ---
 
 __А вот как мне дает в торец мой AI под схоластическим промптом. И он прав:__

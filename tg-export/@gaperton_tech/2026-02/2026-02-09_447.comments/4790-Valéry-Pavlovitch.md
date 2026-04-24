@@ -3,6 +3,7 @@ id: 4790
 date: 2026-02-09T03:42:59+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4789
 ---
 
 с этими пионерами правильным действием является не читать, а задавать им тренды.

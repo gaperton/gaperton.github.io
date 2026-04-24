@@ -3,6 +3,7 @@ id: 4666
 date: 2026-02-06T01:26:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4665
 ---
 
 у мня один. и ничего не троттлится. и ИИ говорит не ебать мозг. :) Он очень спокойный.

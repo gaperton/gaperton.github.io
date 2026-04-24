@@ -3,6 +3,7 @@ id: 3496
 date: 2025-11-16T20:11:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3494
 ---
 
 Собраться это предикат. Цепочка после отвечает на вопрос что.

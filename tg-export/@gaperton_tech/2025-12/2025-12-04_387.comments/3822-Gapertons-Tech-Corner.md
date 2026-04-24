@@ -3,6 +3,7 @@ id: 3822
 date: 2025-12-05T01:00:12+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3809
 ---
 
 🤖 2. Позитивные факторы (сильнее и поверх тройки по волокнам)

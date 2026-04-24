@@ -3,6 +3,7 @@ id: 5661
 date: 2026-03-09T06:20:11+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 5653
 ---
 
 attention есть, а внимания нет 😁

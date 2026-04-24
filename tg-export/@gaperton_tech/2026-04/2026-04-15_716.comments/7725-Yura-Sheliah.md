@@ -3,6 +3,7 @@ id: 7725
 date: 2026-04-15T14:19:44+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 7723
 ---
 
 Никаких. Это сейчас under development. Это не то что можно предсказать простой функцией.

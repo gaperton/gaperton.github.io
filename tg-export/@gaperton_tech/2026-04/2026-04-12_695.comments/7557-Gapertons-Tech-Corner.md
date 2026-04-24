@@ -3,6 +3,7 @@ id: 7557
 date: 2026-04-12T19:01:57+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7556
 ---
 
 Главное, конечно, они достаточно богаты, чтобы не думать о проблемах крестьян.

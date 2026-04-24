@@ -3,6 +3,8 @@ id: 3275
 date: 2025-11-03T14:57:08+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 355
+reply_quote: 4. Изометрия лучше для давления
 ---
 
 Давление также зависит от хронического стресса и кортизола.

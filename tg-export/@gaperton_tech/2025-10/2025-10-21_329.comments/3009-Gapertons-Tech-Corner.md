@@ -3,6 +3,7 @@ id: 3009
 date: 2025-10-21T16:14:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3006
 ---
 
 Причинность -> Крипке -> логика необходимости -> логика времени -> разумные агенты

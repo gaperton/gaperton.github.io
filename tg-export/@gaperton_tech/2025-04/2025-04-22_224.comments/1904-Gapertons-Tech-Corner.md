@@ -3,6 +3,7 @@ id: 1904
 date: 2025-04-23T13:30:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1886
 ---
 
 __Вот рассуждение моего gpt-4o по этому поводу. Он все "понимает" правильно.__

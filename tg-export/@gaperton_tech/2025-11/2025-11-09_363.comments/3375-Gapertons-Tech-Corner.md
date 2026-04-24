@@ -3,6 +3,7 @@ id: 3375
 date: 2025-11-10T00:29:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3371
 ---
 
 {[когда: Сначала], [кто/а: вы] **должны** [(logic: O x)] [что/о: { **найти** [где: внутри скобок] [что/о: глагол]} ]}

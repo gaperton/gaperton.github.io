@@ -3,6 +3,7 @@ id: 1384
 date: 2023-12-23T12:52:47+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 1383
 ---
 
 Для того чтоб это воспринимать в речи надо тренироваться.

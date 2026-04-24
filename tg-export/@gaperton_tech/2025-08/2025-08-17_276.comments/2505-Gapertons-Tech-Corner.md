@@ -3,6 +3,7 @@ id: 2505
 date: 2025-08-18T17:07:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2502
 ---
 
 Вот отличный справочник по упражнениям, я им пользовался когда изучал технику.

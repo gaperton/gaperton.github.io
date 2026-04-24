@@ -3,6 +3,7 @@ id: 2281
 date: 2025-06-09T12:11:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2280
 ---
 
 А чем «следить за метриками» помогает, если они либо бесполезны либо вообще фейк?

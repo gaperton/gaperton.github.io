@@ -3,6 +3,7 @@ id: 6999
 date: 2026-04-02T04:59:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6993
 ---
 
 Эшби просто говорит о памяти о впечатлении от того что он видел стул, если мы посмотрим на текст.

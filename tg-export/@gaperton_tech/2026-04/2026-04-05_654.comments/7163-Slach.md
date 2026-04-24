@@ -3,6 +3,7 @@ id: 7163
 date: 2026-04-06T02:26:16+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 7159
 ---
 
 а когда он по твоему ориентировочно лопнет?

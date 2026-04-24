@@ -3,6 +3,7 @@ id: 6665
 date: 2026-03-25T17:59:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6663
 ---
 
 **### 4. Проблемы адаптации**

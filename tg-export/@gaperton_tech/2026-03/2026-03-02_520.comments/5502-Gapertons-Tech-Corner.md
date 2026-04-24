@@ -3,6 +3,7 @@ id: 5502
 date: 2026-03-02T16:10:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5501
 ---
 
 Что такое Zed? :)

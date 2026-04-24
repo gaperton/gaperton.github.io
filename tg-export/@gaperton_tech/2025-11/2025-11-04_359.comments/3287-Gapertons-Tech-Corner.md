@@ -3,6 +3,7 @@ id: 3287
 date: 2025-11-04T14:39:07+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3285
 ---
 
 Понятие конечно не новое. Я просто пересказываю и пересобираю классику.

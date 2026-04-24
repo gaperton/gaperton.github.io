@@ -3,6 +3,7 @@ id: 5445
 date: 2026-02-28T05:44:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5435
 ---
 
 Понимание необходимо для действия, больше ни для чего.

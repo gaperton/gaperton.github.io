@@ -3,6 +3,7 @@ id: 394
 date: 2023-01-03T18:12:59+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 392
 ---
 
 глянул на plantuml/plantext - то же самое, но с большим набором. перейду туда 🙂 

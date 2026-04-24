@@ -3,6 +3,7 @@ id: 6020
 date: 2026-03-16T17:00:59+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6019
 ---
 
 Я не знаю. Я не пробовал, но сомневаюсь.

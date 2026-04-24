@@ -3,6 +3,8 @@ id: 4535
 date: 2026-02-01T22:06:20+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4534
+reply_quote: архитектурой памяти
 ---
 
 varun29ankuS/shodh-memory

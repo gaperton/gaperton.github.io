@@ -3,6 +3,7 @@ id: 2074
 date: 2025-05-23T12:26:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2073
 ---
 
 Тут мы подходим к тому, что такое вообще логика и откуда она берется.

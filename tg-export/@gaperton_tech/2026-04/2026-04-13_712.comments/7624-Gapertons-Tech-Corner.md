@@ -3,6 +3,8 @@ id: 7624
 date: 2026-04-14T01:37:11+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7623
+reply_quote: А вот это — дурацкая идея изначально.
 ---
 
 Тебе в 50 лет это понятно, и это конечно хорошо.

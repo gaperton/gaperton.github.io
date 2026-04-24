@@ -3,6 +3,7 @@ id: 2073
 date: 2025-05-23T12:15:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2069
 ---
 
 Примерно так. Там я скобки после box пропустил, он ко всей строке относится. 

@@ -3,6 +3,7 @@ id: 5977
 date: 2026-03-15T15:43:02+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5976
 ---
 
 Ну псих психом. Типа мы сильно другие :)

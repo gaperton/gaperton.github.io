@@ -3,6 +3,7 @@ id: 5252
 date: 2026-02-24T18:24:28+00:00
 author: Nick-Frolov
 author_handle: @v1bec0der
+reply_to: 5250
 ---
 
 Но говорить что они только все украли из интернетов тоже не верно

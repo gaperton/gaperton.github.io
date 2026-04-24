@@ -3,6 +3,7 @@ id: 3283
 date: 2025-11-04T08:54:16+00:00
 author: Maxim-Gavrilov
 author_handle: @maximgavrilov
+reply_to: 3239
 ---
 
 Принёс гостевую цитату из Сенеки (письмо XV)

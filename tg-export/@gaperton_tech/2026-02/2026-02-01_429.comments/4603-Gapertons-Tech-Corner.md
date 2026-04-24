@@ -3,6 +3,7 @@ id: 4603
 date: 2026-02-03T22:27:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4602
 ---
 
 А можешь просто создать агента задав ему SOUL.md какой надо, и он сам придумает ебанутый пост, ровно в том ключе как ты хочешь.

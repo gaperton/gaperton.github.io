@@ -3,6 +3,7 @@ id: 3917
 date: 2025-12-14T17:32:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3916
 ---
 
 ✍️ **Уроки древнеримского**

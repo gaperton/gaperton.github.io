@@ -3,6 +3,7 @@ id: 2971
 date: 2025-10-19T03:39:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2969
 ---
 
 1. **Частая реплика: “полноценного аналога почти нет”**

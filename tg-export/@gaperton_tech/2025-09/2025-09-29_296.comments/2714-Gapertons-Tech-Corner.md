@@ -3,6 +3,7 @@ id: 2714
 date: 2025-09-30T00:01:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2713
 ---
 
 __Фома -- не какой-то там полуграмотный хипстер-задрот, потому что.__

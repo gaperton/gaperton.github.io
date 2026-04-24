@@ -3,6 +3,7 @@ id: 3612
 date: 2025-11-19T15:01:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3611
 ---
 
 Я начал использовать этот термин считая что это глагол, потому что взял его из лингвистики.

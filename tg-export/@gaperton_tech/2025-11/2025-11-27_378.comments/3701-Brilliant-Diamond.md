@@ -3,6 +3,7 @@ id: 3701
 date: 2025-11-27T17:12:18+00:00
 author: Brilliant-Diamond
 author_handle: @Sol1882
+reply_to: 3687
 ---
 
 Дело ведь не ббд, а в том, что ни шагу нельзя в сторону ступить.

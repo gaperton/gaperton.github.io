@@ -3,6 +3,7 @@ id: 2686
 date: 2025-09-26T22:41:06+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 2684
 ---
 
 Например учителям в школах создали обратный перекос, чтобы снизить престиж профессии.  

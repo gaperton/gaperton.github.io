@@ -3,6 +3,7 @@ id: 2876
 date: 2025-10-13T14:56:29+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2875
 ---
 
 Насчет того, насколько это описание правдиво -- я его читаю, и сразу узнаю ряд вещей.

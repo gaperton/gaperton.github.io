@@ -3,6 +3,7 @@ id: 7775
 date: 2026-04-15T17:42:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7774
 ---
 
 Попробуй Гемму. Там будет в самый раз тебе. 

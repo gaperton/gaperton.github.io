@@ -3,6 +3,7 @@ id: 4335
 date: 2026-01-27T22:56:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4334
 ---
 
 Не ну поставь его и вперед, чо. Я уже поставил, интересно стало. :)

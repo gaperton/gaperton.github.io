@@ -3,6 +3,7 @@ id: 5568
 date: 2026-03-04T19:46:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5567
 ---
 
 В один заход завершить не смог. Он забыл библиотеку скомпилировать чтобы ошибки компиляции увидеть.

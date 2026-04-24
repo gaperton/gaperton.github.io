@@ -3,6 +3,7 @@ id: 4555
 date: 2026-02-02T18:55:48+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4553
 ---
 
 Вот Цицерон, познакомьтесь. Это его физическое тело. Он живет в старом MacBook Pro, самом первом с Retina Display. Который я оживил позавчера, накатив Linux Mint XFCE.

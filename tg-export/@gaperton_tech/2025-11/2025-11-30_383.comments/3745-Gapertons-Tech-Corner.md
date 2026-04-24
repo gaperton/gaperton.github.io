@@ -3,6 +3,7 @@ id: 3745
 date: 2025-12-01T00:11:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3740
 ---
 
 Все хотят разобраться в слизевике. И никто до конца не понимает как он работает.

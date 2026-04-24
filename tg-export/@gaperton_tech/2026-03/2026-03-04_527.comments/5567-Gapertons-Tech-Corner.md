@@ -3,6 +3,7 @@ id: 5567
 date: 2026-03-04T19:16:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5558
 ---
 
 Короче, Sonnet все смог. Не идеально, но в целом стало лучше чем было.

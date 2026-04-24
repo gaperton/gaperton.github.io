@@ -3,6 +3,7 @@ id: 3204
 date: 2025-10-29T14:42:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3199
 ---
 
 🤖 Ты фактически формулируешь мета-принцип:

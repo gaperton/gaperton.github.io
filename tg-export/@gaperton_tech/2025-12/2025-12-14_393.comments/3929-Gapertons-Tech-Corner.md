@@ -3,6 +3,7 @@ id: 3929
 date: 2025-12-14T20:47:01+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3922
 ---
 
 Знаете, что в этом деле реально затратно?

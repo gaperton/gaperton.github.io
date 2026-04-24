@@ -3,6 +3,7 @@ id: 6078
 date: 2026-03-17T05:20:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6076
 ---
 
 А как справляется 3090 я сейчас покажу. Тест идет.

@@ -3,6 +3,7 @@ id: 3378
 date: 2025-11-10T01:34:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3377
 ---
 
 {[mod: Можно] [(logic: ◇)] [где: в модальности] [что/о: все] записать [как: не парясь]}

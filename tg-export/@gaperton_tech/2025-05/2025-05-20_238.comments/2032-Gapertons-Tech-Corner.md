@@ -3,6 +3,7 @@ id: 2032
 date: 2025-05-21T17:41:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2031
 ---
 
 Ага, а иногда смерть как нужно поинтересоваться, не забанили-ли кого в Google. А вдруг забанили?

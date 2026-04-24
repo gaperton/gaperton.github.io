@@ -3,6 +3,7 @@ id: 1889
 date: 2025-04-22T13:50:48+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1886
 ---
 
 > как только сталкиваются с задачей где реально надо думать

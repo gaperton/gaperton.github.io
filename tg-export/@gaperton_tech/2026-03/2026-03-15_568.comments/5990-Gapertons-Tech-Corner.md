@@ -3,6 +3,7 @@ id: 5990
 date: 2026-03-16T05:33:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5989
 ---
 
 В общем обтек это все сделав пункт в GRUB загрузки без гуя. Если драйвер nvidia не стартует — то он и проблем не вызывает. Жесть конечно.

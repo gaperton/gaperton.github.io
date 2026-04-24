@@ -3,6 +3,7 @@ id: 2113
 date: 2025-05-30T03:08:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2110
 ---
 
 🤖 **Логические шаг**и

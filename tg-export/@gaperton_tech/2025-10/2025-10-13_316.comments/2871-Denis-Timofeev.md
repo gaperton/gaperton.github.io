@@ -3,6 +3,7 @@ id: 2871
 date: 2025-10-13T06:59:19+00:00
 author: Denis-Timofeev
 author_handle: @denistimofeev
+reply_to: 2866
 ---
 
 Вы очень много красивого пафоса напустили и сравнили Сократа ажно с Иисусом.

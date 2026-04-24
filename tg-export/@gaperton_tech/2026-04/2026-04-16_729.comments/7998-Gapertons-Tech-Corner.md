@@ -3,6 +3,8 @@ id: 7998
 date: 2026-04-17T03:13:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7997
+reply_quote: Но и так неплохо
 ---
 
 Вообще да, и так отлично, и вообще агонь что место есть под Q5 и F16.

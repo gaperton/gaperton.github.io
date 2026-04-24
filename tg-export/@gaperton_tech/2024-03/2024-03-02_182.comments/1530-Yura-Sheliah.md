@@ -3,6 +3,7 @@ id: 1530
 date: 2024-03-02T21:38:40+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 1529
 ---
 
 Я посмотрел у меня Noto Sans стоит, но он от Ubuntu не отличается на мой взгляд.

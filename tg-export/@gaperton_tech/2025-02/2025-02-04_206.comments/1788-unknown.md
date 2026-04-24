@@ -2,6 +2,7 @@
 id: 1788
 date: 2025-02-05T02:51:22+00:00
 author: unknown
+reply_to: 1778
 ---
 
 А, это же o3-mini а не o3-mini-high. Она потупее, да.

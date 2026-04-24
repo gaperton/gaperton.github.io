@@ -3,6 +3,7 @@ id: 7811
 date: 2026-04-15T18:35:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7809
 ---
 
 Но в целом ситуация понятна, да?

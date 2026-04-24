@@ -3,6 +3,8 @@ id: 2574
 date: 2025-09-01T23:02:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2568
+reply_quote: преподавания логики с риторикой
 ---
 
 Если кому интересно, [есть](https://classicalliberalarts.com/certificates/) онлайн [сертификат](https://classicalliberalarts.com/certificates/) по логике-риторике Аристотеля.

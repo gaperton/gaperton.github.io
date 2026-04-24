@@ -3,6 +3,7 @@ id: 5942
 date: 2026-03-15T00:23:04+00:00
 author: Astral-Zander
 author_handle: @deadphilosopher
+reply_to: 5941
 ---
 
 Массовая проблема неработающих и вредных препаратов была? Была.

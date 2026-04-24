@@ -3,6 +3,7 @@ id: 5410
 date: 2026-02-27T21:15:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5407
 ---
 
 А говоря о железе для моделей — будущее определённо за ARM и unified memory.

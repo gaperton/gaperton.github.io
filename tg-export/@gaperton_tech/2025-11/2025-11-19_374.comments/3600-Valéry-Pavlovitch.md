@@ -3,6 +3,7 @@ id: 3600
 date: 2025-11-19T14:21:29+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3598
 ---
 
 в матшколе меня научили что предикат это функция нескольких аргументов принимающая значение true/false.

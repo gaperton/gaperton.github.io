@@ -3,6 +3,7 @@ id: 5299
 date: 2026-02-25T17:51:08+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5297
 ---
 
 Подождем следующего поколения железа и моделей. Я думаю мы увидим gpt-5 class на edge года через полтора-два, это реально. За вменяемые деньги вроде 2-3К USD.

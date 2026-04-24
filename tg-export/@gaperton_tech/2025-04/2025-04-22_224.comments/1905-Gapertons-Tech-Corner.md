@@ -3,6 +3,7 @@ id: 1905
 date: 2025-04-23T13:32:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1886
 ---
 
 🤖 III. Что такое языковая модель?

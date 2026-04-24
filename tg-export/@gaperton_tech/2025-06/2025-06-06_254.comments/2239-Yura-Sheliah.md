@@ -3,6 +3,7 @@ id: 2239
 date: 2025-06-06T16:07:55+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 2235
 ---
 
 Мне не нужна навигация, я в знакомых местах бегаю.

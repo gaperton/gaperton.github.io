@@ -3,6 +3,7 @@ id: 8845
 date: 2026-04-24T01:34:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8780
 ---
 
 Она жутко прикольно это делает.

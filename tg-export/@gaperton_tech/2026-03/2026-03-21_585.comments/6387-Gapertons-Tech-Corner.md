@@ -3,6 +3,7 @@ id: 6387
 date: 2026-03-21T17:11:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6384
 ---
 
 Claude Code в виде нового приложения под мак прям очень крутой. Запустил, снял скриншот, посмотрел что там реально агонь.

@@ -3,6 +3,7 @@ id: 2713
 date: 2025-09-29T23:55:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2697
 ---
 
 💻 **Фома Аквинский и гипотеза симуляци**и

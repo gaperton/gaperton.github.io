@@ -3,6 +3,7 @@ id: 2463
 date: 2025-06-20T14:43:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2448
 ---
 
 __Knowledge is justified true belief.__

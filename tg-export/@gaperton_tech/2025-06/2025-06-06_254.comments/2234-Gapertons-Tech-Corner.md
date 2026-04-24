@@ -3,6 +3,8 @@ id: 2234
 date: 2025-06-06T16:01:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2232
+reply_quote: Там оплаченный смайлик в конце.
 ---
 
 Че?

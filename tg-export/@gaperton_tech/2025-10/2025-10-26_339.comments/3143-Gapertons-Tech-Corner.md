@@ -3,6 +3,7 @@ id: 3143
 date: 2025-10-26T16:47:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3142
 ---
 
 В таком режиме, когда твой бизнес растет независимо от того, что и как ты делаешь.

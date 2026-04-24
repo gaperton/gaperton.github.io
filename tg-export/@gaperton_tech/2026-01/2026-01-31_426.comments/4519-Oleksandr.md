@@ -3,6 +3,7 @@ id: 4519
 date: 2026-02-01T08:37:02+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 4517
 ---
 
 там еще одна боль есть :) DRAM расходует батарейку __всегда__, поэтому не 18-24 часа, а 5-7

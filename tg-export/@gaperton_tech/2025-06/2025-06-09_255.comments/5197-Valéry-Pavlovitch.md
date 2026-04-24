@@ -3,6 +3,7 @@ id: 5197
 date: 2026-02-23T05:31:20+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 2274
 ---
 
 А что сейчас известно про выделение, верификацию и версионирование онтрологий в AI? 

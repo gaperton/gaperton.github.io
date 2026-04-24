@@ -3,6 +3,7 @@ id: 3682
 date: 2025-11-26T17:59:37+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3681
 ---
 
 Пиздец.

@@ -3,6 +3,7 @@ id: 5926
 date: 2026-03-14T23:12:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5897
 ---
 
 https://x.com/PatrickHeizer/status/2032889575320768867?s=20

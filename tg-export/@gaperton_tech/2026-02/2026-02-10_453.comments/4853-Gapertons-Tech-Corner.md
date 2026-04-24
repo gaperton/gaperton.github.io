@@ -3,6 +3,7 @@ id: 4853
 date: 2026-02-11T00:41:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4848
 ---
 
 Скилл добавился легко. Агент его сам наговнокодил.

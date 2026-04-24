@@ -3,6 +3,7 @@ id: 1975
 date: 2025-05-09T05:09:17+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1967
 ---
 
 Он не раскаялся как святой.

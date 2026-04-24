@@ -3,6 +3,7 @@ id: 2534
 date: 2025-08-30T18:39:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2530
 ---
 
 Собственно, мы видим как свойства языка определяют взгляд на мир.

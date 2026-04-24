@@ -3,6 +3,7 @@ id: 6435
 date: 2026-03-21T23:01:35+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6434
 ---
 
 Стиль конечно не выдерживает, надо на люрке натаскать, хотя бы :)

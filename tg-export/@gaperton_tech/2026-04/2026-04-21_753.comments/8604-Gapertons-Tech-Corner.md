@@ -3,6 +3,7 @@ id: 8604
 date: 2026-04-21T20:39:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8602
 ---
 
 Я разбирался как это было в 19 веке.

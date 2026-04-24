@@ -3,6 +3,8 @@ id: 3737
 date: 2025-11-28T14:08:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3712
+reply_quote: 1) что реально полезное по итогу удастся вытащить из llm хайпа,
 ---
 
 Кстати, чуть не забыл.

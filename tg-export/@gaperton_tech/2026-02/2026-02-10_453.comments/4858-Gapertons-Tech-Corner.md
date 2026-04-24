@@ -3,6 +3,7 @@ id: 4858
 date: 2026-02-11T00:54:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4856
 ---
 
 И это кстати урок всем нам. Интерфейс у этой штуки к SQL базе почти бесплатен. Она сама запросов нахуярит.

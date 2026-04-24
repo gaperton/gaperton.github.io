@@ -3,6 +3,7 @@ id: 7534
 date: 2026-04-12T15:02:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7531
 ---
 
 Если кому интересно, насколько я был радикален в своей оценке.

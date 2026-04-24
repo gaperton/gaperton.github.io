@@ -3,6 +3,7 @@ id: 7324
 date: 2026-04-08T21:01:27+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7323
 ---
 
 А он by design такой у меня. Это его D.O.C.P. Clock. У AMD хорошо когда эта частота совпадает с чем-то там в CPU, я сециально под 5700X ее подобрал.

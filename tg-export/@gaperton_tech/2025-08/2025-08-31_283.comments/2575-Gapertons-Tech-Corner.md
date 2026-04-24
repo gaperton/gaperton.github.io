@@ -3,6 +3,7 @@ id: 2575
 date: 2025-09-01T23:04:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2564
 ---
 
 https://en.wikipedia.org/wiki/Classical_education_movement

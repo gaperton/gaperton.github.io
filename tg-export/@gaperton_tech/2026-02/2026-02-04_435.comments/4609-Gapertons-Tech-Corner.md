@@ -3,6 +3,7 @@ id: 4609
 date: 2026-02-04T00:49:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4607
 ---
 
 Есть и третья часть гомеостаза социального агента. Самая важная. Это то как он вписан в окружение (через набор ролей), и dignitas.

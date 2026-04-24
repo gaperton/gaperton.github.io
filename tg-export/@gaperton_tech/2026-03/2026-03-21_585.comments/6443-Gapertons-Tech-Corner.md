@@ -3,6 +3,7 @@ id: 6443
 date: 2026-03-22T01:17:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6442
 ---
 
 То есть, механическую систему попросить смоделировать. Причем аккуратно. 

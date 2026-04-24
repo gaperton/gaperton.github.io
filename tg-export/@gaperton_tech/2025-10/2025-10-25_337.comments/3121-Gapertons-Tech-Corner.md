@@ -3,6 +3,8 @@ id: 3121
 date: 2025-10-25T20:51:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 337
+reply_quote: Причины, почему Скрам хорош, — не в самом Скраме.
 ---
 
 А вот часть того чем он хуев -- именно в нем.

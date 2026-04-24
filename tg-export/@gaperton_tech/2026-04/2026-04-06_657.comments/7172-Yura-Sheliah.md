@@ -3,6 +3,7 @@ id: 7172
 date: 2026-04-06T08:48:34+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 7168
 ---
 
 Я кстати довёл свою старую железку до 20 t/s на dense 27b и 55 t/s на moe 35b.

@@ -3,6 +3,7 @@ id: 7104
 date: 2026-04-04T17:36:57+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7100
 ---
 
 https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs

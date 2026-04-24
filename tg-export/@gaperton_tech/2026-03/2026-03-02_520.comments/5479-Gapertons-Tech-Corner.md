@@ -3,6 +3,7 @@ id: 5479
 date: 2026-03-02T05:22:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5478
 ---
 
 Проблема конечно в том, что альтернативы тоже говно.

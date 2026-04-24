@@ -3,6 +3,7 @@ id: 3648
 date: 2025-11-20T18:23:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3647
 ---
 
 Объяснение в википедии похоже на хуйню.

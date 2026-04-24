@@ -3,6 +3,7 @@ id: 2385
 date: 2025-06-11T22:14:02+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 2356
 ---
 
 прикольно. 

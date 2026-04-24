@@ -3,6 +3,7 @@ id: 4679
 date: 2026-02-06T17:16:37+00:00
 author: Sergiy-Skyninko
 author_handle: @Skynin
+reply_to: 4677
 ---
 
 это совет в логике:

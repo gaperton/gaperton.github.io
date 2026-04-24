@@ -3,6 +3,7 @@ id: 4736
 date: 2026-02-07T15:52:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4726
 ---
 
 Reasoning Assistant дает в торец. Он как всегда прав.

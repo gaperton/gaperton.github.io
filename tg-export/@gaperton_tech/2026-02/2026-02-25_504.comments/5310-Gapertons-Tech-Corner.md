@@ -3,6 +3,7 @@ id: 5310
 date: 2026-02-25T18:26:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5309
 ---
 
 single RTX 3090. 24 GB VRAM. Qwen3.5-35B-A3B. 4-bit quant, 113 tokens per second at full 262K context harnessing Claude Code locally with no API, no subscription, no proxy.

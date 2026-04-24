@@ -3,6 +3,8 @@ id: 3279
 date: 2025-11-04T06:14:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3278
+reply_quote: (𝜃 □→ 𝜙)
 ---
 
 Ну как бы это понятно объяснить? 

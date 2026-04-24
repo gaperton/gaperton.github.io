@@ -3,6 +3,8 @@ id: 4179
 date: 2026-01-22T15:25:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4171
+reply_quote: Согласно определению автора это жизнью не является вроде.
 ---
 
 Это интересный пограничный пример.

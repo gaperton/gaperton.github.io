@@ -3,6 +3,7 @@ id: 5823
 date: 2026-03-12T20:28:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5815
 ---
 
 Все равно смешно налетел на полную замену всего, но по кусочкам :).

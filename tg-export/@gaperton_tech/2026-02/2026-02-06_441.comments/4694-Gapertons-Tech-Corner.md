@@ -3,6 +3,7 @@ id: 4694
 date: 2026-02-06T21:27:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4693
 ---
 
 Очень удобно иметь глючное железо, прям что доктор прописал. Иначе как бы я его тестировал, кадавра?

@@ -3,6 +3,8 @@ id: 3589
 date: 2025-11-19T04:36:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3588
+reply_quote: что таки центр ситуации, действие или субъект?
 ---
 
 Что такое "ситуация" и что такое "центр ситуации"?

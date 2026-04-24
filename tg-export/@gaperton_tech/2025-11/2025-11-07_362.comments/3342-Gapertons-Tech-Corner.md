@@ -3,6 +3,7 @@ id: 3342
 date: 2025-11-07T18:59:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3341
 ---
 
 Передумал. Знает, кто тут dominus! То-то же.

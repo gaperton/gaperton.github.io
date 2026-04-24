@@ -3,6 +3,7 @@ id: 3055
 date: 2025-10-24T18:45:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3053
 ---
 
 Вот так надо делать. Это уже тезис по сути, а не пересказ истории.

@@ -3,6 +3,7 @@ id: 3023
 date: 2025-10-22T23:02:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3015
 ---
 
 🤖 Ты начинаешь с классического платоновского определения знания:

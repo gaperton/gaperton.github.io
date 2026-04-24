@@ -3,6 +3,7 @@ id: 5667
 date: 2026-03-09T14:10:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5664
 ---
 
 Мне другое переломило, на самом деле.

@@ -3,6 +3,7 @@ id: 4505
 date: 2026-02-01T02:21:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4504
 ---
 
 Это еще не инструкция. Это ссссуть. Вот такого пиздуна мы запустим завтра.

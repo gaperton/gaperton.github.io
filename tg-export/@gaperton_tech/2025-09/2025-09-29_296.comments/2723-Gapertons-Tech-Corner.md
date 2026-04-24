@@ -3,6 +3,7 @@ id: 2723
 date: 2025-09-30T22:03:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2714
 ---
 
 Абсолютно никакой. Вы ж идиоты.

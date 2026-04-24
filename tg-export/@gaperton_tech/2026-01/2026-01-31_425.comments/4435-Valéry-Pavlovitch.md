@@ -3,6 +3,7 @@ id: 4435
 date: 2026-01-31T14:03:42+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4427
 ---
 
 вот как раз они stateless чтобы не было таких эффектов как с molt bot / molt book?

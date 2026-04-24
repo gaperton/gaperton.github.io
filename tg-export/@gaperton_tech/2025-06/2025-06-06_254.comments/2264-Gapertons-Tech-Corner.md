@@ -3,6 +3,7 @@ id: 2264
 date: 2025-06-06T16:57:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2263
 ---
 
 Ага. Типа того. И без часов ясно, во сколько ты ложишься спать, и как себя чувствуешь на утро.

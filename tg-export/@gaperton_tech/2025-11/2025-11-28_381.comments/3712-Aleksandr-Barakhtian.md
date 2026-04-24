@@ -3,6 +3,7 @@ id: 3712
 date: 2025-11-28T03:37:45+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 3710
 ---
 
 Схожее мнение.

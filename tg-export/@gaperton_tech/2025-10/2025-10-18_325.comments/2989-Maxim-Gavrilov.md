@@ -3,6 +3,7 @@ id: 2989
 date: 2025-10-19T06:50:25+00:00
 author: Maxim-Gavrilov
 author_handle: @maximgavrilov
+reply_to: 2988
 ---
 
 Взяли боль в моменте, вместо размеренного мозгоёбства в годы.

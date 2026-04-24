@@ -3,6 +3,7 @@ id: 2359
 date: 2025-06-11T04:40:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2356
 ---
 
 Быстро он проснулся в этот раз. Практически сразу.

@@ -2,6 +2,7 @@
 id: 7743
 date: 2026-04-15T16:50:29+00:00
 author: Dmitry-Osovsky
+reply_to: 7741
 ---
 
 https://unsloth.ai/docs/models/minimax-m27

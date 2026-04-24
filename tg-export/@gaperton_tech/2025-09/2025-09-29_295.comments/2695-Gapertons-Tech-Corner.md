@@ -3,6 +3,7 @@ id: 2695
 date: 2025-09-29T00:22:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2694
 ---
 
 По случаю, ставим в эфир хит в исполнении Мавроди

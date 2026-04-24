@@ -3,6 +3,7 @@ id: 7705
 date: 2026-04-15T05:37:24+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 7703
 ---
 
 Кстати про их bench у меня он 20 t/s почему то никогда не показывал, а вот 27b их в чате выдает.

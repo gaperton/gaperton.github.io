@@ -3,6 +3,7 @@ id: 916
 date: 2023-06-02T20:08:09+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 911
 ---
 
 Я про єто думал вчера :)

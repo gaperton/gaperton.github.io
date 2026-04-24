@@ -3,6 +3,7 @@ id: 7309
 date: 2026-04-08T20:15:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7308
 ---
 
 Да хз. Там говорят все затыкается в прогон данных по PCIe между слоями, считать надо, да читать что на реддит пишут.

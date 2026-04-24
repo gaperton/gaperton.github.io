@@ -3,6 +3,7 @@ id: 4225
 date: 2026-01-24T17:47:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4215
 ---
 
 Ну, комментарии это же не запись в дневнике, это приглашение к беседе, так?

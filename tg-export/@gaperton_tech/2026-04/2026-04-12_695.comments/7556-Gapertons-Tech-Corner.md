@@ -3,6 +3,7 @@ id: 7556
 date: 2026-04-12T18:59:46+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7547
 ---
 
 А вот у аристократов у кого M3 Ultra все хорошо. Кроме скорости обработки промпта.

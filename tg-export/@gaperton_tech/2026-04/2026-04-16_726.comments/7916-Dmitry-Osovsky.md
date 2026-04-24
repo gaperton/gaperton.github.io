@@ -2,6 +2,7 @@
 id: 7916
 date: 2026-04-16T18:14:43+00:00
 author: Dmitry-Osovsky
+reply_to: 7914
 ---
 
 шринкфляция ЛЛМ

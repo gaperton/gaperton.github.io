@@ -3,6 +3,8 @@ id: 2228
 date: 2025-06-06T15:57:05+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2219
+reply_quote: Не благодари :)
 ---
 
 А что -- надо было? Ты считаешь твое мнение о том что нужно прям настолько ценно?

@@ -3,6 +3,7 @@ id: 3598
 date: 2025-11-19T14:18:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3596
 ---
 
 Если читать пересказ котором больше текста и галлюцинаций — это мешает пониманию, а не помогает.

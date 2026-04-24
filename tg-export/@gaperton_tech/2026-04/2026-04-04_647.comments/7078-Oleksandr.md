@@ -3,6 +3,7 @@ id: 7078
 date: 2026-04-04T16:09:06+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 7074
 ---
 
 с облачной есть важный нюанс -- ее очень рискованно гонять на личной подписке. только в рамках Google Workspace, Vertex API или через OpenRouter.

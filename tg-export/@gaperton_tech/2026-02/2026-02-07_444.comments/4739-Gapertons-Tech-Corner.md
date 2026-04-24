@@ -3,6 +3,7 @@ id: 4739
 date: 2026-02-07T17:53:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4726
 ---
 
 Вот так. Теперь все дыры закрыты вроде.

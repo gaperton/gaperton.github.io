@@ -3,6 +3,7 @@ id: 5283
 date: 2026-02-25T06:59:33+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 5282
 ---
 
 ну вообще то дороже... GB200 поинтересуйтесь сколько стоит...

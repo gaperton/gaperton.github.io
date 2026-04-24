@@ -3,6 +3,7 @@ id: 7740
 date: 2026-04-15T16:43:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7737
 ---
 
 Еще с учетом того что параллельное выполнение ЗАМЕДЛЯЕТ МОДЕЛЬ.

@@ -3,6 +3,7 @@ id: 8237
 date: 2026-04-18T16:33:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8236
 ---
 
 А теперь поставь 3. И это станет как у меня.

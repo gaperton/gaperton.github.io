@@ -3,6 +3,7 @@ id: 2149
 date: 2025-05-31T13:59:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2136
 ---
 
 Что, трудно? А нечего, что каждый придурок в сети рассуждает при этом о справедливости? 

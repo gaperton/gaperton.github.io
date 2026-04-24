@@ -3,6 +3,7 @@ id: 3730
 date: 2025-11-28T04:54:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3729
 ---
 
 Да. Неправда конечно, но в части что 40% будут уволены — правда.

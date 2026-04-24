@@ -3,6 +3,7 @@ id: 3728
 date: 2025-11-28T04:50:29+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3727
 ---
 
 Тема сильна тем что объясняет все сугубо злым умыслом, без привлечения «идиота из машины».

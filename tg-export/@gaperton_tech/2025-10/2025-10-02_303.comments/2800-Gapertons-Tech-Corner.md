@@ -3,6 +3,7 @@ id: 2800
 date: 2025-10-03T14:38:09+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2799
 ---
 
 Но кое-что необычное случилось после кризиса 2008 года.

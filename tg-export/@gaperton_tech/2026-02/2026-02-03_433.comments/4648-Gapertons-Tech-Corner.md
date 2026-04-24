@@ -3,6 +3,7 @@ id: 4648
 date: 2026-02-05T06:15:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4647
 ---
 
 Админы компов, эконом, врач, управляющий домом, адвокат. Это рабы нашего домохозяйства.

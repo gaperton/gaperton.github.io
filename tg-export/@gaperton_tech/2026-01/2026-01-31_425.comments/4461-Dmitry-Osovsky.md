@@ -2,6 +2,7 @@
 id: 4461
 date: 2026-01-31T18:36:44+00:00
 author: Dmitry-Osovsky
+reply_to: 4460
 ---
 
 потому что life will find a way. Хотя не, вирус же не живой

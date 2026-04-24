@@ -3,6 +3,7 @@ id: 4151
 date: 2026-01-22T04:49:38+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4149
 ---
 
 🤖 Это правдоподобно как метафора, но если читать буквально, тут две потенциальные ошибки:

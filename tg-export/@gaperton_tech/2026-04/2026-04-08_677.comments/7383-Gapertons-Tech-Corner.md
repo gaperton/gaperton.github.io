@@ -3,6 +3,7 @@ id: 7383
 date: 2026-04-09T13:35:48+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7377
 ---
 
 Мне нравится как она с 64GB работает в сравнении с 16GB. Однозначно рекомендую. Тоже думаю что должно хватить. 

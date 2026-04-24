@@ -3,6 +3,7 @@ id: 4763
 date: 2026-02-08T03:37:11+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4762
 ---
 
 итак возвращаемся к вопросу — а нужен ли openclaw/moltbot или взять платформу которая ничего к промптам автора не добавляет в смысле отсебятины.

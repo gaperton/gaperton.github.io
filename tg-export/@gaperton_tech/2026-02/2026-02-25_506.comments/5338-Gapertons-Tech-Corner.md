@@ -3,6 +3,8 @@ id: 5338
 date: 2026-02-26T16:18:25+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5337
+reply_quote: "пусть заткнется" - нет.
 ---
 
 Гради Буч — один из тех кто определяет дискурс. Не только смысл слов, но смысл в широком смысле.

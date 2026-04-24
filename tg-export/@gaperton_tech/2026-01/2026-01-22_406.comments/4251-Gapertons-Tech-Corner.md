@@ -3,6 +3,8 @@ id: 4251
 date: 2026-01-24T20:36:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4249
+reply_quote: Живое и вирусы, попав в подходящие условия, размножаются сами
 ---
 
 Кто тебе сказал, что вирусы размножаются сами? 🙂

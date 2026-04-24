@@ -3,6 +3,7 @@ id: 4623
 date: 2026-02-04T16:16:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4622
 ---
 
 🧠 1) Согласен с диагнозом

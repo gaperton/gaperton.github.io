@@ -3,6 +3,7 @@ id: 5545
 date: 2026-03-03T19:15:06+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5544
 ---
 
 В этом ноуте можно 122B модель от Qwen поднять. И она говорят прям уже хорошо.

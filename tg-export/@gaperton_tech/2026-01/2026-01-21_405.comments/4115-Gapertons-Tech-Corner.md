@@ -3,6 +3,7 @@ id: 4115
 date: 2026-01-21T06:44:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4109
 ---
 
 Ультрастабильность тоже не выполняется. 🙂 Хоть мы и не знаем пока что это такое. Но это очень важно.

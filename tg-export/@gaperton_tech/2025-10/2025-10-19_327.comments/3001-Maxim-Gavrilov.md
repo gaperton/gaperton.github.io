@@ -3,6 +3,7 @@ id: 3001
 date: 2025-10-21T04:55:32+00:00
 author: Maxim-Gavrilov
 author_handle: @maximgavrilov
+reply_to: 2994
 ---
 
 Я так глубоко не думал, конечно. Просто рефреймнул твои тезисы на знакомую себе область. 🥹

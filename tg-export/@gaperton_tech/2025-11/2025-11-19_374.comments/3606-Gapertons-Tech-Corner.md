@@ -3,6 +3,7 @@ id: 3606
 date: 2025-11-19T14:40:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3602
 ---
 
 Вы фиксируете фундаментальное расхождение между двумя концепциями предиката:

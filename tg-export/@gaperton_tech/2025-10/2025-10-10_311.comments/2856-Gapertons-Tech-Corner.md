@@ -3,6 +3,7 @@ id: 2856
 date: 2025-10-10T20:20:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2855
 ---
 
 ``⎕CR 'PrimeNumbers'  ⍝ Show APL user-function PrimeNumbers

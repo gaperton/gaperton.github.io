@@ -3,6 +3,7 @@ id: 5512
 date: 2026-03-02T17:24:20+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5511
 ---
 
 Я проверил по длине промпта.

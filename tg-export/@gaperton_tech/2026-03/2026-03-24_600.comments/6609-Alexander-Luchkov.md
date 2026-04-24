@@ -3,6 +3,7 @@ id: 6609
 date: 2026-03-24T09:07:35+00:00
 author: Alexander-Luchkov
 author_handle: @WatchTh15
+reply_to: 6607
 ---
 
 Есть плагин в vs code, Continue.

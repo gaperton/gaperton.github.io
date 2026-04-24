@@ -3,6 +3,7 @@ id: 5501
 date: 2026-03-02T16:09:05+00:00
 author: Andrey-Yamanov
 author_handle: @tenphi
+reply_to: 5499
 ---
 
 Я в целом плюс минус базовые настройки использовал в LM Studio, ну контекстное окно увеличил до 128К. Заработало после смены Claude Code на Zed.

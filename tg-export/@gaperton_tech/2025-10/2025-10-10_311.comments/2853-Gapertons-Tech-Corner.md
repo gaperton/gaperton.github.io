@@ -3,6 +3,8 @@ id: 2853
 date: 2025-10-10T18:53:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2851
+reply_quote: Вот кому плотно удалось упаковать смыслы в язык так это ему.
 ---
 
 Что, правда ему? А другим не удалось?

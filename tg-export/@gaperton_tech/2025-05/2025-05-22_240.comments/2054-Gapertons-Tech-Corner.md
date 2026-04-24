@@ -3,6 +3,7 @@ id: 2054
 date: 2025-05-22T19:25:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2053
 ---
 
 Само собой.

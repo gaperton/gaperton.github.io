@@ -3,6 +3,7 @@ id: 1986
 date: 2025-05-13T20:04:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1985
 ---
 
 🤖 Почему его считают “пиздаболом”:

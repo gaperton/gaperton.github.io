@@ -3,6 +3,7 @@ id: 6536
 date: 2026-03-23T16:49:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6524
 ---
 
 $1400 стоит GPU, 300W он жрет, 90 000 t/hr он дает. Стоит энергия 5 kWh/USD.

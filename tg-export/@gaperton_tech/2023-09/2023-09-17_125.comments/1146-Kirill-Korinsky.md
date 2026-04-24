@@ -3,6 +3,7 @@ id: 1146
 date: 2023-09-17T07:35:00+00:00
 author: Kirill-Korinsky
 author_handle: @catap
+reply_to: 1145
 ---
 
 Вот потрясающий черновик стандарта https://patcg-individual-drafts.github.io/topics про, гм, не-приватность; я хотел надергать цитат но потом осознал что я цитирую почти весь документ...

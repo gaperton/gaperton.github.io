@@ -3,6 +3,7 @@ id: 3048
 date: 2025-10-24T16:56:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3032
 ---
 
 людям кроме “можно использовать” хочеться еще от єто все про “модно”, “молодежно” и т.п. 

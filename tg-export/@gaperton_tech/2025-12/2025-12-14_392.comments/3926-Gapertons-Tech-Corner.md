@@ -3,6 +3,7 @@ id: 3926
 date: 2025-12-14T19:38:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3918
 ---
 
 __У моего AI есть уточнения по делу.__

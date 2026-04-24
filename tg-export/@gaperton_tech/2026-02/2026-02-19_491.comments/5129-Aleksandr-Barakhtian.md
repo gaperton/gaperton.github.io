@@ -3,6 +3,7 @@ id: 5129
 date: 2026-02-19T00:48:27+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 5128
 ---
 
 Интересный феномен, реально.

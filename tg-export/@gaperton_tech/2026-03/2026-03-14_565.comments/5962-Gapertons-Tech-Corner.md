@@ -3,6 +3,8 @@ id: 5962
 date: 2026-03-15T01:07:20+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5957
+reply_quote: А не было бы ФДА - может и не пришлось бы =)
 ---
 
 Он спорит с кем-то, кто призывает отменить любой надзор и расформировать FDA.

@@ -3,6 +3,7 @@ id: 8489
 date: 2026-04-21T05:44:01+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 8485
 ---
 
 хм, не знал про такой закон

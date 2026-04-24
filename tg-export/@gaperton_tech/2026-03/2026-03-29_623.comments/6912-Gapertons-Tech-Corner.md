@@ -3,6 +3,7 @@ id: 6912
 date: 2026-03-31T18:46:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6906
 ---
 
 Трудно провести границу, да. Но.

@@ -3,6 +3,7 @@ id: 2226
 date: 2025-06-06T15:56:03+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 2223
 ---
 
 У меня в начале тоже так было и я не могу сказать что часы пиздели.

@@ -3,6 +3,7 @@ id: 5578
 date: 2026-03-05T04:41:33+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 5513
 ---
 
 если что, я не забыл. но последние несколько дней разбираюсь с бесхозным misconfigured server on a misconfigured network, который в теории даст мне up to 564 GB VRAM. 

@@ -3,6 +3,8 @@ id: 4257
 date: 2026-01-24T20:43:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4253
+reply_quote: А кто их размножает?
 ---
 
 > А кто их размножает? 

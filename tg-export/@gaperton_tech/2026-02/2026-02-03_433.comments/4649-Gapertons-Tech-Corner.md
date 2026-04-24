@@ -3,6 +3,7 @@ id: 4649
 date: 2026-02-05T06:18:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4648
 ---
 
 Так, для них инфраструктура нужна, ими управлять. Назовем этот сетап "household"

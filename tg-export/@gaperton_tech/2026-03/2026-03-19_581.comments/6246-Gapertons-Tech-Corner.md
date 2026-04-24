@@ -3,6 +3,7 @@ id: 6246
 date: 2026-03-19T05:04:08+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6214
 ---
 
 В Vulkan, 3090 примерно на 30% быстрее на моделях Qwen в Linux.

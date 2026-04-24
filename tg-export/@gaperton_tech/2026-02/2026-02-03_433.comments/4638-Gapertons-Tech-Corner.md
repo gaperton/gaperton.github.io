@@ -3,6 +3,7 @@ id: 4638
 date: 2026-02-05T04:42:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4556
 ---
 
 ok, я это сделал. Агент с полным доступом но тольео локальным чатом, чисто как админ компа.

@@ -3,6 +3,7 @@ id: 1880
 date: 2025-04-21T13:17:31+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1879
 ---
 
 Критическая саморефлексия

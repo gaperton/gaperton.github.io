@@ -3,6 +3,7 @@ id: 2937
 date: 2025-10-17T23:21:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2935
 ---
 
 Там в общем все просто. Тем кто знаком с общей алгеброй вообще должно быть элементарно.

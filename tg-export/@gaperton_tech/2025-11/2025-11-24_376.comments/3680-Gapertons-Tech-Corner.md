@@ -3,6 +3,7 @@ id: 3680
 date: 2025-11-26T17:42:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3662
 ---
 
 Все что вы хотели знать о том, как работает бактерия. Но боялись спросить.

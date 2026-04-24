@@ -3,6 +3,7 @@ id: 5825
 date: 2026-03-12T20:52:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5824
 ---
 
 Да. Она по любому не тянет PCIe5, это только RTX 50XX. А значит, на любой не серверной матери будет тупить.

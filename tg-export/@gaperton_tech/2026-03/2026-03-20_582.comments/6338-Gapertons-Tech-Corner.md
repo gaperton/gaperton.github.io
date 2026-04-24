@@ -3,6 +3,7 @@ id: 6338
 date: 2026-03-20T20:59:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6323
 ---
 
 Я кстати не вижу что можно пустить в 64GB что было б радикально лучше чем Qwen3.5-27B. Которая спокойно идет в 32GB

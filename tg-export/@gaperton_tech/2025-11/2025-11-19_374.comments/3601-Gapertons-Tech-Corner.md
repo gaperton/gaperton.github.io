@@ -3,6 +3,7 @@ id: 3601
 date: 2025-11-19T14:22:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3600
 ---
 
 Да, именно так. Это просто функция с аргументами. И все.

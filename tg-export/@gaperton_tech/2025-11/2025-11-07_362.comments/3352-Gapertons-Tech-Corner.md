@@ -3,6 +3,7 @@ id: 3352
 date: 2025-11-08T15:34:06+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3351
 ---
 
 Dominus — господин

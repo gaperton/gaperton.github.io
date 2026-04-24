@@ -3,6 +3,7 @@ id: 5331
 date: 2026-02-26T16:05:38+00:00
 author: Igor-Bespalchuk
 author_handle: @IgorBespalchuk
+reply_to: 5330
 ---
 
 Ну, это я, конечно, очень образно :)

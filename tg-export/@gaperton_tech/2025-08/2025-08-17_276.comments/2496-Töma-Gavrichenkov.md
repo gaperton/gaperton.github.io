@@ -3,6 +3,7 @@ id: 2496
 date: 2025-08-18T00:04:10+00:00
 author: Töma-Gavrichenkov
 author_handle: @ximaera
+reply_to: 2493
 ---
 
 Как наиболее близкий пример.

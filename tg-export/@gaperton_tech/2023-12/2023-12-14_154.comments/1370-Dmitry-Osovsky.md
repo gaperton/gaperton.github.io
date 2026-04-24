@@ -2,6 +2,7 @@
 id: 1370
 date: 2023-12-15T07:50:06+00:00
 author: Dmitry-Osovsky
+reply_to: 1359
 ---
 
 Кстати, за 30, оказывается, берется новая Mazda CX-5 AWD.

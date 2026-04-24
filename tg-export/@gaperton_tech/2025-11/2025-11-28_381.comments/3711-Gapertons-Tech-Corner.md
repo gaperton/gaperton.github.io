@@ -3,6 +3,7 @@ id: 3711
 date: 2025-11-28T02:58:14+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3710
 ---
 
 Я могу назвать Cursor. Claude Code. Codex. И наверное все.

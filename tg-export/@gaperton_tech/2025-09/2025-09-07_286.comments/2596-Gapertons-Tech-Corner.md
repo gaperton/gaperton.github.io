@@ -3,6 +3,7 @@ id: 2596
 date: 2025-09-07T21:26:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2581
 ---
 
 __Барды были единственным СМИ. Чтоб осознать это, вспомним мир Ведьмака Сапковского.__

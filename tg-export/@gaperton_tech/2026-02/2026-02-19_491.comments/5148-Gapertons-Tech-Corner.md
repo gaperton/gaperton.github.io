@@ -3,6 +3,7 @@ id: 5148
 date: 2026-02-19T01:13:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5128
 ---
 
 3) Аргумент Барахтяна: “делаем плохо измеримое”

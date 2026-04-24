@@ -3,6 +3,7 @@ id: 2380
 date: 2025-06-11T21:49:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2379
 ---
 
 Какое отношение этот аргумент имеет к метакогниции?

@@ -3,6 +3,7 @@ id: 4273
 date: 2026-01-24T21:46:47+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4272
 ---
 
 Разумеется отличишь, если захочешь.

@@ -3,6 +3,7 @@ id: 7563
 date: 2026-04-12T23:17:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7562
 ---
 
 А для валидации я просто погонял модель в разных сценариях, проверив логику в чат ГПТ.

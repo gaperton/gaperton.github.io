@@ -3,6 +3,7 @@ id: 2407
 date: 2025-06-12T00:01:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2405
 ---
 
 *«Интенциональность в системе “человек + LLM” распределена.

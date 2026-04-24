@@ -3,6 +3,7 @@ id: 4000
 date: 2025-12-22T16:17:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3998
 ---
 
 🤖 Что для этого нужно когнитивно

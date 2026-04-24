@@ -3,6 +3,7 @@ id: 2542
 date: 2025-08-30T19:44:59+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2541
 ---
 
 **Логика — это искусственный древнегреческий для всех остальных языков.**

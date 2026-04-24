@@ -3,6 +3,7 @@ id: 5913
 date: 2026-03-14T21:06:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5911
 ---
 
 mi50 старье, нет? Комьюнити и правда больше раз в двадцать. 

@@ -3,6 +3,8 @@ id: 5607
 date: 2026-03-07T18:29:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 536
+reply_quote: 🤔 А как же OpenClaw?
 ---
 
 Это реально надо для того, чтобы опрашивать что-то периодически, и писать хозяину в мессенджер когда случилось что-то важное.

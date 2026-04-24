@@ -3,6 +3,8 @@ id: 2543
 date: 2025-08-30T20:05:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2542
+reply_quote: но тезис пришел в голову не только мне.
 ---
 
 __Собсно, это называлось "тривиум".__

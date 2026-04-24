@@ -3,6 +3,7 @@ id: 5303
 date: 2026-02-25T18:08:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5300
 ---
 
 На 14-20В параметров, что с китайскими моделями сейчас тоже ничо. То есть не полное говно вовсе.

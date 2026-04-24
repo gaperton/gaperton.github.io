@@ -3,6 +3,7 @@ id: 5746
 date: 2026-03-11T18:09:14+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 5744
 ---
 
 =) увы да... если бы не https://github.com/hotovo/aider-desk, я бы его вообще пробовать не стал

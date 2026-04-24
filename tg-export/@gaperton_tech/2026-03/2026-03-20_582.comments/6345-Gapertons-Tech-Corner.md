@@ -3,6 +3,8 @@ id: 6345
 date: 2026-03-21T14:28:07+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6344
+reply_quote: Их хотя бы выключить можно
 ---
 
 Можно. Если суметь понять что вообще произошло.

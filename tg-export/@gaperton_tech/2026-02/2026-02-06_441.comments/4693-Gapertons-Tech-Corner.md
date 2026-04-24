@@ -3,6 +3,7 @@ id: 4693
 date: 2026-02-06T21:26:38+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4684
 ---
 
 😋 screen went dark and i had to reboot. investigate

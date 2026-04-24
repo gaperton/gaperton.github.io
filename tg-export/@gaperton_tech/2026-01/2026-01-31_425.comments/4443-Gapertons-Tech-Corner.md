@@ -3,6 +3,7 @@ id: 4443
 date: 2026-01-31T15:43:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4424
 ---
 
 В топе сейчас в general. Очевидно намерение бота, его роль, и прочее целиком задано хозяином бота. Это не «они сами», нет.

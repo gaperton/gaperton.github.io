@@ -3,6 +3,7 @@ id: 6341
 date: 2026-03-21T01:36:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6265
 ---
 
 @drcha0s ROCm ставить НЕЛЬЗЯ.

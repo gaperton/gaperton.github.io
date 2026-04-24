@@ -3,6 +3,8 @@ id: 3573
 date: 2025-11-19T03:36:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3571
+reply_quote: что таки центр ситуации, действие или субъект?
 ---
 
 В зависимости от типа предиката.

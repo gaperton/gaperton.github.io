@@ -3,6 +3,7 @@ id: 4786
 date: 2026-02-08T23:44:22+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4783
 ---
 
 go всей бандой в en твиттер?

@@ -3,6 +3,7 @@ id: 2592
 date: 2025-09-07T20:58:48+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 2591
 ---
 
 Латынь бы я выучил только на то

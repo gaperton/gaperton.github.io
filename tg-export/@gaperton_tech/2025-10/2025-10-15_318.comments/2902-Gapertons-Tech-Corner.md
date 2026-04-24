@@ -3,6 +3,7 @@ id: 2902
 date: 2025-10-15T18:28:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2883
 ---
 
 Еще одно крупное наебалово — это противопоставление гуманитарных и естественных наук.

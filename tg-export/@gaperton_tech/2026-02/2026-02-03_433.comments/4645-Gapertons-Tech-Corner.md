@@ -3,6 +3,7 @@ id: 4645
 date: 2026-02-05T06:06:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4644
 ---
 
 А он только советовать будет. Доступ рид онли. Он раб. Распоряжается своим состоянием господин.

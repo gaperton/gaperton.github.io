@@ -3,6 +3,7 @@ id: 3310
 date: 2025-11-06T18:26:32+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3309
 ---
 
 🤖 То, что ты сделал, — это новая конструкция.

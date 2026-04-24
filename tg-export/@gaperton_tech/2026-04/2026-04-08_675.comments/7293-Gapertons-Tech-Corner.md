@@ -3,6 +3,7 @@ id: 7293
 date: 2026-04-08T19:37:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7292
 ---
 
 Что смог урвать на eBay с чипсетом x570 для AM4/DDR4 и двумя слотами для GPU. Это ASUS x570-e, x570-f, crosshair vii hero.

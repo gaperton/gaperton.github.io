@@ -3,6 +3,7 @@ id: 7122
 date: 2026-04-04T19:45:45+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 7083
 ---
 
 кстати, я присмотрелся, Prince ж не инфлюэнсер а из кор контрибьюторов в MLX :) 

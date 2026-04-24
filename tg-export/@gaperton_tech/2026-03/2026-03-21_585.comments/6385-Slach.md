@@ -3,6 +3,7 @@ id: 6385
 date: 2026-03-21T17:07:49+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 6384
 ---
 
 Qwen3.5-Plus (384B это которая с 1M контекста)

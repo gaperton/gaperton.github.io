@@ -3,6 +3,7 @@ id: 4231
 date: 2026-01-24T17:58:33+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4226
 ---
 
 > Правильно я понимаю, Вы работаете в IT?

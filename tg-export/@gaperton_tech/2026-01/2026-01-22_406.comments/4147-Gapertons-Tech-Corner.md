@@ -3,6 +3,7 @@ id: 4147
 date: 2026-01-22T04:11:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4145
 ---
 
 __Спросим моего разумного недоагента, без подсказок — мне прям интересно.__

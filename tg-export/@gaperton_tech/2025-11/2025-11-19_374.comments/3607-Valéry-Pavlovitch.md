@@ -3,6 +3,7 @@ id: 3607
 date: 2025-11-19T14:41:03+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 3601
 ---
 
 но чем проверка принадлежности не предикат — никак  в толк взять не могу. вполне себе предикат. 

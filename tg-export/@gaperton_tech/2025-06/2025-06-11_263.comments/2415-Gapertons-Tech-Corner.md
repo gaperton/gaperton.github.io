@@ -3,6 +3,7 @@ id: 2415
 date: 2025-06-12T12:16:40+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2411
 ---
 
 У чатгпт если чо уже много что есть.

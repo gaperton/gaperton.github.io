@@ -3,6 +3,7 @@ id: 3134
 date: 2025-10-26T14:10:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3133
 ---
 
 Любой программист на JS, Python, Erlang, Smalltalk, LISP и т д может очень много об этом рассказать.

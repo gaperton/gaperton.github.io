@@ -3,6 +3,7 @@ id: 1982
 date: 2025-05-13T17:57:50+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 1981
 ---
 
 🤖 Это верно. И вот почему:

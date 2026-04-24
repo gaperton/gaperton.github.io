@@ -3,6 +3,7 @@ id: 2431
 date: 2025-06-12T20:45:07+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2428
 ---
 
 Кароч я посмотрел фильм. Он да, прям про будни LLM.

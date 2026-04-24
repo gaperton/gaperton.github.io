@@ -3,6 +3,7 @@ id: 2235
 date: 2025-06-06T16:02:28+00:00
 author: Aleks-Sсhubert
 author_handle: @HowlingFjords
+reply_to: 2233
 ---
 
 В часах. У почти всех моделей последних пары лет есть карта ведь. 

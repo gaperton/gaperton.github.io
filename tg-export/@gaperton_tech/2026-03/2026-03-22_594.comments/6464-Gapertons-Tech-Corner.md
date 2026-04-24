@@ -3,6 +3,7 @@ id: 6464
 date: 2026-03-22T07:36:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6463
 ---
 
 В США R9700 стоит 1400, а Ryzen AI Max+ 395 примерно 2800. Я уже проверял. Пришел к выводу что мне интереснее R9700.

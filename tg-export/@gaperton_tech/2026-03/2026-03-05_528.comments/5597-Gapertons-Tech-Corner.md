@@ -3,6 +3,7 @@ id: 5597
 date: 2026-03-05T21:52:30+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5596
 ---
 
 Короче, в MLX сейчас сломано propmpt prefix caching. Сломанно везде, поэтому в Claude Code и всем остальном работать невозможно.

@@ -3,6 +3,7 @@ id: 2872
 date: 2025-10-13T13:37:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2871
 ---
 
 Вы очень много красивого пафоса напустили.

@@ -3,6 +3,7 @@ id: 3658
 date: 2025-11-21T20:54:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3656
 ---
 
 Если вдруг кому интересно, почему гиена придет. 

@@ -3,6 +3,7 @@ id: 3934
 date: 2025-12-15T00:33:13+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3932
 ---
 
 Ладно, давайте штоль для начала посмотрим как AI-инвестиции переживут вот эту яму. Видите на графике яму?

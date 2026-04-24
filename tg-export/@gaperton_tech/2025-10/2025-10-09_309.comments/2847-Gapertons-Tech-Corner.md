@@ -3,6 +3,7 @@ id: 2847
 date: 2025-10-09T22:10:45+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2842
 ---
 
 Если вы не знаете что такое гарум. Это соус из ферментированной рыбы.

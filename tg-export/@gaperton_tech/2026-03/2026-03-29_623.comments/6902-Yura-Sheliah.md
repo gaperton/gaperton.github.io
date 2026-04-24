@@ -3,6 +3,7 @@ id: 6902
 date: 2026-03-31T16:45:56+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 6891
 ---
 
 Прочитал. Введение правда суховато, но вцелом норм.

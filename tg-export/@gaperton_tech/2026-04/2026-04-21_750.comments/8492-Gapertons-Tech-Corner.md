@@ -3,6 +3,8 @@ id: 8492
 date: 2026-04-21T05:46:35+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8489
+reply_quote: я всегда думал они просто долю рынка хотят
 ---
 
 В смысле, все кто хочет долю рынка просто берут и выкладывают свой продукт бесплатно?

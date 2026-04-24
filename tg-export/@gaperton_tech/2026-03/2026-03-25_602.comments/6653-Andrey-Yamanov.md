@@ -3,6 +3,7 @@ id: 6653
 date: 2026-03-25T08:19:03+00:00
 author: Andrey-Yamanov
 author_handle: @tenphi
+reply_to: 6652
 ---
 
 Я пока купил CoPilot для Obsidian, он позволяет и облако подключать и локальные модели использовать, правит заметки.

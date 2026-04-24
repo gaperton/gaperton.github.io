@@ -3,6 +3,7 @@ id: 3897
 date: 2025-12-10T15:59:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3896
 ---
 
 Аргумент о "перегрузке ревью потоком публикаций" слаб и не выдерживает критики.

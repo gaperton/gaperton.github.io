@@ -3,6 +3,7 @@ id: 5685
 date: 2026-03-09T19:33:57+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5679
 ---
 
 Выбросили на полки ДЕФИЦИТ! По госцене! Я проходил мимо, мне не надо было, но как не взять?

@@ -3,6 +3,7 @@ id: 5324
 date: 2026-02-26T06:10:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5314
 ---
 
 Поправка. AI MAX говна кусок. 5 токенов в секунду.

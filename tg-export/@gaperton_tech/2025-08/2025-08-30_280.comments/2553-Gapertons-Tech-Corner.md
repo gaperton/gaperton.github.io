@@ -3,6 +3,7 @@ id: 2553
 date: 2025-08-30T20:52:51+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2552
 ---
 
 Аргументация там слабенькая, кстати. Как и промпт.

@@ -3,6 +3,7 @@ id: 6255
 date: 2026-03-19T05:32:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6254
 ---
 
 Начать надо с того, что нихуя не понятно что вообще делать и что ставить, и зачем. Это уже прям gold.

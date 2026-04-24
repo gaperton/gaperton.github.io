@@ -3,6 +3,7 @@ id: 3295
 date: 2025-11-04T16:23:52+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3294
 ---
 
 🧩 1. В чём была «тайна» Уигнера

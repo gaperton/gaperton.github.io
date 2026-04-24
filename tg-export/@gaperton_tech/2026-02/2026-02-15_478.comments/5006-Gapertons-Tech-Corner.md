@@ -3,6 +3,8 @@ id: 5006
 date: 2026-02-15T23:16:43+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 478
+reply_quote: Gaudeamus igitur, dum vivimus! Будем же радоваться, пока мы живы.
 ---
 
 Это я гаудеамус перефразировал. У них iuvenes dum sumus ("молоды пока мы сами").

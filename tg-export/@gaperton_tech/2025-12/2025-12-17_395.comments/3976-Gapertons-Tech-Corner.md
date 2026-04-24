@@ -3,6 +3,7 @@ id: 3976
 date: 2025-12-18T21:45:25+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3975
 ---
 
 Да нормально все будет, я уже симуляции прогнал.

@@ -3,6 +3,7 @@ id: 2343
 date: 2025-06-10T14:22:27+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2327
 ---
 
 Они сами виноваты.

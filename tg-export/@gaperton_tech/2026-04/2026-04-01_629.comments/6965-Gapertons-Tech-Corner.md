@@ -3,6 +3,7 @@ id: 6965
 date: 2026-04-01T06:42:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6930
 ---
 
 Как вы видите по time stamp, на генерацию pdf из markdown ушло пятнадцать минут. Сделал он это, конечно, как-то через жопу, но меня устраивает. Надо будет выкину и переделаю просто.

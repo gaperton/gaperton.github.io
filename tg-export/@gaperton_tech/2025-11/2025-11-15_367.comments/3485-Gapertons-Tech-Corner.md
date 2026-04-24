@@ -3,6 +3,8 @@ id: 3485
 date: 2025-11-15T22:50:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3483
+reply_quote: позволить всем использовать
 ---
 
 А кому это "всем"? Тем, кого за ненадобностью на улицу выкинут? 

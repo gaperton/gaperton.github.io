@@ -3,6 +3,7 @@ id: 6548
 date: 2026-03-23T17:01:16+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6545
 ---
 
 Исходящие. Остальное ты можешь сам посчитать. Входящие считай 850 ток/сек.

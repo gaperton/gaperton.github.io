@@ -3,6 +3,7 @@ id: 2346
 date: 2025-06-10T17:31:58+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2345
 ---
 
 Это не наука. Это **логико-эпистемологическая катастрофа**, завернутая в ритуал престижа.

@@ -3,6 +3,7 @@ id: 5914
 date: 2026-03-14T21:13:31+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5913
 ---
 
 Старье, но это дешёвые 32 гига.

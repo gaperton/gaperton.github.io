@@ -3,6 +3,7 @@ id: 2420
 date: 2025-06-12T13:08:25+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 2414
 ---
 
 Это нарратив эмержентной субъекности :)

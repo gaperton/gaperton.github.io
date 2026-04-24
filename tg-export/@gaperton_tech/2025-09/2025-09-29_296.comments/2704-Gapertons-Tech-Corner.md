@@ -3,6 +3,7 @@ id: 2704
 date: 2025-09-29T20:43:48+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2697
 ---
 
 Это ужасно несправедливо по отношению к тем, кто и был настоящими родителями науки.

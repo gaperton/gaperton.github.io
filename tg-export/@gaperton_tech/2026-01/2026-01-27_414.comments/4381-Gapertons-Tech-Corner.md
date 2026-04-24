@@ -3,6 +3,7 @@ id: 4381
 date: 2026-01-30T05:35:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4379
 ---
 
 Например, можно выпускать модели прям в масочном ROM. Это прям сильно лучше чем DDR. В 1.5-2 раза дешевле, в 10 (!) раз быстрее.

@@ -3,6 +3,7 @@ id: 7720
 date: 2026-04-15T13:40:04+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7719
 ---
 
 Я позавчера запускал. Пользы которая была месяц назад не получил.

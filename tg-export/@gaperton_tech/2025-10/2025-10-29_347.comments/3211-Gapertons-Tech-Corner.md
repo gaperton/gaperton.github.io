@@ -3,6 +3,7 @@ id: 3211
 date: 2025-10-29T17:58:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3210
 ---
 
 Ну это зависит от того, хочешь ты звучать как Цезарь, или как Фома Аквинский :).

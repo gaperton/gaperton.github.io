@@ -3,6 +3,7 @@ id: 3046
 date: 2025-10-24T16:54:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3032
 ---
 
 А если серьёзно, то я не вижу смысла ничего выдумывать, когда уже есть OMT и ER.

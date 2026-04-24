@@ -2,6 +2,7 @@
 id: 1568
 date: 2024-03-03T20:47:01+00:00
 author: unknown
+reply_to: 1567
 ---
 
 https://www.qualcomm.com/products/mobile/snapdragon/pcs-and-tablets/laptop-device-finder

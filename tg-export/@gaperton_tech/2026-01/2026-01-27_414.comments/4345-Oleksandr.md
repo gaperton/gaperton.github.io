@@ -3,6 +3,7 @@ id: 4345
 date: 2026-01-28T16:03:04+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 4328
 ---
 
 не только хороший трейдер но и хороший маркетолог!

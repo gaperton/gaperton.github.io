@@ -3,6 +3,8 @@ id: 6099
 date: 2026-03-17T16:21:19+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6098
+reply_quote: Учитывая, что в Claude Code можно диктовать промпт голосом, это все напоминает Тони Старка в железном человеке.
 ---
 
 __Тони Старк собрал это сидя в яме! Из металлолома!__

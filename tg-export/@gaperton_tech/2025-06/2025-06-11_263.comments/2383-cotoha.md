@@ -3,6 +3,7 @@ id: 2383
 date: 2025-06-11T22:02:07+00:00
 author: cotoha
 author_handle: @cotoha_1
+reply_to: 2356
 ---
 
 моя мьісль бьіла про то, что  внешние проявления модели не гарантирует внутреннего субʼективного опьіта self-awareness/cognition/metacognition. 

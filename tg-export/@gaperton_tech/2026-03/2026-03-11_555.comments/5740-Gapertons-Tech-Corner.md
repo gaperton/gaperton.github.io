@@ -3,6 +3,7 @@ id: 5740
 date: 2026-03-11T15:28:41+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5735
 ---
 
 Кроме того, 3090 за 1000$ бьёт любой Mac, если только мы не пускаем большую модель которая лезет в 128 МБ. 

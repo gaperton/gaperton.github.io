@@ -3,6 +3,7 @@ id: 2311
 date: 2025-06-10T01:21:08+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2310
 ---
 
 Ответ очень простой. Основания логики зашиты в правила и потому не выразимы в их рамках.

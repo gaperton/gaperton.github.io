@@ -3,6 +3,7 @@ id: 5393
 date: 2026-02-26T22:18:27+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5389
 ---
 
 Да, это как минимум отсекает вариант с двумя 3090.

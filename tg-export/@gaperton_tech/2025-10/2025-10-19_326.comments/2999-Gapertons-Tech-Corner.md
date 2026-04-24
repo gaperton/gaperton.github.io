@@ -3,6 +3,7 @@ id: 2999
 date: 2025-10-20T05:06:55+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2969
 ---
 
 Ну, и там грамматика вводится индуктивно. То есть, постепенно добавляя элементы. 

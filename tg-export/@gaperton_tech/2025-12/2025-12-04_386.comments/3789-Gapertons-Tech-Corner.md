@@ -3,6 +3,8 @@ id: 3789
 date: 2025-12-04T15:02:24+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3786
+reply_quote: Бабка очевидно выиграла в генетическую лотерею. Как и слизевик.
 ---
 
 С этим вообще как.

@@ -3,6 +3,7 @@ id: 7773
 date: 2026-04-15T17:39:10+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7771
 ---
 
 И даже вот эту, она занимает немного меньше памяти, но все равно целиком не лезет к тебе в ГПУ.

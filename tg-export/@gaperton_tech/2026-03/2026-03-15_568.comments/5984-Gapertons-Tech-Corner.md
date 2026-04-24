@@ -3,6 +3,7 @@ id: 5984
 date: 2026-03-15T17:03:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5983
 ---
 
 Это задача чтения документа и выжимки из него нужной информации.

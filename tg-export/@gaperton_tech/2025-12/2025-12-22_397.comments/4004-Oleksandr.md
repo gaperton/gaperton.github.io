@@ -3,6 +3,7 @@ id: 4004
 date: 2025-12-22T16:46:43+00:00
 author: Oleksandr
 author_handle: @oleksandr_now
+reply_to: 4002
 ---
 
 Можно (точнее, нужно) построить менеджер контекста, который будет поддерживать explicit theory of mind.

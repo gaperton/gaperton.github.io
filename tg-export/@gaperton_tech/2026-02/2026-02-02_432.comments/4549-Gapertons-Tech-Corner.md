@@ -3,6 +3,7 @@ id: 4549
 date: 2026-02-02T14:56:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4548
 ---
 
 Так у них конечно же есть тела. 

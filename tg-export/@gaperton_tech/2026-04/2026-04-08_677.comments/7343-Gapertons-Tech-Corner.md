@@ -3,6 +3,7 @@ id: 7343
 date: 2026-04-08T22:29:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7321
 ---
 
 Ну и мой билд это в общем самое нищебродское что есть.

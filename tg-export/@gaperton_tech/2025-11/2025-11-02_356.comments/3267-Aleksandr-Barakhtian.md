@@ -3,6 +3,8 @@ id: 3267
 date: 2025-11-02T21:03:34+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 3263
+reply_quote: ну ноги ж не успевают уже,
 ---
 
 Музыкой навеяло, парни 😁

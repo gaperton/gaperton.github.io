@@ -3,6 +3,7 @@ id: 5342
 date: 2026-02-26T16:28:31+00:00
 author: Igor-Bespalchuk
 author_handle: @IgorBespalchuk
+reply_to: 5341
 ---
 
 Думаю, что мы уже в этом диалоге дошли до точки, когда если надо объяснять - то не надо объяснять :)

@@ -3,6 +3,7 @@ id: 5725
 date: 2026-03-10T16:31:54+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5721
 ---
 
 Повторюсь. Моя карьера в it началась с уголовного дела за visual studio enterprise edition установленного на глазах мента и по его просьбе.

@@ -3,6 +3,7 @@ id: 3927
 date: 2025-12-14T19:41:34+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3926
 ---
 
 __И он предлагает резюмировать так.__

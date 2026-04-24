@@ -3,6 +3,7 @@ id: 3911
 date: 2025-12-11T04:48:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3896
 ---
 
 Ах да, зачем же прибавлять «институциональная»? 🤔

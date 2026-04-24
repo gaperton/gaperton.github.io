@@ -3,6 +3,7 @@ id: 6336
 date: 2026-03-20T19:08:34+00:00
 author: Aleksandr-Barakhtian
 author_handle: @axb0x
+reply_to: 6326
 ---
 
 А сплит-системы кондейные никто не встраивает?

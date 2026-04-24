@@ -3,6 +3,7 @@ id: 6680
 date: 2026-03-25T18:22:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6667
 ---
 
 Yes—in terms of article composition, the version you showed is better.

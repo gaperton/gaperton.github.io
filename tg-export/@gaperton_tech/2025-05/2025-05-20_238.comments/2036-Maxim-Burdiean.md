@@ -3,6 +3,7 @@ id: 2036
 date: 2025-05-21T17:53:59+00:00
 author: Maxim-Burdiean
 author_handle: @maximburdiean
+reply_to: 2016
 ---
 
 Давай я еще раз задам вопрос и мы отойдём от «что имел в виду автор».

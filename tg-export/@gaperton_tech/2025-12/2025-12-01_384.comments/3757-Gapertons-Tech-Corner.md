@@ -3,6 +3,7 @@ id: 3757
 date: 2025-12-01T17:20:23+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3748
 ---
 
 Рост интереса зафиксирован. Его роль как основной причины распродажи nVidia — нет.

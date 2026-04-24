@@ -3,6 +3,7 @@ id: 4785
 date: 2026-02-08T23:40:45+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 4779
 ---
 
 но если воспринимать molt bot как набор промтов в md файлах + skills + mcp и собрать приделать запуск по cron то вроде и тащить с собой весь molt bot не нужно.

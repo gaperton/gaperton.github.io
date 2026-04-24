@@ -3,6 +3,7 @@ id: 5664
 date: 2026-03-09T07:07:54+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 5647
 ---
 
 Он стал соломинкой переломившей хребет моей жабе :)

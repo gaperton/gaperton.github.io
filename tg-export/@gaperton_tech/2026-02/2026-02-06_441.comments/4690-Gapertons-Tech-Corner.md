@@ -3,6 +3,8 @@ id: 4690
 date: 2026-02-06T20:21:21+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4687
+reply_quote: (это ваще пиздец и неясно что с этим делать)
 ---
 
 На самом деле — ясно. Надо просто определений всем важным словам дать и запретить их менять. Мой Reasoning Assistant так уже делает.

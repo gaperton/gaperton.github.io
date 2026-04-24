@@ -3,6 +3,7 @@ id: 5965
 date: 2026-03-15T04:27:00+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5964
 ---
 
 Следующий вариант по простоте — это

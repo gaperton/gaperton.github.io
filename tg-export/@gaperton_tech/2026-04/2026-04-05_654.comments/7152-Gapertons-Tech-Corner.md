@@ -3,6 +3,7 @@ id: 7152
 date: 2026-04-06T01:22:54+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7144
 ---
 
 Он правда немного спятил, но у каждого свои недостатки.

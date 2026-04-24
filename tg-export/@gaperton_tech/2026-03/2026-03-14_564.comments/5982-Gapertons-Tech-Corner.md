@@ -3,6 +3,7 @@ id: 5982
 date: 2026-03-15T16:42:02+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5980
 ---
 
 Безусловно. И тут нам помогают "четыре причины" Аристотеля!

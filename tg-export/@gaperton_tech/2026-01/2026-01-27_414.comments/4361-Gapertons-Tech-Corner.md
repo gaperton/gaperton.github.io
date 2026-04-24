@@ -3,6 +3,8 @@ id: 4361
 date: 2026-01-30T01:30:22+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4359
+reply_quote: Если это получится, это будет прям бомба.
 ---
 
 Собственно, архитектура готова. Теперь надо немного поебаццо.

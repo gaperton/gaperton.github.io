@@ -3,6 +3,7 @@ id: 2254
 date: 2025-06-06T16:40:03+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2253
 ---
 
 Шаги.

@@ -3,6 +3,7 @@ id: 5706
 date: 2026-03-10T13:12:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 5703
 ---
 
 "Шина PCI", да. 

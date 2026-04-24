@@ -3,6 +3,7 @@ id: 3690
 date: 2025-11-27T15:09:53+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3687
 ---
 
 ChatGPT 5.1 Thinking

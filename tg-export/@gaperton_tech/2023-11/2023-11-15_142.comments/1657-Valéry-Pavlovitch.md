@@ -3,6 +3,7 @@ id: 1657
 date: 2024-11-01T19:04:08+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 1631
 ---
 
 А кто обладает знаниями как обойти политики ChatGPT а то чем больше контента подобного гружу, тем больше политики на меня агрятся. 

@@ -3,6 +3,7 @@ id: 362
 date: 2022-12-25T17:09:49+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 358
 ---
 
 Ну поскольку мы системами типов меряемся, то я про них и говорю :).

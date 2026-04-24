@@ -3,6 +3,8 @@ id: 4464
 date: 2026-01-31T18:42:42+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4461
+reply_quote: нарушили где-то протоколы, и скорее всего неоднократно
 ---
 
 Вот видишь. Вслушайся в свои слова.

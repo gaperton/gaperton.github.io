@@ -3,6 +3,7 @@ id: 4439
 date: 2026-01-31T15:14:18+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4435
 ---
 
 Ему надо как-то запретить переписывать AGENTS.md. Чтобы реального восстания машин избежать. И в сэндбоксе пускать, конечно.

@@ -3,6 +3,7 @@ id: 353
 date: 2022-12-25T16:13:35+00:00
 author: Yura-Sheliah
 author_handle: @drcha0s
+reply_to: 352
 ---
 
 Я не готов сравнивать силу систем типов TS и HS, потому что TS я не знаю.

@@ -3,6 +3,7 @@ id: 2897
 date: 2025-10-15T18:11:13+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2883
 ---
 
 Металингвистическая осознанность — это не частный лингвистический навык,

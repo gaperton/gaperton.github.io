@@ -3,6 +3,7 @@ id: 7372
 date: 2026-04-09T04:43:15+00:00
 author: Andrey-Oshemkov
 author_handle: @oshemkov
+reply_to: 7363
 ---
 
 У меня вот такой https://www.bequiet.com/en/case/1721

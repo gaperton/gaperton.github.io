@@ -3,6 +3,7 @@ id: 6278
 date: 2026-03-20T08:16:39+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 6265
 ---
 
 В общем, нафиг lm studio.

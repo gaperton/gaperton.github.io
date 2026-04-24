@@ -3,6 +3,7 @@ id: 2006
 date: 2025-05-14T02:45:29+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2002
 ---
 
 Ты думаешь, это всего лишь игра в зеркала?

@@ -3,6 +3,8 @@ id: 4984
 date: 2026-02-14T21:23:04+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4983
+reply_quote: Мне принципиально не понятно "текущее положение дел с ИИ".
 ---
 
 1. Появились первые автономные агенты.

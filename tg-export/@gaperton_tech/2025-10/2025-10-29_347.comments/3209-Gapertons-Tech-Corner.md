@@ -3,6 +3,7 @@ id: 3209
 date: 2025-10-29T17:06:04+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 3208
 ---
 
 Есть. Средневековая латынь ближе к итальянскому. Caesar это "Кайзар" в классике и "Чейзар" в средневековом варианте.

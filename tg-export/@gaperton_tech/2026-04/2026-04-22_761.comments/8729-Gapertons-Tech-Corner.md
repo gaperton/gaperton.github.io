@@ -3,6 +3,7 @@ id: 8729
 date: 2026-04-22T17:34:49+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 8728
 ---
 
 Не, с dense этот фокус не пройдет, сам видишь :). Там как чуть не влезло, так скорость сразу, как на CPU.

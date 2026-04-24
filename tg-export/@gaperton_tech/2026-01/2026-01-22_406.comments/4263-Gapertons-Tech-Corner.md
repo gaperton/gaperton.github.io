@@ -3,6 +3,7 @@ id: 4263
 date: 2026-01-24T20:53:36+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 4261
 ---
 
 Так, здесь. "Зачем" может относиться как к "их размножает", так и к "они эволюционируют".

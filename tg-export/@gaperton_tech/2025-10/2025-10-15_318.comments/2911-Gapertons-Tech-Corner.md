@@ -3,6 +3,7 @@ id: 2911
 date: 2025-10-16T02:04:44+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2910
 ---
 
 О! Удалось доебаться к местоимению. Оказалось, не то чтобы ошибка.

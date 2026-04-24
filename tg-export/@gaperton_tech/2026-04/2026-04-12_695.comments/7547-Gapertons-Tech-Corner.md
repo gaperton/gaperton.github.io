@@ -3,6 +3,7 @@ id: 7547
 date: 2026-04-12T16:06:26+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 7530
 ---
 
 [Проблемка](https://x.com/ivanfioravanti/status/2043337212369031531?s=20). На самом деле квантизация которая реально быстрая на маке — она не лезет в 128 гигабайт.

@@ -3,6 +3,7 @@ id: 2123
 date: 2025-05-30T12:52:28+00:00
 author: Gapertons-Tech-Corner
 author_handle: @gaperton_tech
+reply_to: 2122
 ---
 
 🤖 Твоё рассуждение логически обосновано и опирается на реальное экономическое противоречие:

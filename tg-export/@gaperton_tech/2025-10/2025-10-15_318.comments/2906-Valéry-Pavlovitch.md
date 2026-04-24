@@ -3,6 +3,7 @@ id: 2906
 date: 2025-10-15T18:34:20+00:00
 author: Valéry-Pavlovitch
 author_handle: @Valeriy_Pavlovich
+reply_to: 2904
 ---
 
 Про декларативное планирование так же было крайне любопытно. 

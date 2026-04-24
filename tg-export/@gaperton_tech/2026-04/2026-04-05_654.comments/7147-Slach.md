@@ -3,6 +3,7 @@ id: 7147
 date: 2026-04-05T16:45:43+00:00
 author: Slach
 author_handle: @BloodJazMan
+reply_to: 7144
 ---
 
 =) смешное то в чем? ты за кого? за ригера или адепта облачных LLM? ;)
