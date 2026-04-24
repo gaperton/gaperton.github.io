@@ -1,18 +1,22 @@
 # tg-export
 
-Exports Telegram channels to markdown files, incrementally.
+Exports Telegram channel posts and comments to markdown files, incrementally.
 
 ## Output structure
 
 ```
-export/
-  {channel}/
+tg-export/
+  @channel/
     YYYY-MM/
-      DD-HHMMSS.md                        <- post
-      DD-HHMMSS/
-        YYYY-MM-DDTHHMMSS-Author.md       <- comment
-        photo.jpg                         <- attached media
+      YYYY-MM-DD_postId.md           <- post
+      YYYY-MM-DD_postId.files/       <- post media (photos, videos, docs)
+        photo.jpg
+      YYYY-MM-DD_postId.comments/    <- comments from linked discussion group
+        commentId-AuthorName.md
+        commentId-originalfile.ext   <- comment media
 ```
+
+Comment frontmatter includes `author` (display name) and `author_handle` (@username if set).
 
 ## Setup
 
@@ -34,7 +38,7 @@ Edit `config.json`:
   "api_id": "12345678",
   "api_hash": "abcdef1234567890abcdef1234567890",
   "session_file": "session",
-  "output_dir": "export",
+  "output_dir": "../../../tg-export",
   "channels": [
     "channel_username"
   ]
@@ -42,43 +46,41 @@ Edit `config.json`:
 ```
 
 `channels` accepts public usernames (`some_channel`) or numeric IDs (`-1001234567890`).
-Add multiple channels to sync them all in one run.
 
 ## Usage
 
-Requires [uv](https://docs.astral.sh/uv/). No separate Python or pip install needed — uv handles everything.
+Requires [uv](https://docs.astral.sh/uv/). No separate Python or pip install needed.
 
-Use the `/tg-export` skill in Claude Code, or run manually:
+On first run Telegram will ask for your phone number and a confirmation code.
+The `session` file stays authenticated for subsequent runs — keep it private.
+
+### Sync posts
 
 ```bash
-cd .claude/skills/tg-export
-uv run export.py
+uv run export.py --limit 0
 ```
 
-On first run Telegram will ask you to log in with your phone number and a confirmation code.
-A `session` file is created to stay authenticated on subsequent runs — keep it private.
+State is saved after every post to `tg-export/.state.json` — safe to interrupt and resume.
 
-Each run only fetches posts newer than the last sync. State is stored in `export/.state.json`.
+### Sync comments
+
+Comments are fetched from the linked discussion group as one incremental stream
+(not per-post), so each run only fetches new comments regardless of which post they're on.
+
+```bash
+uv run export.py --comments --limit 0
+```
 
 ### Options
 
 ```
---limit N        Max posts to fetch per channel per run (default: 10, 0 = all)
---takeout        Use a Telegram takeout session — lower flood limits, recommended for full imports
---wait-time S    Seconds between request batches (default: 0 with --takeout, 1 otherwise)
-```
-
-Incremental sync (default):
-```bash
-uv run export.py --limit 100
-```
-
-Full channel import (recommended):
-```bash
-uv run export.py --takeout --limit 0
+--limit N        Messages to fetch per run (default: 10, 0 = all)
+--comments       Sync comments instead of posts
+--redownload ID  Re-fetch a specific post by Telegram message ID
+--wait-time S    Seconds between request batches (default: 1)
 ```
 
 ## Notes
 
-- Comments are exported only if the channel has a linked discussion group enabled.
-- `config.json`, `session*`, and `export/` are gitignored.
+- Comments require the channel to have a linked discussion group enabled.
+- `config.json` and `session*` are gitignored.

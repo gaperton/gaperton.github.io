@@ -1,14 +1,21 @@
 ---
 name: tg-export
-description: Sync Telegram channels to markdown files. Use when the user wants to export or sync Telegram channel posts.
-argument-hint: "[--limit N] [--comments] [--takeout] [--redownload ID] [--wait-time S]"
+description: Sync Telegram channel posts and comments to markdown files. Use when the user wants to export, import, or sync a Telegram channel. Posts go to YYYY-MM-DD_postId.md, comments to postId.comments/, media to postId.files/.
+argument-hint: "[--comments] [--limit N] [--redownload ID] [--wait-time S]"
 allowed-tools: Bash
 ---
 
-Sync Telegram channels to markdown files by running the export script.
+Sync a Telegram channel to markdown files by running the export script.
 
+**Sync posts** (default):
 ```bash
-cd "${CLAUDE_SKILL_DIR}" && C:\Users\Vlad\.local\bin\uv.exe run --no-project export.py $ARGUMENTS
+cd "${CLAUDE_SKILL_DIR}" && uv run --no-project export.py $ARGUMENTS
 ```
 
-Report how many posts were synced per channel and note any errors.
+**Sync comments** (pass `--comments`):
+```bash
+cd "${CLAUDE_SKILL_DIR}" && uv run --no-project export.py --comments $ARGUMENTS
+```
+
+Both commands are incremental — state is saved after every message and resumes where it left off.
+Report how many posts/comments were synced and note any errors.
