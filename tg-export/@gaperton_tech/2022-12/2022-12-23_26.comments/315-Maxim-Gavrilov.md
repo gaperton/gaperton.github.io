@@ -1,0 +1,8 @@
+---
+id: 315
+date: 2022-12-24T21:08:24+00:00
+author: Maxim-Gavrilov
+author_handle: @maximgavrilov
+---
+
+Алан Кэй вон до сих пор [на кворе написывает](https://www.quora.com/profile/Alan-Kay-11) в свои 80+ 😁

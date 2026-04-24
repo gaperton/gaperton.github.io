@@ -1,0 +1,61 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from C:\temp\ggml-cuda.dll
+load_backend: loaded RPC backend from C:\temp\ggml-rpc.dll
+load_backend: loaded CPU backend from C:\temp\ggml-cpu-alderlake.dll
+| model                          |       size |     params | backend    | ngl |  n_cpu_moe | n_ubatch |     sm |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ---------: | -------: | -----: | --------------: | -------------------: |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |      512 |   none |           pp512 |       287.37 + 36.60 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |      512 |   none |          pp2048 |       438.85 + 10.14 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |      512 |   none |           tg256 |         44.72 + 0.12 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |     1024 |   none |           pp512 |        446.79 + 3.90 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |     1024 |   none |          pp2048 |        761.16 + 1.05 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |     1024 |   none |           tg256 |         44.71 + 0.12 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |     2048 |   none |           pp512 |       455.68 + 10.84 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |     2048 |   none |          pp2048 |      1247.62 + 11.90 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         64 |     2048 |   none |           tg256 |         44.76 + 0.09 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |      512 |   none |           pp512 |       343.49 + 27.83 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |      512 |   none |          pp2048 |       522.91 + 12.23 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |      512 |   none |           tg256 |         52.52 + 0.18 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |     1024 |   none |           pp512 |        523.69 + 3.88 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |     1024 |   none |          pp2048 |        863.62 + 3.37 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |     1024 |   none |           tg256 |         52.05 + 0.19 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |     2048 |   none |           pp512 |        525.58 + 2.58 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |     2048 |   none |          pp2048 |      1414.17 + 18.70 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         32 |     2048 |   none |           tg256 |         53.08 + 0.06 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |      512 |   none |           pp512 |       156.90 + 12.42 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |      512 |   none |          pp2048 |        180.97 + 0.30 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |      512 |   none |           tg256 |         15.26 + 0.02 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |     1024 |   none |           pp512 |        689.50 + 5.35 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |     1024 |   none |          pp2048 |        966.95 + 3.97 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |     1024 |   none |           tg256 |         18.06 + 0.17 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |     2048 |   none |           pp512 |      426.27 + 268.80 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |     2048 |   none |          pp2048 |      1094.80 + 92.06 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |         16 |     2048 |   none |           tg256 |        34.65 + 11.09 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |      512 |   none |           pp512 |       181.57 + 16.92 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |      512 |   none |          pp2048 |        200.61 + 4.52 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |      512 |   none |           tg256 |         11.83 + 0.05 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |     1024 |   none |           pp512 |       672.22 + 12.06 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |     1024 |   none |          pp2048 |       939.72 + 20.15 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |     1024 |   none |           tg256 |         16.14 + 0.25 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |     2048 |   none |           pp512 |        629.67 + 3.75 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |     2048 |   none |          pp2048 |      1098.23 + 14.09 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          8 |     2048 |   none |           tg256 |         15.53 + 0.83 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |      512 |   none |           pp512 |        205.02 + 8.42 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |      512 |   none |          pp2048 |        203.34 + 2.10 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |      512 |   none |           tg256 |         10.42 + 0.11 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |     1024 |   none |           pp512 |       701.96 + 13.51 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |     1024 |   none |          pp2048 |       936.74 + 21.72 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |     1024 |   none |           tg256 |         13.74 + 0.10 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |     2048 |   none |           pp512 |       715.10 + 11.46 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |     2048 |   none |          pp2048 |      1102.55 + 37.81 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          4 |     2048 |   none |           tg256 |         13.49 + 0.30 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |      512 |   none |           pp512 |        234.35 + 0.93 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |      512 |   none |          pp2048 |        228.54 + 3.54 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |      512 |   none |           tg256 |          9.49 + 0.02 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |     1024 |   none |           pp512 |       775.55 + 11.94 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |     1024 |   none |          pp2048 |       883.44 + 84.04 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |     1024 |   none |           tg256 |         13.11 + 0.89 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |     2048 |   none |           pp512 |        742.35 + 4.21 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |     2048 |   none |          pp2048 |       1073.58 + 3.90 |
+| qwen35moe 35B.A3B Q5_K - Medium |  24.76 GiB |    34.66 B | CUDA       | 999 |          0 |     2048 |   none |           tg256 |         12.96 + 0.44 |

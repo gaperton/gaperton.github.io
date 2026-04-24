@@ -1,0 +1,8 @@
+---
+id: 5934
+date: 2026-03-15T00:17:14+00:00
+author: Astral-Zander
+author_handle: @deadphilosopher
+---
+
+Что с ними не так?

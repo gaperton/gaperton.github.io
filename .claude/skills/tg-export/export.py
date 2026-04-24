@@ -30,7 +30,7 @@ def load_config() -> dict:
 
 def load_state(path: Path) -> dict:
     if path.exists():
-        with open(path, encoding="utf-8") as f:
+        with open(path, encoding="utf-8-sig") as f:
             return json.load(f)
     return {}
 
@@ -121,7 +121,7 @@ def _message_text(message) -> str:
     return '\n'.join(fixed).strip()
 
 
-def render_md(message, author: Optional[str] = None) -> str:
+def render_md(message, author: Optional[str] = None, author_handle: str = "") -> str:
     lines = [
         "---",
         f"id: {message.id}",
@@ -129,11 +129,32 @@ def render_md(message, author: Optional[str] = None) -> str:
     ]
     if author:
         lines.append(f"author: {author}")
+    if author_handle:
+        lines.append(f"author_handle: {author_handle}")
     lines += ["---", ""]
     text = _message_text(message)
     if text:
         lines.append(text)
     return "\n".join(lines)
+
+
+async def author_info(message) -> tuple[str, str]:
+    """Return (display_name, @handle) for the message sender."""
+    try:
+        sender = await message.get_sender()
+        if sender is None:
+            return "unknown", ""
+        if hasattr(sender, "first_name"):
+            parts = [sender.first_name or "", sender.last_name or ""]
+            name = " ".join(p for p in parts if p).strip() or "unknown"
+            handle = f"@{sender.username}" if getattr(sender, "username", None) else ""
+            return safe_name(name), handle
+        if hasattr(sender, "title"):
+            handle = f"@{sender.username}" if getattr(sender, "username", None) else ""
+            return safe_name(sender.title) or "unknown", handle
+    except Exception:
+        pass
+    return "unknown", ""
 
 
 def _has_media(directory: Path, exclude: Path = None) -> bool:
@@ -180,7 +201,7 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
         post_dir = month_dir / f"{stem}.files"
 
         month_dir.mkdir(parents=True, exist_ok=True)
-        post_file.write_text(render_md(msg), encoding="utf-8")
+        post_file.write_text(render_md(msg), encoding="utf-8", errors="replace")
         print(f"  + {post_file.relative_to(out)}")
 
         if msg.media and not _has_media(post_dir):
@@ -274,11 +295,12 @@ async def sync_comments(client, channel: str, state: dict, out: Path,
                 comments_dir = month_dir / f"{post_stem}.comments"
                 comments_dir.mkdir(exist_ok=True)
 
-                author_id = msg.sender_id or "unknown"
-                cfile = comments_dir / f"{msg.id}-{author_id}.md"
+                name, handle = await author_info(msg)
+                cfile = comments_dir / f"{msg.id}-{name}.md"
 
                 if not cfile.exists():
-                    cfile.write_text(render_md(msg), encoding="utf-8")
+                    cfile.write_text(render_md(msg, author=name, author_handle=handle),
+                                     encoding="utf-8", errors="replace")
                     synced += 1
 
                 if msg.media:
@@ -360,7 +382,7 @@ async def main() -> None:
                 post_file = month_dir / f"{stem}.md"
                 post_dir = month_dir / f"{stem}.files"
                 month_dir.mkdir(parents=True, exist_ok=True)
-                post_file.write_text(render_md(msg), encoding="utf-8")
+                post_file.write_text(render_md(msg), encoding="utf-8", errors="replace")
                 print(f"  ~ {post_file.relative_to(out)}")
                 if msg.media and not _has_media(post_dir):
                     post_dir.mkdir(exist_ok=True)

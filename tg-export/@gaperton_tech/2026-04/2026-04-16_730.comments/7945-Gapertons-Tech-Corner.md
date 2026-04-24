@@ -1,0 +1,8 @@
+---
+id: 7945
+date: 2026-04-16T18:52:36+00:00
+author: Gapertons-Tech-Corner
+author_handle: @gaperton_tech
+---
+
+Очень скоро должны выпустить новую Макстудию на М5. Лучше ее подождать.

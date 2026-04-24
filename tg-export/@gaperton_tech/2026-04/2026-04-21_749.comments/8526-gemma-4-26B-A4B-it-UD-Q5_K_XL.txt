@@ -1,0 +1,62 @@
+PS F:\test> c:\temp\llama-bench.exe -ngl 999 -fa on -r 3 -b 2048 -sm none -mg 0 --n-cpu-moe 64,32,16,8,4,0 -p 512 -p 2048 -n 256 -ub 512 -ub 1024 -ub 2048 -m f:\gemma-4-26B-A4B-it-UD-Q5_K_XL.gguf -o md
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from C:\temp\ggml-cuda.dll
+load_backend: loaded RPC backend from C:\temp\ggml-rpc.dll
+load_backend: loaded CPU backend from C:\temp\ggml-cpu-alderlake.dll
+| model                          |       size |     params | backend    | ngl |  n_cpu_moe | n_ubatch |     sm |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ---------: | -------: | -----: | --------------: | -------------------: |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |      512 |   none |           pp512 |       328.75 + 27.18 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |      512 |   none |          pp2048 |        474.96 + 0.74 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |      512 |   none |           tg256 |         33.36 + 0.09 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |     1024 |   none |           pp512 |        487.13 + 6.74 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |     1024 |   none |          pp2048 |        823.89 + 9.11 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |     1024 |   none |           tg256 |         33.36 + 0.05 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |     2048 |   none |           pp512 |       471.51 + 10.23 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |     2048 |   none |          pp2048 |      1423.83 + 32.32 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         64 |     2048 |   none |           tg256 |         33.44 + 0.02 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |      512 |   none |           pp512 |       313.06 + 28.50 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |      512 |   none |          pp2048 |        488.92 + 4.82 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |      512 |   none |           tg256 |         33.23 + 0.03 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |     1024 |   none |           pp512 |        484.40 + 9.40 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |     1024 |   none |          pp2048 |       852.75 + 12.06 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |     1024 |   none |           tg256 |         33.27 + 0.06 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |     2048 |   none |           pp512 |       475.13 + 14.71 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |     2048 |   none |          pp2048 |      1438.21 + 45.71 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         32 |     2048 |   none |           tg256 |         32.02 + 2.20 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |      512 |   none |           pp512 |       548.25 + 22.36 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |      512 |   none |          pp2048 |       819.90 + 11.04 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |      512 |   none |           tg256 |         51.97 + 0.28 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |     1024 |   none |           pp512 |       774.04 + 69.07 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |     1024 |   none |          pp2048 |       1362.47 + 7.64 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |     1024 |   none |           tg256 |         51.81 + 0.07 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |     2048 |   none |           pp512 |        806.15 + 8.10 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |     2048 |   none |          pp2048 |      2149.81 + 29.29 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |         16 |     2048 |   none |           tg256 |         51.99 + 0.17 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |      512 |   none |           pp512 |        276.65 + 5.08 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |      512 |   none |          pp2048 |        244.02 + 0.83 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |      512 |   none |           tg256 |         13.49 + 0.01 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |     1024 |   none |           pp512 |       288.45 + 26.54 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |     1024 |   none |          pp2048 |        255.93 + 1.59 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |     1024 |   none |           tg256 |         23.78 + 1.18 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |     2048 |   none |           pp512 |       947.86 + 46.45 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |     2048 |   none |          pp2048 |      1634.01 + 72.61 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          8 |     2048 |   none |           tg256 |         24.81 + 6.43 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |      512 |   none |           pp512 |       317.89 + 12.02 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |      512 |   none |          pp2048 |        258.67 + 4.04 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |      512 |   none |           tg256 |         11.33 + 0.01 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |     1024 |   none |           pp512 |        322.15 + 5.79 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |     1024 |   none |          pp2048 |        276.15 + 0.93 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |     1024 |   none |           tg256 |         18.38 + 0.21 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |     2048 |   none |           pp512 |       1043.38 + 4.12 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |     2048 |   none |          pp2048 |      1500.21 + 15.24 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          4 |     2048 |   none |           tg256 |         13.15 + 0.52 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |      512 |   none |           pp512 |        365.30 + 1.77 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |      512 |   none |          pp2048 |        293.27 + 3.29 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |      512 |   none |           tg256 |          9.33 + 0.25 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |     1024 |   none |           pp512 |       1152.74 + 5.90 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |     1024 |   none |          pp2048 |       1376.25 + 7.36 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |     1024 |   none |           tg256 |         11.63 + 0.51 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |     2048 |   none |           pp512 |      1097.60 + 18.47 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |     2048 |   none |          pp2048 |      1433.48 + 10.21 |
+| gemma4 ?B Q5_K - Medium        |  19.75 GiB |    25.23 B | CUDA       | 999 |          0 |     2048 |   none |           tg256 |         12.57 + 0.72 |

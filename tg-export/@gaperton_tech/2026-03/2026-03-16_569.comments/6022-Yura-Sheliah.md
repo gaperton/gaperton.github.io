@@ -1,0 +1,8 @@
+---
+id: 6022
+date: 2026-03-16T17:03:16+00:00
+author: Yura-Sheliah
+author_handle: @drcha0s
+---
+
+Вцелом ничего нового :)
