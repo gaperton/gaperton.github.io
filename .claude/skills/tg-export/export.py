@@ -15,7 +15,8 @@ from typing import Optional
 from telethon import TelegramClient
 from telethon.errors import ChannelPrivateError, FloodWaitError
 from telethon.extensions import markdown as tg_markdown
-from telethon.helpers import add_surrogate, del_surrogate
+from telethon.helpers import add_surrogate
+from telethon.tl.functions.channels import GetFullChannelRequest
 
 CONFIG_FILE = "config.json"
 
@@ -142,29 +143,6 @@ def _has_media(directory: Path, exclude: Path = None) -> bool:
     return any(f for f in directory.iterdir() if f.suffix != '.md' and f != exclude)
 
 
-def _append_media_link(md_file: Path, subdir: str, filename: str) -> None:
-    ext = Path(filename).suffix.lower()
-    if ext in (".jpg", ".jpeg", ".png", ".gif", ".webp"):
-        link = f"\n![{filename}](./{subdir}/{filename})\n"
-    else:
-        link = f"\n[{filename}](./{subdir}/{filename})\n"
-    with open(md_file, "a", encoding="utf-8") as f:
-        f.write(link)
-
-
-async def get_sender_name(client: TelegramClient, message) -> str:
-    try:
-        sender = await message.get_sender()
-        if sender is None:
-            return "unknown"
-        if hasattr(sender, "first_name"):
-            name = " ".join(p for p in [sender.first_name or "", sender.last_name or ""] if p)
-            return name.strip() or str(sender.id)
-        if hasattr(sender, "title"):
-            return sender.title
-    except Exception:
-        pass
-    return str(message.sender_id) if message.sender_id else "unknown"
 
 
 async def sync_channel(client, channel: str, state: dict, out: Path,
@@ -220,6 +198,108 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
     print(f"  Synced up to id={ch_state['last_post_id']}")
 
 
+async def sync_comments(client, channel: str, state: dict, out: Path,
+                        wait_time: float, limit: int = None, state_path: Path = None) -> None:
+    ch_state = state.setdefault(channel, {"last_post_id": 0})
+    last_comment_id = ch_state.get("last_comment_id", 0)
+
+    try:
+        entity = await client.get_entity(channel)
+    except (ChannelPrivateError, ValueError) as e:
+        print(f"  Cannot access channel: {e}")
+        return
+
+    # Get linked discussion group
+    try:
+        full = await client(GetFullChannelRequest(entity))
+        linked_chat_id = full.full_chat.linked_chat_id
+        if not linked_chat_id:
+            print(f"  No linked discussion group for {channel}")
+            return
+        discussion = await client.get_entity(linked_chat_id)
+    except Exception as e:
+        print(f"  Failed to get discussion group: {e}")
+        return
+
+    channel_dir = out / channel
+    stub_cache: dict[int, int] = {}   # discussion_msg_id -> channel_post_id
+    post_dir_cache: dict[int, tuple] = {}  # channel_post_id -> (month_dir, stem)
+
+    def find_post_dir(channel_post_id: int) -> tuple:
+        if channel_post_id in post_dir_cache:
+            return post_dir_cache[channel_post_id]
+        if not channel_dir.exists():
+            return None, None
+        for month_dir in sorted(channel_dir.iterdir()):
+            if not month_dir.is_dir():
+                continue
+            matches = list(month_dir.glob(f"*_{channel_post_id}.md"))
+            if matches:
+                stem = matches[0].stem
+                post_dir_cache[channel_post_id] = (month_dir, stem)
+                return month_dir, stem
+        return None, None
+
+    async def get_channel_post_id(msg) -> int | None:
+        # Stub forwarded from channel
+        if msg.fwd_from and getattr(msg.fwd_from, 'channel_post', None):
+            return msg.fwd_from.channel_post
+        # Comment: find its top-level stub
+        if msg.reply_to:
+            top_id = getattr(msg.reply_to, 'reply_to_top_id', None) or msg.reply_to.reply_to_msg_id
+            if top_id in stub_cache:
+                return stub_cache[top_id]
+            try:
+                stub = await client.get_messages(discussion, ids=top_id)
+                if stub and stub.fwd_from and getattr(stub.fwd_from, 'channel_post', None):
+                    post_id = stub.fwd_from.channel_post
+                    stub_cache[top_id] = post_id
+                    return post_id
+            except Exception:
+                pass
+        return None
+
+    print(f"\n[{channel}] comments: last_comment_id={last_comment_id}")
+    synced = 0
+
+    async for msg in client.iter_messages(discussion, reverse=True, min_id=last_comment_id, wait_time=wait_time, limit=limit):
+        channel_post_id = await get_channel_post_id(msg)
+
+        # Record stubs in cache but don't write them as comment files
+        if msg.fwd_from and getattr(msg.fwd_from, 'channel_post', None):
+            stub_cache[msg.id] = msg.fwd_from.channel_post
+        elif channel_post_id and (msg.message or msg.media):
+            month_dir, post_stem = find_post_dir(channel_post_id)
+            if month_dir:
+                comments_dir = month_dir / f"{post_stem}.comments"
+                comments_dir.mkdir(exist_ok=True)
+
+                author_id = msg.sender_id or "unknown"
+                cfile = comments_dir / f"{msg.id}-{author_id}.md"
+
+                if not cfile.exists():
+                    cfile.write_text(render_md(msg), encoding="utf-8")
+                    synced += 1
+
+                if msg.media:
+                    try:
+                        dl = await client.download_media(msg, file=str(comments_dir) + "/")
+                        if dl:
+                            orig = Path(dl).name
+                            new_path = comments_dir / f"{msg.id}-{orig}"
+                            if not new_path.exists():
+                                Path(dl).rename(new_path)
+                    except Exception as e:
+                        print(f"    comment media error: {e}")
+
+        ch_state["last_comment_id"] = max(last_comment_id, msg.id)
+        last_comment_id = ch_state["last_comment_id"]
+        if state_path:
+            save_state(state, state_path)
+
+    print(f"  {synced} new comment(s). last_comment_id={ch_state.get('last_comment_id', 0)}")
+
+
 async def main() -> None:
     parser = argparse.ArgumentParser(description="Sync Telegram channels to markdown files.")
     parser.add_argument("--limit", type=int, default=10, metavar="N",
@@ -230,6 +310,8 @@ async def main() -> None:
                         help="Use a takeout session for lower flood limits — recommended for full imports")
     parser.add_argument("--redownload", type=int, metavar="ID",
                         help="Re-fetch a specific post by Telegram message ID and overwrite its files")
+    parser.add_argument("--comments", action="store_true",
+                        help="Sync comments from linked discussion group instead of posts")
     args = parser.parse_args()
     args.limit = args.limit or None  # 0 → None means no limit in Telethon
     if args.wait_time is None:
@@ -251,6 +333,20 @@ async def main() -> None:
         config["api_hash"],
         flood_sleep_threshold=300,  # auto-sleep on flood waits up to 5 min
     ) as client:
+        if args.comments:
+            for channel in config["channels"]:
+                while True:
+                    try:
+                        await sync_comments(client, channel, state, out,
+                                            wait_time=args.wait_time, limit=args.limit,
+                                            state_path=state_path)
+                        break
+                    except FloodWaitError as e:
+                        print(f"  FloodWait: sleeping {e.seconds + 5}s...")
+                        await asyncio.sleep(e.seconds + 5)
+            print("\nComments sync complete.")
+            return
+
         if args.redownload:
             for channel in config["channels"]:
                 entity = await client.get_entity(channel)

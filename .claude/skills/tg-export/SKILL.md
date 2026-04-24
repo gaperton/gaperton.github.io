@@ -1,7 +1,7 @@
 ---
 name: tg-export
 description: Sync Telegram channels to markdown files. Use when the user wants to export or sync Telegram channel posts.
-argument-hint: "[--limit N] [--takeout] [--redownload ID] [--wait-time S]"
+argument-hint: "[--limit N] [--comments] [--takeout] [--redownload ID] [--wait-time S]"
 allowed-tools: Bash
 ---
 
