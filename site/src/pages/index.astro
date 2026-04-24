@@ -38,40 +38,39 @@ const dayLabel = currentDay
 
 <style>
   .day-heading {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    color: #1a1a1a;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #111;
     font-family: ui-sans-serif, sans-serif;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #3b5bdb;
+    display: inline-block;
   }
 
   .tile-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    columns: 3 260px;
+    column-gap: 0.85rem;
     margin-bottom: 2.5rem;
   }
 
-  @media (max-width: 1100px) {
-    .tile-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-
-  @media (max-width: 600px) {
-    .tile-grid { grid-template-columns: 1fr; }
+  .tile-grid > :global(*) {
+    margin-bottom: 0.85rem;
   }
 
   .prev-nav {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid #e0e0d8;
+    margin-top: 0.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #e5e5dc;
   }
 
   .prev-nav a {
-    font-size: 0.95rem;
-    color: #555;
+    font-size: 0.88rem;
+    color: #3b5bdb;
     text-decoration: none;
     font-family: ui-sans-serif, sans-serif;
+    font-weight: 500;
   }
 
-  .prev-nav a:hover { color: #1a1a1a; text-decoration: underline; }
+  .prev-nav a:hover { text-decoration: underline; }
 </style>

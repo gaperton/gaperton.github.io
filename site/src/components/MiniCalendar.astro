@@ -2,7 +2,7 @@
 import type { Post } from '../lib/posts';
 
 interface Props {
-  month: string;        // "YYYY-MM"
+  month: string;
   posts: Post[];
 }
 
@@ -10,8 +10,7 @@ const { month, posts } = Astro.props;
 
 const [year, mon] = month.split('-').map(Number);
 const daysInMonth = new Date(year, mon, 0).getDate();
-const firstDow = new Date(year, mon - 1, 1).getDay(); // 0=Sun
-// shift so Mon=0
+const firstDow = new Date(year, mon - 1, 1).getDay();
 const offset = (firstDow + 6) % 7;
 
 const activeDays = new Set(posts.map(p => p.date));
@@ -38,49 +37,54 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
 </div>
 
 <style>
-  .cal { margin-bottom: 1.25rem; }
+  .cal { margin-bottom: 1.5rem; }
 
   .cal-title {
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    color: #444;
-    margin-bottom: 0.4rem;
+    color: #666;
+    margin-bottom: 0.5rem;
     font-family: ui-sans-serif, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.07em;
   }
 
   .cal-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 1px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-family: ui-monospace, monospace;
   }
 
   .dow {
     text-align: center;
-    color: #999;
-    padding: 2px 0;
-    font-size: 0.68rem;
+    color: #bbb;
+    padding: 2px 0 4px;
+    font-size: 0.62rem;
+    font-family: ui-sans-serif, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
   }
 
   .day {
     text-align: center;
-    padding: 3px 0;
-    border-radius: 3px;
-    color: #bbb;
+    padding: 3px 1px;
+    border-radius: 4px;
+    color: #ccc;
+    line-height: 1.4;
   }
 
   a.day.active {
-    color: #1a1a1a;
+    color: #1e3a8a;
     text-decoration: none;
-    font-weight: 600;
-    background: #e8e8e0;
+    font-weight: 700;
+    background: #dbeafe;
+    position: relative;
   }
 
   a.day.active:hover {
-    background: #1a1a1a;
+    background: #3b5bdb;
     color: #fff;
   }
 </style>

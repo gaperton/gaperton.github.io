@@ -65,16 +65,11 @@ const days = Object.keys(byDay).sort().reverse();
   .day-heading a:hover { color: #1a1a1a; text-decoration: underline; }
 
   .tile-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    columns: 3 260px;
+    column-gap: 0.85rem;
   }
 
-  @media (max-width: 1100px) {
-    .tile-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-
-  @media (max-width: 600px) {
-    .tile-grid { grid-template-columns: 1fr; }
+  .tile-grid > :global(*) {
+    margin-bottom: 0.85rem;
   }
 </style>

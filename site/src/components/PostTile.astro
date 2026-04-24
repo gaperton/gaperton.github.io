@@ -14,8 +14,8 @@ const time = new Date(post.datetime).toLocaleTimeString('en-GB', {
 <a href={href} class="tile">
   <div class="meta">
     <span class="time">{time}</span>
-    {post.hasImages && <span class="badge img">📷</span>}
-    {post.commentCount > 0 && <span class="badge">{post.commentCount} 💬</span>}
+    {post.hasImages && <span class="dot green" title="has photo" />}
+    {post.commentCount > 0 && <span class="comments">{post.commentCount}</span>}
   </div>
   <div class="body">
     {post.preview || <em class="empty">[ media ]</em>}
@@ -24,51 +24,60 @@ const time = new Date(post.datetime).toLocaleTimeString('en-GB', {
 
 <style>
   .tile {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    display: block;
     background: #fff;
-    border: 1px solid #e0e0d8;
-    border-radius: 6px;
-    padding: 1rem 1.1rem;
+    border: 1px solid #e8e8e0;
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
     text-decoration: none;
     color: inherit;
-    transition: box-shadow 0.15s, border-color 0.15s;
-    height: 100%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: box-shadow 0.12s, border-color 0.12s;
+    break-inside: avoid;
   }
 
   .tile:hover {
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.09);
     border-color: #bbb;
   }
 
   .meta {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    font-size: 0.78rem;
-    color: #888;
-    font-family: ui-monospace, monospace;
+    gap: 0.4rem;
+    margin-bottom: 0.5rem;
   }
 
-  .time { font-weight: 600; color: #555; }
-
-  .badge {
+  .time {
     font-size: 0.72rem;
-    background: #f0f0ea;
-    border-radius: 4px;
-    padding: 1px 5px;
+    font-weight: 700;
+    color: #888;
+    font-family: ui-monospace, monospace;
+    letter-spacing: 0.04em;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .dot.green { background: #86efac; }
+
+  .comments {
+    font-size: 0.68rem;
+    color: #93c5fd;
+    font-family: ui-monospace, monospace;
+    font-weight: 600;
   }
 
   .body {
-    font-size: 1rem;
-    line-height: 1.55;
+    font-size: 0.9rem;
+    line-height: 1.6;
     color: #222;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 8;
-    -webkit-box-orient: vertical;
+    font-family: ui-sans-serif, system-ui, sans-serif;
   }
 
-  .empty { color: #aaa; }
+  .empty { color: #ccc; font-style: italic; }
 </style>

@@ -3,14 +3,13 @@ import MiniCalendar from './MiniCalendar.astro';
 import type { Post } from '../lib/posts';
 
 interface Props {
-  months: string[];                     // all months, for archive
-  calendarMonths: string[];             // last 2 months to show as calendars
-  postsIndex: Record<string, Post[]>;   // month -> posts
+  months: string[];
+  calendarMonths: string[];
+  postsIndex: Record<string, Post[]>;
 }
 
 const { months, calendarMonths, postsIndex } = Astro.props;
 
-// Group months by year for the archive
 const byYear: Record<string, string[]> = {};
 for (const m of [...months].reverse()) {
   const y = m.slice(0, 4);
@@ -28,6 +27,8 @@ function monthLabel(m: string) {
   {calendarMonths.map(m => (
     <MiniCalendar month={m} posts={postsIndex[m] ?? []} />
   ))}
+
+  <div class="divider" />
 
   <nav class="archive">
     <div class="archive-title">Archive</div>
@@ -49,48 +50,69 @@ function monthLabel(m: string) {
 <style>
   .sidebar { font-family: ui-sans-serif, sans-serif; }
 
-  .archive { margin-top: 0.5rem; }
+  .divider {
+    height: 1px;
+    background: #ddddd4;
+    margin: 0.25rem 0 1rem;
+  }
 
   .archive-title {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 700;
-    color: #888;
+    color: #999;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
     margin-bottom: 0.5rem;
   }
 
-  details { margin-bottom: 0.25rem; }
+  details { margin-bottom: 0.15rem; }
 
   summary.year {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
-    color: #444;
+    color: #555;
     cursor: pointer;
     list-style: none;
-    padding: 0.2rem 0;
+    padding: 0.25rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    user-select: none;
   }
 
   summary.year::before {
-    content: '▸ ';
-    font-size: 0.7rem;
+    content: '›';
+    font-size: 0.9rem;
+    color: #aaa;
+    transition: transform 0.15s;
+    display: inline-block;
+    width: 0.8rem;
   }
 
-  details[open] summary.year::before { content: '▾ '; }
+  details[open] summary.year::before {
+    transform: rotate(90deg);
+  }
+
+  summary.year:hover { color: #111; }
 
   ul {
     list-style: none;
-    padding-left: 1rem;
-    margin: 0.2rem 0 0.4rem;
+    padding-left: 1.1rem;
+    margin: 0.1rem 0 0.4rem;
+    border-left: 2px solid #e0e0d8;
   }
 
   li a {
-    font-size: 0.82rem;
-    color: #555;
+    font-size: 0.8rem;
+    color: #666;
     text-decoration: none;
     display: block;
-    padding: 1px 0;
+    padding: 2px 0 2px 0.5rem;
+    border-radius: 3px;
   }
 
-  li a:hover { color: #1a1a1a; text-decoration: underline; }
+  li a:hover {
+    color: #3b5bdb;
+    background: #eef2ff;
+  }
 </style>
