@@ -8,7 +8,8 @@ const days = getAllDays();
 const currentDay = days[0];
 const prevDay = days[1] ?? null;
 const posts = currentDay ? getPostsForDay(currentDay) : [];
-const sidebar = buildSidebarProps();
+const currentMonth = currentDay ? currentDay.slice(0, 7) : '';
+const sidebar = buildSidebarProps(currentMonth);
 
 const dayLabel = currentDay
   ? new Date(currentDay + 'T00:00:00').toLocaleDateString('en-GB', {

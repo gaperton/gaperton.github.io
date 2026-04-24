@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 const { date } = Astro.params;
 const { prevDay } = Astro.props;
 const posts = getPostsForDay(date);
-const sidebar = buildSidebarProps();
+const sidebar = buildSidebarProps(date.slice(0, 7));
 
 const dayLabel = new Date(date + 'T00:00:00').toLocaleDateString('en-GB', {
   weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',

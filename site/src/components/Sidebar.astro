@@ -4,11 +4,15 @@ import type { Post } from '../lib/posts';
 
 interface Props {
   months: string[];
-  calendarMonths: string[];
+  currentMonth: string;
   postsIndex: Record<string, Post[]>;
 }
 
-const { months, calendarMonths, postsIndex } = Astro.props;
+const { months, currentMonth, postsIndex } = Astro.props;
+
+const idx = months.indexOf(currentMonth);
+const prevMonth = idx > 0 ? months[idx - 1] : null;
+const nextMonth = idx < months.length - 1 ? months[idx + 1] : null;
 
 const byYear: Record<string, string[]> = {};
 for (const m of [...months].reverse()) {
@@ -24,21 +28,24 @@ function monthLabel(m: string) {
 }
 ---
 <div class="sidebar">
-  {calendarMonths.map(m => (
-    <MiniCalendar month={m} posts={postsIndex[m] ?? []} />
-  ))}
+  <MiniCalendar
+    month={currentMonth}
+    posts={postsIndex[currentMonth] ?? []}
+    prevMonth={prevMonth}
+    nextMonth={nextMonth}
+  />
 
   <div class="divider" />
 
   <nav class="archive">
     <div class="archive-title">Archive</div>
     {years.map(year => (
-      <details open={year === years[0]}>
+      <details open={currentMonth.startsWith(year)}>
         <summary class="year">{year}</summary>
         <ul>
           {byYear[year].map(m => (
             <li>
-              <a href={`/${m}/`}>{monthLabel(m)}</a>
+              <a href={`/${m}/`} class:list={[{ active: m === currentMonth }]}>{monthLabel(m)}</a>
             </li>
           ))}
         </ul>
@@ -89,10 +96,7 @@ function monthLabel(m: string) {
     width: 0.8rem;
   }
 
-  details[open] summary.year::before {
-    transform: rotate(90deg);
-  }
-
+  details[open] summary.year::before { transform: rotate(90deg); }
   summary.year:hover { color: #111; }
 
   ul {
@@ -111,8 +115,6 @@ function monthLabel(m: string) {
     border-radius: 3px;
   }
 
-  li a:hover {
-    color: #3b5bdb;
-    background: #eef2ff;
-  }
+  li a:hover { color: #3b5bdb; background: #eef2ff; }
+  li a.active { color: #3b5bdb; font-weight: 600; }
 </style>

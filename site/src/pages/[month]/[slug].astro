@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const { month, slug } = Astro.params;
 const post = getPost(month, slug);
-const sidebar = buildSidebarProps();
+const sidebar = buildSidebarProps(month);
 
 const dayHref = `/${post.date}/`;
 const monthHref = `/${month}/`;

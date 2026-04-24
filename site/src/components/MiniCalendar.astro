@@ -4,9 +4,11 @@ import type { Post } from '../lib/posts';
 interface Props {
   month: string;
   posts: Post[];
+  prevMonth?: string | null;
+  nextMonth?: string | null;
 }
 
-const { month, posts } = Astro.props;
+const { month, posts, prevMonth = null, nextMonth = null } = Astro.props;
 
 const [year, mon] = month.split('-').map(Number);
 const daysInMonth = new Date(year, mon, 0).getDate();
@@ -18,7 +20,17 @@ const activeDays = new Set(posts.map(p => p.date));
 const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long', year: 'numeric' });
 ---
 <div class="cal">
-  <div class="cal-title">{label}</div>
+  <div class="cal-header">
+    {prevMonth
+      ? <a href={`/${prevMonth}/`} class="nav" title="Previous month">‹</a>
+      : <span class="nav disabled">‹</span>
+    }
+    <span class="cal-title">{label}</span>
+    {nextMonth
+      ? <a href={`/${nextMonth}/`} class="nav" title="Next month">›</a>
+      : <span class="nav disabled">›</span>
+    }
+  </div>
   <div class="cal-grid">
     {['Mo','Tu','We','Th','Fr','Sa','Su'].map(d => (
       <span class="dow">{d}</span>
@@ -37,16 +49,46 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
 </div>
 
 <style>
-  .cal { margin-bottom: 1.5rem; }
+  .cal { margin-bottom: 1rem; }
+
+  .cal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    gap: 0.25rem;
+  }
 
   .cal-title {
     font-size: 0.72rem;
     font-weight: 700;
-    color: #666;
-    margin-bottom: 0.5rem;
+    color: #555;
     font-family: ui-sans-serif, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.06em;
+    flex: 1;
+    text-align: center;
+  }
+
+  .nav {
+    font-size: 1rem;
+    line-height: 1;
+    color: #888;
+    text-decoration: none;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  a.nav:hover {
+    background: #e8eeff;
+    color: #3b5bdb;
+  }
+
+  .nav.disabled {
+    color: #ddd;
+    cursor: default;
   }
 
   .cal-grid {
@@ -80,7 +122,6 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
     text-decoration: none;
     font-weight: 700;
     background: #dbeafe;
-    position: relative;
   }
 
   a.day.active:hover {

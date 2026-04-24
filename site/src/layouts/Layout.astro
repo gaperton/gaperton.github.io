@@ -5,11 +5,11 @@ import type { Post } from '../lib/posts';
 interface Props {
   title: string;
   sidebarMonths?: string[];
-  calendarMonths?: string[];
+  currentMonth?: string;
   postsIndex?: Record<string, Post[]>;
 }
 
-const { title, sidebarMonths = [], calendarMonths = [], postsIndex = {} } = Astro.props;
+const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -94,7 +94,7 @@ const { title, sidebarMonths = [], calendarMonths = [], postsIndex = {} } = Astr
   </header>
   <div class="layout">
     <aside>
-      <Sidebar months={sidebarMonths} calendarMonths={calendarMonths} postsIndex={postsIndex} />
+      <Sidebar months={sidebarMonths} currentMonth={currentMonth} postsIndex={postsIndex} />
     </aside>
     <main>
       <slot />
