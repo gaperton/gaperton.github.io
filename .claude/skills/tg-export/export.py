@@ -41,7 +41,7 @@ def recover_state(out: Path) -> dict:
     # Comment files live in out/channel/YYYY-MM/post-dir/comment.md and use
     # discussion-group IDs (different namespace), so they must be excluded.
     for channel_dir in out.iterdir():
-        if not channel_dir.is_dir() or channel_dir.name.startswith("."):
+        if not channel_dir.is_dir() or channel_dir.name.startswith(".") or channel_dir.name.endswith(".old"):
             continue
         for month_dir in channel_dir.iterdir():
             if not month_dir.is_dir():
@@ -196,10 +196,10 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
     for msg in posts:
         ts = msg.date.astimezone(timezone.utc)
         month_dir = out / channel / ts.strftime("%Y-%m")
-        stem = ts.strftime("%Y-%m-%d_%H-%M-%S")
+        stem = f"{ts.strftime('%Y-%m-%d')}_{msg.id}"
 
         post_file = month_dir / f"{stem}.md"
-        post_dir = month_dir / stem  # comments and media go here
+        post_dir = month_dir / f"{stem}.files"
 
         month_dir.mkdir(parents=True, exist_ok=True)
         post_file.write_text(render_md(msg), encoding="utf-8")
@@ -208,32 +208,10 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
         if msg.media and not _has_media(post_dir):
             post_dir.mkdir(exist_ok=True)
             try:
-                dl = await fetch.download_media(msg, file=str(post_dir) + "/")
-                if dl:
-                    _append_media_link(post_file, stem, Path(dl).name)
+                await fetch.download_media(msg, file=str(post_dir) + "/")
             except Exception as e:
                 print(f"    media error: {e}")
 
-        # Comments: use regular client — takeout doesn't support reply_to fetching.
-        try:
-            async for comment in client.iter_messages(entity, reply_to=msg.id, wait_time=wait_time):
-                post_dir.mkdir(exist_ok=True)
-                cts = comment.date.astimezone(timezone.utc)
-                author = await get_sender_name(client, comment)
-                cfile = post_dir / f"{cts.strftime('%Y-%m-%d_%H-%M-%S')}_{safe_name(author)}.md"
-                cfile.write_text(render_md(comment, author), encoding="utf-8")
-
-                if comment.media and not _has_media(post_dir, exclude=cfile):
-                    try:
-                        dl = await client.download_media(comment, file=str(post_dir) + "/")
-                        if dl:
-                            _append_media_link(cfile, post_dir.name, Path(dl).name)
-                    except Exception as e:
-                        print(f"    comment media error: {e}")
-        except FloodWaitError:
-            raise
-        except Exception:
-            pass  # channel has no comments enabled
 
         ch_state["last_post_id"] = max(ch_state["last_post_id"], msg.id)
         if state_path:
@@ -282,18 +260,16 @@ async def main() -> None:
                     continue
                 ts = msg.date.astimezone(timezone.utc)
                 month_dir = out / channel / ts.strftime("%Y-%m")
-                stem = ts.strftime("%Y-%m-%d_%H-%M-%S")
+                stem = f"{ts.strftime('%Y-%m-%d')}_{msg.id}"
                 post_file = month_dir / f"{stem}.md"
-                post_dir = month_dir / stem
+                post_dir = month_dir / f"{stem}.files"
                 month_dir.mkdir(parents=True, exist_ok=True)
                 post_file.write_text(render_md(msg), encoding="utf-8")
                 print(f"  ~ {post_file.relative_to(out)}")
-                if msg.media:
+                if msg.media and not _has_media(post_dir):
                     post_dir.mkdir(exist_ok=True)
                     try:
-                        dl = await client.download_media(msg, file=str(post_dir) + "/")
-                        if dl:
-                            _append_media_link(post_file, stem, Path(dl).name)
+                        await client.download_media(msg, file=str(post_dir) + "/")
                     except Exception as e:
                         print(f"    media error: {e}")
             print("\nRedownload complete.")
