@@ -7,6 +7,19 @@ const CHANNEL = '@gaperton_tech';
 const BASE = join(process.cwd(), '..', 'tg-export', CHANNEL);
 const REPO_BASE = `https://raw.githubusercontent.com/gaperton/gaperton.github.io/main/tg-export/${CHANNEL}`;
 
+const DAY_START_HOUR = 4;
+
+// Returns "YYYY-MM-DD" in local timezone, with day starting at DAY_START_HOUR.
+function computeLogicalDay(isoDatetime: string): string {
+  const dt = new Date(isoDatetime);
+  // Shift back by DAY_START_HOUR hours so that e.g. 3:59 local → previous day
+  const shifted = new Date(dt.getTime() - DAY_START_HOUR * 60 * 60 * 1000);
+  const y = shifted.getFullYear();
+  const m = String(shifted.getMonth() + 1).padStart(2, '0');
+  const d = String(shifted.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
 export interface Post {
   slug: string;      // e.g. "2022-09-21_5"
   month: string;     // e.g. "2022-09"
@@ -114,7 +127,9 @@ export function getAllDays(): string[] {
   const days = new Set<string>();
   for (const month of getMonths()) {
     for (const slug of getPostSlugsForMonth(month)) {
-      days.add(slugToDate(slug));
+      const raw = readFileSync(join(BASE, month, `${slug}.md`), 'utf-8');
+      const { data } = matter(fixFrontmatter(raw));
+      if (data.date) days.add(computeLogicalDay(String(data.date)));
     }
   }
   return [...days].sort().reverse();
@@ -133,23 +148,35 @@ function hasImages(month: string, slug: string): boolean {
 }
 
 export function getPostsForDay(date: string): Post[] {
-  // date is "YYYY-MM-DD", month dir is "YYYY-MM"
-  const month = date.slice(0, 7);
-  const slugs = getPostSlugsForMonth(month).filter(s => s.startsWith(date));
-  return slugs.map(slug => {
-    const raw = readFileSync(join(BASE, month, `${slug}.md`), 'utf-8');
-    const { data, content } = matter(fixFrontmatter(raw));
-    return {
-      slug,
-      month,
-      date,
-      datetime: String(data.date),
-      id: Number(data.id),
-      preview: textPreview(content),
-      commentCount: countComments(month, slug),
-      hasImages: hasImages(month, slug),
-    };
-  }).sort((a, b) => a.id - b.id);
+  // Scan the month matching the date and adjacent months (timezone shift can cross month boundary)
+  const [year, mon] = date.split('-').map(Number);
+  const monthsToScan = new Set<string>();
+  monthsToScan.add(`${year}-${String(mon).padStart(2, '0')}`);
+  const prevMon = mon === 1 ? `${year - 1}-12` : `${year}-${String(mon - 1).padStart(2, '0')}`;
+  const nextMon = mon === 12 ? `${year + 1}-01` : `${year}-${String(mon + 1).padStart(2, '0')}`;
+  monthsToScan.add(prevMon);
+  monthsToScan.add(nextMon);
+
+  const result: Post[] = [];
+  for (const month of monthsToScan) {
+    for (const slug of getPostSlugsForMonth(month)) {
+      const raw = readFileSync(join(BASE, month, `${slug}.md`), 'utf-8');
+      const { data, content } = matter(fixFrontmatter(raw));
+      if (!data.date) continue;
+      if (computeLogicalDay(String(data.date)) !== date) continue;
+      result.push({
+        slug,
+        month,
+        date,
+        datetime: String(data.date),
+        id: Number(data.id),
+        preview: textPreview(content),
+        commentCount: countComments(month, slug),
+        hasImages: hasImages(month, slug),
+      });
+    }
+  }
+  return result.sort((a, b) => a.id - b.id);
 }
 
 export function getPostsForMonth(month: string): Post[] {
