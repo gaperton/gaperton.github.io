@@ -212,7 +212,7 @@ export function getPostsForMonth(month: string): Post[] {
     return {
       slug,
       month,
-      date: slugToDate(slug),
+      date: data.date ? computeLogicalDay(String(data.date)) : slugToDate(slug),
       datetime: String(data.date),
       id: Number(data.id),
       preview: textPreview(content),

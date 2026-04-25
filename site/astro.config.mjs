@@ -4,6 +4,6 @@ export default defineConfig({
   output: 'static',
   outDir: '../docs',
   vite: {
-    build: { emptyOutDir: false },
+    build: { emptyOutDir: true },
   },
 });
