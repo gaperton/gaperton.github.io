@@ -6,17 +6,16 @@ interface Props {
   posts: Post[];
   prevMonth?: string | null;
   nextMonth?: string | null;
+  currentDay?: string;
 }
 
-const { month, posts, prevMonth = null, nextMonth = null } = Astro.props;
+const { month, posts, prevMonth = null, nextMonth = null, currentDay = '' } = Astro.props;
 
 const [year, mon] = month.split('-').map(Number);
 const daysInMonth = new Date(year, mon, 0).getDate();
 const firstDow = new Date(year, mon - 1, 1).getDay();
 const offset = (firstDow + 6) % 7;
-
 const activeDays = new Set(posts.map(p => p.date));
-
 const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long', year: 'numeric' });
 ---
 <div class="cal">
@@ -35,34 +34,33 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
     {['Mo','Tu','We','Th','Fr','Sa','Su'].map(d => (
       <span class="dow">{d}</span>
     ))}
-    {Array.from({ length: offset }, (_, i) => (
-      <span key={`empty-${i}`} />
-    ))}
+    {Array.from({ length: offset }, (_, i) => <span key={`e${i}`} />)}
     {Array.from({ length: daysInMonth }, (_, i) => {
       const day = i + 1;
       const dateStr = `${month}-${String(day).padStart(2, '0')}`;
-      return activeDays.has(dateStr)
-        ? <a href={`/${dateStr}/`} class="day active">{day}</a>
+      const isActive = activeDays.has(dateStr);
+      const isSelected = dateStr === currentDay;
+      return isActive
+        ? <a href={`/${dateStr}/`} class:list={['day', 'active', { selected: isSelected }]}>{day}</a>
         : <span class="day">{day}</span>;
     })}
   </div>
 </div>
 
 <style>
-  .cal { margin-bottom: 1rem; }
+  .cal { margin-bottom: 1.5rem; }
 
   .cal-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.5rem;
-    gap: 0.25rem;
   }
 
   .cal-title {
     font-size: 0.72rem;
     font-weight: 700;
-    color: #555;
+    color: #94a3b8;
     font-family: ui-sans-serif, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -72,24 +70,14 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
 
   .nav {
     font-size: 1rem;
-    line-height: 1;
-    color: #888;
+    color: #475569;
     text-decoration: none;
-    padding: 1px 4px;
+    padding: 1px 5px;
     border-radius: 3px;
-    font-weight: 500;
-    flex-shrink: 0;
   }
 
-  a.nav:hover {
-    background: #e8eeff;
-    color: #3b5bdb;
-  }
-
-  .nav.disabled {
-    color: #ddd;
-    cursor: default;
-  }
+  a.nav:hover { background: #1e293b; color: #93c5fd; }
+  .nav.disabled { color: #1e293b; cursor: default; }
 
   .cal-grid {
     display: grid;
@@ -101,7 +89,7 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
 
   .dow {
     text-align: center;
-    color: #bbb;
+    color: #334155;
     padding: 2px 0 4px;
     font-size: 0.62rem;
     font-family: ui-sans-serif, sans-serif;
@@ -113,19 +101,25 @@ const label = new Date(year, mon - 1, 1).toLocaleString('en-GB', { month: 'long'
     text-align: center;
     padding: 3px 1px;
     border-radius: 4px;
-    color: #ccc;
+    color: #334155;
     line-height: 1.4;
   }
 
   a.day.active {
-    color: #1e3a8a;
+    color: #93c5fd;
     text-decoration: none;
     font-weight: 700;
-    background: #dbeafe;
+    background: #1e3a5f;
   }
 
   a.day.active:hover {
-    background: #3b5bdb;
+    background: #3b82f6;
     color: #fff;
+  }
+
+  a.day.selected {
+    background: #3b82f6;
+    color: #fff;
+    box-shadow: 0 0 0 2px #60a5fa;
   }
 </style>

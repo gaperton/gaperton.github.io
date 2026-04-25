@@ -6,10 +6,12 @@ interface Props {
   title: string;
   sidebarMonths?: string[];
   currentMonth?: string;
+  currentDay?: string;
+  firstDayByMonth?: Record<string, string>;
   postsIndex?: Record<string, Post[]>;
 }
 
-const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.props;
+const { title, sidebarMonths = [], currentMonth = '', currentDay = '', firstDayByMonth = {}, postsIndex = {} } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -24,25 +26,26 @@ const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.
 
     body {
       font-family: Georgia, 'Times New Roman', serif;
-      background: #f7f7f4;
-      color: #1a1a1a;
+      background: #0f172a;
+      color: #e2e8f0;
       display: flex;
       flex-direction: column;
     }
 
     header {
-      background: #111827;
-      color: #f9fafb;
+      background: #020617;
+      color: #e2e8f0;
       padding: 0 2rem;
       height: 48px;
       flex-shrink: 0;
       display: flex;
       align-items: center;
       gap: 1.5rem;
+      border-bottom: 1px solid #1e293b;
     }
 
     header a.brand {
-      color: #f9fafb;
+      color: #e2e8f0;
       text-decoration: none;
       font-size: 1rem;
       font-weight: 700;
@@ -52,7 +55,7 @@ const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.
 
     header .tagline {
       font-size: 0.8rem;
-      color: #6b7280;
+      color: #475569;
       font-family: ui-sans-serif, sans-serif;
     }
 
@@ -64,9 +67,9 @@ const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.
     }
 
     aside {
-      border-right: 1px solid #e5e5dc;
+      border-right: 1px solid #1e293b;
       padding: 1.25rem 1rem 2rem;
-      background: #f2f2ec;
+      background: #0a0f1e;
       overflow-y: auto;
     }
 
@@ -83,7 +86,7 @@ const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.
 
     @media (max-width: 768px) {
       .layout { grid-template-columns: 1fr; }
-      aside { height: auto; border-right: none; border-bottom: 1px solid #e5e5dc; }
+      aside { height: auto; border-right: none; border-bottom: 1px solid #1e293b; }
     }
   </style>
 </head>
@@ -94,7 +97,7 @@ const { title, sidebarMonths = [], currentMonth = '', postsIndex = {} } = Astro.
   </header>
   <div class="layout">
     <aside>
-      <Sidebar months={sidebarMonths} currentMonth={currentMonth} postsIndex={postsIndex} />
+      <Sidebar months={sidebarMonths} currentMonth={currentMonth} currentDay={currentDay} firstDayByMonth={firstDayByMonth} postsIndex={postsIndex} />
     </aside>
     <main>
       <slot />

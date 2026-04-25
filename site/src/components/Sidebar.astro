@@ -5,10 +5,12 @@ import type { Post } from '../lib/posts';
 interface Props {
   months: string[];
   currentMonth: string;
+  currentDay?: string;
+  firstDayByMonth?: Record<string, string>;
   postsIndex: Record<string, Post[]>;
 }
 
-const { months, currentMonth, postsIndex } = Astro.props;
+const { months, currentMonth, currentDay = '', firstDayByMonth = {}, postsIndex } = Astro.props;
 
 const idx = months.indexOf(currentMonth);
 const prevMonth = idx > 0 ? months[idx - 1] : null;
@@ -33,6 +35,7 @@ function monthLabel(m: string) {
     posts={postsIndex[currentMonth] ?? []}
     prevMonth={prevMonth}
     nextMonth={nextMonth}
+    currentDay={currentDay}
   />
 
   <div class="divider" />
@@ -45,7 +48,7 @@ function monthLabel(m: string) {
         <ul>
           {byYear[year].map(m => (
             <li>
-              <a href={`/${m}/`} class:list={[{ active: m === currentMonth }]}>{monthLabel(m)}</a>
+              <a href={`/${firstDayByMonth[m] ?? m}/`} class:list={[{ active: m === currentMonth }]}>{monthLabel(m)}</a>
             </li>
           ))}
         </ul>
@@ -59,14 +62,14 @@ function monthLabel(m: string) {
 
   .divider {
     height: 1px;
-    background: #ddddd4;
+    background: #1e293b;
     margin: 0.25rem 0 1rem;
   }
 
   .archive-title {
     font-size: 0.65rem;
     font-weight: 700;
-    color: #999;
+    color: #334155;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 0.5rem;
@@ -77,44 +80,43 @@ function monthLabel(m: string) {
   summary.year {
     font-size: 0.82rem;
     font-weight: 600;
-    color: #555;
+    color: #64748b;
     cursor: pointer;
     list-style: none;
     padding: 0.25rem 0;
     display: flex;
     align-items: center;
-    gap: 0.3rem;
     user-select: none;
   }
 
   summary.year::before {
     content: '›';
     font-size: 0.9rem;
-    color: #aaa;
+    color: #334155;
     transition: transform 0.15s;
     display: inline-block;
     width: 0.8rem;
   }
 
   details[open] summary.year::before { transform: rotate(90deg); }
-  summary.year:hover { color: #111; }
+  summary.year:hover { color: #94a3b8; }
 
   ul {
     list-style: none;
     padding-left: 1.1rem;
     margin: 0.1rem 0 0.4rem;
-    border-left: 2px solid #e0e0d8;
+    border-left: 2px solid #1e293b;
   }
 
   li a {
     font-size: 0.8rem;
-    color: #666;
+    color: #475569;
     text-decoration: none;
     display: block;
     padding: 2px 0 2px 0.5rem;
     border-radius: 3px;
   }
 
-  li a:hover { color: #3b5bdb; background: #eef2ff; }
-  li a.active { color: #3b5bdb; font-weight: 600; }
+  li a:hover { color: #93c5fd; background: #1e293b; }
+  li a.active { color: #60a5fa; font-weight: 600; }
 </style>

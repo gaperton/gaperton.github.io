@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const { date } = Astro.params;
 const { prevDay } = Astro.props;
-const sidebar = buildSidebarProps(date.slice(0, 7));
+const sidebar = buildSidebarProps(date.slice(0, 7), date);
 
 const lightPosts = getPostsForDay(date);
 const posts = lightPosts.map(p => getPost(p.month, p.slug));

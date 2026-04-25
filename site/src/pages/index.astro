@@ -8,7 +8,7 @@ const days = getAllDays();
 const currentDay = days[0];
 const prevDay = days[1] ?? null;
 const currentMonth = currentDay ? currentDay.slice(0, 7) : '';
-const sidebar = buildSidebarProps(currentMonth);
+const sidebar = buildSidebarProps(currentMonth, currentDay);
 
 const lightPosts = currentDay ? getPostsForDay(currentDay) : [];
 const posts = lightPosts.map(p => getPost(p.month, p.slug));
