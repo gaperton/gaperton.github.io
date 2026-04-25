@@ -15,63 +15,96 @@ function fmtTime(datetime: string) {
 }
 ---
 
-<div class="day-layout">
-  <div class="posts-col">
-    <div class="day-heading">{dayLabel}</div>
+<div class="feed-wrap">
+  <div class="day-heading">{dayLabel}</div>
 
-    <div class="posts-feed">
-      {posts.map(post => (
-        <article class="post-card" id={`post-${post.id}`}>
-          <div class="post-meta">
-            <span class="post-time">{fmtTime(post.datetime)}</span>
+  <div class="posts-feed">
+    {posts.map(post => (
+      <article
+        class="post-card"
+        data-href={`/${post.month}/${post.slug}/`}
+        data-time={fmtTime(post.datetime)}
+        data-quote={post.replyQuote ?? ''}
+        data-preview={post.bodyHtml.replace(/<[^>]+>/g, '').trim().slice(0, 400)}
+        data-comments={post.comments.length}
+        role="button"
+        tabindex="0"
+      >
+        {post.replyQuote && (
+          <div class="post-reply-quote">{post.replyQuote}</div>
+        )}
+
+        {post.images.length > 0 && (
+          <div class="post-images">
+            {post.images.map(src => (
+              <a href={src} target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                <img src={src} loading="lazy" alt="" />
+              </a>
+            ))}
           </div>
+        )}
 
-          {post.replyQuote && (
-            <div class="post-reply-quote">{post.replyQuote}</div>
-          )}
+        <div class="post-body" set:html={post.bodyHtml} />
 
-          {post.images.length > 0 && (
-            <div class="post-images">
-              {post.images.map(src => (
-                <a href={src} target="_blank" rel="noopener">
-                  <img src={src} loading="lazy" alt="" />
-                </a>
-              ))}
-            </div>
-          )}
-
-          <div class="post-body" set:html={post.bodyHtml} />
-
+        <div class="post-footer">
+          <span class="post-time">{fmtTime(post.datetime)}</span>
           {post.comments.length > 0 && (
-            <button class="comments-btn" data-href={`/${post.month}/${post.slug}/`}>
-              {post.comments.length} comment{post.comments.length !== 1 ? 's' : ''} →
-            </button>
+            <span class="comment-count">{post.comments.length} comments</span>
           )}
-        </article>
-      ))}
-    </div>
-
-    {prevDay && (
-      <a class="prev-nav" href={`/${prevDay}/`}>← {prevDayLabel}</a>
-    )}
+        </div>
+      </article>
+    ))}
   </div>
 
-  <div class="comments-col" id="comments-col">
-    <p class="empty-hint">← open comments</p>
-  </div>
+  {prevDay && (
+    <a class="prev-nav" href={`/${prevDay}/`}>← {prevDayLabel}</a>
+  )}
 </div>
 
+<!-- Modal dialog -->
+<dialog id="post-modal">
+  <div class="modal-header">
+    <button class="modal-close" id="modal-close">✕</button>
+  </div>
+  <div class="modal-body" id="modal-body">
+    <p class="modal-loading">Loading…</p>
+  </div>
+</dialog>
+
 <script>
-  const btns = document.querySelectorAll<HTMLButtonElement>('.comments-btn');
-  const col = document.getElementById('comments-col')!;
+  const modal = document.getElementById('post-modal') as HTMLDialogElement;
+  const modalBody = document.getElementById('modal-body')!;
+  const modalClose = document.getElementById('modal-close')!;
   const injectedStyles = new Set<string>();
 
-  async function loadComments(btn: HTMLButtonElement) {
-    btns.forEach(b => b.classList.remove('is-active'));
-    btn.classList.add('is-active');
-    col.innerHTML = '<p style="padding:1rem;color:#475569;font-family:sans-serif">Loading…</p>';
+  function buildModalHeader(card: HTMLElement): string {
+    const time = card.dataset.time ?? '';
+    const quote = card.dataset.quote ?? '';
+    const preview = card.dataset.preview ?? '';
+    const count = card.dataset.comments ?? '0';
 
-    const res = await fetch(btn.dataset.href!);
+    const quotePart = quote
+      ? `<div class="modal-reply-quote">${quote}</div>`
+      : '';
+    const previewPart = preview
+      ? `<div class="modal-post-preview">${preview}</div>`
+      : '';
+    const footer = `<div class="modal-post-footer">
+      <span class="modal-time">${time}</span>
+      <span class="modal-comment-count">${count} comment${count !== '1' ? 's' : ''}</span>
+    </div>`;
+
+    return `<div class="modal-post-card">${quotePart}${previewPart}${footer}</div>`;
+  }
+
+  async function openPost(card: HTMLElement) {
+    const href = card.dataset.href!;
+    const header = buildModalHeader(card);
+
+    modalBody.innerHTML = header + '<p class="modal-loading">Loading…</p>';
+    modal.showModal();
+
+    const res = await fetch(href);
     const html = await res.text();
     const doc = new DOMParser().parseFromString(html, 'text/html');
 
@@ -85,33 +118,37 @@ function fmtTime(datetime: string) {
     });
 
     const comments = doc.querySelector('section.comments');
-    col.innerHTML = comments?.outerHTML ?? '<p style="padding:1rem;color:#475569;font-family:sans-serif">No comments</p>';
-    col.scrollTop = 0;
+    modalBody.innerHTML = header + (comments?.outerHTML ?? '');
+    modalBody.scrollTop = 0;
   }
 
-  btns.forEach(b => b.addEventListener('click', () => loadComments(b)));
-  if (btns[0]) loadComments(btns[0]);
+  // Click card to open modal
+  document.querySelectorAll<HTMLElement>('.post-card').forEach(card => {
+    card.addEventListener('click', () => openPost(card));
+    card.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') openPost(card);
+    });
+  });
+
+  // Close on button or backdrop click
+  modalClose.addEventListener('click', () => modal.close());
+  modal.addEventListener('click', e => {
+    if (e.target === modal) modal.close();
+  });
 </script>
 
 <style>
-  .day-layout {
-    display: grid;
-    grid-template-columns: 54% 46%;
+  .feed-wrap {
     height: 100%;
-    overflow: hidden;
-  }
-
-  .posts-col {
     overflow-y: auto;
-    padding: 1rem 1.75rem 2rem;
-    border-right: 1px solid #1e293b;
+    padding: 1rem 2rem 2rem;
+    max-width: 860px;
   }
 
   .day-heading {
     font-size: 1.1rem;
     font-weight: 600;
     color: #f1f5f9;
-    font-family: ui-sans-serif, sans-serif;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #3b82f6;
@@ -121,48 +158,61 @@ function fmtTime(datetime: string) {
   .posts-feed {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
   }
 
   .post-card {
+    padding: 1.25rem 0;
     border-bottom: 1px solid #1e293b;
-    padding-bottom: 2rem;
+    cursor: pointer;
+    outline: none;
+    transition: opacity 0.12s;
   }
 
   .post-card:last-child { border-bottom: none; }
+  .post-card:hover { opacity: 0.85; }
+  .post-card:focus-visible { outline: 1px solid #3b82f6; border-radius: 4px; }
 
-  .post-meta { margin-bottom: 0.75rem; }
+  .post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.65rem;
+  }
 
   .post-time {
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     font-weight: 700;
-    color: #475569;
+    color: #2d3f55;
     font-family: ui-monospace, monospace;
     letter-spacing: 0.04em;
   }
 
+  .comment-count {
+    font-size: 0.7rem;
+    color: #2d3f55;
+  }
+
   .post-reply-quote {
     border-left: 3px solid #1e40af;
-    background: #0f2547;
+    background: #0f1e3a;
     border-radius: 0 6px 6px 0;
-    padding: 0.4rem 0.75rem;
-    margin-bottom: 0.75rem;
-    color: #93c5fd;
-    font-size: 0.88em;
+    padding: 0.35rem 0.7rem;
+    margin-bottom: 0.6rem;
+    color: #6b94c4;
+    font-size: 0.85em;
     white-space: pre-wrap;
-    font-family: ui-sans-serif, sans-serif;
   }
 
   .post-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+    gap: 0.4rem;
+    margin-bottom: 0.6rem;
   }
 
   .post-images img {
-    max-width: min(480px, 100%);
-    max-height: 480px;
+    max-width: min(560px, 100%);
+    max-height: 400px;
     object-fit: contain;
     border-radius: 6px;
     border: 1px solid #1e293b;
@@ -170,84 +220,156 @@ function fmtTime(datetime: string) {
   }
 
   .post-body {
-    font-size: 0.975rem;
-    line-height: 1.72;
-    color: #cbd5e1;
+    font-size: 0.925rem;
+    line-height: 1.65;
+    color: #94a3b8;
   }
 
-  .post-body :global(p) { margin-bottom: 0.85em; }
+  .post-body :global(p) { margin-bottom: 0.7em; }
   .post-body :global(p:last-child) { margin-bottom: 0; }
   .post-body :global(a) { color: #60a5fa; }
-  .post-body :global(a:hover) { color: #93c5fd; }
-  .post-body :global(strong) { font-weight: 700; color: #e2e8f0; }
-  .post-body :global(em) { font-style: italic; color: #94a3b8; }
+  .post-body :global(strong) { color: #cbd5e1; }
+  .post-body :global(blockquote) {
+    border-left: 3px solid #1e40af;
+    background: #0f1e3a;
+    border-radius: 0 6px 6px 0;
+    padding: 0.4rem 0.8rem;
+    margin: 0.5em 0;
+    color: #6b94c4;
+    font-size: 0.95em;
+  }
+  .post-body :global(blockquote p) { margin-bottom: 0; }
   .post-body :global(code) {
     font-family: ui-monospace, monospace;
-    font-size: 0.88em;
-    background: #1e293b;
-    color: #93c5fd;
-    padding: 1px 5px;
+    font-size: 0.85em;
+    background: #0f172a;
+    color: #7dd3fc;
+    padding: 1px 4px;
     border-radius: 3px;
   }
   .post-body :global(pre) {
     background: #0a0f1e;
     color: #e2e8f0;
-    padding: 1rem;
+    padding: 0.85rem;
     border-radius: 6px;
     overflow-x: auto;
-    font-size: 0.85em;
-    margin: 0.75em 0;
+    font-size: 0.82em;
+    margin: 0.6em 0;
     border: 1px solid #1e293b;
   }
-  .post-body :global(blockquote) {
-    border-left: 3px solid #1e40af;
-    background: #0f2547;
-    border-radius: 0 6px 6px 0;
-    padding: 0.5rem 0.9rem;
-    margin: 0.75em 0;
-    color: #93c5fd;
-    font-size: 0.95em;
-  }
-  .post-body :global(blockquote p) { margin-bottom: 0; }
-
-  .comments-btn {
-    display: inline-block;
-    margin-top: 0.85rem;
-    font-size: 0.8rem;
-    font-family: ui-sans-serif, sans-serif;
-    font-weight: 500;
-    color: #3b82f6;
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-  }
-
-  .comments-btn:hover { color: #60a5fa; }
-  .comments-btn.is-active { color: #93c5fd; font-weight: 700; }
 
   .prev-nav {
     display: inline-block;
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
     font-size: 0.85rem;
     color: #3b82f6;
     text-decoration: none;
-    font-family: ui-sans-serif, sans-serif;
     font-weight: 500;
   }
   .prev-nav:hover { color: #60a5fa; }
 
-  .comments-col {
-    overflow-y: auto;
-    padding: 1rem 1.5rem 2rem;
-    background: #0a0f1e;
+  /* Modal */
+  dialog {
+    border: none;
+    border-radius: 12px;
+    background: #0f172a;
+    color: #e2e8f0;
+    max-width: 780px;
+    width: 90vw;
+    max-height: 85vh;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.6);
   }
 
-  .empty-hint {
-    color: #1e293b;
-    font-size: 0.85rem;
-    font-family: ui-sans-serif, sans-serif;
-    margin-top: 2rem;
-    text-align: center;
+  dialog::backdrop {
+    background: rgba(2, 6, 23, 0.8);
+    backdrop-filter: blur(4px);
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem 0.75rem 0;
+    position: sticky;
+    top: 0;
+    background: #0f172a;
+    z-index: 1;
+  }
+
+  .modal-close {
+    background: none;
+    border: none;
+    color: #475569;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  .modal-close:hover { background: #1e293b; color: #94a3b8; }
+
+  .modal-body {
+    padding: 0.5rem 1.75rem 1.75rem;
+    overflow-y: auto;
+    max-height: calc(85vh - 48px);
+  }
+
+  .modal-loading {
+    color: #334155;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+  }
+
+  :global(.modal-post-card) {
+    background: #1a2540;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 0.85rem 1rem 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  :global(.modal-reply-quote) {
+    border-left: 3px solid #1e40af;
+    background: #0f1628;
+    border-radius: 0 5px 5px 0;
+    padding: 0.3rem 0.65rem;
+    margin-bottom: 0.6rem;
+    color: #4a6fa5;
+    font-size: 0.83em;
+    white-space: pre-wrap;
+  }
+
+  :global(.modal-post-preview) {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #94a3b8;
+    margin-bottom: 0.75rem;
+    white-space: pre-wrap;
+  }
+
+  :global(.modal-post-footer) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    border-top: 1px solid #1e293b;
+  }
+
+  :global(.modal-time) {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #334155;
+    font-family: ui-monospace, monospace;
+    letter-spacing: 0.04em;
+  }
+
+  :global(.modal-comment-count) {
+    font-size: 0.7rem;
+    color: #334155;
   }
 </style>
