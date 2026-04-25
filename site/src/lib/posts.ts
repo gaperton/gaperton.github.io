@@ -27,6 +27,7 @@ export interface PostDetail {
   bodyHtml: string;
   images: string[];
   comments: Comment[];
+  replyQuote?: string;  // exact quoted text from reply_quote field
 }
 
 export interface Comment {
@@ -70,14 +71,13 @@ function renderMarkdown(src: string): string {
 }
 
 function textPreview(src: string, len = 300): string {
-  // strip markdown syntax for a plain text preview
-  return src
+  const text = src
     .replace(/!\[.*?\]\(.*?\)/g, '')
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
     .replace(/#{1,6}\s/g, '')
     .replace(/[*_`~]/g, '')
-    .trim()
-    .slice(0, len);
+    .trim();
+  return text.length > len ? text.slice(0, len) + ' [...]' : text;
 }
 
 export function getMonths(): string[] {
@@ -85,6 +85,20 @@ export function getMonths(): string[] {
   return readdirSync(BASE)
     .filter(isMonthDir)
     .sort();
+}
+
+function findPostPreviewById(id: number): string | undefined {
+  for (const month of getMonths()) {
+    const dir = join(BASE, month);
+    const match = readdirSync(dir).find(f => f === `${f.slice(0, 10)}_${id}.md` || f.endsWith(`_${id}.md`));
+    if (match) {
+      const raw = readFileSync(join(dir, match), 'utf-8');
+      const { content } = matter(fixFrontmatter(raw));
+      const preview = textPreview(content, 200);
+      return preview || undefined;
+    }
+  }
+  return undefined;
 }
 
 export function getPostSlugsForMonth(month: string): string[] {
@@ -215,7 +229,8 @@ export function getPost(month: string, slug: string): PostDetail {
       const explicitQuote = c._replyQuote;
       const ref = byId.get(c._replyToId);
       // prefer the exact selected quote; fall back to first 160 chars of the referenced message
-      const preview = explicitQuote ?? ref?.bodyHtml.replace(/<[^>]+>/g, '').trim().slice(0, 160);
+      const refText = ref?.bodyHtml.replace(/<[^>]+>/g, '').trim() ?? '';
+      const preview = explicitQuote ?? (refText ? textPreview(refText, 160) : undefined);
       if (preview) {
         c.replyTo = { author: ref?.author ?? '…', preview };
       }
@@ -233,5 +248,10 @@ export function getPost(month: string, slug: string): PostDetail {
     bodyHtml: renderMarkdown(content),
     images: getImageFiles(month, slug),
     comments,
+    replyQuote: data.reply_quote
+      ? String(data.reply_quote)
+      : data.reply_to
+        ? findPostPreviewById(Number(data.reply_to))
+        : undefined,
   };
 }

@@ -177,7 +177,7 @@ def _has_media(directory: Path, exclude: Path = None) -> bool:
 
 async def sync_channel(client, channel: str, state: dict, out: Path,
                        limit: int, wait_time: float, fetch_client=None,
-                       state_path: Path = None) -> None:
+                       state_path: Path = None, sync_replies_only: bool = False) -> None:
     # fetch_client is the takeout client when in takeout mode; falls back to client.
     fetch = fetch_client or client
 
@@ -210,15 +210,29 @@ async def sync_channel(client, channel: str, state: dict, out: Path,
         post_dir = month_dir / f"{stem}.files"
 
         month_dir.mkdir(parents=True, exist_ok=True)
-        post_file.write_text(render_md(msg), encoding="utf-8", errors="replace")
-        print(f"  + {post_file.relative_to(out)}")
 
-        if msg.media and not _has_media(post_dir):
-            post_dir.mkdir(exist_ok=True)
-            try:
-                await fetch.download_media(msg, file=str(post_dir) + "/")
-            except Exception as e:
-                print(f"    media error: {e}")
+        reply_id = getattr(getattr(msg, 'reply_to', None), 'reply_to_msg_id', None)
+        if sync_replies_only:
+            # Only update .md if reply_to/reply_quote is missing but should be present
+            if reply_id and post_file.exists():
+                existing = post_file.read_text(encoding="utf-8", errors="replace")
+                has_reply_to = "reply_to:" in existing
+                has_quote = "reply_quote:" in existing
+                quote_text = getattr(getattr(msg, 'reply_to', None), 'quote_text', None)
+                needs_update = not has_reply_to or (quote_text and not has_quote)
+                if needs_update:
+                    post_file.write_text(render_md(msg), encoding="utf-8", errors="replace")
+                    print(f"  ~ {post_file.relative_to(out)}")
+        else:
+            post_file.write_text(render_md(msg), encoding="utf-8", errors="replace")
+            print(f"  + {post_file.relative_to(out)}")
+
+            if msg.media and not _has_media(post_dir):
+                post_dir.mkdir(exist_ok=True)
+                try:
+                    await fetch.download_media(msg, file=str(post_dir) + "/")
+                except Exception as e:
+                    print(f"    media error: {e}")
 
 
         ch_state["last_post_id"] = max(ch_state["last_post_id"], msg.id)
@@ -360,6 +374,8 @@ async def main() -> None:
                         help="Sync comments from linked discussion group instead of posts")
     parser.add_argument("--sync-replies", action="store_true",
                         help="Re-scan all comments from the beginning to backfill reply_to fields in existing files")
+    parser.add_argument("--sync-post-replies", action="store_true",
+                        help="Re-scan all posts from the beginning to backfill reply_to fields (only updates .md, no media)")
     args = parser.parse_args()
     args.limit = args.limit or None  # 0 → None means no limit in Telethon
     if args.wait_time is None:
@@ -381,6 +397,18 @@ async def main() -> None:
         config["api_hash"],
         flood_sleep_threshold=300,  # auto-sleep on flood waits up to 5 min
     ) as client:
+        if args.sync_post_replies:
+            for channel in config["channels"]:
+                saved_id = state.get(channel, {}).get("last_post_id", 0)
+                state.setdefault(channel, {})["last_post_id"] = 0
+                try:
+                    await sync_channel(client, channel, state, out,
+                                       limit=None, wait_time=args.wait_time,
+                                       state_path=None, sync_replies_only=True)
+                finally:
+                    state[channel]["last_post_id"] = saved_id
+            return
+
         if args.sync_replies:
             # Re-scan all comments from the beginning to backfill reply_to fields
             for channel in config["channels"]:

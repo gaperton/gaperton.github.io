@@ -26,6 +26,10 @@ function fmtTime(datetime: string) {
             <span class="post-time">{fmtTime(post.datetime)}</span>
           </div>
 
+          {post.replyQuote && (
+            <div class="post-reply-quote">{post.replyQuote}</div>
+          )}
+
           {post.images.length > 0 && (
             <div class="post-images">
               {post.images.map(src => (
@@ -140,6 +144,17 @@ function fmtTime(datetime: string) {
     color: #999;
     font-family: ui-monospace, monospace;
     letter-spacing: 0.04em;
+  }
+
+  .post-reply-quote {
+    border-left: 3px solid #93c5fd;
+    background: #eff6ff;
+    border-radius: 0 6px 6px 0;
+    padding: 0.4rem 0.75rem;
+    margin-bottom: 0.75rem;
+    color: #334155;
+    font-size: 0.9em;
+    white-space: pre-wrap;
   }
 
   .post-images {
