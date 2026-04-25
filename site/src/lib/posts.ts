@@ -79,6 +79,32 @@ function fixFrontmatter(raw: string): string {
 
 marked.setOptions({ breaks: true });
 
+// Lazy map: Telegram post ID → local URL path
+let _postIdMap: Map<number, string> | null = null;
+function getPostIdMap(): Map<number, string> {
+  if (_postIdMap) return _postIdMap;
+  _postIdMap = new Map();
+  for (const month of getMonths()) {
+    for (const slug of getPostSlugsForMonth(month)) {
+      const id = Number(slug.split('_').pop());
+      if (!isNaN(id)) _postIdMap.set(id, `/${month}/${slug}/`);
+    }
+  }
+  return _postIdMap;
+}
+
+marked.use({
+  walkTokens(token: any) {
+    if (token.type === 'link' && token.href) {
+      const m = token.href.match(/t\.me\/gaperton_tech\/(\d+)/i);
+      if (m) {
+        const local = getPostIdMap().get(Number(m[1]));
+        if (local) token.href = local;
+      }
+    }
+  },
+});
+
 function renderMarkdown(src: string): string {
   return marked.parse(src) as string;
 }

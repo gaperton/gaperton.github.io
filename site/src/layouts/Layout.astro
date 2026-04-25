@@ -24,8 +24,15 @@ const { title, sidebarMonths = [], currentMonth = '', currentDay = '', firstDayB
 
     html, body { height: 100%; overflow: hidden; }
 
+    /* Dark scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    * { scrollbar-color: #1e293b transparent; scrollbar-width: thin; }
+
     body {
-      font-family: Georgia, 'Times New Roman', serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
       background: #0f172a;
       color: #e2e8f0;
       display: flex;
