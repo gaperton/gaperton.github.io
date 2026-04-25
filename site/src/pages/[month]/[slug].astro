@@ -118,7 +118,7 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
     border: 1px solid #1e293b;
     background: #0a0f1e;
   }
-  .image-gallery.small img { max-width: min(320px, 100%); max-height: 320px; }
+  .image-gallery.small img { max-width: min(560px, 100%); max-height: 480px; }
 
   .comments { max-width: 720px; }
 
@@ -128,15 +128,14 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
     margin-bottom: 1rem;
     color: #64748b;
     font-family: ui-sans-serif, sans-serif;
-    border-top: 1px solid #1e293b;
-    padding-top: 1rem;
   }
 
   .comment {
-    margin-bottom: 1.25rem;
-    padding-left: 1rem;
-    border-left: 3px solid #1e293b;
+    padding: 1rem 0;
+    border-bottom: 1px solid #1e293b;
   }
+
+  .comment:last-child { border-bottom: none; }
 
   .comment-meta {
     display: flex;
