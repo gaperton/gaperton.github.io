@@ -98,6 +98,16 @@ const dayLabel = new Date(post.date + 'T00:00:00').toLocaleDateString('en-GB', {
 
   .post-body :global(p) { margin-bottom: 1em; }
   .post-body :global(a) { color: #0066cc; }
+  .post-body :global(blockquote) {
+    border-left: 3px solid #93c5fd;
+    background: #eff6ff;
+    border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.9rem;
+    margin: 0.75em 0;
+    color: #334155;
+    font-size: 0.95em;
+  }
+  .post-body :global(blockquote p) { margin-bottom: 0; }
 
   .image-gallery {
     display: flex;

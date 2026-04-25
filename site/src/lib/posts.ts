@@ -63,6 +63,8 @@ function fixFrontmatter(raw: string): string {
     });
 }
 
+marked.setOptions({ breaks: true });
+
 function renderMarkdown(src: string): string {
   return marked.parse(src) as string;
 }
