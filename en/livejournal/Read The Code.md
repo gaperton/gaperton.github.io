@@ -2,7 +2,7 @@
 
 I wrote this article at the request of the organizers specifically for the Software People conference website.
 
-When I joined [CQG](https://www.cqg.com/) at the end of 1999, I thought I already had solid experience in software development: three years of building custom enterprise database applications. I thought I knew a lot. I was very self-confident.
+When I joined [CQG](https://www.cqg.com/) at the end of 1999, I thought I already had solid experience in software development — three years of building custom enterprise database applications — and I was very self-confident.
 
 Then I ran into a small problem.
 
@@ -16,19 +16,17 @@ The assignment I received looked deceptively simple. In reality, it nearly drove
 
 This time, before writing code, I showed my design to Tal Korin, the author and chief architect of the system. He pointed me in the right direction in about five minutes.
 
-That was the first time I voluntarily initiated what I later learned was called a design review, and the first time I was genuinely happy someone found flaws in my design.
+That was the first design review I ever voluntarily initiated, and the first time I was genuinely happy someone found flaws in my design.
 
-After that project, I started working directly with Tal because, according to him — and much to my surprise — I turned out to be one of the few people who actually benefited from the architecture lectures.
+After that project, Tal started working with me directly. To my surprise, he told me I was one of the few people who had actually benefited from the architecture lectures.
 
 By then, however, I had already lost most illusions about myself.
-
-I realized that all my knowledge, university education, and experience were worth far less than I had imagined.
 
 What shocked me was this: objectively speaking, I had a stronger formal Computer Science education than Tal did. I *knew* more theory. But I became absolutely certain that I could not have designed and implemented a system like that in a year the way Tal had done ten years earlier with just one assistant.
 
 I would have drowned in details long before the project was finished.
 
-And so it slowly dawned on me that there existed something critically important — something almost completely orthogonal to formal education, design patterns, and books on object-oriented design.
+And so it slowly dawned on me that there existed something critically important — something largely independent of formal education, design patterns, and books on object-oriented design.
 
 Tal had it. I didn’t.
 
@@ -118,7 +116,7 @@ It clarified nothing.
 
 And that was when I fully understood that Tal had been right all along.
 
-The value was never in the diagrams themselves. The value was in the thought process required to reconstruct the system.
+The value was never in the diagram. It was in the thinking required to build one.
 
 That is why code is the best documentation.
 
@@ -146,10 +144,14 @@ When designing systems, he always clearly understood what kind of code his ideas
 
 In his view, an architect who cannot fluently read unfamiliar code — and no longer writes code personally — inevitably becomes a poor architect within a few years.
 
-The second important aspect of this philosophy is understanding that code is written primarily for humans, and only secondarily for computers.
+---
 
-That brings us close to Donald Knuth’s ideas of Literate Programming.
+But the philosophy cuts both ways.
 
-Because if a person cannot clearly express a thought in natural language, how can they possibly express that same thought clearly in a far more formal programming language?
+If code must serve as documentation, then it must be written to be read — not just by the compiler, but by another engineer months or years later, trying to reconstruct your intent the way you once reconstructed someone else's.
 
-But that is another story.
+That is the part of Donald Knuth's [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming) that matters most: code is written primarily for humans, and only secondarily for computers. If you cannot clearly express a thought in natural language, you will not express it clearly in a far more formal programming language either.
+
+So the rule has a mirror image. Read the code — yes, always. But also: write code worth reading.
+
+Because for the next person, it will be the only documentation that exists.
