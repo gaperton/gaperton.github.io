@@ -1,7 +1,5 @@
 # Read the Code
 
-I wrote this article at the request of the organizers specifically for the Software People conference website.
-
 When I joined [CQG](https://www.cqg.com/) at the end of 1999, I thought I already had solid experience in software development — three years of building custom enterprise database applications — and I was very self-confident.
 
 Then I ran into a small problem.
