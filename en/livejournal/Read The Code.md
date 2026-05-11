@@ -12,7 +12,7 @@ The codebase alone was nearly 50 megabytes of source code — not counting utili
 
 This was the first genuinely large software system I had ever seen.
 
-The assignment I received looked deceptively simple. In reality, it nearly drove me insane. I only completed it seven months later, after attending internal architecture lectures on the system. And after those lectures, I had to throw away almost everything I had written beforehand and redo the entire solution properly in two months.
+The assignment I received looked deceptively simple. In reality, it nearly drove me insane. I only completed it seven months later, after attending internal architecture lectures on the system. Then I had to throw away almost everything I'd written and redo the entire solution properly in two months.
 
 This time, before writing code, I showed my design to Tal Korin, the author and chief architect of the system. He pointed me in the right direction in about five minutes.
 
@@ -36,7 +36,7 @@ Knowledge exists for action. Otherwise it is just decorative porcelain.
 
 From that moment on, I started carefully observing Tal, studying his decisions and methods, trying to understand what exactly I was missing.
 
-In other words, I signed up as an apprentice. Tal gladly took on the role of mentor. Over the next several years, Tal turned me into an engineer by showing me, in practice, what engineering actually meant.
+In other words, I signed up as an apprentice, and Tal gladly took on the role of mentor. Over the next several years, he turned me into an engineer by showing me, in practice, what engineering actually meant.
 
 Most of it felt strangely similar to Zen. You would receive some mind-breaking assignment, wrestle with it for days, and then suddenly something would click.
 
@@ -132,15 +132,15 @@ Only then do you begin to develop real reverse engineering skills.
 
 Any fool can bolt a new abstraction onto the side of an existing system.
 
-A real software engineer — emphasis on *engineer*, not “coder” — can analyze somebody else’s subsystem, reconstruct the author’s intent, continue that line of thought, and solve problems effectively within another engineer’s conceptual framework.
+A real software engineer — emphasis on *engineer*, not “coder” — can analyze somebody else’s subsystem, reconstruct the author’s intent, continue that line of thought, and solve problems within another engineer’s conceptual framework.
 
 All of that while working directly with code.
 
 That is one of the defining competencies of an architect.
 
-Tal genuinely did not care whether documentation existed or not because he could move effortlessly between code and architecture entirely in his head.
+Tal genuinely did not care whether documentation existed, because he could move effortlessly between code and architecture entirely in his head.
 
-When designing systems, he always clearly understood what kind of code his ideas would eventually become. That allowed him to mentally evaluate enormous numbers of alternatives and quickly discard bad ones.
+When designing systems, he could already see what kind of code his ideas would eventually become. That allowed him to mentally evaluate enormous numbers of alternatives and quickly discard bad ones.
 
 In his view, an architect who cannot fluently read unfamiliar code — and no longer writes code personally — inevitably becomes a poor architect within a few years.
 
@@ -148,7 +148,7 @@ In his view, an architect who cannot fluently read unfamiliar code — and no lo
 
 But the philosophy cuts both ways.
 
-If code must serve as documentation, then it must be written to be read — not just by the compiler, but by another engineer months or years later, trying to reconstruct your intent the way you once reconstructed someone else's.
+If code must serve as documentation, then it must be written to be read. Not by the compiler — by another engineer, months or years later, trying to reconstruct your intent the way you once reconstructed someone else's.
 
 That is the part of Donald Knuth's [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming) that matters most: code is written primarily for humans, and only secondarily for computers. If you cannot clearly express a thought in natural language, you will not express it clearly in a far more formal programming language either.
 
