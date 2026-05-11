@@ -2,19 +2,19 @@
 
 I wrote this article at the request of the organizers specifically for the Software People conference website.
 
-When I joined [CQG](https://www.cqg.com/?utm_source=chatgpt.com) at the end of 1999, I thought I already had solid experience in software development: three years of building custom enterprise database applications. I thought I knew a lot. I was very self-confident.
+When I joined [CQG](https://www.cqg.com/) at the end of 1999, I thought I already had solid experience in software development: three years of building custom enterprise database applications. I thought I knew a lot. I was very self-confident.
 
 Then I ran into a small problem.
 
-CQG was not a database application assembled from familiar off-the-shelf technologies like MS SQL Server, Visual Basic, Delphi, JavaScript, and 1C. It was a massive real-time trading platform written entirely in C++, with its own database server, its own embedded language, its own thick client, and hundreds of servers supporting thousands of simultaneous users.
+CQG was not a database application assembled from familiar off-the-shelf technologies like MS SQL Server, Visual Basic, Delphi, JavaScript. It was a massive real-time trading platform written entirely in C++, with its own database server, its own embedded language, its own thick client, and hundreds of servers supporting thousands of simultaneous users.
 
 The codebase alone was nearly 50 megabytes of source code — not counting utilities, infrastructure, and system components.
 
 This was the first genuinely large software system I had ever seen.
 
-The assignment I received looked deceptively simple: modify the data processing engine and server. In reality, it nearly drove me insane. I only completed it seven months later, after attending internal architecture lectures on the system. And after those lectures, I had to throw away almost everything I had written beforehand and redo the entire solution properly in two months.
+The assignment I received looked deceptively simple. In reality, it nearly drove me insane. I only completed it seven months later, after attending internal architecture lectures on the system. And after those lectures, I had to throw away almost everything I had written beforehand and redo the entire solution properly in two months.
 
-This time, before writing code, I showed my preliminary design to Tal Korin, the author and chief architect of the system. He pointed me in the right direction in about five minutes.
+This time, before writing code, I showed my design to Tal Korin, the author and chief architect of the system. He pointed me in the right direction in about five minutes.
 
 That was the first time I voluntarily initiated what I later learned was called a design review, and the first time I was genuinely happy someone found flaws in my design.
 
