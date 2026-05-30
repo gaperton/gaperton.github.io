@@ -32,9 +32,7 @@ That description captures the ritual but misses the function.
 
 The function of pair programming was cognitive. The second participant existed to provide continuous feedback. They forced articulation of intent. They interrupted impulsive design decisions. They challenged assumptions. They caught errors early. They kept the local implementation connected to the larger structure of the system.
 
-The value was not the second keyboard.
-
-The value was the second mind.
+The value was not the second keyboard. The value was the second mind.
 
 Pair programming externalized thought. It forced the programmer to explain, justify, revise, and reconsider while the work was still in motion.
 
@@ -48,9 +46,7 @@ The usual answer focuses on organizations. Companies found XP expensive. Manager
 
 These explanations contain some truth. But they do not reach the primary mechanism.
 
-Organizations do not experience cognitive fatigue.
-
-People do.
+Organizations do not experience cognitive fatigue. People do.
 
 Human pair programming is exhausting. Continuous collaboration imposes sustained social and cognitive load. It requires uninterrupted attention, constant articulation of partially formed thoughts, and continuous exposure to critique. It removes the privacy of solitary work. It reduces the ability to drift, experiment, fail privately, and regain focus alone.
 
@@ -62,9 +58,7 @@ The problem was not that pair programming did not work. The problem was that it 
 
 So the industry kept what was easy to keep and discarded what was hard to sustain. It kept Agile language. It kept planning rituals. It kept standups, boards, ceremonies, and managerial visibility. But it abandoned much of the engineering rigor that made XP coherent.
 
-XP did not fail because its core insight was false.
-
-It failed because its human implementation mechanism was too expensive.
+XP did not fail because its core insight was false. It failed because its human implementation mechanism was too expensive.
 
 ## AI Changes the Implementation Mechanism
 
