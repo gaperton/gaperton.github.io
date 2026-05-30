@@ -86,7 +86,15 @@ This asymmetry is what makes AI pairing powerful. It turns pairing from a tempor
 
 But the same asymmetry also defines the danger. A partner that is fast, confident, and tireless can become too easy to obey. If the human stops questioning the agent, the dialogue collapses back into delegation. The programmer becomes an operator, not a thinker.
 
-So AI pairing succeeds only when the interaction remains genuinely dialogic. The agent must not merely comply. The human must not merely accept.
+So AI pairing succeeds only when the interaction stays genuinely dialogic, and that depends on one condition: the agent must be capable of resistance.
+
+A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
+
+Real pairing requires friction. It requires alternative interpretations, criticism, specification pressure, architectural objections, and the ability to say: this does not follow, this abstraction is weak, this test does not prove what you think it proves, this design will create coupling, this requirement is ambiguous.
+
+The cognitive value of pair programming comes from the encounter with another perspective. Therefore the most important AI development tools will not be those optimized only for speed. They will be those optimized for productive disagreement: design critique, consistency checking, specification enforcement, test reasoning, and architectural memory.
+
+An obedient servant can accelerate coding. A genuine pair can improve thought.
 
 ## Conversational Development Is Not Orchestration
 
@@ -117,18 +125,6 @@ Collective ownership also changes character. In classical XP, collective ownersh
 The point is not that AI automates XP. The point is that AI lowers the psychological cost of sustaining XP-like discipline.
 
 Practices that once required extraordinary team culture may become ordinary parts of the development environment.
-
-## The Critical Requirement: The Agent Must Push Back
-
-This model depends on one condition. The AI partner must be capable of resistance.
-
-A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
-
-Real pairing requires friction. It requires alternative interpretations, criticism, specification pressure, architectural objections, and the ability to say: this does not follow, this abstraction is weak, this test does not prove what you think it proves, this design will create coupling, this requirement is ambiguous.
-
-The cognitive value of pair programming comes from the encounter with another perspective. Therefore the most important AI development tools will not be those optimized only for speed. They will be those optimized for productive disagreement: design critique, consistency checking, specification enforcement, test reasoning, and architectural memory.
-
-An obedient servant can accelerate coding. A genuine pair can improve thought.
 
 ## New Costs, Same Principle
 
