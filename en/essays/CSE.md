@@ -106,7 +106,7 @@ In an orchestration model, cognition stays centralized in the human. The agent a
 
 AI pair programming is not valuable only because it writes code faster. It is valuable because it changes the shape of thinking. It forces clarification. It proposes alternatives. It makes hidden assumptions visible. It turns vague intent into explicit structure. It makes review immediate rather than delayed.
 
-The software emerges through conversation.
+The software emerges through conversation. 
 
 This is why AI pairing is closer to XP than to mere automation. It preserves the cognitive form of pair programming while replacing the socially costly human mechanism that made XP difficult to scale.
 
@@ -130,9 +130,9 @@ Practices that once required extraordinary team culture may become ordinary part
 
 AI does not remove cost from software development. It changes where the cost sits.
 
-The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can be fast and confident, so the developer must resist deference. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
+The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
 
-These risks are not objections to AI pairing. They define its discipline.
+These risks are not objections to AI pairing. They define its discipline. 
 
 The human must remain inside the reasoning loop. If the agent becomes an oracle, AI pairing collapses into automation. If the agent remains a challenger, it can preserve the dialogic structure that made XP powerful.
 
@@ -142,7 +142,7 @@ Extreme Programming may have been historically premature rather than fundamental
 
 Its central insight was that software quality improves when development becomes a continuous conversation. Its failure came from the fact that, at the time, the only available implementation of that insight was sustained human pairing. That implementation was powerful but psychologically expensive. Most teams could not maintain it.
 
-AI changes the implementation mechanism. Coding agents preserve many of the cognitive benefits of pair programming while removing much of the social cost that prevented XP from scaling. They make it possible for software construction to remain continuously conversational without requiring developers to spend the entire day in exhausting human collaboration.
+AI changes the implementation mechanism. Coding agents make it possible for software construction to remain continuously conversational without requiring developers to spend the entire day in exhausting human collaboration.
 
 This does not mean the industry will return to XP as a doctrine. It probably will not. The rituals will change. The tools will change. The social structure will change.
 
