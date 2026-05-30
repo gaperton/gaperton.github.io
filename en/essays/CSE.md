@@ -106,17 +106,17 @@ This asymmetry is what makes AI pairing powerful. It turns pairing from a tempor
 
 But the same asymmetry also defines the danger. A partner that is fast, confident, and tireless can become too easy to obey. If the human stops questioning the agent, the dialogue collapses back into delegation. The programmer becomes an operator, not a thinker.
 
-The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
-
-The human must remain inside the reasoning loop.
-
 ## The Agent Must Push Back
 
-AI pairing succeeds only when the interaction remains genuinely dialogic. A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
+AI pairing succeeds only when the interaction remains genuinely dialogic.
+
+A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
 
 Real pairing requires friction. It requires alternative interpretations, criticism, specification pressure, architectural objections, and the ability to say: this does not follow, this abstraction is weak, this test does not prove what you think it proves, this design will create coupling, this requirement is ambiguous.
 
 The cognitive value of pair programming comes from the encounter with another perspective. Therefore the most important AI development tools will not be those optimized only for speed. They will be those optimized for productive disagreement: design critique, consistency checking, specification enforcement, test reasoning, and architectural memory.
+
+This is where the cost of the method moves. The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can be fast and confident, so the developer must resist deference. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
 
 An obedient servant can accelerate coding. A genuine pair can improve thought.
 
@@ -146,7 +146,7 @@ Its central insight was that software quality improves when development becomes 
 
 AI changes the implementation mechanism. Coding agents make it possible for software construction to remain continuously conversational without requiring developers to spend the entire day in exhausting human collaboration.
 
-This does not mean the industry will return to XP as a doctrine. It probably will not. The rituals will change. The tools will change. The social structure will change.
+This does not mean the industry will return to XP as a doctrine. The rituals will change. The tools will change. The social structure will change.
 
 But XP’s deepest idea may return in a new form.
 
