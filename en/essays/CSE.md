@@ -32,7 +32,9 @@ That description captures the ritual but misses the function.
 
 The function of pair programming was cognitive. The second participant existed to provide continuous feedback. They forced articulation of intent. They interrupted impulsive design decisions. They challenged assumptions. They caught errors early. They kept the local implementation connected to the larger structure of the system.
 
-The value was not the second keyboard. The value was the second mind. Pair programming externalized thought. It forced the programmer to explain, justify, revise, and reconsider while the work was still in motion.
+The value was not the second keyboard. The value was the second mind.
+
+Pair programming externalized thought. It forced the programmer to explain, justify, revise, and reconsider while the work was still in motion.
 
 This was XP’s fundamental bet: software improves when thinking is not solitary.
 
@@ -60,7 +62,9 @@ XP did not fail because its core insight was false. It failed because its human 
 
 ## AI Changes the Implementation Mechanism
 
-Modern coding agents attack precisely the constraint that limited XP. An AI partner does not become socially exhausted. It does not become defensive when challenged. It does not generate interpersonal tension. It does not require scheduling. It does not lose patience during repetitive review. It does not need to protect its status. It does not resent being asked to reconsider.
+Modern coding agents attack precisely the constraint that limited XP.
+
+An AI partner does not become socially exhausted. It does not become defensive when challenged. It does not generate interpersonal tension. It does not require scheduling. It does not lose patience during repetitive review. It does not need to protect its status. It does not resent being asked to reconsider.
 
 At the same time, it can perform many of the functions that made pair programming valuable. It can review code continuously. It can challenge design decisions. It can suggest alternatives. It can detect inconsistencies. It can generate tests. It can support refactoring. It can maintain context across files, conversations, and architectural decisions.
 
@@ -68,11 +72,27 @@ Most importantly, it can participate in an ongoing discussion about the software
 
 This is the important shift. The central question is no longer whether AI can generate code. Code generation is only the visible surface. The deeper question is whether software design can emerge through continuous dialogue with an artificial partner.
 
-Increasingly, the answer is yes.
-
 Developers already use coding agents not merely to produce implementation, but to reason about structure, clarify intent, examine tradeoffs, generate tests, search for edge cases, and reconsider design choices. The programmer is no longer simply writing code and then asking for review. The act of development itself becomes interactive.
 
 That is the mechanism XP wanted.
+
+## Conversational Development Is Not Orchestration
+
+Much of the current discussion around AI-assisted development uses the language of orchestration. In this model, the human remains the planner, and AI agents become implementation workers. The developer decomposes tasks, assigns them, reviews the results, and integrates the output.
+
+That model is useful, but it is not the XP model.
+
+XP was not primarily about delegation. It was about collaborative reasoning.
+
+In an orchestration model, cognition stays centralized in the human. The agent accelerates execution. In conversational development, cognition is distributed across the interaction. The agent does not merely implement a decision already made by the human. It participates in the formation of the decision.
+
+This is the crucial distinction.
+
+AI pair programming is not valuable only because it writes code faster. It is valuable because it changes the shape of thinking. It forces clarification. It proposes alternatives. It makes hidden assumptions visible. It turns vague intent into explicit structure. It makes review immediate rather than delayed.
+
+The software emerges through conversation.
+
+This is why AI pairing is closer to XP than to mere automation. It preserves the cognitive form of pair programming while replacing the socially costly human mechanism that made XP difficult to scale.
 
 ## A Partner That Is Not Your Equal
 
@@ -86,9 +106,13 @@ This asymmetry is what makes AI pairing powerful. It turns pairing from a tempor
 
 But the same asymmetry also defines the danger. A partner that is fast, confident, and tireless can become too easy to obey. If the human stops questioning the agent, the dialogue collapses back into delegation. The programmer becomes an operator, not a thinker.
 
-So AI pairing succeeds only when the interaction stays genuinely dialogic, and that depends on one condition: the agent must be capable of resistance.
+The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
 
-A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
+The human must remain inside the reasoning loop.
+
+## The Agent Must Push Back
+
+AI pairing succeeds only when the interaction remains genuinely dialogic. A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
 
 Real pairing requires friction. It requires alternative interpretations, criticism, specification pressure, architectural objections, and the ability to say: this does not follow, this abstraction is weak, this test does not prove what you think it proves, this design will create coupling, this requirement is ambiguous.
 
@@ -96,19 +120,7 @@ The cognitive value of pair programming comes from the encounter with another pe
 
 An obedient servant can accelerate coding. A genuine pair can improve thought.
 
-## Conversational Development Is Not Orchestration
-
-Much of the current discussion around AI-assisted development uses the language of orchestration. In this model, the human remains the planner, and AI agents become implementation workers. The developer decomposes tasks, assigns them, reviews the results, and integrates the output.
-
-That model is useful, but it is not the XP model. XP was not primarily about delegation. It was about collaborative reasoning.
-
-In an orchestration model, cognition stays centralized in the human. The agent accelerates execution. In conversational development, cognition is distributed across the interaction. The agent does not merely implement a decision already made by the human. It participates in the formation of the decision. This is the crucial distinction.
-
-AI pair programming is not valuable only because it writes code faster. It is valuable because it changes the shape of thinking. It forces clarification. It proposes alternatives. It makes hidden assumptions visible. It turns vague intent into explicit structure. It makes review immediate rather than delayed.
-
-The software emerges through conversation. 
-
-This is why AI pairing is closer to XP than to mere automation. It preserves the cognitive form of pair programming while replacing the socially costly human mechanism that made XP difficult to scale.
+If the agent becomes an oracle, AI pairing collapses into automation. If it remains a challenger, it can preserve the dialogic structure that made XP powerful.
 
 ## Why XP Practices Become Viable Again
 
@@ -125,16 +137,6 @@ Collective ownership also changes character. In classical XP, collective ownersh
 The point is not that AI automates XP. The point is that AI lowers the psychological cost of sustaining XP-like discipline.
 
 Practices that once required extraordinary team culture may become ordinary parts of the development environment.
-
-## New Costs, Same Principle
-
-AI does not remove cost from software development. It changes where the cost sits.
-
-The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
-
-These risks are not objections to AI pairing. They define its discipline. 
-
-The human must remain inside the reasoning loop. If the agent becomes an oracle, AI pairing collapses into automation. If the agent remains a challenger, it can preserve the dialogic structure that made XP powerful.
 
 ## Conclusion
 
