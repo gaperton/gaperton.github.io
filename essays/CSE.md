@@ -1,185 +1,187 @@
-# AI Pair Programming and the Return of Conversational Software Engineering
+# Парное программирование с ИИ и возвращение разговорной разработки ПО
 
-For more than twenty years, the history of Agile software development has often been told as the triumph of Scrum and the failure of Extreme Programming. Scrum became the dominant organizational framework for software teams. XP survived mostly in fragments. Continuous integration became standard practice. Refactoring entered the common engineering vocabulary. Automated testing became normal in many environments. But XP itself never became the dominant methodology.
+Более двадцати лет историю Agile-разработки часто описывали как триумф Scrum и провал Extreme Programming. Scrum стал доминирующим организационным фреймворком для софтверных команд. XP выжил главным образом в виде отдельных фрагментов. Непрерывная интеграция стала стандартной практикой. Рефакторинг вошёл в общий инженерный словарь. Автоматизированное тестирование стало нормой во многих средах. Но сам XP так и не стал доминирующей методологией.
 
-The usual explanation is that XP was simply “too extreme.”
+Обычное объяснение состоит в том, что XP был просто «слишком экстремальным».
 
-That explanation is not wrong, but it is too shallow. Extreme Programming did not fail because its engineering principles were fundamentally mistaken. Many of them proved durable. Nor did it fail primarily because companies irrationally rejected good engineering. The deeper problem was that XP required a mode of work that most people could not sustain.
+Это объяснение не ошибочно, но оно слишком поверхностно. Extreme Programming не провалился потому, что его инженерные принципы были фундаментально неверны. Многие из них оказались устойчивыми. Он также не провалился главным образом потому, что компании иррационально отвергли хорошую инженерную практику. Более глубокая проблема заключалась в том, что XP требовал такого режима работы, который большинство людей не могли поддерживать.
 
-XP correctly identified conversational cognition as a powerful mode of software development. Its weakness was not the cognitive model. Its weakness was the available implementation mechanism: continuous human pairing.
+XP правильно определил разговорное мышление как мощный режим разработки ПО. Его слабостью была не когнитивная модель. Его слабостью был доступный механизм реализации: постоянное человеческое парное программирование.
 
-That mechanism was psychologically expensive.
+Этот механизм был психологически дорогим.
 
-Modern coding agents change the implementation mechanism. They make it possible to preserve much of XP’s core cognitive process while removing many of the social and psychological costs that historically prevented it from scaling. The result may not be a literal return to XP as a historical methodology. It may be something more important: the first scalable form of conversational software engineering.
+Современные coding agents меняют механизм реализации. Они позволяют сохранить значительную часть базового когнитивного процесса XP, одновременно устраняя многие социальные и психологические издержки, которые исторически мешали его масштабированию. Результатом может стать не буквальное возвращение XP как исторической методологии. Возможно, это будет нечто более важное: первая масштабируемая форма разговорной разработки программного обеспечения.
 
-## XP’s Real Discovery
+## Настоящее открытие XP
 
-Extreme Programming was built around practices that appeared radical at the time: pair programming, test-driven development, continuous refactoring, collective code ownership, continuous integration, small releases, and rapid feedback loops. These practices are usually discussed separately, as if XP were merely a bundle of engineering techniques.
+Extreme Programming был построен вокруг практик, которые в своё время казались радикальными: парное программирование, разработка через тестирование, постоянный рефакторинг, коллективное владение кодом, непрерывная интеграция, маленькие релизы и быстрые циклы обратной связи. Обычно эти практики обсуждают по отдельности, как будто XP был всего лишь набором инженерных техник.
 
-But XP’s deeper insight was not any single technique. Its real discovery was that software quality improves when development becomes a continuous conversation.
+Но более глубокая идея XP заключалась не в какой-то одной технике. Его настоящее открытие состояло в том, что качество ПО повышается, когда разработка становится непрерывным разговором.
 
-Instead of designing in isolation and reviewing later, XP attempted to surround software construction with constant feedback. A design decision could be questioned as it was made. An implementation choice could be challenged before it hardened into the codebase. A misunderstanding could be corrected before it became architecture. A weak abstraction could be noticed while it was still cheap to change.
+Вместо того чтобы проектировать в одиночку и получать ревью позже, XP пытался окружить процесс создания ПО постоянной обратной связью. Архитектурное решение можно было поставить под вопрос в момент его принятия. Реализационный выбор можно было оспорить до того, как он затвердеет в кодовой базе. Недопонимание можно было исправить до того, как оно станет архитектурой. Слабую абстракцию можно было заметить, пока её ещё дёшево изменить.
 
-XP tried to transform software development from a sequence of isolated implementation acts into a process of continuous self-correction.
+XP пытался превратить разработку ПО из последовательности изолированных актов реализации в процесс постоянной самокоррекции.
 
-This is why pair programming occupied such a central role.
+Именно поэтому парное программирование занимало в нём такое центральное место.
 
-## Pair Programming Was Never About Two Keyboards
+## Парное программирование никогда не было про две клавиатуры
 
-Pair programming is often described in superficial terms: two developers sit together and write code. One types, the other reviews, and they periodically switch roles.
+Парное программирование часто описывают поверхностно: два разработчика сидят вместе и пишут код. Один печатает, другой ревьюит, и они периодически меняются ролями.
 
-That description captures the ritual but misses the function.
+Такое описание фиксирует ритуал, но упускает функцию.
 
-The function of pair programming was cognitive. The second participant existed to provide continuous feedback. They forced articulation of intent. They interrupted impulsive design decisions. They challenged assumptions. They caught errors early. They kept the local implementation connected to the larger structure of the system.
+Функция парного программирования была когнитивной. Второй участник существовал для того, чтобы обеспечивать постоянную обратную связь. Он заставлял артикулировать намерение. Он прерывал импульсивные дизайнерские решения. Он проверял допущения. Он рано ловил ошибки. Он удерживал локальную реализацию в связи с более крупной структурой системы.
 
-The value was not the second keyboard.
+Ценность была не во второй клавиатуре.
 
-The value was the second mind.
+Ценность была во втором уме.
 
-Pair programming externalized thought. It forced the programmer to explain, justify, revise, and reconsider while the work was still in motion.
+Парное программирование выносило мышление наружу. Оно заставляло программиста объяснять, обосновывать, пересматривать и переоценивать свои решения, пока работа ещё находилась в движении.
 
-This was XP’s fundamental bet: software improves when thinking is not solitary.
+В этом и заключалась фундаментальная ставка XP: ПО становится лучше, когда мышление перестаёт быть одиночным.
 
-## Why XP Failed
+## Почему XP провалился
 
-If XP discovered such a powerful mechanism, why did it fail to become the dominant methodology?
+Если XP обнаружил настолько мощный механизм, почему он не стал доминирующей методологией?
 
-The usual answer focuses on organizations. Companies found XP expensive. Managers preferred lighter processes. Scrum was easier to sell, easier to certify, and easier to adopt without changing engineering culture too deeply.
+Обычный ответ сосредоточен на организациях. Компании считали XP дорогим. Менеджеры предпочитали более лёгкие процессы. Scrum было проще продавать, проще сертифицировать и проще внедрять без глубокого изменения инженерной культуры.
 
-These explanations contain some truth. But they do not reach the primary mechanism.
+В этих объяснениях есть доля истины. Но они не доходят до первичного механизма.
 
-Organizations do not experience cognitive fatigue.
+Организации не испытывают когнитивной усталости.
 
-People do.
+Люди испытывают.
 
-Human pair programming is exhausting. Continuous collaboration imposes sustained social and cognitive load. It requires uninterrupted attention, constant articulation of partially formed thoughts, and continuous exposure to critique. It removes the privacy of solitary work. It reduces the ability to drift, experiment, fail privately, and regain focus alone.
+Человеческое парное программирование изматывает. Непрерывное сотрудничество создаёт устойчивую социальную и когнитивную нагрузку. Оно требует непрерывного внимания, постоянного проговаривания ещё не до конца сформированных мыслей и постоянной открытости к критике. Оно лишает приватности одиночной работы. Оно уменьшает возможность дрейфовать, экспериментировать, ошибаться в одиночестве и самостоятельно возвращать фокус.
 
-Many programmers prefer long stretches of individual concentration. This is not a defect. Much programming work benefits from solitude. But XP asked developers to remain inside a high-bandwidth collaborative loop for much of the working day.
+Многие программисты предпочитают длинные отрезки индивидуальной концентрации. Это не дефект. Значительная часть программирования выигрывает от одиночества. Но XP требовал, чтобы разработчики значительную часть рабочего дня оставались внутри высокополосного цикла совместной работы.
 
-That was the real cost.
+Вот в чём была настоящая цена.
 
-The problem was not that pair programming did not work. The problem was that it worked through a psychologically demanding process. It required a kind of sustained discipline that many people found unnatural, tiring, or intrusive.
+Проблема была не в том, что парное программирование не работало. Проблема была в том, что оно работало через психологически требовательный процесс. Оно требовало устойчивой дисциплины такого рода, который многим людям казался неестественным, утомительным или вторгающимся в личное пространство.
 
-So the industry kept what was easy to keep and discarded what was hard to sustain. It kept Agile language. It kept planning rituals. It kept standups, boards, ceremonies, and managerial visibility. But it abandoned much of the engineering rigor that made XP coherent.
+Поэтому индустрия сохранила то, что было легко сохранить, и отбросила то, что было трудно поддерживать. Она сохранила язык Agile. Она сохранила ритуалы планирования. Она сохранила стендапы, доски, церемонии и управленческую видимость. Но она отказалась от значительной части инженерной строгости, которая делала XP внутренне связным.
 
-XP did not fail because its core insight was false.
+XP провалился не потому, что его центральная идея была ложной.
 
-It failed because its human implementation mechanism was too expensive.
+Он провалился потому, что его человеческий механизм реализации был слишком дорогим.
 
-## AI Changes the Implementation Mechanism
+## AI меняет механизм реализации
 
-Modern coding agents attack precisely the constraint that limited XP.
+Современные coding agents атакуют именно то ограничение, которое сдерживало XP.
 
-An AI partner does not become socially exhausted. It does not become defensive when challenged. It does not generate interpersonal tension. It does not require scheduling. It does not lose patience during repetitive review. It does not need to protect its status. It does not resent being asked to reconsider.
+AI-партнёр не устаёт социально. Он не становится оборонительным, когда его оспаривают. Он не создаёт межличностного напряжения. Он не требует согласования расписаний. Он не теряет терпение во время повторяющегося ревью. Ему не нужно защищать свой статус. Он не обижается, когда его просят пересмотреть решение.
 
-At the same time, it can perform many of the functions that made pair programming valuable. It can review code continuously. It can challenge design decisions. It can suggest alternatives. It can detect inconsistencies. It can generate tests. It can support refactoring. It can maintain context across files, conversations, and architectural decisions.
+При этом он может выполнять многие функции, которые делали парное программирование ценным. Он может непрерывно ревьюить код. Он может оспаривать дизайнерские решения. Он может предлагать альтернативы. Он может находить несогласованности. Он может генерировать тесты. Он может поддерживать рефакторинг. Он может удерживать контекст между файлами, разговорами и архитектурными решениями.
 
-Most importantly, it can participate in an ongoing discussion about the software being built.
+Самое важное — он может участвовать в постоянном обсуждении создаваемого ПО.
 
-This is the important shift. The central question is no longer whether AI can generate code. Code generation is only the visible surface. The deeper question is whether software design can emerge through continuous dialogue with an artificial partner.
+Вот в чём ключевой сдвиг. Центральный вопрос больше не в том, способен ли AI генерировать код. Генерация кода — лишь видимая поверхность. Более глубокий вопрос в том, может ли дизайн ПО возникать через непрерывный диалог с искусственным партнёром.
 
-Increasingly, the answer is yes.
+Всё чаще ответ — да.
 
-Developers already use coding agents not merely to produce implementation, but to reason about structure, clarify intent, examine tradeoffs, generate tests, search for edge cases, and reconsider design choices. The programmer is no longer simply writing code and then asking for review. The act of development itself becomes interactive.
+Разработчики уже используют coding agents не только для реализации, но и для рассуждения о структуре, прояснения намерений, анализа компромиссов, генерации тестов, поиска edge cases и пересмотра дизайнерских решений. Программист больше не просто пишет код, а затем просит ревью. Сам акт разработки становится интерактивным.
 
-That is the mechanism XP wanted.
+Именно этого механизма и хотел XP.
 
-## A Partner That Is Not Your Equal
+## Партнёр, который не равен тебе
 
-AI pair programming is not the same as human pair programming. The difference matters.
+AI-парное программирование не то же самое, что человеческое парное программирование. Эта разница важна.
 
-Human pairing is symmetric. Two people have roughly similar limitations. Both become tired. Both lose focus. Both carry social expectations. Both need respect, space, and recognition. Both must manage the relationship as well as the work.
+Человеческая пара симметрична. У двух людей примерно схожие ограничения. Оба устают. Оба теряют фокус. Оба несут социальные ожидания. Оба нуждаются в уважении, пространстве и признании. Оба должны управлять не только работой, но и отношениями.
 
-AI pairing is asymmetric.
+AI-пара асимметрична.
 
-The artificial partner has different strengths and different weaknesses. It can sustain attention in ways humans cannot. It can search rapidly across large contexts. It can remember prior discussion, inspect code, summarize patterns, and produce alternatives at high speed. It can be available continuously. It can act as a persistent cognitive layer around the codebase.
+Искусственный партнёр имеет другие сильные и слабые стороны. Он может поддерживать внимание так, как человек не может. Он может быстро искать по большим контекстам. Он может помнить предыдущие обсуждения, инспектировать код, суммировать паттерны и с высокой скоростью выдавать альтернативы. Он может быть доступен постоянно. Он может действовать как постоянный когнитивный слой вокруг кодовой базы.
 
-This asymmetry is what makes AI pairing powerful. It turns pairing from a temporary human ritual into persistent cognitive stabilization. The developer no longer works alone and receives occasional review. Instead, the evolving system is held inside a continuous shared context.
+Эта асимметрия и делает AI-парное программирование мощным. Она превращает pairing из временного человеческого ритуала в постоянную когнитивную стабилизацию. Разработчик больше не работает в одиночку, получая лишь периодическое ревью. Вместо этого развивающаяся система удерживается внутри непрерывного общего контекста.
 
-But the same asymmetry also defines the danger. A partner that is fast, confident, and tireless can become too easy to obey. If the human stops questioning the agent, the dialogue collapses back into delegation. The programmer becomes an operator, not a thinker.
+Но та же асимметрия определяет и опасность. Партнёру, который быстр, уверен и неутомим, слишком легко подчиниться. Если человек перестаёт ставить агента под вопрос, диалог схлопывается обратно в делегирование. Программист становится оператором, а не мыслителем.
 
-So AI pairing succeeds only when the interaction remains genuinely dialogic. The agent must not merely comply. The human must not merely accept.
+Поэтому AI-парное программирование успешно только тогда, когда взаимодействие остаётся подлинно диалогическим. Агент не должен просто исполнять. Человек не должен просто принимать.
 
-## Conversational Development Is Not Orchestration
+## Разговорная разработка — это не оркестрация
 
-Much of the current discussion around AI-assisted development uses the language of orchestration. In this model, the human remains the planner, and AI agents become implementation workers. The developer decomposes tasks, assigns them, reviews the results, and integrates the output.
+Значительная часть нынешнего обсуждения AI-assisted development использует язык оркестрации. В этой модели человек остаётся планировщиком, а AI-агенты становятся исполнителями. Разработчик декомпозирует задачи, назначает их, ревьюит результаты и интегрирует output.
 
-That model is useful, but it is not the XP model.
+Эта модель полезна, но это не модель XP.
 
-XP was not primarily about delegation. It was about collaborative reasoning.
+XP был не про делегирование. Он был про совместное рассуждение.
 
-In an orchestration model, cognition stays centralized in the human. The agent accelerates execution. In conversational development, cognition is distributed across the interaction. The agent does not merely implement a decision already made by the human. It participates in the formation of the decision.
+В модели оркестрации познание остаётся централизованным в человеке. Агент ускоряет исполнение. В разговорной разработке познание распределено по взаимодействию. Агент не просто реализует решение, уже принятое человеком. Он участвует в формировании этого решения.
 
-This is the crucial distinction.
+Это принципиальное различие.
 
-AI pair programming is not valuable only because it writes code faster. It is valuable because it changes the shape of thinking. It forces clarification. It proposes alternatives. It makes hidden assumptions visible. It turns vague intent into explicit structure. It makes review immediate rather than delayed.
+AI-парное программирование ценно не только потому, что оно быстрее пишет код. Оно ценно потому, что меняет форму мышления. Оно заставляет прояснять. Оно предлагает альтернативы. Оно делает скрытые допущения видимыми. Оно превращает расплывчатое намерение в явную структуру. Оно делает ревью немедленным, а не отложенным.
 
-The software emerges through conversation.
+Программное обеспечение возникает через разговор.
 
-This is why AI pairing is closer to XP than to mere automation. It preserves the cognitive form of pair programming while replacing the socially costly human mechanism that made XP difficult to scale.
+Именно поэтому AI-парное программирование ближе к XP, чем к простой автоматизации. Оно сохраняет когнитивную форму парного программирования, заменяя при этом социально дорогой человеческий механизм, из-за которого XP было трудно масштабировать.
 
-## Why XP Practices Become Viable Again
+## Почему практики XP снова становятся жизнеспособными
 
-Once continuous support becomes cheap, many XP practices become more viable.
+Когда постоянная поддержка становится дешёвой, многие практики XP снова становятся более жизнеспособными.
 
-Test-driven development becomes easier because the agent can help turn intent into executable specification. It can propose test cases, generate edge conditions, update tests during refactoring, and identify gaps between behavior and implementation. TDD becomes less dependent on heroic manual discipline.
+Разработка через тестирование становится проще, потому что агент может помогать превращать намерение в исполняемую спецификацию. Он может предлагать тест-кейсы, генерировать edge conditions, обновлять тесты во время рефакторинга и находить разрывы между поведением и реализацией. TDD становится менее зависимым от героической ручной дисциплины.
 
-Continuous refactoring becomes easier because the agent can help locate related code, propose transformations, migrate call sites, preserve behavior, and reason about risk. Structural improvement becomes less expensive and therefore less likely to be deferred indefinitely.
+Постоянный рефакторинг становится проще, потому что агент может помогать находить связанный код, предлагать преобразования, мигрировать call sites, сохранять поведение и рассуждать о рисках. Структурное улучшение становится дешевле, а значит, его реже откладывают бесконечно.
 
-Continuous review becomes natural because feedback no longer waits for a scheduled human reviewer. It can happen inside the act of programming itself. This restores the short feedback loops XP considered essential.
+Постоянное ревью становится естественным, потому что обратная связь больше не ждёт запланированного человеческого ревьюера. Она может происходить внутри самого акта программирования. Это восстанавливает короткие циклы обратной связи, которые XP считал необходимыми.
 
-Collective ownership also changes character. In classical XP, collective ownership required a team culture in which everyone understood and could modify the whole system. With AI assistance, some of that architectural continuity can be supported by persistent context, semantic search, documentation synthesis, and conversational explanation. The agent becomes a memory layer around the codebase.
+Коллективное владение кодом тоже меняет характер. В классическом XP коллективное владение требовало командной культуры, в которой каждый понимал и мог изменять всю систему. С AI-поддержкой часть этой архитектурной непрерывности может поддерживаться постоянным контекстом, семантическим поиском, синтезом документации и разговорным объяснением. Агент становится слоем памяти вокруг кодовой базы.
 
-The point is not that AI automates XP.
+Суть не в том, что AI автоматизирует XP.
 
-The point is that AI lowers the psychological cost of sustaining XP-like discipline.
+Суть в том, что AI снижает психологическую цену поддержания XP-подобной дисциплины.
 
-Practices that once required extraordinary team culture may become ordinary parts of the development environment.
+Практики, которые раньше требовали исключительной командной культуры, могут стать обычной частью среды разработки.
 
-## The Critical Requirement: The Agent Must Push Back
+## Критическое требование: агент должен сопротивляться
 
-This model depends on one condition.
+Эта модель зависит от одного условия.
 
-The AI partner must be capable of resistance.
+AI-партнёр должен быть способен к сопротивлению.
 
-A passive autocomplete system is not a pair programmer. A code generator that simply follows instructions is not a pair programmer. A flattering assistant that agrees with every premise is not a pair programmer.
+Пассивный autocomplete — не парный программист. Генератор кода, который просто выполняет инструкции, — не парный программист. Льстивый ассистент, который соглашается с каждой предпосылкой, — не парный программист.
 
-Real pairing requires friction. It requires alternative interpretations, criticism, specification pressure, architectural objections, and the ability to say: this does not follow, this abstraction is weak, this test does not prove what you think it proves, this design will create coupling, this requirement is ambiguous.
+Настоящее pairing требует трения. Оно требует альтернативных интерпретаций, критики, давления спецификаций, архитектурных возражений и способности сказать: это не следует из сказанного; эта абстракция слаба; этот тест не доказывает того, что ты думаешь; этот дизайн создаст связанность; это требование неоднозначно.
 
-The cognitive value of pair programming comes from the encounter with another perspective.
+Когнитивная ценность парного программирования возникает из столкновения с другой перспективой.
 
-Therefore the most important AI development tools will not be those optimized only for speed. They will be those optimized for productive disagreement: design critique, consistency checking, specification enforcement, test reasoning, and architectural memory.
+Следовательно, важнейшими AI-инструментами для разработки будут не те, которые оптимизированы только под скорость. Ими будут инструменты, оптимизированные под продуктивное несогласие: критику дизайна, проверку согласованности, enforcement спецификаций, тестовое рассуждение и архитектурную память.
 
-An obedient servant can accelerate coding.
+Послушный слуга может ускорить кодирование.
 
-A genuine pair can improve thought.
+Настоящая пара может улучшить мышление.
 
-## New Costs, Same Principle
+## Новые издержки, тот же принцип
 
-AI does not remove cost from software development. It changes where the cost sits.
+AI не устраняет издержки из разработки ПО. Он меняет место, где эти издержки находятся.
 
-The old XP cost was the psychological burden of continuous human collaboration. The new cost is the burden of judgment. AI can be fluent and wrong, so the developer must verify rather than merely accept. AI can be fast and confident, so the developer must resist deference. AI can remember, review, and reason, so the developer must avoid outsourcing the very faculties that pair programming was supposed to sharpen.
+Старая цена XP заключалась в психологической нагрузке непрерывной человеческой совместной работы. Новая цена — это нагрузка суждения. AI может быть красноречивым и неправым, поэтому разработчик должен проверять, а не просто принимать. AI может быть быстрым и уверенным, поэтому разработчик должен сопротивляться уступчивости. AI может помнить, ревьюить и рассуждать, поэтому разработчик должен избегать аутсорсинга тех самых способностей, которые парное программирование должно было развивать.
 
-These risks are not objections to AI pairing. They define its discipline.
+Эти риски не являются возражением против AI-парного программирования. Они определяют его дисциплину.
 
-The human must remain inside the reasoning loop. If the agent becomes an oracle, AI pairing collapses into automation. If the agent remains a challenger, it can preserve the dialogic structure that made XP powerful.
+Человек должен оставаться внутри цикла рассуждения. Если агент становится оракулом, AI-парное программирование схлопывается в автоматизацию. Если агент остаётся оппонентом, он может сохранить диалогическую структуру, которая делала XP мощным.
 
-## Conclusion
+## Заключение
 
-Extreme Programming may have been historically premature rather than fundamentally wrong.
+Extreme Programming, возможно, был исторически преждевременным, а не фундаментально ошибочным.
 
-Its central insight was that software quality improves when development becomes a continuous conversation. Its failure came from the fact that, at the time, the only available implementation of that insight was sustained human pairing. That implementation was powerful but psychologically expensive. Most teams could not maintain it.
+Его центральная идея состояла в том, что качество ПО повышается, когда разработка становится непрерывным разговором. Его провал был связан с тем, что в то время единственной доступной реализацией этой идеи было устойчивое человеческое парное программирование. Эта реализация была мощной, но психологически дорогой. Большинство команд не могли её поддерживать.
 
-AI changes the implementation mechanism.
+AI меняет механизм реализации.
 
-Coding agents preserve many of the cognitive benefits of pair programming while removing much of the social cost that prevented XP from scaling. They make it possible for software construction to remain continuously conversational without requiring developers to spend the entire day in exhausting human collaboration.
+Coding agents сохраняют многие когнитивные преимущества парного программирования, устраняя при этом значительную часть социальной цены, которая мешала XP масштабироваться. Они позволяют разработке ПО оставаться непрерывно разговорной без необходимости заставлять разработчиков проводить весь день в изматывающей человеческой совместной работе.
 
-This does not mean the industry will return to XP as a doctrine. It probably will not. The rituals will change. The tools will change. The social structure will change.
+Это не значит, что индустрия вернётся к XP как к доктрине. Скорее всего, не вернётся. Ритуалы изменятся. Инструменты изменятся. Социальная структура изменится.
 
-But XP’s deepest idea may return in a new form.
+Но самая глубокая идея XP может вернуться в новой форме.
 
-Software engineering may move away from solitary implementation followed by delayed review, and toward continuous dialogue with a persistent cognitive partner. If that happens, AI will not merely automate programming. It will make conversational software engineering practical at scale.
+Разработка ПО может уйти от одиночной реализации с отложенным ревью и перейти к непрерывному диалогу с постоянным когнитивным партнёром. Если это произойдёт, AI будет не просто автоматизировать программирование. Он сделает разговорную разработку ПО практически масштабируемой.
 
-In that sense, XP was not wrong.
+В этом смысле XP не был неправ.
 
-It arrived before the right partner existed.
+Он появился раньше, чем появился правильный партнёр.
+
+Источник: загруженный текст статьи. 
