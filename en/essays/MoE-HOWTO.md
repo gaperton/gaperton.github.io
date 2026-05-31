@@ -205,7 +205,6 @@ thinking mode, ready for OpenAI‑compatible clients:
 .\llama-server.exe `
   -m D:\models\Qwen3.6-35B-A3B-UD-Q5_K_XL.gguf `
   -c 131072 -np 1 -fa on `
-  --fit-target 2048 `
   --jinja `
   --temp 1.0 --top-p 0.95 --top-k 20 --min-p 0.0 --presence-penalty 1.5 `
   --host 127.0.0.1 --port 8080
