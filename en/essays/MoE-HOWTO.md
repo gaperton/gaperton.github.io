@@ -76,10 +76,6 @@ cd C:\llama.cpp
 nvidia-smi   # confirm the RTX 5080 and your driver/CUDA version
 ```
 
-> **Blackwell note:** RTX 50‑series needs a recent driver and a CUDA 12.x (or
-> newer) build. If the binary reports "no CUDA devices found", you grabbed a
-> too‑old release or the CPU‑only zip — get a newer CUDA asset.
-
 ## Step 2 — Get the model
 
 Download the GGUF by hand from the model's Hugging Face page, then point
@@ -99,24 +95,6 @@ Model pages (Unsloth dynamic GGUF) for three MoE models:
   <https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF>
   *(There is no Qwen3.6 122B yet; the largest Unsloth MoE at this tier is
   Qwen**3.5**‑122B‑A10B.)*
-
-Then run with the local path, e.g.:
-
-```powershell
-.\llama-server.exe -m D:\models\Qwen3.6-35B-A3B-UD-Q5_K_XL.gguf ...
-```
-
-> **Split files:** for the 122B the `UD-Q5_K_XL` quant lives in a subfolder and
-> comes as three parts (`...-00001-of-00003.gguf` …). Download **all** parts
-> into the same folder, then point `-m` at the **first** part only — llama.cpp
-> loads the remaining shards automatically.
-
-**On RAM:** the figures above are the **total memory** (system RAM + the 16 GB
-of VRAM) that must hold the model plus its KV cache. The RTX 5080's 16 GB
-carries the hot path; system RAM holds the offloaded experts, so RAM needs to
-cover roughly *file size − VRAM used + headroom*. All three run on a single
-5080 — the only requirement is having enough system RAM. The 122B at ~92 GB
-needs **128 GB** of RAM.
 
 ## Step 3 — Run it (let auto‑fit do the offloading)
 
@@ -150,7 +128,6 @@ What each flag does:
 On load you'll see llama.cpp log its fitting attempts and report how many layers
 landed on `CUDA0` versus CPU. Open <http://127.0.0.1:8080> for the built‑in chat
 UI, or point an OpenAI‑compatible client at `http://127.0.0.1:8080/v1`.
-
 
 ## Step 4 — Benchmark throughput
 
