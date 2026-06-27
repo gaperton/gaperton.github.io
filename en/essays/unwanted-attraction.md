@@ -4,7 +4,7 @@
 
 Sometimes a person is strongly drawn to something they also know is bad for them, dangerous, humiliating, destabilizing, or simply unnecessary. This may be a person, a job, an organization, a group, a status, an object, a habit, or a situation.
 
-The conflict is not simply “I want it.” It is usually more unstable than that. The same thing can feel attractive at one moment and dangerous at another.
+The conflict is not simply “I want it.” The same thing can feel attractive at one moment and dangerous at another.
 
 From a distance, it may seem to promise relief, recognition, pleasure, safety, status, or restoration:
 
@@ -24,7 +24,7 @@ But when the person gets closer, the same thing may start to feel threatening:
 
 So the person may move toward it, then pull away; miss it, then resent it; fantasize about it, then try to cut it off; want it, then hate needing it. This is not mysterious. It is a conflict between attraction and avoidance unfolding over time.
 
-### How the Oscillation Works
+## How the Oscillation Works
 
 The conflict usually changes with distance.
 
@@ -36,11 +36,11 @@ Then distance increases again, and the attraction returns. The object once more 
 
 approach → discomfort → withdrawal → longing → return.
 
-The important point is that the person is not necessarily confused at one single moment. The mind is responding differently under different conditions. Far away, the object looks like a solution. Up close, it looks like a threat.
+The person is not necessarily confused at one single moment. The mind is responding differently under different conditions. Far away, the object looks like a solution. Up close, it looks like a threat.
 
-### The Mistake and the Goal
+## The Mistake and the Goal
 
-The mistake is to think that the attraction can be removed simply by making the avoidance stronger. Hatred, contempt, dramatic rejection, or forced disgust may reduce approach for a moment, but they often keep the object central. The object still governs attention, only negatively. That is not freedom; it is inverted attachment.
+The mistake is to think that attraction can be removed simply by making avoidance stronger. Hatred, contempt, dramatic rejection, or forced disgust may reduce approach for a moment, but they often keep the object central. The object still governs attention, only negatively. That is not freedom; it is inverted attachment.
 
 The correct goal is not to hate the object. The goal is to remove its false necessity.
 
@@ -74,28 +74,18 @@ An appraisal is the whole automatic interpretation of the situation as it appear
 - **Affect:** the emotional and bodily charge that follows from the impression. It is not only a named emotion, such as fear, anger, longing, shame, excitement, disgust, or relief. It is also the felt force of the reaction: tension, heat, pressure, contraction, agitation, heaviness, attraction, repulsion, or urgency. Affect makes the impression feel real and important.
 - **Impulse:** the action-readiness that follows from the impression and affect. It is the body and mind preparing to do something before reflection has fully decided: approach, flee, contact, check, attack, hide, argue, submit, cut off, restore. The impulse is not yet an action, but it already points the person toward an action.
 
-For example:
+Usually, people automatically approve the whole appraisal. The situation appears dangerous, fear arises, the body prepares to flee, and the person flees. The situation appears attractive, longing arises, the body prepares to approach, and the person approaches.
+
+This automatic approval is the default mode. It treats the impression as reality, the affect as evidence, and the impulse as a command.
+
+### Examples
 
 - A manager criticizes someone in a meeting. The raw fact is: criticism was made in public. The automatic appraisal may be: impression: “I am being humiliated”; affect: fear, anger, or shame; impulse: defend, attack, withdraw, or escape.
 - A person does not reply to a message. The raw fact is only: no reply has arrived. The automatic appraisal may be: impression: “I am being rejected”; affect: anxiety, shame, and longing; impulse: check again, send another message, or replay the conversation.
 - The same person later becomes available again. The automatic appraisal may shift: impression: “This will restore me”; affect: relief and hope; impulse: move closer, reopen contact, or forget the earlier danger.
 - A job or organization offers status and security but also causes repeated loss of dignity. At a distance, the appraisal may be: impression: “I need this to remain safe and respected”; affect: anxiety and attachment; impulse: stay, comply, or seek approval. Up close, the appraisal may reverse: impression: “This place is trapping and degrading me”; affect: anger and disgust; impulse: quit, fight, or cut off.
 
-Usually, people automatically approve the whole appraisal. The situation appears dangerous, fear arises, the body prepares to flee, and the person flees. The situation appears attractive, longing arises, the body prepares to approach, and the person approaches.
-
-This automatic approval is the default mode. It treats the impression as reality, the affect as evidence, and the impulse as a command.
-
-### How Approach–Avoidance Conflict Appears in System A
-
-In an approach–avoidance conflict, the automatic system does not produce one stable appraisal of the object. It produces two different appraisals that become stronger at different moments.
-
-When the person is distant from the object, the **approach appraisal** becomes stronger. The object appears as desirable, relieving, meaningful, or necessary. The affect may be longing, hope, anxiety, or craving. The impulse is to move closer, check, contact, restore, comply, or keep the option alive.
-
-When the person gets closer to the same object, the **avoidance appraisal** becomes stronger. The object now appears as dangerous, humiliating, degrading, trapping, or costly. The affect may be fear, anger, shame, disgust, or resentment. The impulse is to withdraw, attack, cut off, escape, or devalue.
-
-This is why the person oscillates. At a distance, the object looks necessary; up close, it looks dangerous. Then distance returns, and the attraction returns. System A is not contradicting itself at one single moment so much as producing different automatic appraisals under different conditions.
-
-The practical problem is that both appraisals may contain an exaggeration. The approach appraisal may say: “I need this.” The avoidance appraisal may say: “I cannot bear this.” If either appraisal is automatically approved, the person is pulled into action without reflection.
+In an approach–avoidance conflict, System A does not produce one stable appraisal of the object. It produces different automatic appraisals under different conditions. The approach appraisal may say: “I need this.” The avoidance appraisal may say: “I cannot bear this.” If either appraisal is automatically approved, the person is pulled into action without reflection.
 
 ### System R: The Reflective System
 
@@ -121,13 +111,9 @@ These questions separate the three parts of the appraisal. The impression may be
 
 The reflective system does not need to destroy the automatic reaction. Its task is to observe it, test it, refuse assent where needed, and prevent an automatic appraisal from becoming automatic action.
 
-In an approach–avoidance conflict, this means noticing which appraisal is active now: the approach appraisal that says “I need this,” or the avoidance appraisal that says “I cannot bear this.”
+## Practical Rule: Catch the Appraisal Before Action
 
-The method is therefore simple: notice the appraisal, separate its impression, affect, and impulse, test whether it exaggerates necessity or danger, refuse assent where needed, and act from reflection rather than automatic approval.
-
-## The Practical Rule
-
-The first skill is to notice the appraisal before it becomes action.
+The first practical skill is to notice the appraisal before it becomes action.
 
 Very often this does not happen. The appraisal arises, the person automatically agrees with it, and the impulse immediately becomes behavior. Later the person says: “I was provoked,” “I reacted emotionally,” or “I knew I should not do it, but I did it anyway.” In this case, the reflective system did not intervene in time. The automatic system completed the sequence by itself.
 
@@ -139,17 +125,9 @@ This means watching for three things:
 - **Affect:** What emotional or bodily charge appeared? Fear, shame, anger, longing, contraction, heat, pressure, urgency, craving.
 - **Impulse:** What action became ready? Contact, check, argue, attack, flee, submit, cut off, return, fantasize, seek reassurance.
 
-Sometimes all three are visible. Often they are not.
+Sometimes all three are visible. Often they are not. A person may first notice only the affect, only the impulse, or only the judgment. Any of these entry points is enough. Once one component is noticed, pause and look for the other two.
 
-A person may first notice only the affect: “I suddenly feel fear,” “I feel shame,” “I feel a pull,” without yet seeing the judgment behind it.
-
-Or a person may first notice only the impulse: “I want to send a message,” “I want to leave,” “I want to attack,” without yet seeing the fear, shame, or longing that produced it.
-
-Or a person may notice the judgment first: “This is unfair,” “I am being humiliated,” “this will save me,” and only later notice the affect and impulse attached to it.
-
-Any of these entry points is enough. Once one component is noticed, pause and look for the other two.
-
-The practical rule is:
+The rule is:
 
 1. Notice that an automatic reaction has started.
 2. Do not act immediately.
@@ -212,9 +190,7 @@ Detachment is not emotional numbness. It does not mean that the object becomes w
 
 Detachment means that the automatic reaction no longer has final authority.
 
-The object may still look attractive from a distance. It may still look dangerous up close. The approach appraisal may still say, “I need this.” The avoidance appraisal may still say, “I cannot bear this.” But these appraisals are no longer automatically approved.
-
-The reflective system learns to notice them, separate their parts, test their exaggerations, and refuse assent where needed. The person can then feel longing without pursuing, feel fear without fleeing into obsession, feel anger without turning it into revenge, and feel pain without treating it as destruction.
+The object may still look attractive from a distance. It may still look dangerous up close. But these appearances are no longer automatically approved.
 
 The goal is not to destroy the automatic system. The goal is to retrain it. Each time the person notices the appraisal, refuses the exaggeration, and does not perform the automatic action, the object loses some of its power.
 
