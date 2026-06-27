@@ -77,23 +77,25 @@ This automatic approval is the default mode. It treats the impression as reality
 
 The reflective system can interrupt this default mode.
 
-Its first power is observation. A person cannot usually observe an appraisal as an abstract whole. But a person can notice its visible parts: the judgment appearing in the mind, the affect felt in the body, and the urge to act. One can notice: “I am judging this as humiliating,” “I feel fear,” “I want to escape,” or “I want to contact them.” This is reflection: the automatic reaction becomes an object of attention.
+Its first power is observation. A person cannot usually observe an appraisal as an abstract whole, but can notice its concrete parts: a judgment appearing in the mind, an affect felt in the body, and an urge to act. One can notice: “this is humiliating,” “I feel fear,” “I want to escape,” or “I want to contact them.” This is reflection: the automatic reaction becomes an object of attention.
 
-This matters because automatic appraisals cannot simply be prevented. One cannot decide in advance never to feel fear, longing, shame, anger, attraction, or disgust. These reactions arise from the automatic system. They are produced by habit, memory, bodily state, and the situation as it appears at that moment.
+This matters because automatic appraisals cannot simply be prevented. One cannot decide in advance never to feel fear, longing, shame, anger, attraction, or disgust. These reactions arise from the automatic system, shaped by habit, memory, bodily state, and the situation as it appears at that moment.
 
-But the person does not have to agree with the first impression, believe that fear means the real danger, and act on the urge to action.
+But the person does not have to agree to the appraisal.
 
-In Stoic language, the reflective system can grant or refuse **assent**. To assent is to treat the appraisal as true enough to guide action. To refuse assent is to say: “This appeared in me, but I do not have to agree with it or act from it.”
+In Stoic language, **assent** means treating an appearance as true enough to guide action. To refuse assent is to say: “This appeared in me, but I do not have to agree with it, treat it as proof, or act from it.”
 
-The reflective system can ask:
+The reflective system can therefore ask three questions:
 
 “Is this impression accurate?”
 
 “Does this affect prove what it seems to prove?”
 
-“Should this impulse be authorized?”
+“Should I really act on this impulse?”
 
-The reflective system does not need to destroy the automatic reaction. Its task is to observe the appraisal, examine it, and decide whether to approve it. If the appraisal exaggerates necessity or danger, the reflective system can refuse assent and prevent the appraisal from becoming automatic action.
+These questions separate the three parts of the appraisal. The impression may be inaccurate. The affect may be real without being evidence. The impulse may be strong without deserving authorization.
+
+The reflective system does not need to destroy the automatic reaction. Its task is to observe it, test it, refuse assent where needed, and prevent an automatic appraisal from becoming automatic action.
 
 In an approach–avoidance conflict, this means observing both appraisals as they arise over time: the approach appraisal when the object looks necessary, and the avoidance appraisal when the object looks dangerous.
 
