@@ -52,16 +52,6 @@ The automatic system reacts immediately. It produces impressions, feelings, bodi
 
 The reflective system can notice the reaction, examine it, and decide whether to authorize it. It does not have to obey the first impulse. Its task is not to suppress the automatic system, but to govern and retrain it.
 
-### Belief, Desire, Intention
-
-Second, distinguish three parts of practical agency:
-
-- **Belief:** what the mind takes to be true or practically true.
-- **Desire:** what the mind wants or wants to avoid.
-- **Intention:** what the person is preparing to do.
-
-This is the BDI structure: belief, desire, intention. In an attachment conflict, the problem is not only that one has a feeling. The feeling usually carries a belief, creates a desire, and tries to form an intention.
-
 ### Packets: Impression, Affect, and Impulse
 
 Third, the useful unit of observation is the **packet**.
