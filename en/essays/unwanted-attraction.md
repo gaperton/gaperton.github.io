@@ -42,29 +42,38 @@ The useful distinction is:
 
 ## The Method
 
-The task is to create a higher response:
+To use the method, only a few simple concepts are needed.
 
-1. Name the approach packet.
-    What does the object promise? Relief? Recognition? Safety? Pleasure? Status? Revenge? Proof of worth?
-2. Name the avoidance packet.
-    What does the object threaten? Shame? Dependence? Loss? Humiliation? Instability? Loss of control?
-3. Find the false necessity.
-    The attraction usually hides the claim: “I need this to be okay.” That claim must be challenged directly.
-4. Find the false catastrophe.
-    The avoidance side often hides the claim: “I cannot bear this.” That also must be challenged.
-5. Refuse both exaggerations.
-    The object is neither salvation nor destruction. It may be preferred, painful, useful, dangerous, tempting, or costly — but it must not be allowed to define whether one is whole, safe, worthy, or capable of right action.
-6. Stop reinforcing the loop.
-    Do not feed the approach side through checking, contacting, fantasizing, rereading, monitoring, bargaining, or seeking signs.
-    Do not feed the avoidance side through rage loops, contempt fantasies, revenge planning, dramatic renunciation, or constant mental argument.
-7. Let discomfort happen without rescue.
-    The feeling of withdrawal is not proof that the object is necessary. It is the system learning that absence is survivable.
-8. Replace the function.
-    If the object gave comfort, build cleaner comfort.
-    If it gave status, build competence.
-    If it gave identity, clarify role and purpose.
-    If it gave safety, build stable structure.
-    If it gave recognition, build self-respect through action.
+### Automatic and Reflective Systems
+
+First, distinguish the **automatic system** from the **reflective system**.
+
+The automatic system reacts immediately. It produces impressions, feelings, bodily tension, urges, fantasies, and impulses before deliberate judgment has time to intervene.
+
+The reflective system can notice the reaction, examine it, and decide whether to authorize it. It does not have to obey the first impulse. Its task is not to suppress the automatic system, but to govern and retrain it.
+
+### Belief, Desire, Intention
+
+Second, distinguish three parts of practical agency:
+
+- **Belief:** what the mind takes to be true or practically true.
+- **Desire:** what the mind wants or wants to avoid.
+- **Intention:** what the person is preparing to do.
+
+This is the BDI structure: belief, desire, intention. In an attachment conflict, the problem is not only that one has a feeling. The feeling usually carries a belief, creates a desire, and tries to form an intention.
+
+### Packets: Impression, Affect, and Impulse
+
+Third, the useful unit of observation is the **packet**.
+
+A packet is the whole automatic reaction as it appears in experience: impression, affect, impulse, and the implied belief-desire-intention structure.
+
+For example:
+
+- “This person will restore me” + longing + urge to contact.
+- “This situation will humiliate me” + fear + urge to escape.
+
+The packet matters because a person can learn to observe it directly. One does not need to analyze the whole personality. One only needs to notice: what appeared, what feeling came with it, what it implied, and what it tried to make me do.
 
 ## The Practical Rule
 
