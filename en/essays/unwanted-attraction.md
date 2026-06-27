@@ -150,85 +150,19 @@ Do not send the message, answer the accusation, reopen contact, check again, att
 
 Start with whatever is easiest to notice.
 
-If there is a strong emotion or bodily affect, name it:
+If there is a strong emotion or bodily affect, name it: anger, fear, shame, longing, pressure in the chest, heat, contraction, urgency, or agitation.
 
-“I feel anger.”
-
-“I feel fear.”
-
-“I feel shame.”
-
-“I feel longing.”
-
-“I feel pressure in the chest.”
-
-“I feel heat, contraction, urgency, or agitation.”
-
-If there is an urge to act, name it:
-
-“I want to reply now.”
-
-“I want to check again.”
-
-“I want to contact them.”
-
-“I want to defend myself.”
-
-“I want to attack.”
-
-“I want to leave.”
-
-“I want to cut this off.”
+If there is an urge to act, name it: “I want to reply,” “I want to check,” “I want to contact them,” “I want to defend myself,” “I want to attack,” “I want to leave,” or “I want to cut this off.”
 
 Do not perform the action until the urge itself has become visible. The moment one can say, “I want to do this,” the impulse has already become an object of reflection rather than an invisible command.
 
-Then ask what impression produced this affect and this impulse.
-
-What did the situation suddenly seem to mean?
-
-Was the hidden judgment:
-
-“I am being rejected”?
-
-“I am being humiliated”?
-
-“I am unsafe”?
-
-“I need this”?
-
-“I cannot bear this”?
-
-“This proves I do not matter”?
-
-“This will restore me”?
-
-“This must be answered now”?
+Then ask what impression produced this affect and this impulse. What did the situation suddenly seem to mean? The hidden judgment may be: “I am being rejected,” “I am being humiliated,” “I am unsafe,” “I need this,” “I cannot bear this,” “This proves I do not matter,” “This will restore me,” or “This must be answered now.”
 
 This is the central move: separate the raw fact from the judgment inside the impression.
 
-The raw fact may be only:
+The raw fact may be only: no reply has arrived; someone criticized me; they looked away; I remembered something; the object became available again.
 
-“No reply has arrived.”
-
-“Someone criticized me.”
-
-“They looked away.”
-
-“I remembered something.”
-
-“The object became available again.”
-
-But the impression may add:
-
-“I am rejected.”
-
-“I am humiliated.”
-
-“I am in danger.”
-
-“I need this to be whole.”
-
-“I cannot tolerate this.”
+But the impression may add: I am rejected; I am humiliated; I am in danger; I need this to be whole; I cannot tolerate this.
 
 The impression is not the fact. An impression is already an interpretation. It may be accurate, partly accurate, exaggerated, or simply wrong. It may contain a hidden fallacy: catastrophizing, mind-reading, false necessity, false danger, false urgency, or treating discomfort as destruction.
 
@@ -242,7 +176,7 @@ Stop. Name the affect. Name the impulse. Find the impression. Separate fact from
 
 In shorter form:
 
-“The feeling is real, but it is not proof. The impulse is strong, but it is not a command. The impressiomn seems right, but it's not a fact. First I will see what judgment I am accepting. Then I will decide whether to act.”
+“The feeling is real, but it is not proof. The impulse is strong, but it is not a command. The impression seems right, but it is not a fact. First I will see what judgment I am accepting. Then I will decide whether to act.”
 
 ## Strategy for the Attraction–Distancing Conflict
 
