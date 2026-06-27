@@ -2,37 +2,49 @@
 
 ## The Problem
 
-Sometimes a person is strongly drawn to something they also know is bad, dangerous, humiliating, destabilizing, or simply unnecessary. This may be a person, job, organization, group, status, object, habit, or situation.
+Sometimes a person is strongly drawn to something they also know is bad for them, dangerous, humiliating, destabilizing, or simply unnecessary. This may be a person, a job, an organization, a group, a status, an object, a habit, or a situation.
 
-The important point is this: the conflict is not simply “I want it.” It is usually a conflict between two reactions that become stronger at different moments.
+The conflict is not simply “I want it.” It is usually more unstable than that. The same thing can feel attractive at one moment and dangerous at another.
 
-One part of the mind presents the object as good:
+From a distance, it may seem to promise relief, recognition, pleasure, safety, status, or restoration:
 
-“This will give me relief, recognition, pleasure, safety, status, or restoration.”
+“This will make me feel whole again.”
 
-Another part presents the same object as dangerous:
+“This will prove that I still matter.”
 
-“This will hurt me, trap me, shame me, weaken me, or cost me my freedom.”
+“This will give me security or recognition.”
 
-So the person may approach, then withdraw; miss it, then resent it; fantasize about it, then try to cut it off; want it, then hate needing it. This is not mysterious. It is an approach–avoidance conflict unfolding over time.
+But when the person gets closer, the same thing may start to feel threatening:
 
-## How the Oscillation Works
+“This will hurt me.”
 
-In practical terms, the mind produces automatic packets: an impression, a feeling, and an impulse. One packet says “go toward it.” Another says “escape it.” These packets do not usually appear with equal force at the same moment. They often alternate over time.
+“This will trap me.”
 
-When the person is far from the object, the approach packet becomes stronger: the object looks desirable, relieving, meaningful, or necessary. The person begins to move toward it.
+“This will shame me, weaken me, or cost me my freedom.”
 
-When the person comes closer, the avoidance packet becomes stronger: the same object now looks dangerous, humiliating, destabilizing, or costly. The person begins to pull away.
+So the person may move toward it, then pull away; miss it, then resent it; fantasize about it, then try to cut it off; want it, then hate needing it. This is not mysterious. It is a conflict between attraction and avoidance unfolding over time.
 
-Then distance increases again, and the approach packet returns. The object once more looks attractive or necessary. This creates oscillation: approach, discomfort, withdrawal, longing, return.
+### How the Oscillation Works
 
-## The Mistake and the Goal
+The conflict usually changes with distance.
 
-The mistake is to think that the attraction can be removed simply by strengthening avoidance. Hatred, contempt, dramatic rejection, or forced disgust may reduce approach for a moment, but they often keep the object central. The object still governs attention, only now negatively. That is not freedom; it is inverted attachment.
+When the person is far from the object, the attractive side becomes stronger. The object looks desirable, relieving, meaningful, or necessary. The person begins to move toward it.
+
+When the person comes closer, the threatening side becomes stronger. The same object now looks dangerous, humiliating, destabilizing, or costly. The person begins to pull away.
+
+Then distance increases again, and the attraction returns. The object once more looks desirable or necessary. This creates a repeating cycle:
+
+approach → discomfort → withdrawal → longing → return.
+
+The important point is that the person is not necessarily confused at one single moment. The mind is responding differently under different conditions. Far away, the object looks like a solution. Up close, it looks like a threat.
+
+### The Mistake and the Goal
+
+The mistake is to think that the attraction can be removed simply by making the avoidance stronger. Hatred, contempt, dramatic rejection, or forced disgust may reduce approach for a moment, but they often keep the object central. The object still governs attention, only negatively. That is not freedom; it is inverted attachment.
 
 The correct goal is not to hate the object. The goal is to remove its false necessity.
 
-Neither packet should be treated as final truth. Each is a time-bound reaction produced under a certain distance, mood, and context. They are reactions, not commands.
+Neither side should be treated as final truth. The attractive side may exaggerate what the object can give. The threatening side may exaggerate what the object can do to you.
 
 The useful distinction is:
 
