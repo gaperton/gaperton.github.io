@@ -73,6 +73,18 @@ Usually, people automatically approve the whole appraisal. The situation appears
 
 This automatic approval is the default mode. It treats the impression as reality, the affect as evidence, and the impulse as a command.
 
+### How Approach–Avoidance Conflict Appears in System A
+
+In an approach–avoidance conflict, the automatic system does not produce one stable appraisal of the object. It produces two different appraisals that become stronger at different moments.
+
+When the person is distant from the object, the **approach appraisal** becomes stronger. The object appears as desirable, relieving, meaningful, or necessary. The affect may be longing, hope, anxiety, or craving. The impulse is to move closer, check, contact, restore, comply, or keep the option alive.
+
+When the person gets closer to the same object, the **avoidance appraisal** becomes stronger. The object now appears as dangerous, humiliating, degrading, trapping, or costly. The affect may be fear, anger, shame, disgust, or resentment. The impulse is to withdraw, attack, cut off, escape, or devalue.
+
+This is why the person oscillates. At a distance, the object looks necessary; up close, it looks dangerous. Then distance returns, and the attraction returns. System A is not contradicting itself at one single moment so much as producing different automatic appraisals under different conditions.
+
+The practical problem is that both appraisals may contain an exaggeration. The approach appraisal may say: “I need this.” The avoidance appraisal may say: “I cannot bear this.” If either appraisal is automatically approved, the person is pulled into action without reflection.
+
 ### System R: The Reflective System
 
 The reflective system can interrupt this default mode.
@@ -97,7 +109,7 @@ These questions separate the three parts of the appraisal. The impression may be
 
 The reflective system does not need to destroy the automatic reaction. Its task is to observe it, test it, refuse assent where needed, and prevent an automatic appraisal from becoming automatic action.
 
-In an approach–avoidance conflict, this means observing both appraisals as they arise over time: the approach appraisal when the object looks necessary, and the avoidance appraisal when the object looks dangerous.
+In an approach–avoidance conflict, this means noticing which appraisal is active now: the approach appraisal that says “I need this,” or the avoidance appraisal that says “I cannot bear this.”
 
 The method is therefore simple: notice the appraisal, separate its impression, affect, and impulse, test whether it exaggerates necessity or danger, refuse assent where needed, and act from reflection rather than automatic approval.
 
