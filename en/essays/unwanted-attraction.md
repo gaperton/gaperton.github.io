@@ -52,7 +52,7 @@ The useful distinction is:
 
 “This may be painful, but it is not sovereign over me.”
 
-## The Method
+## The Model
 
 To use the method, only a few simple concepts are needed.
 
@@ -78,7 +78,7 @@ Usually, people automatically approve the whole appraisal. The situation appears
 
 This automatic approval is the default mode. It treats the impression as reality, the affect as evidence, and the impulse as a command.
 
-### Examples
+### Examples of Automatic Appraisal
 
 - A manager criticizes someone in a meeting. The raw fact is: criticism was made in public. The automatic appraisal may be: impression: “I am being humiliated”; affect: fear, anger, or shame; impulse: defend, attack, withdraw, or escape.
 - A person does not reply to a message. The raw fact is only: no reply has arrived. The automatic appraisal may be: impression: “I am being rejected”; affect: anxiety, shame, and longing; impulse: check again, send another message, or replay the conversation.
@@ -111,7 +111,9 @@ These questions separate the three parts of the appraisal. The impression may be
 
 The reflective system does not need to destroy the automatic reaction. Its task is to observe it, test it, refuse assent where needed, and prevent an automatic appraisal from becoming automatic action.
 
-## Practical Rule: Catch the Appraisal Before Action
+## The Practical Method
+
+### Catch the Appraisal Before Action
 
 The first practical skill is to notice the appraisal before it becomes action.
 
@@ -119,7 +121,7 @@ Very often this does not happen. The appraisal arises, the person automatically 
 
 So the first practical task is not to change the appraisal immediately. The first task is to catch it while it is happening.
 
-This means watching for three things:
+This means watching for three parts of the appraisal:
 
 - **Judgment or impression:** What meaning did the situation suddenly seem to have? “This is humiliating.” “I am being rejected.” “This will restore me.” “I need this.”
 - **Affect:** What emotional or bodily charge appeared? Fear, shame, anger, longing, contraction, heat, pressure, urgency, craving.
@@ -127,50 +129,25 @@ This means watching for three things:
 
 Sometimes all three are visible. Often they are not. A person may first notice only the affect, only the impulse, or only the judgment. Any of these entry points is enough. Once one component is noticed, pause and look for the other two.
 
-The rule is:
+Once one part of the appraisal has been noticed, the next task is to reconstruct the whole appraisal and keep it from turning into automatic action.
 
-1. Notice that an automatic reaction has started.
-2. Do not act immediately.
-3. Identify whatever is visible first: judgment, affect, or impulse.
-4. Reconstruct the full appraisal: what did it mean, what did it feel like, what did it push me to do?
-5. Ask whether the appraisal exaggerates necessity or danger.
-6. Refuse assent where needed.
-7. Let the feeling be present without letting it become automatic action.
+### What to Do After You Notice It
 
-In short:
+When the appraisal has been noticed, do not try to solve the whole situation at once. First interrupt the automatic sequence long enough for reflection to appear.
 
-
-Notice the reaction. Separate its parts. Do not act until the reflective system has judged it.
-
-### What to Do When the Feeling Is Happening Right Now
-
-When the feeling is happening right now, the first rule is simple: do not act immediately.
-
-Do not send the message, answer the accusation, reopen contact, check again, attack, flee, confess, submit, cut off, or make a final decision while the automatic appraisal is still running. The first task is not to solve the whole situation. The first task is to interrupt the automatic sequence long enough for reflection to appear.
+Do not send the message, answer the accusation, reopen contact, check again, attack, flee, confess, submit, cut off, or make a final decision while the automatic appraisal is still running.
 
 Start with whatever is easiest to notice.
 
-If there is a strong emotion or bodily affect, name it: anger, fear, shame, longing, pressure in the chest, heat, contraction, urgency, or agitation.
+Name the affect: anger, fear, shame, longing, pressure, heat, contraction, urgency, or agitation.
 
-If there is an urge to act, name it: “I want to reply,” “I want to check,” “I want to contact them,” “I want to defend myself,” “I want to attack,” “I want to leave,” or “I want to cut this off.”
+Name the impulse: “I want to reply,” “I want to check,” “I want to contact them,” “I want to defend myself,” “I want to attack,” “I want to leave,” or “I want to cut this off.”
 
-Do not perform the action until the urge itself has become visible. The moment one can say, “I want to do this,” the impulse has already become an object of reflection rather than an invisible command.
+Then find the impression: what did the situation suddenly seem to mean? The hidden judgment may be: “I am being rejected,” “I am being humiliated,” “I am unsafe,” “I need this,” “I cannot bear this,” or “This must be answered now.”
 
-Then ask what impression produced this affect and this impulse. What did the situation suddenly seem to mean? The hidden judgment may be: “I am being rejected,” “I am being humiliated,” “I am unsafe,” “I need this,” “I cannot bear this,” “This proves I do not matter,” “This will restore me,” or “This must be answered now.”
+Now separate fact from judgment. The raw fact may be only: no reply has arrived; someone criticized me; they looked away; I remembered something; the object became available again. The impression may add: I am rejected; I am humiliated; I am in danger; I need this to be whole; I cannot tolerate this.
 
-This is the central move: separate the raw fact from the judgment inside the impression.
-
-The raw fact may be only: no reply has arrived; someone criticized me; they looked away; I remembered something; the object became available again.
-
-But the impression may add: I am rejected; I am humiliated; I am in danger; I need this to be whole; I cannot tolerate this.
-
-The impression is not the fact. An impression is already an interpretation. It may be accurate, partly accurate, exaggerated, or simply wrong. It may contain a hidden fallacy: catastrophizing, mind-reading, false necessity, false danger, false urgency, or treating discomfort as destruction.
-
-For the same reason, affect is not proof. A strong feeling proves that an appraisal has occurred. It does not prove that the appraisal is true. Fear does not prove danger. Shame does not prove humiliation. Longing does not prove need. Anger does not prove injustice. Urgency does not prove that action is required now.
-
-The impulse also is not proof. A strong urge to act may be based on an impression that has not yet been tested. The fact that an action feels necessary does not mean that it is necessary.
-
-So the in-the-moment rule is:
+The in-the-moment rule is:
 
 Stop. Name the affect. Name the impulse. Find the impression. Separate fact from judgment. Test whether the judgment is true. Then decide.
 
