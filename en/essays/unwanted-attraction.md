@@ -58,14 +58,16 @@ When the automatic system meets a situation, it produces an **appraisal**.
 
 An appraisal is the whole automatic interpretation of the situation as it appears in experience. It has three main parts:
 
-- **Impression:** how the situation appears: good, dangerous, humiliating, attractive, urgent, unfair, promising, threatening.
-- **Affect:** the feeling and bodily charge that comes with the impression: fear, anger, longing, shame, excitement, disgust, relief.
-- **Impulse:** the action-readiness that follows: approach, flee, contact, check, attack, hide, argue, submit, cut off, restore.
+- **Impression:** the meaning the situation appears to have before reflection, often in the form of a quick judgment or judgment-like statement: “this is good,” “this is dangerous,” “this is humiliating,” “this is unfair,” “this is promising,” “this is threatening.” It is not the raw fact itself, but the fact as already interpreted and judged by the automatic system.
+- **Affect:** the emotional and bodily charge that follows from the impression. It is not only a named emotion, such as fear, anger, longing, shame, excitement, disgust, or relief. It is also the felt force of the reaction: tension, heat, pressure, contraction, agitation, heaviness, attraction, repulsion, or urgency. Affect makes the impression feel real and important.
+- **Impulse:** the action-readiness that follows from the impression and affect. It is the body and mind preparing to do something before reflection has fully decided: approach, flee, contact, check, attack, hide, argue, submit, cut off, restore. The impulse is not yet an action, but it already points the person toward an action.
 
 For example:
 
-- impression: “This person will restore me”; affect: longing; impulse: contact.
-- impression: “This situation will humiliate me”; affect: fear or shame; impulse: escape.
+- A person does not reply to a message. The raw fact is only: no reply has arrived. The automatic appraisal may be: impression: “I am being rejected”; affect: anxiety, shame, and longing; impulse: check again, send another message, or replay the conversation.
+- The same person later becomes available again. The automatic appraisal may shift: impression: “This will restore me”; affect: relief and hope; impulse: move closer, reopen contact, or forget the earlier danger.
+- A manager criticizes someone in a meeting. The raw fact is: criticism was made in public. The automatic appraisal may be: impression: “I am being humiliated”; affect: fear, anger, or shame; impulse: defend, attack, withdraw, or escape.
+- A job or organization offers status and security but also causes repeated loss of dignity. At a distance, the appraisal may be: impression: “I need this to remain safe and respected”; affect: anxiety and attachment; impulse: stay, comply, or seek approval. Up close, the appraisal may reverse: impression: “This place is trapping and degrading me”; affect: anger and disgust; impulse: quit, fight, or cut off.
 
 Usually, people automatically approve the whole appraisal. The situation appears dangerous, fear arises, the body prepares to flee, and the person flees. The situation appears attractive, longing arises, the body prepares to approach, and the person approaches.
 
