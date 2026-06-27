@@ -139,7 +139,110 @@ The rule is:
 
 In short:
 
+
 Notice the reaction. Separate its parts. Do not act until the reflective system has judged it.
+
+### What to Do When the Feeling Is Happening Right Now
+
+When the feeling is happening right now, the first rule is simple: do not act immediately.
+
+Do not send the message, answer the accusation, reopen contact, check again, attack, flee, confess, submit, cut off, or make a final decision while the automatic appraisal is still running. The first task is not to solve the whole situation. The first task is to interrupt the automatic sequence long enough for reflection to appear.
+
+Start with whatever is easiest to notice.
+
+If there is a strong emotion or bodily affect, name it:
+
+“I feel anger.”
+
+“I feel fear.”
+
+“I feel shame.”
+
+“I feel longing.”
+
+“I feel pressure in the chest.”
+
+“I feel heat, contraction, urgency, or agitation.”
+
+If there is an urge to act, name it:
+
+“I want to reply now.”
+
+“I want to check again.”
+
+“I want to contact them.”
+
+“I want to defend myself.”
+
+“I want to attack.”
+
+“I want to leave.”
+
+“I want to cut this off.”
+
+Do not perform the action until the urge itself has become visible. The moment one can say, “I want to do this,” the impulse has already become an object of reflection rather than an invisible command.
+
+Then ask what impression produced this affect and this impulse.
+
+What did the situation suddenly seem to mean?
+
+Was the hidden judgment:
+
+“I am being rejected”?
+
+“I am being humiliated”?
+
+“I am unsafe”?
+
+“I need this”?
+
+“I cannot bear this”?
+
+“This proves I do not matter”?
+
+“This will restore me”?
+
+“This must be answered now”?
+
+This is the central move: separate the raw fact from the judgment inside the impression.
+
+The raw fact may be only:
+
+“No reply has arrived.”
+
+“Someone criticized me.”
+
+“They looked away.”
+
+“I remembered something.”
+
+“The object became available again.”
+
+But the impression may add:
+
+“I am rejected.”
+
+“I am humiliated.”
+
+“I am in danger.”
+
+“I need this to be whole.”
+
+“I cannot tolerate this.”
+
+The impression is not the fact. An impression is already an interpretation. It may be accurate, partly accurate, exaggerated, or simply wrong. It may contain a hidden fallacy: catastrophizing, mind-reading, false necessity, false danger, false urgency, or treating discomfort as destruction.
+
+For the same reason, affect is not proof. A strong feeling proves that an appraisal has occurred. It does not prove that the appraisal is true. Fear does not prove danger. Shame does not prove humiliation. Longing does not prove need. Anger does not prove injustice. Urgency does not prove that action is required now.
+
+The impulse also is not proof. A strong urge to act may be based on an impression that has not yet been tested. The fact that an action feels necessary does not mean that it is necessary.
+
+So the in-the-moment rule is:
+
+Stop. Name the affect. Name the impulse. Find the impression. Separate fact from judgment. Test whether the judgment is true. Then decide.
+
+In shorter form:
+
+“The feeling is real, but it is not proof. The impulse is strong, but it is not a command. The impressiomn seems right, but it's not a fact. First I will see what judgment I am accepting. Then I will decide whether to act.”
 
 ## Strategy for the Attraction–Distancing Conflict
 
