@@ -127,22 +127,95 @@ The method is therefore simple: notice the appraisal, separate its impression, a
 
 ## The Practical Rule
 
-The practical rule is simple:
+The first skill is to notice the appraisal before it becomes action.
 
-Do not obey attraction.
-Do not worship avoidance.
-Observe both, judge both, and act from the higher intention.
+Very often this does not happen. The appraisal arises, the person automatically agrees with it, and the impulse immediately becomes behavior. Later the person says: “I was provoked,” “I reacted emotionally,” or “I knew I should not do it, but I did it anyway.” In this case, the reflective system did not intervene in time. The automatic system completed the sequence by itself.
 
-## What the Mind Must Learn
+So the first practical task is not to change the appraisal immediately. The first task is to catch it while it is happening.
 
-The object loses power when the mind repeatedly learns:
+This means watching for three things:
+
+- **Judgment or impression:** What meaning did the situation suddenly seem to have? “This is humiliating.” “I am being rejected.” “This will restore me.” “I need this.”
+- **Affect:** What emotional or bodily charge appeared? Fear, shame, anger, longing, contraction, heat, pressure, urgency, craving.
+- **Impulse:** What action became ready? Contact, check, argue, attack, flee, submit, cut off, return, fantasize, seek reassurance.
+
+Sometimes all three are visible. Often they are not.
+
+A person may first notice only the affect: “I suddenly feel fear,” “I feel shame,” “I feel a pull,” without yet seeing the judgment behind it.
+
+Or a person may first notice only the impulse: “I want to send a message,” “I want to leave,” “I want to attack,” without yet seeing the fear, shame, or longing that produced it.
+
+Or a person may notice the judgment first: “This is unfair,” “I am being humiliated,” “this will save me,” and only later notice the affect and impulse attached to it.
+
+Any of these entry points is enough. Once one component is noticed, pause and look for the other two.
+
+The practical rule is:
+
+1. Notice that an automatic reaction has started.
+2. Do not act immediately.
+3. Identify whatever is visible first: judgment, affect, or impulse.
+4. Reconstruct the full appraisal: what did it mean, what did it feel like, what did it push me to do?
+5. Ask whether the appraisal exaggerates necessity or danger.
+6. Refuse assent where needed.
+7. Let the feeling be present without letting it become automatic action.
+
+In short:
+
+Notice the reaction. Separate its parts. Do not act until the reflective system has judged it.
+
+## Strategy for the Attraction–Distancing Conflict
+
+The main difficulty is that the two sides of the conflict appear at different times. When the person is distant from the object, the attractive side becomes convincing. When the person moves closer, the threatening side becomes convincing. If this is not understood, the person will keep treating each new state as the truth.
+
+The strategy is to prepare for both states in advance.
+
+When distance makes the object attractive again, watch for the thought:
+
+“This is what I need.”
+
+The response is:
+
+“This may be attractive, but it is not necessary.”
+
+Then do not feed the attraction. Do not check, contact, reread, fantasize, monitor, bargain, seek signs, or keep the option alive merely to reduce longing or anxiety.
+
+When closeness makes the object threatening again, watch for the thought:
+
+“I cannot bear this.”
+
+The response is:
+
+“This may be painful, but it is not sovereign over me.”
+
+Then do not feed the avoidance. Do not turn discomfort into rage, contempt, revenge fantasy, dramatic rejection, or obsessive argument. Avoidance can keep the object central just as much as attraction can.
+
+The goal is not to let one side defeat the other. The goal is to stop approving both exaggerations:
+
+- the attractive side: “I need this”;
+- the threatening side: “I cannot bear this.”
+
+The object loses power when the automatic system repeatedly learns:
 
 “I can want this and not pursue it.”
+
 “I can fear this and not flee into obsession.”
+
 “I can feel the pull and still remain the one who chooses.”
+
 “Its absence is uncomfortable, but not destructive.”
+
 “Its presence is tempting, but not necessary.”
 
 ## Conclusion
 
-Detachment is not emotional numbness. It is corrected authority. The object may still have value, and its loss may still hurt. But it no longer governs judgment, intention, or action.
+Detachment is not emotional numbness. It does not mean that the object becomes worthless, that the feeling disappears immediately, or that the person never feels attraction or fear again.
+
+Detachment means that the automatic reaction no longer has final authority.
+
+The object may still look attractive from a distance. It may still look dangerous up close. The approach appraisal may still say, “I need this.” The avoidance appraisal may still say, “I cannot bear this.” But these appraisals are no longer automatically approved.
+
+The reflective system learns to notice them, separate their parts, test their exaggerations, and refuse assent where needed. The person can then feel longing without pursuing, feel fear without fleeing into obsession, feel anger without turning it into revenge, and feel pain without treating it as destruction.
+
+The goal is not to destroy the automatic system. The goal is to retrain it. Each time the person notices the appraisal, refuses the exaggeration, and does not perform the automatic action, the object loses some of its power.
+
+In the end, freedom means this: the object may still matter, but it no longer rules. It may still be preferred, but it is not necessary. It may still hurt, but it is not sovereign. The person can act from reflection rather than from automatic attraction or automatic avoidance.
