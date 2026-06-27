@@ -137,7 +137,10 @@ Once one part of the appraisal has been noticed, the next task is to reconstruct
 
 ### What to Do After You Notice It
 
-Once you notice any part of the reaction — a feeling, an urge, or a judgment — do not try to solve the whole situation at once. First interrupt the automatic sequence long enough for reflection to appear.
+
+Once you notice any part of the reaction — a feeling, an urge, or the meaning the situation suddenly seemed to have — do not try to solve the whole situation at once. First interrupt the automatic sequence long enough for reflection to appear.
+
+This does not apply to immediate physical danger, where protective action may be required. The rule concerns emotional urgency that demands action before reflection has judged it.
 
 Do not send the message, answer the accusation, reopen contact, check again, attack, flee, confess, submit, cut off, or make a final decision while the automatic appraisal is still running.
 
@@ -183,7 +186,10 @@ The response is:
 
 “This may be painful, but it is not sovereign over me.”
 
-Then do not feed the avoidance. Do not turn discomfort into rage, contempt, revenge fantasy, dramatic rejection, or obsessive argument. Avoidance can keep the object central just as much as attraction can.
+
+Practical distance may still be necessary. The problem is not distance itself, but distance governed by panic, contempt, revenge, or obsession.
+
+So do not feed the avoidance. Do not turn discomfort into rage, contempt, revenge fantasy, dramatic rejection, or obsessive argument. Avoidance can keep the object central just as much as attraction can.
 
 The goal is not to let one side defeat the other. The goal is to stop approving both exaggerations:
 
