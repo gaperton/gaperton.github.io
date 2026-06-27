@@ -44,26 +44,50 @@ The useful distinction is:
 
 To use the method, only a few simple concepts are needed.
 
-### Automatic and Reflective Systems
+### System A: The Automatic System
 
 First, distinguish the **automatic system** from the **reflective system**.
 
-The automatic system reacts immediately. It produces impressions, feelings, bodily tension, urges, fantasies, and impulses before deliberate judgment has time to intervene.
+The automatic system is the human being as a collection of habits. Not only visible habits, such as walking, speaking, or reaching for a phone, but also mental and emotional habits: how one notices, interprets, fears, wants, gets angry, seeks approval, avoids shame, and prepares to act.
 
-The reflective system can notice the reaction, examine it, and decide whether to authorize it. It does not have to obey the first impulse. Its task is not to suppress the automatic system, but to govern and retrain it.
+Most of life runs through this automatic system. A person does not consciously construct every reaction. The situation appears, the body changes, feeling arises, and an action becomes ready before deliberate reflection has fully started.
 
-### Packets: Impression, Affect, and Impulse
+### Appraisal: What the Automatic System Produces
 
-Third, the useful unit of observation is the **packet**.
+When the automatic system meets a situation, it produces an **appraisal**.
 
-A packet is the whole automatic reaction as it appears in experience: impression, affect, impulse, and the implied belief-desire-intention structure.
+An appraisal is the whole automatic interpretation of the situation as it appears in experience. It has three main parts:
+
+- **Impression:** how the situation appears: good, dangerous, humiliating, attractive, urgent, unfair, promising, threatening.
+- **Affect:** the feeling and bodily charge that comes with the impression: fear, anger, longing, shame, excitement, disgust, relief.
+- **Impulse:** the action-readiness that follows: approach, flee, contact, check, attack, hide, argue, submit, cut off, restore.
 
 For example:
 
-- “This person will restore me” + longing + urge to contact.
-- “This situation will humiliate me” + fear + urge to escape.
+- impression: “This person will restore me”; affect: longing; impulse: contact.
+- impression: “This situation will humiliate me”; affect: fear or shame; impulse: escape.
 
-The packet matters because a person can learn to observe it directly. One does not need to analyze the whole personality. One only needs to notice: what appeared, what feeling came with it, what it implied, and what it tried to make me do.
+Usually, people automatically approve the whole appraisal. The situation appears dangerous, fear arises, the body prepares to flee, and the person flees. The situation appears attractive, longing arises, the body prepares to approach, and the person approaches.
+
+This automatic approval is the default mode. It treats the impression as reality, the affect as evidence, and the impulse as a command.
+
+### System R: The Reflective System
+
+The reflective system can interrupt this default mode.
+
+It can notice the appraisal and ask:
+
+“Is this impression accurate?”
+
+“Does this feeling prove what it seems to prove?”
+
+“Should this impulse be authorized?”
+
+The reflective system does not need to destroy the automatic reaction. Its task is to examine the appraisal, refuse false necessity or false catastrophe, and decide what action should actually be taken.
+
+In an approach–avoidance conflict, this means observing both appraisals as they arise over time: the approach appraisal when the object looks necessary, and the avoidance appraisal when the object looks dangerous.
+
+The method is therefore simple: notice the appraisal, separate its impression, affect, and impulse, test whether it exaggerates necessity or danger, and act from reflection rather than automatic approval.
 
 ## The Practical Rule
 
