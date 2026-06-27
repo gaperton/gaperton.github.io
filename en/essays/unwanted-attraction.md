@@ -64,9 +64,9 @@ An appraisal is the whole automatic interpretation of the situation as it appear
 
 For example:
 
+- A manager criticizes someone in a meeting. The raw fact is: criticism was made in public. The automatic appraisal may be: impression: “I am being humiliated”; affect: fear, anger, or shame; impulse: defend, attack, withdraw, or escape.
 - A person does not reply to a message. The raw fact is only: no reply has arrived. The automatic appraisal may be: impression: “I am being rejected”; affect: anxiety, shame, and longing; impulse: check again, send another message, or replay the conversation.
 - The same person later becomes available again. The automatic appraisal may shift: impression: “This will restore me”; affect: relief and hope; impulse: move closer, reopen contact, or forget the earlier danger.
-- A manager criticizes someone in a meeting. The raw fact is: criticism was made in public. The automatic appraisal may be: impression: “I am being humiliated”; affect: fear, anger, or shame; impulse: defend, attack, withdraw, or escape.
 - A job or organization offers status and security but also causes repeated loss of dignity. At a distance, the appraisal may be: impression: “I need this to remain safe and respected”; affect: anxiety and attachment; impulse: stay, comply, or seek approval. Up close, the appraisal may reverse: impression: “This place is trapping and degrading me”; affect: anger and disgust; impulse: quit, fight, or cut off.
 
 Usually, people automatically approve the whole appraisal. The situation appears dangerous, fear arises, the body prepares to flee, and the person flees. The situation appears attractive, longing arises, the body prepares to approach, and the person approaches.
@@ -77,19 +77,27 @@ This automatic approval is the default mode. It treats the impression as reality
 
 The reflective system can interrupt this default mode.
 
-It can notice the appraisal and ask:
+Its first power is observation. A person cannot usually observe an appraisal as an abstract whole. But a person can notice its visible parts: the judgment appearing in the mind, the affect felt in the body, and the urge to act. One can notice: “I am judging this as humiliating,” “I feel fear,” “I want to escape,” or “I want to contact them.” This is reflection: the automatic reaction becomes an object of attention.
+
+This matters because automatic appraisals cannot simply be prevented. One cannot decide in advance never to feel fear, longing, shame, anger, attraction, or disgust. These reactions arise from the automatic system. They are produced by habit, memory, bodily state, and the situation as it appears at that moment.
+
+But the person does not have to agree with the first impression, believe that fear means the real danger, and act on the urge to action.
+
+In Stoic language, the reflective system can grant or refuse **assent**. To assent is to treat the appraisal as true enough to guide action. To refuse assent is to say: “This appeared in me, but I do not have to agree with it or act from it.”
+
+The reflective system can ask:
 
 “Is this impression accurate?”
 
-“Does this feeling prove what it seems to prove?”
+“Does this affect prove what it seems to prove?”
 
 “Should this impulse be authorized?”
 
-The reflective system does not need to destroy the automatic reaction. Its task is to examine the appraisal, refuse false necessity or false catastrophe, and decide what action should actually be taken.
+The reflective system does not need to destroy the automatic reaction. Its task is to observe the appraisal, examine it, and decide whether to approve it. If the appraisal exaggerates necessity or danger, the reflective system can refuse assent and prevent the appraisal from becoming automatic action.
 
 In an approach–avoidance conflict, this means observing both appraisals as they arise over time: the approach appraisal when the object looks necessary, and the avoidance appraisal when the object looks dangerous.
 
-The method is therefore simple: notice the appraisal, separate its impression, affect, and impulse, test whether it exaggerates necessity or danger, and act from reflection rather than automatic approval.
+The method is therefore simple: notice the appraisal, separate its impression, affect, and impulse, test whether it exaggerates necessity or danger, refuse assent where needed, and act from reflection rather than automatic approval.
 
 ## The Practical Rule
 
