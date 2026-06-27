@@ -56,19 +56,23 @@ The useful distinction is:
 
 To use the method, only a few simple concepts are needed.
 
+The terms used here are practical labels, not standard technical ones. **System A** and **System R** are introduced in this article to describe the familiar contrast between automatic, habitual processes and slower reflective control, broadly associated with dual-system theories in psychology.
+
+The word **appraisal** is used in a similarly practical way. It borrows from appraisal theories of emotion and affect-oriented accounts, but the account below is simplified. The point is not to give a full technical theory, but to separate what can be observed directly: what the situation seemed to mean, what was felt in the body, and what action became ready.
+
 ### System A: The Automatic System
 
 First, distinguish the **automatic system** from the **reflective system**.
 
-The automatic system is the human being as a collection of habits. Not only visible habits, such as walking, speaking, or reaching for a phone, but also mental and emotional habits: how one notices, interprets, fears, wants, gets angry, seeks approval, avoids shame, and prepares to act.
+The automatic system is the person operating through accumulated habits. Not only visible habits, such as walking, speaking, or reaching for a phone, but also mental and emotional habits: how one notices, interprets, fears, wants, gets angry, seeks approval, avoids shame, and prepares to act.
 
 Most of life runs through this automatic system. A person does not consciously construct every reaction. The situation appears, the body changes, feeling arises, and an action becomes ready before deliberate reflection has fully started.
 
 ### Appraisal: What the Automatic System Produces
 
-When the automatic system meets a situation, it produces an **appraisal**.
+When the automatic system meets a situation, it produces what this article will call an **appraisal**.
 
-An appraisal is the whole automatic interpretation of the situation as it appears in experience. It has three main parts:
+For practical purposes, an appraisal means the whole automatic interpretation of the situation as it appears in experience. In reality, the process may be more complex and continuous, but for observation it can be separated into three main parts:
 
 - **Impression:** the meaning the situation appears to have before reflection, often in the form of a quick judgment or judgment-like statement: “this is good,” “this is dangerous,” “this is humiliating,” “this is unfair,” “this is promising,” “this is threatening.” It is not the raw fact itself, but the fact as already interpreted and judged by the automatic system.
 - **Affect:** the emotional and bodily charge that follows from the impression. It is not only a named emotion, such as fear, anger, longing, shame, excitement, disgust, or relief. It is also the felt force of the reaction: tension, heat, pressure, contraction, agitation, heaviness, attraction, repulsion, or urgency. Affect makes the impression feel real and important.
@@ -123,7 +127,7 @@ So the first practical task is not to change the appraisal immediately. The firs
 
 This means watching for three parts of the appraisal:
 
-- **Judgment or impression:** What meaning did the situation suddenly seem to have? “This is humiliating.” “I am being rejected.” “This will restore me.” “I need this.”
+- **Impression:** What meaning did the situation suddenly seem to have? “This is humiliating.” “I am being rejected.” “This will restore me.” “I need this.”
 - **Affect:** What emotional or bodily charge appeared? Fear, shame, anger, longing, contraction, heat, pressure, urgency, craving.
 - **Impulse:** What action became ready? Contact, check, argue, attack, flee, submit, cut off, return, fantasize, seek reassurance.
 
@@ -133,7 +137,7 @@ Once one part of the appraisal has been noticed, the next task is to reconstruct
 
 ### What to Do After You Notice It
 
-When the appraisal has been noticed, do not try to solve the whole situation at once. First interrupt the automatic sequence long enough for reflection to appear.
+Once you notice any part of the reaction — a feeling, an urge, or a judgment — do not try to solve the whole situation at once. First interrupt the automatic sequence long enough for reflection to appear.
 
 Do not send the message, answer the accusation, reopen contact, check again, attack, flee, confess, submit, cut off, or make a final decision while the automatic appraisal is still running.
 
