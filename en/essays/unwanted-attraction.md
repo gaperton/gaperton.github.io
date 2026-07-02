@@ -1,179 +1,179 @@
-# Как справиться с нежелательным влечением в конфликте приближения и избегания
+# How to Deal with Unwanted Attraction in Approach-Avoidance Conflict
 
-На примере конфликта приближения и избегания в статье предлагается реконструкция стоического метода работы с автоматическими эмоциональными реакциями. Стоическая идея согласия с впечатлением переосмысляется через призму BDI-модели агентного действия, различения автоматической и рефлексивной систем, теории эмоциональной оценки (*appraisal theory*) и современных теорий аффекта. Показывается, что проблема возникает не в самом появлении автоматической реакции, а в автоматическом согласии с ней: впечатление принимается за факт, аффект — за доказательство, импульс — за команду к действию. Предлагаемый метод заключается в тренировке рефлексии, которая позволяет заметить автоматическую реакцию, раздельно рассмотреть ее компоненты — впечатление, аффект и импульс, — проверить скрытое суждение и отказать ошибочной оценке в согласии.
+Using approach-avoidance conflict as an example, this article proposes a reconstruction of the Stoic method for working with automatic emotional reactions. The Stoic idea of assent to an impression is reinterpreted through the lens of the BDI model of agent action, the distinction between automatic and reflective systems, appraisal theory, and contemporary theories of affect. It is shown that the problem arises not in the emergence of an automatic reaction itself, but in automatic assent to it: the impression is taken as fact, the affect as evidence, the impulse as a command to act. The proposed method consists in training reflection, which allows one to notice an automatic reaction, examine its components separately — impression, affect, and impulse — verify the hidden judgment, and withhold assent from an erroneous appraisal.
 
-## Проблема
+## The Problem
 
-Иногда человека сильно тянет к чему-то, что он одновременно считает вредным для себя, опасным, унизительным, дестабилизирующим или просто ненужным. Это может быть человек, работа, организация, группа, статус, предмет, привычка или ситуация.
+Sometimes a person is strongly drawn to something they simultaneously regard as harmful, dangerous, humiliating, destabilizing, or simply unnecessary. This may be a person, a job, an organization, a group, a status, an object, a habit, or a situation.
 
-Такой конфликт не сводится к простому «я этого хочу». Один и тот же объект в разные моменты может казаться то привлекательным, то опасным. 
+This conflict does not reduce to a simple "I want this." One and the same object may at different moments seem attractive and at others dangerous.
 
-На расстоянии он может обещать облегчение, признание, удовольствие, безопасность, статус или восстановление: «Это снова сделает меня целым», «Это докажет, что я всё еще имею значение», «Это даст мне безопасность или признание».
+At a distance, it may promise relief, recognition, pleasure, safety, status, or restoration: "This will make me whole again," "This will prove that I still matter," "This will give me security or recognition."
 
-Но когда человек приближается, тот же самый объект может начать ощущаться как угроза: «Это причинит мне боль», «Это поймает меня в ловушку», «Это унизит меня, ослабит меня или лишит меня свободы».
+But when a person approaches, the very same object may begin to feel like a threat: "This will hurt me," "This will trap me," "This will humiliate me, weaken me, or take away my freedom."
 
-Поэтому человек может двигаться к этому объекту, а затем отступать; скучать по нему, а затем возмущаться им; фантазировать о нем, а затем пытаться оборвать связь; хотеть его, а затем ненавидеть саму свою нужду в нем. Так возникает повторяющийся цикл:
+So a person may move toward the object and then pull back; miss it and then resent it; fantasize about it and then try to sever the connection; want it and then hate the very need for it. This produces a recurring cycle:
 
-приближение → дискомфорт → отступление → тоска → возвращение.
+approach → discomfort → withdrawal → longing → return.
 
-Ошибка — думать, что влечение можно убрать, просто усилив избегание. Ненависть, презрение или демонстративное отвержение могут временно ослабить движение к объекту, но часто лишь сохраняют его в центре внимания. Это не свобода, а перевернутая привязанность. Поэтому задача — не возненавидеть объект, а ослабить его ложную необходимость.
+The mistake is to think that the attraction can be removed simply by intensifying avoidance. Hatred, contempt, or ostentatious rejection may temporarily weaken movement toward the object, but they often merely keep it at the center of attention. This is not freedom — it is inverted attachment. The task, therefore, is not to hate the object but to dissolve its false necessity.
 
-Полезное различение такое:
+A useful distinction is this:
 
-- «Это может быть привлекательным, но это не необходимо».
-- «Это может быть болезненным, но это не имеет надо мной власти».
+- "This may be attractive, but it is not necessary."
+- "This may be painful, but it has no power over me."
 
-В этом эссе мы разберем, как устроен этот цикл и как вернуть себе способность действовать.
+In this essay we will examine how this cycle works and how to recover the capacity to act.
 
-## Модель
+## The Model
 
-Мы будем полагаться на простую модель, объединяющую несколько известных подходов:
-- BDI-модель разумного агента, 
-- различение автоматической и рефлексивной систем,
-- теории эмоциональной оценки (*appraisal theory*) и современные теории аффекта,
-- идею согласия с впечатлением из стоической философии.
+We will rely on a simple model that combines several well-known approaches:
+- the BDI model of a rational agent,
+- the distinction between automatic and reflective systems,
+- appraisal theory and contemporary theories of affect,
+- the Stoic philosophical idea of assent to an impression.
 
-Эти источники нужны не ради академического обзора, а для ответа на практический вопрос: как первое впечатление превращается в действие и где это можно остановить.
+These sources are not invoked for the sake of an academic survey but to answer a practical question: how does a first impression become an action, and where can this be interrupted.
 
-### BDI: убеждения, желания и намерения
+### BDI: Beliefs, Desires, and Intentions
 
-BDI — это модель практического рассуждения и агентного поведения, пришедшая из философии действия и AI. Она описывает разумного агента через три связанных слоя.
+BDI is a model of practical reasoning and agent behavior that comes from philosophy of action and AI. It describes a rational agent through three interconnected layers.
 
-**Beliefs** (убеждения) — то, что агент считает истинным: наблюдения, убеждения и интерпретации.
+**Beliefs** — what the agent takes to be true: observations, convictions, and interpretations.
 
-**Desires** (желания) — то, что для агента практически значимо: предпочтительное, необходимое, нежелательное или неприемлемое.
+**Desires** — what is practically significant for the agent: what is preferred, necessary, undesirable, or unacceptable.
 
-**Intentions** (намерения) — направленность к действию: выбранный или подготавливаемый курс поведения.
+**Intentions** — directedness toward action: a course of behavior that has been chosen or is being prepared.
 
-Агент выбирает намерения I так, чтобы лучше удовлетворить желания D, согласно своему пониманию реальности через призму убеждений B.
+The agent selects intentions I so as to best satisfy desires D, in accordance with its understanding of reality as filtered through beliefs B.
 
-### Системы A и R: лошадь и всадник
+### Systems A and R: Horse and Rider
 
-Однако человек, будучи в целом разумным, не конструирует сознательно каждую свою реакцию. В ответ на ситуацию возникает аффективная реакция: тело откликается и готовится к действию еще до того, как происходящее полностью осознается. Рассуждение и рефлексия могут вмешаться, но часто они делают это слишком поздно и просто объясняют действие постфактум.
+However, a person, while broadly rational, does not consciously construct every reaction. In response to a situation, an affective reaction arises: the body responds and prepares for action before what is happening is fully apprehended. Reasoning and reflection may intervene, but they often do so too late and simply explain the action after the fact.
 
-Поэтому точнее описывать человека не как простого BDI-агента, а как систему из двух взаимосвязанных слоев: нижнего слоя быстрых автоматических реакций — Системы A — и медленного рефлексивного слоя — Системы R, который может наблюдать работу нижнего слоя и вмешиваться при необходимости.
+It is therefore more accurate to describe a person not as a simple BDI agent but as a system of two interconnected layers: a lower layer of fast automatic reactions — System A — and a slow reflective layer — System R — which can observe the operation of the lower layer and intervene when necessary.
 
-Взаимодействие этих двух слоев похоже на лошадь и всадника. Лошадь быстра и сильна, но она не всегда знает, куда скакать. Всадник может направлять лошадь, но он не может заставить ее двигаться быстрее, если она выбилась из сил. Лошадь может испугаться и понести. А если всадник будет жесток, лошадь может сопротивляться и даже сбросить его.
+The interaction of these two layers resembles a horse and rider. The horse is fast and strong, but it does not always know where to go. The rider can guide the horse, but cannot make it move faster if it is exhausted. The horse may take fright and bolt. And if the rider is cruel, the horse may resist or even throw him.
 
-Система A — это лошадь: она быстро выдает впечатления, желания, чувства и позывы к действию и везет нас на них большую часть дня. Система R — это всадник: она может наблюдать, направлять и корректировать реакции Системы A, но не может предотвратить или напрямую контролировать их.
+System A is the horse: it rapidly produces impressions, desires, feelings, and impulses to act and carries us on them through most of the day. System R is the rider: it can observe, guide, and correct the reactions of System A, but cannot prevent or directly control them.
 
-Распространенная ошибка — связывать первую систему только с животным началом, а вторую — со способностью к речи и рассуждению. Во многом это верно, но Система A — это не просто «животное начало». Речь часто производится автоматически, без явного усилия; даже манера речи — это набор привычек, которые трудно менять. Рассуждение тоже является навыком: ему нужно учиться, пока способы рассуждать не доходят до автоматизма.
+A common mistake is to associate the first system exclusively with animal instinct and the second with the capacity for speech and reasoning. This is largely correct, but System A is not simply "animal instinct." Speech is often produced automatically, without explicit effort; even a person's manner of speaking is a set of habits that are difficult to change. Reasoning is also a skill: it must be learned until ways of thinking become automatic.
 
-Система A — это сумма наших привычек и автоматических реакций. Ключевое отличие Системы R не в том, что она производит слова или рассуждения, а в том, что в ней **предметом внимания и рассуждения становятся собственные убеждения, желания и намерения агента.** Система R — это режим осознанности и рефлексии, в котором агент делает собственные реакции объектом внимания и может вмешиваться в работу Системы A.
+System A is the sum of our habits and automatic reactions. The key distinguishing feature of System R is not that it produces words or reasoning, but that in it **the agent's own beliefs, desires, and intentions become the object of attention and reflection.** System R is a mode of awareness and reflection in which the agent makes its own reactions an object of attention and can intervene in the operation of System A.
 
-### Автоматическая оценка и согласие
+### Automatic Appraisal and Assent
 
-До того как реакция становится действием, Система A производит то, что в этой статье будет называться **оценкой** (*appraisal*). Оценка означает автоматическую интерпретацию ситуации в том виде, в каком она появляется в опыте. В оценке можно выделить три части, поддающиеся наблюдению:
+Before a reaction becomes an action, System A produces what this article will call an **appraisal**. Appraisal means an automatic interpretation of a situation as it appears in experience. Three observationally distinguishable components can be identified within an appraisal:
 
-- **Впечатление:** смысл, который ситуация, как кажется, имеет до рефлексии, часто в форме быстрого суждения или чего-то похожего на суждение: «это хорошо», «это опасно», «меня унизили», «это несправедливо», «это многообещающе», «это мне угрожает». Это не сам сырой факт, а первичная интерпретация факта в контексте желаний (D), то есть кандидат на убеждение (B), если агент даст ей согласие.
+- **Impression:** the meaning that the situation seems to carry before reflection, often in the form of a rapid judgment or something resembling one: "this is good," "this is dangerous," "I have been humiliated," "this is unjust," "this is promising," "this threatens me." This is not the raw fact itself but the initial interpretation of the fact in the context of desires (D) — a candidate for a belief (B) if the agent grants assent to it.
 
-- **Аффект:** эмоциональный и телесный заряд, который следует из **впечатления** и затронутого им желания (D). Это не только распознанная эмоция, такая как страх, гнев, тоска, стыд, возбуждение, отвращение или облегчение. Это также ощущение в теле: напряжение, жар, давление, сжатие, тяжесть. Аффект заставляет впечатление казаться реальным и важным.
+- **Affect:** the emotional and bodily charge that follows from the **impression** and the desire (D) it has engaged. This is not only a recognized emotion such as fear, anger, longing, shame, excitement, disgust, or relief. It is also a sensation in the body: tension, heat, pressure, constriction, heaviness. Affect makes the impression feel real and important.
 
-- **Импульс:** позыв к действию, который следует из впечатления и аффекта. Это тело и ум, готовящиеся что-то сделать до того, как рефлексия полностью решила, что делать: приблизиться, убежать, вступить в контакт, проверить, атаковать, спрятаться, спорить, подчиниться, оборвать связь, восстановить. Импульс еще не является действием, но он уже направляет человека к действию.
+- **Impulse:** the urge to act that follows from the impression and the affect. This is the body and mind preparing to do something before reflection has fully decided what to do: approach, flee, make contact, check, attack, hide, argue, submit, sever the connection, restore it. The impulse is not yet an action, but it is already directing the person toward one.
 
-Оценка сама по себе еще не является окончательно принятым убеждением, устойчивой эмоцией, намерением или действием. Это первичная интерпретация, которая может стать убеждением и направить действие, если получит явное или неявное согласие. Часто люди одобряют оценку автоматически. Ситуация кажется опасной, возникает страх, тело готовится бежать, и человек бежит. Ситуация кажется привлекательной, возникает тоска, тело готовится приблизиться, и человек приближается.
+An appraisal is not in itself a finally adopted belief, a settled emotion, an intention, or an action. It is a primary interpretation that can become a belief and direct action if it receives explicit or implicit assent. People often assent to an appraisal automatically. The situation seems dangerous, fear arises, the body prepares to flee, and the person flees. The situation seems attractive, longing arises, the body prepares to approach, and the person approaches.
 
-Это автоматическое одобрение — режим по умолчанию. Он принимает впечатление за реальность, аффект — за доказательство, а импульс — за команду.
+This automatic assent is the default mode. It takes the impression for reality, affect for evidence, and impulse for a command.
 
-### Примеры автоматической оценки
+### Examples of Automatic Appraisal
 
-- Менеджер критикует кого-то на встрече. Сырой факт: критика была высказана публично. Впечатление: «меня унижают»; затронутое желание — сохранить достоинство, статус или безопасность; аффект — страх, гнев или стыд; импульс — защищаться, атаковать, отступить или сбежать.
+- A manager criticizes someone in a meeting. Raw fact: the criticism was expressed publicly. Impression: "I am being humiliated"; desire at stake — preserving dignity, status, or safety; affect — fear, anger, or shame; impulse — to defend, attack, withdraw, or flee.
 
-- Человек не отвечает на сообщение. Сырой факт: ответ не пришел. Впечатление: «меня отвергают»; затронутое желание — быть признанным, нужным или сохранить связь; аффект — тревога, стыд и тоска; импульс — снова проверить, отправить еще одно сообщение или прокручивать разговор в голове.
+- A person does not reply to a message. Raw fact: no reply came. Impression: "I am being rejected"; desire at stake — to be recognized, needed, or to preserve the connection; affect — anxiety, shame, and longing; impulse — to check again, send another message, or replay the conversation in one's head.
 
-- Позже тот же человек снова становится доступен. Впечатление — «это восстановит меня»; затронутое желание — вернуть близость, признание или ощущение собственной ценности; аффект — облегчение, надежда и притяжение; импульс — приблизиться, возобновить контакт или забыть о прежней опасности.
+- Later the same person becomes available again. Impression — "this will restore me"; desire at stake — to recover closeness, recognition, or a sense of one's own worth; affect — relief, hope, and attraction; impulse — to approach, resume contact, or forget the previous danger.
 
-- Работа или организация может одновременно обещать статус и безопасность и при этом разрушать достоинство. На расстоянии оценка говорит: «мне это нужно, чтобы оставаться в безопасности и сохранять уважение». Вблизи оценка меняется: «это место ловит меня в ловушку и унижает». Один и тот же объект включается в разные желания: безопасность и статус с одной стороны, достоинство и свободу — с другой.
+- A job or organization may simultaneously promise status and security while undermining dignity. At a distance the appraisal says: "I need this to remain safe and respected." Up close the appraisal shifts: "this place traps and humiliates me." The same object is enrolled in different desires: safety and status on one side, dignity and freedom on the other.
 
-## Метод
+## The Method
 
-Нельзя заранее решить никогда не чувствовать страха, тоски, стыда, гнева, притяжения или отвращения. Эти реакции возникают из Системы A, сформированной привычкой, памятью, телесным состоянием и ситуацией в том виде, в каком она кажется в данный момент.
+One cannot decide in advance never to feel fear, longing, shame, anger, attraction, or aversion. These reactions arise from System A, shaped by habit, memory, bodily state, and the situation as it appears in the moment.
 
-Но человек не обязан соглашаться с оценкой. В стоическом языке **согласие** означает принятие впечатления как достаточно истинного, чтобы оно направляло действие. Отказаться от согласия — значит сказать: «Я это чувствую, но я не обязан принимать это за доказательство и действовать исходя из этого».
+But a person is not obliged to assent to the appraisal. In Stoic language, **assent** means accepting an impression as sufficiently true to let it guide action. To withhold assent is to say: "I feel this, but I am not obliged to take it as evidence or to act from it."
 
-Поэтому первая практическая задача — заметить оценку до того, как она станет действием. Очень часто этого не происходит: оценка возникает, человек автоматически соглашается с ней, и импульс сразу становится поведением. Позже человек говорит: «Меня спровоцировали», «Я отреагировал эмоционально» или «Я знал, что не должен этого делать, но все равно сделал». В этом случае Система R не вмешалась вовремя, и Система A сама завершила всю последовательность.
+The first practical task, therefore, is to notice the appraisal before it becomes action. This very often does not happen: the appraisal arises, the person automatically assents to it, and the impulse immediately becomes behavior. Afterward the person says: "I was provoked," "I reacted emotionally," or "I knew I shouldn't have done that, but I did it anyway." In this case System R did not intervene in time, and System A completed the entire sequence on its own.
 
-Человек не может наблюдать оценку как абстрактное целое, но может заметить ее части: суждение, появляющееся в уме; аффект, ощущаемый в теле; и побуждение к действию. Можно заметить: «это унизительно», «я чувствую страх», «я хочу сбежать» или «я хочу с ними связаться».
+A person cannot observe the appraisal as an abstract whole, but can notice its parts: the judgment appearing in the mind; the affect felt in the body; and the urge to act. One can notice: "this is humiliating," "I feel fear," "I want to flee," or "I want to reach out to them."
 
-Не так важно, какая часть оценки будет заметна сначала: впечатление, аффект или импульс. Начинайте с того, что заметили первым, и восстанавливайте все три части в удобном для вас порядке. Практический протокол такой:
+It does not much matter which part of the appraisal is noticed first — the impression, the affect, or the impulse. Start with whichever you noticed first and reconstruct all three parts in whatever order works for you. The practical protocol is as follows:
 
-1. **Остановиться.** Не отправлять сообщение, не отвечать на обвинение, не возобновлять контакт, не проверять снова, не атаковать, не бежать, не признавать поражение, не подчиняться и не обрывать связь автоматически.
-2. **Назвать аффект.** Что появилось в теле или эмоции: гнев, страх, стыд, тоска, давление, жар, сжатие, срочность, возбуждение, притяжение или отвращение? Сам факт называния аффекта не означает, что он исчезнет. Но это ослабляет аффект, и это первый шаг к тому, чтобы не позволять ему управлять поведением. Из аффекта можно перейти к импульсу, который он вызывает.
-3. **Назвать импульс.** Что вас тянет сделать: ответить, проверить, связаться, защититься, атаковать, уйти, подчиниться, оборвать связь или восстановить контакт? Часто это первое, что человек замечает: по импульсу можно восстановить аффект и впечатление.
-4. **Найти впечатление и отделить факт от суждения.** Что случилось и что это для меня значит? Сырой факт может быть только таким: ответа не пришло; кто-то меня раскритиковал; они отвели взгляд; я что-то вспомнил; объект снова стал доступен. Скрытое суждение может быть, например: «Меня отвергают», «Меня унижают», «Я в опасности», «Мне это нужно», «Я этого не вынесу» или «На это нужно ответить прямо сейчас».
-5. **Проверить суждение.** Наблюдение может быть верным, но суждение — ошибочным или преувеличенным. «Я чувствую страх, но значит ли это, что опасность реальна?» «Я чувствую притяжение, но значит ли это, что объект необходим?» «Импульс силен, но не навредит ли мне, если я ему поддамся?»
-6. **Найти желание, стоящее за суждением и аффектом.** Суждение обычно связано с желанием: быть признанным, нужным, безопасным, сильным, целым, свободным, уважаемым или любимым. Желание может быть реальным и значимым, но объект не обязательно является единственным способом его удовлетворить. Важно отделить желание от объекта и искать другие способы его удовлетворения.
-7. **Оценить все вместе.** Часто ошибка кроется именно в суждении. Если пересмотреть суждение, вся следующая цепочка может ослабнуть: аффект теряет силу, а импульс перестает казаться обязательным.
+1. **Stop.** Do not send the message, do not respond to the accusation, do not resume contact, do not check again, do not attack, do not flee, do not concede defeat, do not submit, and do not sever the connection automatically.
+2. **Name the affect.** What appeared in the body or in emotion: anger, fear, shame, longing, pressure, heat, constriction, urgency, excitement, attraction, or aversion? Naming the affect does not mean it will disappear. But it weakens the affect, and this is the first step toward not letting it govern behavior. From the affect you can move to the impulse it gives rise to.
+3. **Name the impulse.** What are you drawn to do: reply, check, reach out, defend yourself, attack, leave, submit, sever the connection, or restore contact? This is often the first thing a person notices: from the impulse one can reconstruct the affect and the impression.
+4. **Find the impression and separate the fact from the judgment.** What happened, and what does it mean to me? The raw fact may only be this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The hidden judgment may be, for instance: "I am being rejected," "I am being humiliated," "I am in danger," "I need this," "I cannot bear this," or "This must be answered right now."
+5. **Examine the judgment.** The observation may be correct, but the judgment may be mistaken or exaggerated. "I feel fear, but does that mean the danger is real?" "I feel attraction, but does that mean the object is necessary?" "The impulse is strong, but will acting on it harm me?"
+6. **Find the desire behind the judgment and the affect.** The judgment is typically connected to a desire: to be recognized, needed, safe, strong, whole, free, respected, or loved. The desire may be real and significant, but the object is not necessarily the only way to satisfy it. It is important to separate the desire from the object and to look for other ways to satisfy it.
+7. **Assess everything together.** The error is often located precisely in the judgment. If the judgment is revised, the entire subsequent chain may weaken: the affect loses force, and the impulse ceases to feel obligatory.
 
-Формула на момент реакции:
+The formula for the moment of reaction:
 
-«Чувство реально, но оно не является доказательством. Импульс силен, но он не является командой. Впечатление кажется правильным, но оно не является фактом. Сначала я увижу, какое суждение я принимаю. Потом решу, действовать ли».
+"The feeling is real, but it is not evidence. The impulse is strong, but it is not a command. The impression seems right, but it is not a fact. First I will see what judgment I am accepting. Then I will decide whether to act."
 
-Системе R не нужно уничтожать автоматическую реакцию. Ее задача — наблюдать ее, проверять ее, отказывать в согласии там, где нужно, и не позволять автоматической оценке превращаться в автоматическое действие.
+System R does not need to destroy the automatic reaction. Its task is to observe it, examine it, withhold assent where necessary, and prevent the automatic appraisal from becoming automatic action.
 
-## Стратегия для конфликта приближения и избегания
+## Strategy for Approach-Avoidance Conflict
 
-Метод выше нужен для реакции в моменте. Но если конфликт приближения и избегания устойчиво повторяется, одной паузы недостаточно. Нужно разобрать не одну реакцию, а две: оценку приближения и оценку избегания. Они включаются в разных условиях и поэтому каждая по очереди кажется окончательной истиной.
+The method above is for reacting in the moment. But if the approach-avoidance conflict recurs persistently, a single pause is not enough. What must be examined is not one reaction but two: the approach appraisal and the avoidance appraisal. They are activated in different conditions and therefore each in turn seems like the final truth.
 
-На расстоянии человек думает: «мне это нужно». Вблизи он думает: «я этого не вынесу». Поэтому стратегия состоит не в том, чтобы одна сторона победила другую. Задача — разобрать обе автоматические оценки.
+At a distance the person thinks: "I need this." Up close the person thinks: "I cannot bear this." The strategy, therefore, is not to have one side defeat the other. The task is to examine both automatic appraisals.
 
-Сначала восстановите оценку приближения:
+First, reconstruct the approach appraisal:
 
-- какое впечатление делает объект привлекательным;
-- какое желание кажется связанным с объектом;
-- какой аффект возникает;
-- к какому импульсу это ведет.
+- what impression makes the object attractive;
+- what desire appears to be connected to the object;
+- what affect arises;
+- what impulse this leads to.
 
-Затем восстановите оценку избегания:
+Then reconstruct the avoidance appraisal:
 
-- какое впечатление делает объект опасным;
-- какое желание или ценность кажется находящейся под угрозой;
-- какой аффект возникает;
-- к какому импульсу это ведет.
+- what impression makes the object dangerous;
+- what desire or value appears to be under threat;
+- what affect arises;
+- what impulse this leads to.
 
-После этого нужно задать главный вопрос:
+After that, the central question must be asked:
 
-«Какие цели или желания этот объект обещает удовлетворить, и можно ли удовлетворить их другим способом?»
+"What goals or desires does this object promise to satisfy, and can they be satisfied in another way?"
 
-Именно здесь обычно находится ложная необходимость. Объект может быть связан с реальным желанием, но это еще не значит, что он является единственным способом его удовлетворить. Человеку может быть нужно признание, но не обязательно от этого человека. Может быть нужна безопасность, но не обязательно через эту организацию. Может быть нужно восстановить достоинство, но не обязательно через возвращение к ситуации, которая это достоинство разрушает.
+This is typically where the false necessity lies. The object may be connected to a real desire, but that does not yet mean it is the only way to satisfy it. A person may need recognition, but not necessarily from this person. May need security, but not necessarily through this organization. May need to restore dignity, but not necessarily by returning to the situation that undermined it.
 
-Поэтому работа идет не против желания как такового, а против ложной связки: «это желание может быть удовлетворено только этим объектом».
+The work is therefore not against the desire as such, but against the false equation: "this desire can only be satisfied by this object."
 
-С оценкой приближения нужно работать не через отрицание желания, а через проверку монополии объекта:
+The approach appraisal should be worked with not by negating the desire but by examining the object's monopoly:
 
-«Это может быть привлекательным, потому что затрагивает реальное желание. Но действительно ли именно этот объект необходим для его удовлетворения?»
+"This may be attractive because it engages a real desire. But is this particular object truly necessary to satisfy it?"
 
-Затем нужно искать замену: другой источник признания, другой способ восстановить безопасность, другой путь к близости, другой способ вернуть достоинство, другой способ получить статус, облегчение или чувство целостности. Замена должна удовлетворять не поверхностную форму влечения, а ту цель, ради которой объект стал привлекательным.
+Then a substitute must be sought: another source of recognition, another way to restore security, another path to closeness, another way to recover dignity, another way to obtain status, relief, or a sense of wholeness. The substitute must satisfy not the surface form of the attraction but the goal for which the object became attractive in the first place.
 
-Если кажется, что другой способ невозможен, это не повод признать объект необходимым. Это означает, что конфликт пока неразрешим на практическом уровне. Тогда задача — не подчиняться объекту, а продолжать искать или строить другой способ удовлетворения той же цели. Пока желание связано только с этим объектом, автоматическая система будет возвращать влечение снова и снова.
+If another way seems impossible, that is not a reason to declare the object necessary. It means the conflict is not yet resolvable at the practical level. The task then is not to submit to the object but to continue searching for or constructing another way to satisfy the same goal. As long as the desire is bound only to this object, the automatic system will keep returning the attraction again and again.
 
-С оценкой избегания нужно работать отдельно. Практическая дистанция может быть необходима, но не следует подпитывать избегание паникой, презрением, местью, демонстративным отвержением или навязчивым спором. Избегание может сохранять объект в центре внимания точно так же, как и влечение.
+The avoidance appraisal must be worked with separately. Practical distance may be necessary, but avoidance should not be fueled by panic, contempt, revenge, ostentatious rejection, or obsessive argument. Avoidance may keep the object at the center of attention just as much as attraction does.
 
-В итоге нужно перестать одобрять оба преувеличения:
+In the end, both exaggerations must stop receiving assent:
 
-- оценка приближения: «это нужно мне, и другого пути нет»;
-- оценка избегания: «это разрушит меня, и я не вынесу этого».
+- approach appraisal: "I need this, and there is no other way";
+- avoidance appraisal: "this will destroy me, and I cannot bear it."
 
-Автоматическая система постепенно усваивает новые связи:
+The automatic system gradually absorbs new associations:
 
-«Я могу хотеть этого и не стремиться к этому».
+"I can want this and not pursue it."
 
-«Желание реально, но этот объект не является необходимым способом его удовлетворить».
+"The desire is real, but this object is not the necessary means of satisfying it."
 
-«Отсутствие этого неприятно, но не разрушительно».
+"Its absence is unpleasant, but not destructive."
 
-«Присутствие этого соблазнительно, но не обязательно».
+"Its presence is tempting, but not obligatory."
 
-## Заключение
+## Conclusion
 
-Отстранение — это не эмоциональная бесчувственность. Оно не означает, что объект становится ничего не стоящим, что чувство исчезает сразу или что человек больше никогда не испытывает влечения или страха.
+Detachment is not emotional numbness. It does not mean the object becomes worthless, that the feeling disappears at once, or that the person will never again experience attraction or fear.
 
-Автоматическая реакция не является проблемой сама по себе. Проблема возникает тогда, когда агент принимает ее впечатление за факт, аффект — за доказательство, импульс — за команду, а объект — за необходимое условие удовлетворения желания.
+The automatic reaction is not a problem in itself. The problem arises when the agent takes its impression for fact, its affect for evidence, its impulse for a command, and the object for a necessary condition of satisfying the desire.
 
-Отстранение означает, что автоматическая реакция больше не имеет окончательной власти.
+Detachment means that the automatic reaction no longer has final authority.
 
-Даже если старое колебание сохраняется, оно больше не превращается автоматически в действие.
+Even if the old oscillation persists, it no longer automatically becomes action.
 
-Цель не в подавлении автоматической системы, а в ее переобучении. Каждый раз, когда человек замечает оценку, отказывается от преувеличения и не выполняет автоматическое действие, объект теряет часть своей власти.
+The goal is not to suppress the automatic system but to retrain it. Each time a person notices an appraisal, withholds assent from the exaggeration, and does not execute the automatic action, the object loses some of its power.
 
-Практически это достигается не одним решением, а повторением одной и той же операции: заметить оценку, не дать ей автоматически стать действием, проверить суждение и найти другой способ удовлетворить стоящее за ней желание.
+In practice this is achieved not by a single decision but by repeating the same operation: notice the appraisal, prevent it from automatically becoming action, examine the judgment, and find another way to satisfy the desire that underlies it.
