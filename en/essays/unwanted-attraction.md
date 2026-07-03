@@ -1,8 +1,8 @@
-# How to Deal with Unwanted Attraction in Approach-Avoidance Conflict
+# Assent and Automatic Appraisal: A Stoic Reconstruction of Approach-Avoidance Conflict
 
 Using approach-avoidance conflict as an example, this article proposes a reconstruction of the Stoic method for working with automatic emotional reactions. The Stoic idea of assent to an impression is reinterpreted through the lens of the BDI model of agent action, the distinction between automatic and reflective systems, appraisal theory, and contemporary theories of affect. It is shown that the problem arises not in the emergence of an automatic reaction itself, but in automatic assent to it: the impression is taken as fact, the affect as evidence, the impulse as a command to act. The proposed method consists in training reflection, which allows one to notice an automatic reaction, examine its components separately — impression, affect, and impulse — verify the hidden judgment, and withhold assent from an erroneous appraisal.
 
-## The Problem
+## 1. The Cycle of Attraction and Aversion
 
 Sometimes a person is strongly drawn to something they simultaneously regard as harmful, dangerous, humiliating, destabilizing, or simply unnecessary. This may be a person, a job, an organization, a group, a status, an object, a habit, or a situation.
 
@@ -25,7 +25,7 @@ A useful distinction is this:
 
 In this essay we will examine how this cycle works and how to recover the capacity to act.
 
-## The Model
+## 2. The Model: How Appraisal Becomes Action
 
 We will rely on a simple model that combines several well-known approaches:
 - the BDI model of a rational agent,
@@ -35,7 +35,7 @@ We will rely on a simple model that combines several well-known approaches:
 
 These sources are not invoked for the sake of an academic survey but to answer a practical question: how does a first impression become an action, and where can this be interrupted.
 
-### BDI: Beliefs, Desires, and Intentions
+### 2.1. The BDI Agent: Beliefs, Desires, and Intentions
 
 BDI is a model of practical reasoning and agent behavior that comes from philosophy of action and AI. It describes a rational agent through three interconnected layers.
 
@@ -47,7 +47,7 @@ BDI is a model of practical reasoning and agent behavior that comes from philoso
 
 The agent selects intentions I so as to best satisfy desires D, in accordance with its understanding of reality as filtered through beliefs B.
 
-### Systems A and R: Horse and Rider
+### 2.2. Systems A and R: The Horse and the Rider
 
 However, a person, while broadly rational, does not consciously construct every reaction. In response to a situation, an affective reaction arises: the body responds and prepares for action before what is happening is fully apprehended. Reasoning and reflection may intervene, but they often do so too late and simply explain the action after the fact.
 
@@ -61,7 +61,7 @@ A common mistake is to associate the first system exclusively with animal instin
 
 System A is the sum of our habits and automatic reactions. The key distinguishing feature of System R is not that it produces words or reasoning, but that in it **the agent's own beliefs, desires, and intentions become the object of attention and reflection.** System R is a mode of awareness and reflection in which the agent makes its own reactions an object of attention and can intervene in the operation of System A.
 
-### Automatic Appraisal and Assent
+### 2.3. Automatic Appraisal: Impression, Affect, and Impulse
 
 Before a reaction becomes an action, System A produces what this article will call an **appraisal**. Appraisal means an automatic interpretation of a situation as it appears in experience. Three observationally distinguishable components can be identified within an appraisal:
 
@@ -75,7 +75,7 @@ An appraisal is not in itself a finally adopted belief, a settled emotion, an in
 
 This automatic assent is the default mode. It takes the impression for reality, affect for evidence, and impulse for a command.
 
-### Examples of Automatic Appraisal
+### 2.4. Examples: How Appraisal Structures Reaction
 
 - A manager criticizes someone in a meeting. Raw fact: the criticism was expressed publicly. Impression: "I am being humiliated"; desire at stake — preserving dignity, status, or safety; affect — fear, anger, or shame; impulse — to defend, attack, withdraw, or flee.
 
@@ -85,7 +85,7 @@ This automatic assent is the default mode. It takes the impression for reality, 
 
 - A job or organization may simultaneously promise status and security while undermining dignity. At a distance the appraisal says: "I need this to remain safe and respected." Up close the appraisal shifts: "this place traps and humiliates me." The same object is enrolled in different desires: safety and status on one side, dignity and freedom on the other.
 
-## The Method
+## 3. The Method: Withholding Assent
 
 One cannot decide in advance never to feel fear, longing, shame, anger, attraction, or aversion. These reactions arise from System A, shaped by habit, memory, bodily state, and the situation as it appears in the moment.
 
@@ -111,7 +111,7 @@ The formula for the moment of reaction:
 
 System R does not need to destroy the automatic reaction. Its task is to observe it, examine it, withhold assent where necessary, and prevent the automatic appraisal from becoming automatic action.
 
-## Strategy for Approach-Avoidance Conflict
+## 4. Working with Approach-Avoidance Conflict
 
 The method above is for reacting in the moment. But if the approach-avoidance conflict recurs persistently, a single pause is not enough. What must be examined is not one reaction but two: the approach appraisal and the avoidance appraisal. They are activated in different conditions and therefore each in turn seems like the final truth.
 
@@ -164,7 +164,7 @@ The automatic system gradually absorbs new associations:
 
 "Its presence is tempting, but not obligatory."
 
-## Conclusion
+## 5. Conclusion
 
 Detachment is not emotional numbness. It does not mean the object becomes worthless, that the feeling disappears at once, or that the person will never again experience attraction or fear.
 
