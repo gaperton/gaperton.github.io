@@ -166,14 +166,8 @@ The automatic system gradually absorbs new associations:
 
 ## 5. Conclusion
 
-Detachment is not emotional numbness. It does not mean the object becomes worthless, that the feeling disappears at once, or that the person will never again experience attraction or fear.
+In this essay, we reconstructed the Stoic discipline of assent as an operational psychological technique. Using the BDI model, the distinction between automatic and reflective systems, appraisal theory, and contemporary theories of affect, this reconstruction turns assent from an abstract ethical idea into a usable protocol for working with automatic emotional reactions.
 
-The automatic reaction is not a problem in itself. The problem arises when the agent takes its impression for fact, its affect for evidence, its impulse for a command, and the object for a necessary condition of satisfying the desire.
+Its value is both theoretical and practical. Theoretically, it identifies the internal structure of automatic reaction — impression, affect, and impulse — and provides a framework for analyzing complex patterns such as approach-avoidance conflict. Practically, it gives reflection a precise point of intervention. Instead of merely saying “control the emotion” or “change the judgment,” the method shows how agency can re-enter the process before reaction becomes conduct: by making the appraisal visible, separating fact from judgment, identifying the desire behind the reaction, and deciding whether assent is warranted.
 
-Detachment means that the automatic reaction no longer has final authority.
-
-Even if the old oscillation persists, it no longer automatically becomes action.
-
-The goal is not to suppress the automatic system but to retrain it. Each time a person notices an appraisal, withholds assent from the exaggeration, and does not execute the automatic action, the object loses some of its power.
-
-In practice this is achieved not by a single decision but by repeating the same operation: notice the appraisal, prevent it from automatically becoming action, examine the judgment, and find another way to satisfy the desire that underlies it.
+This is the sense in which the discipline of assent is a discipline of freedom. Freedom does not mean that impressions, affects, and impulses cease to arise; it means that they no longer decide, before reflection, what is real, what is important, and what must be done. A person becomes truly free at the point where his behavior is determined by his conscious choices rather than by an automatic reaction.
