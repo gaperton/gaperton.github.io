@@ -108,41 +108,31 @@ System A is the sum of our habits and automatic reactions. The key distinguishin
 
 ### 2.3. Automatic Appraisal: Impression, Affect, and Impulse
 
-
 Before a reaction becomes an action, System A produces what this article will call an **appraisal**. Appraisal means an automatic interpretation of a situation as it appears in experience. Three observationally distinguishable components can be identified within an appraisal:
 
 ```text
-┌──────────────────────────────────────────────────────────────────────────┐   
-│SITUATION                                                                 │   
-│observations and facts                                                    │   
-└──────────────────────────┬───────────────────────────────────────────────┘   
-                           │ interpreted through System A                      
-                           ▼                                                   
-┌──────────────────────────────────────────────────────────────────────────┐   
-│SYSTEM A (The Horse)                                                      │   
-│fast, automatic, and habitual reactions                                   │   
-├────────────────────────┬────────────────────────┬────────────────────────┤   
-│(B) BELIEFS             │(D) DESIRES             │(I) INTENTIONS          │   
-│what is taken as true?  │what is necessary,      │action scripts and      │   
-│                        │preferable, undesirable,│tendencies              │◀━┓
-│                        │and unacceptable?       │                        │  ┃
-└────────────┬───────────┴─────────┬──────────────┴───┬────────────────────┘  ┃
-             │ shapes              │ shapes           │ shapes                ┃
-             ▼                     ▼                  ▼                       ┃
-┌──────────────────────────────────────────────────────────────────────────┐  ┃
-│AUTOMATIC APPRAISAL                                                       │  ┃
-├────────────────────────┬────────────────────────┬────────────────────────┤  ┃
-│IMPRESSION              │AFFECT                  │IMPULSE                 │  ┃
-│apparent meaning        │bodily-valenced charge  │action-tendency         │  ┃
-│                        │                        │                        │  ┃
-│"This is dangerous."    │fear-like contraction   │withdraw                │  ┃
-│"I was humiliated."     │anger / shame / heat    │defend or attack        │  ┃
-│"This will restore me." │longing / relief / pull │approach                │  ┃
-└────────────────────────┴────────────────────────┴────────────────────────┘  ┃
-             ┃                 │                          │                   ┃
-             ┃ BELIEF          ▼ EMOTION                  ▼ ACTION            ┃
-             ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-                                     AUTOMATIC ASSENT                          
+                        ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
+                        │(B) BELIEFS       │  │(D) DESIRES       │  │ACTION SCRIPTS    │
+                        │what is taken as  │  │what is preferable│  │habitual responses│
+                        │true?             │  │or undesirable    │  │and tendencies    │
+                        └──────────────────┘  └──────────────────┘  └──────────────────┘
+                                  │                     │                     │         
+                                  │  ┌──────────────────┤                     │         
+                                  │  │                  │                     │         
+                                  ▼  ▼                  ▼                     ▼         
+┌──────────────────┐    ╔══════════════════╗  ╔══════════════════╗  ╔══════════════════╗
+│SITUATION         │    ║IMPRESSION        ║  ║AFFECT            ║  ║IMPULSE           ║
+│observations and  │───▶║apparent meaning  ║═▶║bodily-valenced   ║═▶║proto-intent /    ║
+│facts             │    ║                  ║  ║charge            ║  ║action-tendency   ║
+└──────────────────┘    ╚══════════════════╝  ╚══════════════════╝  ╚══════════════════╝
+                              │                     │                     │             
+                              │if assented          │if assented          │if assented  
+                              ▼                     ▼                     ▼             
+                        ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
+                        │(B) JUDGMENT      │  │(D) FULL EMOTION  │  │(I) INTENTION     │
+                        │meaning taken as  │  │taken as valid and│  │committed course  │
+                        │true              │  │action-relevant   │  │of action         │
+                        └──────────────────┘  └──────────────────┘  └──────────────────┘
 ```
 
 - **Impression:** the meaning that the situation seems to carry before reflection, often in the form of a rapid judgment or something resembling one: "this is good," "this is dangerous," "I have been humiliated," "this is unjust," "this is promising," "this threatens me." This is not the raw fact itself but the initial interpretation of the fact in the context of desires (D) — a candidate for a belief (B) if the agent grants assent to it.
