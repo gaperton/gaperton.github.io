@@ -165,15 +165,28 @@ The first practical task, therefore, is to notice the appraisal before it become
 
 A person cannot observe the appraisal as an abstract whole, but can notice its parts: the judgment appearing in the mind; the affect felt in the body; and the urge to act. One can notice: "this is humiliating," "I feel fear," "I want to flee," or "I want to reach out to them."
 
-It does not much matter which part of the appraisal is noticed first — the impression, the affect, or the impulse. Start with whichever you noticed first and reconstruct all three parts in whatever order works for you. The practical protocol is as follows:
+It does not much matter which part of the appraisal is noticed first. One may first notice a bodily affect, such as heat, pressure, constriction, excitement, fear, shame, or longing. One may first notice an impulse: the urge to reply, attack, flee, check, approach, submit, restore contact, or sever it. Or one may first notice an impression: the sense that the situation means something — that one is being rejected, humiliated, threatened, needed, invited, restored, or trapped. Any of these three gives access to the whole appraisal. Start with whichever part appears first, then reconstruct the others.
 
-1. **Stop.** Do not send the message, do not respond to the accusation, do not resume contact, do not check again, do not attack, do not flee, do not concede defeat, do not submit, and do not sever the connection automatically.
-2. **Name the affect.** What appeared in the body or in emotion: anger, fear, shame, longing, pressure, heat, constriction, urgency, excitement, attraction, or aversion? Naming the affect does not mean it will disappear. But it weakens the affect, and this is the first step toward not letting it govern behavior. From the affect you can move to the impulse it gives rise to.
-3. **Name the impulse.** What are you drawn to do: reply, check, reach out, defend yourself, attack, leave, submit, sever the connection, or restore contact? This is often the first thing a person notices: from the impulse one can reconstruct the affect and the impression.
-4. **Find the impression and separate the fact from the judgment.** What happened, and what does it mean to me? The raw fact may only be this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The hidden judgment may be, for instance: "I am being rejected," "I am being humiliated," "I am in danger," "I need this," "I cannot bear this," or "This must be answered right now."
-5. **Examine the judgment.** The observation may be correct, but the judgment may be mistaken or exaggerated. "I feel fear, but does that mean the danger is real?" "I feel attraction, but does that mean the object is necessary?" "The impulse is strong, but will acting on it harm me?"
-6. **Find the desire behind the judgment and the affect.** The judgment is typically connected to a desire: to be recognized, needed, safe, strong, whole, free, respected, or loved. The desire may be real and significant, but the object is not necessarily the only way to satisfy it. It is important to separate the desire from the object and to look for other ways to satisfy it.
-7. **Assess everything together.** The error is often located precisely in the judgment. If the judgment is revised, the entire subsequent chain may weaken: the affect loses force, and the impulse ceases to feel obligatory.
+The practical protocol is therefore:
+
+1. **Notice.** Notice that something is happening before it becomes action. This may appear as a strong bodily sensation, an affect, an urge to act, or a judgment-like impression. The point is not yet to analyze it, but simply to register: "an appraisal has arisen."
+
+2. **Stop.** Do not immediately do what the impulse is urging you to do. Do not send the message, do not answer the accusation, do not check again, do not attack, do not flee, do not submit, and do not sever or restore contact automatically. Even a pause of two seconds matters: it prevents the impulse from passing directly into action.
+
+3. **Name it.** Name each component as explicitly as possible:
+   - **Affect:** what is felt in the body or emotion — anger, fear, shame, longing, pressure, heat, constriction, urgency, excitement, attraction, or aversion?
+   - **Impulse:** what am I being drawn to do — reply, check, approach, defend myself, attack, leave, submit, restore contact, or cut it off?
+   - **Impression:** what does the situation seem to mean — "I am being rejected," "I am being humiliated," "I am in danger," "I need this," "this will restore me," or "this must be answered now"?
+
+   Once these three components are named, the reaction is no longer a fused command. It becomes something that can be observed.
+
+4. **Examine the impression.** Separate fact from judgment. Ask: what actually happened, and what meaning has the appraisal added to it? The raw fact may be only this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The judgment may be: "I am being rejected," "I am being humiliated," "I am in danger," "I cannot bear this," or "this must be answered immediately."
+
+5. **Find the desire.** A situation becomes affectively charged because it touches something that matters: something preferred, needed, unacceptable, feared, or desired. If there is affect, the situation has overlapped with some desire or aversion. Name it: the desire to be recognized, safe, respected, free, loved, needed, strong, whole, or in control. This does not mean the desire is false. It means the desire must be distinguished from the specific object or action that the appraisal is pushing toward.
+
+6. **Examine the affect and impulse together.** Affect is the body's valenced registration of how the interpreted situation matters: threat, loss, attraction, relief, shame, danger, restoration, or urgency. It helps select the action policy: approach, withdraw, defend, attack, submit, check, restore, or sever. The impulse may be strong, but it is not yet an intention. It becomes an intention only if assented to.
+
+7. **Decide.** Assess the appraisal as a whole. Is the impression true, exaggerated, or unsupported? Is the affect evidence, or only a bodily signal that something matters? Is the impulse useful, harmful, premature, or unnecessary? Then assent, reject, suspend, or redirect. Only after this should action become deliberate.
 
 The formula for the moment of reaction:
 
