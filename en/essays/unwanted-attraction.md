@@ -12,8 +12,6 @@ At a distance, it may promise relief, recognition, pleasure, safety, status, or 
 
 But when a person approaches, the very same object may begin to feel like a threat: "This will hurt me," "This will trap me," "This will humiliate me, weaken me, or take away my freedom."
 
-So a person may move toward the object and then pull back; miss it and then resent it; fantasize about it and then try to sever the connection; want it and then hate the very need for it. This produces a recurring cycle:
-
 ```
                                     withdraw                
                             ┌───────────────────────┐       
@@ -26,6 +24,8 @@ So a person may move toward the object and then pull back; miss it and then rese
                             ▲       approach        │       
                             └───────────────────────┘       
 ```
+
+So a person may move toward the object and then pull back; miss it and then resent it; fantasize about it and then try to sever the connection; want it and then hate the very need for it. This produces a recurring cycle:
 
 The mistake is to think that the attraction can be removed simply by intensifying avoidance. Hatred, contempt, or ostentatious rejection may temporarily weaken movement toward the object, but they often merely keep it at the center of attention. This is not freedom — it is inverted attachment. The task, therefore, is not to hate the object but to dissolve its false necessity.
 
@@ -50,6 +50,19 @@ These sources are not invoked for the sake of an academic survey but to answer a
 
 BDI is a model of practical reasoning and agent behavior that comes from philosophy of action and AI. It describes a rational agent through three interconnected layers.
 
+```
+                           ┌──────────────────┐        
+                           │                  ▼        
+┌───────────────┐  ┌───────────────┐  ┌───────────────┐
+│(B) BELIEFS    │  │(D) DESIRES    │  │(I) INTENTIONS │
+│What is taken  │  │What is        │  │action scripts │
+│true?          │  │preferable and │  │and tendencies │
+│               │  │undesirable?   │  │               │
+└───────────────┘  └───────────────┘  └───────────────┘
+        │                                     ▲        
+        └─────────────────────────────────────┘             
+```
+
 **Beliefs** — what the agent takes to be true: observations, convictions, and interpretations.
 
 **Desires** — what is practically significant for the agent: what is preferred, necessary, undesirable, or unacceptable.
@@ -58,26 +71,32 @@ BDI is a model of practical reasoning and agent behavior that comes from philoso
 
 The agent selects intentions I so as to best satisfy desires D, in accordance with its understanding of reality as filtered through beliefs B.
 
-```
-                     ┌───────────────┐                        
-                     │(D) DESIRES    │                        
-                     │What is        │                        
-                     │preferable and ├───────────────┐        
-                     │undesirable?   │               │           
-                     └───────────────┘               ▼        
-┌───────────────┐                            ┌───────────────┐
-│(B) BELIEFS    │                            │(I) INTENTIONS │
-│What is        │                            │Committed      │
-│taken true?    ├───────────────────────────▶│course of      │
-│               │                            │action         │
-└───────────────┘                            └───────────────┘
-```
-
 ### 2.2. Systems A and R: The Horse and the Rider
 
 However, a person, while broadly rational, does not consciously construct every reaction. In response to a situation, an affective reaction arises: the body responds and prepares for action before what is happening is fully apprehended. Reasoning and reflection may intervene, but they often do so too late and simply explain the action after the fact.
 
 It is therefore more accurate to describe a person not as a simple BDI agent but as a system of two interconnected layers: a lower layer of fast automatic reactions — System A — and a slow reflective layer — System R — which can observe the operation of the lower layer and intervene when necessary.
+
+```
+┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐
+ SYSTEM R (The Rider)                                    
+│Self-awareness and reflection                          │
+                                                         
+└ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┬ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘
+          ▲                         │                    
+          ║ observe                 │ guide / correct    
+          ║                         ▼                    
+┌ ─ ─ ─ ─ ╩ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐
+ SYSTEM A (The Horse)                                    
+│fast, automatic, and habitual reactions                │
+ ┌───────────────┐  ┌───────────────┐  ┌───────────────┐ 
+││(B) BELIEFS    │  │(D) DESIRES    │  │(I) INTENTIONS ││
+ │what is taken  │  │what is        │  │action scripts │ 
+││true?          │  │preferable and │  │and tendencies ││
+ │               │  │undesirable?   │  │               │ 
+│└───────────────┘  └───────────────┘  └───────────────┘│
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ 
+```
 
 The interaction of these two layers resembles a horse and rider. The horse is fast and strong, but it does not always know where to go. The rider can guide the horse, but cannot make it move faster if it is exhausted. The horse may take fright and bolt. And if the rider is cruel, the horse may resist or even throw him.
 
