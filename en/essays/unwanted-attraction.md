@@ -15,11 +15,16 @@ But when a person approaches, the very same object may begin to feel like a thre
 So a person may move toward the object and then pull back; miss it and then resent it; fantasize about it and then try to sever the connection; want it and then hate the very need for it. This produces a recurring cycle:
 
 ```
-                                           approach
-┌──────────────┐        ┌──────────────┐ ◀─────────── ┌──────────────┐
-│    OBJECT    │        │  DISCOMFORT  │              │   LONGING    │
-└──────────────┘        └──────────────┘ ───────────▶ └──────────────┘
-                                           withdraw
+                                    withdraw                
+                            ┌───────────────────────┐       
+                            │                       ▼       
+┌─────────────┐      ╔══════╧══════╗         ╔═════════════╗
+│             │      ║             ║         ║             ║
+│   OBJECT    ╞═════▶║ DISCOMFORT  ║         ║   LONGING   ║
+│             │      ║             ║         ║             ║
+└─────────────┘      ╚═════════════╝         ╚══════╤══════╝
+                            ▲       approach        │       
+                            └───────────────────────┘       
 ```
 
 The mistake is to think that the attraction can be removed simply by intensifying avoidance. Hatred, contempt, or ostentatious rejection may temporarily weaken movement toward the object, but they often merely keep it at the center of attention. This is not freedom — it is inverted attachment. The task, therefore, is not to hate the object but to dissolve its false necessity.
@@ -52,6 +57,21 @@ BDI is a model of practical reasoning and agent behavior that comes from philoso
 **Intentions** — directedness toward action: a course of behavior that has been chosen or is being prepared.
 
 The agent selects intentions I so as to best satisfy desires D, in accordance with its understanding of reality as filtered through beliefs B.
+
+```
+                     ┌───────────────┐                        
+                     │(D) DESIRES    │                        
+                     │What is        │                        
+                     │preferable and ├───────────────┐        
+                     │undesirable?   │               │           
+                     └───────────────┘               ▼        
+┌───────────────┐                            ┌───────────────┐
+│(B) BELIEFS    │                            │(I) INTENTIONS │
+│What is        │                            │Committed      │
+│taken true?    ├───────────────────────────▶│course of      │
+│               │                            │action         │
+└───────────────┘                            └───────────────┘
+```
 
 ### 2.2. Systems A and R: The Horse and the Rider
 
