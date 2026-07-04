@@ -14,7 +14,13 @@ But when a person approaches, the very same object may begin to feel like a thre
 
 So a person may move toward the object and then pull back; miss it and then resent it; fantasize about it and then try to sever the connection; want it and then hate the very need for it. This produces a recurring cycle:
 
-approach → discomfort → withdrawal → longing → return.
+```
+                                           approach
+┌──────────────┐        ┌──────────────┐ ◀─────────── ┌──────────────┐
+│    OBJECT    │        │  DISCOMFORT  │              │   LONGING    │
+└──────────────┘        └──────────────┘ ───────────▶ └──────────────┘
+                                           withdraw
+```
 
 The mistake is to think that the attraction can be removed simply by intensifying avoidance. Hatred, contempt, or ostentatious rejection may temporarily weaken movement toward the object, but they often merely keep it at the center of attention. This is not freedom — it is inverted attachment. The task, therefore, is not to hate the object but to dissolve its false necessity.
 
