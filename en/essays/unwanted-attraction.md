@@ -165,11 +165,12 @@ The first practical task, therefore, is to notice the appraisal before it become
 
 A person cannot observe the appraisal as an abstract whole, but can notice its parts: the judgment appearing in the mind; the affect felt in the body; and the urge to act. One can notice: "this is humiliating," "I feel fear," "I want to flee," or "I want to reach out to them."
 
-It does not much matter which part of the appraisal is noticed first. One may first notice a bodily affect, such as heat, pressure, constriction, excitement, fear, shame, or longing. One may first notice an impulse: the urge to reply, attack, flee, check, approach, submit, restore contact, or sever it. Or one may first notice an impression: the sense that the situation means something — that one is being rejected, humiliated, threatened, needed, invited, restored, or trapped. Any of these three gives access to the whole appraisal. Start with whichever part appears first, then reconstruct the others.
 
 The practical protocol is therefore:
 
 1. **Notice.** Notice that something is happening before it becomes action. This may appear as a strong bodily sensation, an affect, an urge to act, or a judgment-like impression. The point is not yet to analyze it, but simply to register: "an appraisal has arisen."
+
+It does not much matter which part of the appraisal is noticed first. One may first notice a bodily affect, such as heat, pressure, constriction, excitement, fear, shame, or longing. One may first notice an impulse: the urge to reply, attack, flee, check, approach, submit, restore contact, or sever it. Or one may first notice an impression: the sense that the situation means something — that one is being rejected, humiliated, threatened, needed, invited, restored, or trapped. Any of these three gives access to the whole appraisal. Start with whichever part appears first, then reconstruct the others.
 
 2. **Stop.** Do not immediately do what the impulse is urging you to do. Do not send the message, do not answer the accusation, do not check again, do not attack, do not flee, do not submit, and do not sever or restore contact automatically. Even a pause of two seconds matters: it prevents the impulse from passing directly into action.
 
