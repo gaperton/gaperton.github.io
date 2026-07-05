@@ -157,17 +157,16 @@ This automatic assent is the default mode. It takes the impression for reality, 
 
 ## 3. The Method: Withholding Assent
 
-One cannot decide in advance never to feel fear, longing, shame, anger, attraction, or aversion. These reactions arise from System A, shaped by habit, memory, bodily state, and the situation as it appears in the moment.
+But a person is not obliged to assent to the appraisal. In Stoic language, **assent** means accepting an impression as sufficiently true and authoritative to let it guide action. To withhold assent is to say: "I feel this, but I am not obliged to take it as evidence or to act from it."
 
-But a person is not obliged to assent to the appraisal. In Stoic language, **assent** means accepting an impression as sufficiently true to let it guide action. To withhold assent is to say: "I feel this, but I am not obliged to take it as evidence or to act from it."
+This requires more than a general instruction to "reflect" or "reappraise." Reflection needs an object. If the reaction remains an undifferentiated whole, System R has nothing precise to examine. The purpose of the method is therefore to provide an operational ontology of automatic appraisal: a small set of directly observable components that can be noticed, named, and then reasoned about.
 
-The first practical task, therefore, is to notice the appraisal before it becomes action. This very often does not happen: the appraisal arises, the person automatically assents to it, and the impulse immediately becomes behavior. Afterward the person says: "I was provoked," "I reacted emotionally," or "I knew I shouldn't have done that, but I did it anyway." In this case System R did not intervene in time, and System A completed the entire sequence on its own.
 
-A person cannot observe the appraisal as an abstract whole, but can notice its parts: the judgment appearing in the mind; the affect felt in the body; and the urge to act. One can notice: "this is humiliating," "I feel fear," "I want to flee," or "I want to reach out to them."
+The protocol has two parts. The first part interrupts the automatic sequence and makes the appraisal explicit: notice, stop, and name. The second part examines what has been made explicit and decides whether it deserves assent: examine the impression, find the desire or concern, examine affect and impulse, and decide.
 
+### 3.1. Interruption and Naming
 
 The practical protocol is therefore:
-
 
 ```text
                            1. NOTICE                            
@@ -196,9 +195,13 @@ It does not much matter which part of the appraisal is noticed first. One may fi
    - **Impulse:** what am I being drawn to do — reply, check, approach, defend myself, attack, leave, submit, restore contact, or cut it off?
    - **Impression:** what does the situation seem to mean — "I am being rejected," "I am being humiliated," "I am in danger," "I need this," "this will restore me," or "this must be answered now"?
 
-   Once these three components are named, the reaction is no longer a fused command. It becomes something that can be observed.
+Once these three components are named, the reaction is no longer a fused command. It has become an object of attention. System R now has something determinate to examine: an apparent meaning, a felt charge, and an action-tendency.
+
+### 3.2. Examination and Assent
 
 4. **Examine the impression.** 
+
+The first object to examine is the impression: the apparent meaning that the situation seems to carry.
 
 ```text
 ╔═══════════════════════════════════╗
@@ -212,9 +215,9 @@ It does not much matter which part of the appraisal is noticed first. One may fi
 ╚═══════════════════════════════════╝
 ```
 
-Separate fact from judgment. Ask: what actually happened, and what meaning has the appraisal added to it? The raw fact may be only this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The judgment may be: "I am being rejected," "I am being humiliated," "I am in danger," "I cannot bear this," or "this must be answered immediately."
+Separate fact from judgment. Ask: what actually happened, and what meaning has the appraisal added to it? The raw fact may be only this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The judgment may be: "I am being rejected," "I am being humiliated," "I am in danger," "I cannot bear this," or "this must be answered immediately." This does not yet refute the judgment. It simply makes the judgment available for examination.
 
-5. **Find the desire.** 
+5. **Find the desire or concern.**
 
 ```text
                             ┌──────────────────┐           
@@ -236,7 +239,7 @@ Separate fact from judgment. Ask: what actually happened, and what meaning has t
 ╚═══════════════════════════════════╝                      
 ```
 
-A situation becomes affectively charged because it touches something that matters: something preferred, needed, unacceptable, feared, or desired. If there is affect, the situation has overlapped with some desire or aversion. Name it: the desire to be recognized, safe, respected, free, loved, needed, strong, whole, or in control. This does not mean the desire is false. It means the desire must be distinguished from the specific object or action that the appraisal is pushing toward.
+A situation becomes affectively charged because it touches something that matters: something preferred, needed, unacceptable, feared, valued, or desired. If there is affect, the situation has overlapped with some desire, aversion, value, or concern. Name it: the desire to be recognized, safe, respected, free, loved, needed, strong, whole, or in control. This does not mean the desire is false. It means the desire must be distinguished from the specific object or action that the appraisal is pushing toward.
 
 6. **Examine the affect and impulse together.** 
 
@@ -272,13 +275,13 @@ Affect is the body's valenced registration of how the interpreted situation matt
 ╚═══════════════════════════════════╝                                            
 ```
 
-Assess the appraisal as a whole. Is the impression true, exaggerated, or unsupported? Is the affect evidence, or only a bodily signal that something matters? Is the impulse useful, harmful, premature, or unnecessary? Then assent, reject, suspend, or redirect. Only after this should action become deliberate.
+Assess the appraisal as a whole. Is the impression true, exaggerated, or unsupported? Is the affect evidence, or only a bodily signal that something matters? Is the impulse useful, harmful, premature, or unnecessary? The question is not whether the reaction is real; it is real. The question is whether it should be granted authority. Then assent, reject, suspend, or redirect. Only after this should action become deliberate.
 
 The formula for the moment of reaction:
 
 "The feeling is real, but it is not evidence. The impulse is strong, but it is not a command. The impression seems right, but it is not a fact. First I will see what judgment I am accepting. Then I will decide whether to act."
 
-System R does not need to destroy the automatic reaction. Its task is to observe it, examine it, withhold assent where necessary, and prevent the automatic appraisal from becoming automatic action.
+System R does not need to destroy the automatic reaction. Its first task is to make the reaction explicit enough to examine. The method works because naming creates objects for reflection: the impression can be tested, the affect can be understood, and the impulse can be judged before it becomes action.
 
 ## 4. Working with Approach-Avoidance Conflict
 
