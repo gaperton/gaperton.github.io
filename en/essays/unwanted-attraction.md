@@ -168,6 +168,23 @@ A person cannot observe the appraisal as an abstract whole, but can notice its p
 
 The practical protocol is therefore:
 
+
+```text
+                           1. NOTICE                            
+                                │                               
+          ┌─────────────────────┼─────────────────────┐         
+          │                     │                     │2. STOP  
+          ▼                     ▼                     ▼         
+╔══════════════════╗  ╔══════════════════╗  ╔══════════════════╗
+║IMPRESSION        ║  ║AFFECT            ║  ║IMPULSE           ║
+║apparent meaning  ║═▶║bodily-valenced   ║═▶║proto-intent /    ║
+║                  ║  ║charge            ║  ║action-tendency   ║
+╚══════════════════╝  ╚══════════════════╝  ╚══════════════════╝
+          │                     │                     │         
+          │3. NAME              │3. NAME              │3. NAME  
+          ▼                     ▼                     ▼         
+```
+
 1. **Notice.** Notice that something is happening before it becomes action. This may appear as a strong bodily sensation, an affect, an urge to act, or a judgment-like impression. The point is not yet to analyze it, but simply to register: "an appraisal has arisen."
 
 It does not much matter which part of the appraisal is noticed first. One may first notice a bodily affect, such as heat, pressure, constriction, excitement, fear, shame, or longing. One may first notice an impulse: the urge to reply, attack, flee, check, approach, submit, restore contact, or sever it. Or one may first notice an impression: the sense that the situation means something — that one is being rejected, humiliated, threatened, needed, invited, restored, or trapped. Any of these three gives access to the whole appraisal. Start with whichever part appears first, then reconstruct the others.
@@ -181,13 +198,81 @@ It does not much matter which part of the appraisal is noticed first. One may fi
 
    Once these three components are named, the reaction is no longer a fused command. It becomes something that can be observed.
 
-4. **Examine the impression.** Separate fact from judgment. Ask: what actually happened, and what meaning has the appraisal added to it? The raw fact may be only this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The judgment may be: "I am being rejected," "I am being humiliated," "I am in danger," "I cannot bear this," or "this must be answered immediately."
+4. **Examine the impression.** 
 
-5. **Find the desire.** A situation becomes affectively charged because it touches something that matters: something preferred, needed, unacceptable, feared, or desired. If there is affect, the situation has overlapped with some desire or aversion. Name it: the desire to be recognized, safe, respected, free, loved, needed, strong, whole, or in control. This does not mean the desire is false. It means the desire must be distinguished from the specific object or action that the appraisal is pushing toward.
+```text
+╔═══════════════════════════════════╗
+║IMPRESSION                         ║
+║apparent meaning                   ║
+║ ┌─────────────┐  ┌──────────────┐ ║
+║ │FACT         │  │JUDGEMENT     │ ║
+║ │what actually│─▶│what does it  │ ║
+║ │happened?    │  │mean?         │ ║
+║ └─────────────┘  └──────────────┘ ║
+╚═══════════════════════════════════╝
+```
 
-6. **Examine the affect and impulse together.** Affect is the body's valenced registration of how the interpreted situation matters: threat, loss, attraction, relief, shame, danger, restoration, or urgency. It helps select the action policy: approach, withdraw, defend, attack, submit, check, restore, or sever. The impulse may be strong, but it is not yet an intention. It becomes an intention only if assented to.
+Separate fact from judgment. Ask: what actually happened, and what meaning has the appraisal added to it? The raw fact may be only this: no reply came; someone criticized me; they looked away; I remembered something; the object became available again. The judgment may be: "I am being rejected," "I am being humiliated," "I am in danger," "I cannot bear this," or "this must be answered immediately."
 
-7. **Decide.** Assess the appraisal as a whole. Is the impression true, exaggerated, or unsupported? Is the affect evidence, or only a bodily signal that something matters? Is the impulse useful, harmful, premature, or unnecessary? Then assent, reject, suspend, or redirect. Only after this should action become deliberate.
+5. **Find the desire.** 
+
+```text
+                            ┌──────────────────┐           
+                            │(D) DESIRES       │           
+                            │what is preferable│           
+                            │or undesirable    │           
+                            └──────────────────┘           
+                                      ║                    
+                                      ║                    
+                           ╔══════════╩══════════╗         
+╔══════════════════════════╬════════╗            ║         
+║IMPRESSION                ║        ║            ▼         
+║apparent meaning          ▼        ║   ╔═════════════════╗
+║ ┌─────────────┐  ┌──────────────┐ ║   ║AFFECT           ║
+║ │FACT         │  │JUDGEMENT     │ ║   ║bodily-valenced  ║
+║ │what actually│─▶│what does it  │ ║══▶║charge           ║
+║ │happened?    │  │mean?         │ ║   ║                 ║
+║ └─────────────┘  └──────────────┘ ║   ╚═════════════════╝
+╚═══════════════════════════════════╝                      
+```
+
+A situation becomes affectively charged because it touches something that matters: something preferred, needed, unacceptable, feared, or desired. If there is affect, the situation has overlapped with some desire or aversion. Name it: the desire to be recognized, safe, respected, free, loved, needed, strong, whole, or in control. This does not mean the desire is false. It means the desire must be distinguished from the specific object or action that the appraisal is pushing toward.
+
+6. **Examine the affect and impulse together.** 
+
+```text
+╔══════════════════╗  ╔══════════════════╗
+║AFFECT            ║  ║IMPULSE           ║
+║bodily-valenced   ║═▶║proto-intent /    ║
+║charge            ║  ║action-tendency   ║
+╚══════════════════╝  ╚══════════════════╝
+```
+
+Affect is the body's valenced registration of how the interpreted situation matters: threat, loss, attraction, relief, shame, danger, restoration, or urgency. It helps select the action policy: approach, withdraw, defend, attack, submit, check, restore, or sever. The impulse may be strong, but it is not yet an intention. It becomes an intention only if assented to.
+
+7. **Decide.** 
+
+```text
+                            ┌──────────────────┐                                 
+                            │(D) DESIRES       │                                 
+                            │what is preferable│                                 
+                            │or undesirable    │                                 
+                            └──────────────────┘                                 
+                                      ║                                          
+                                      ║                                          
+                           ╔══════════╩══════════╗                               
+╔══════════════════════════╬════════╗            ║                               
+║IMPRESSION                ║        ║            ▼                               
+║apparent meaning          ▼        ║   ╔═════════════════╗   ╔═════════════════╗
+║ ┌─────────────┐  ┌──────────────┐ ║   ║AFFECT           ║   ║IMPULSE          ║
+║ │FACT         │  │JUDGEMENT     │ ║   ║bodily-valenced  ║   ║proto-intent /   ║
+║ │what actually│─▶│what does it  │ ║══▶║charge           ║══▶║action-tendency  ║
+║ │happened?    │  │mean?         │ ║   ║                 ║   ║                 ║
+║ └─────────────┘  └──────────────┘ ║   ╚═════════════════╝   ╚═════════════════╝
+╚═══════════════════════════════════╝                                            
+```
+
+Assess the appraisal as a whole. Is the impression true, exaggerated, or unsupported? Is the affect evidence, or only a bodily signal that something matters? Is the impulse useful, harmful, premature, or unnecessary? Then assent, reject, suspend, or redirect. Only after this should action become deliberate.
 
 The formula for the moment of reaction:
 
